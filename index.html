@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>珊蒂美語教室 S.E.E | Sandy's Enlighten English Learning Center</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Caveat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-brown: #857251;
+            --accent-gold: #CEA964;
+            --light-beige: #F7F4EE;
+            --dark-text: #333;
+            --white: #fff;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            line-height: 1.6;
+            color: var(--dark-text);
+            background: var(--light-beige);
+        }
+        
+        /* Navigation */
+        nav {
+            background: var(--white);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-brown);
+        }
+        
+        .logo span {
+            font-family: 'Caveat', cursive;
+            font-size: 1.2rem;
+            color: var(--accent-gold);
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+        
+        .nav-links a {
+            text-decoration: none;
+            color: var(--dark-text);
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        
+        .nav-links a:hover {
+            color: var(--primary-brown);
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, var(--primary-brown) 0%, var(--accent-gold) 100%);
+            color: var(--white);
+            padding: 6rem 2rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/></svg>');
+            background-size: 100px 100px;
+            opacity: 0.3;
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+        
+        .hero .subtitle {
+            font-family: 'Caveat', cursive;
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            opacity: 0.95;
+        }
+        
+        .hero .tagline {
+            font-size: 1.2rem;
+            font-style: italic;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: var(--white);
+            color: var(--primary-brown);
+            padding: 1rem 2.5rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.1rem;
+            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
+        
+        /* Meet the Teacher Section */
+        .teacher-section {
+            padding: 5rem 2rem;
+            background: var(--white);
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        .section-title {
+            text-align: center;
+            font-size: 2.2rem;
+            color: var(--primary-brown);
+            margin-bottom: 3rem;
+            position: relative;
+        }
+        
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 4px;
+            background: var(--accent-gold);
+            margin: 1rem auto;
+            border-radius: 2px;
+        }
+        
+        .teacher-profile {
+            display: flex;
+            gap: 3rem;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .teacher-photo {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid var(--accent-gold);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        }
+        
+        .teacher-info {
+            flex: 1;
+            min-width: 300px;
+        }
+        
+        .teacher-info h3 {
+            font-size: 1.8rem;
+            color: var(--primary-brown);
+            margin-bottom: 0.5rem;
+        }
+        
+        .teacher-info .role {
+            color: var(--accent-gold);
+            font-weight: 500;
+            margin-bottom: 1.5rem;
+        }
+        
+        .teacher-info p {
+            margin-bottom: 1rem;
+            line-height: 1.8;
+        }
+        
+        /* Philosophy Section */
+        .philosophy {
+            padding: 5rem 2rem;
+            background: var(--light-beige);
+        }
+        
+        .philosophy-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .philosophy-card {
+            background: var(--white);
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+            transition: transform 0.3s;
+        }
+        
+        .philosophy-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .philosophy-card h3 {
+            color: var(--primary-brown);
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+        
+        .philosophy-card p {
+            color: #666;
+            line-height: 1.7;
+        }
+        
+        /* Class Levels */
+        .classes {
+            padding: 5rem 2rem;
+            background: var(--white);
+        }
+        
+        .class-levels {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .class-card {
+            background: linear-gradient(135deg, var(--light-beige) 0%, var(--white) 100%);
+            padding: 2rem;
+            border-radius: 15px;
+            border-left: 5px solid var(--accent-gold);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .class-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .class-card h3 {
+            color: var(--primary-brown);
+            margin-bottom: 0.5rem;
+        }
+        
+        .class-card .english-name {
+            color: var(--accent-gold);
+            font-style: italic;
+            margin-bottom: 1rem;
+        }
+        
+        .class-card ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .class-card li {
+            padding: 0.5rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+        
+        .class-card li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: var(--accent-gold);
+            font-weight: bold;
+        }
+        
+        /* Resources Section */
+        .resources {
+            padding: 5rem 2rem;
+            background: var(--light-beige);
+        }
+        
+        .resource-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .resource-card {
+            background: var(--white);
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+            text-decoration: none;
+            color: inherit;
+        }
+        
+        .resource-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .resource-card .card-image {
+            height: 180px;
+            background: linear-gradient(135deg, var(--primary-brown) 0%, var(--accent-gold) 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            color: var(--white);
+        }
+        
+        .resource-card .card-content {
+            padding: 1.5rem;
+        }
+        
+        .resource-card h3 {
+            color: var(--primary-brown);
+            margin-bottom: 0.5rem;
+        }
+        
+        .resource-card p {
+            color: #666;
+            font-size: 0.95rem;
+        }
+        
+        /* Contact Section */
+        .contact {
+            padding: 5rem 2rem;
+            background: var(--primary-brown);
+            color: var(--white);
+        }
+        
+        .contact .section-title {
+            color: var(--white);
+        }
+        
+        .contact .section-title::after {
+            background: var(--accent-gold);
+        }
+        
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 3rem;
+            margin-top: 3rem;
+        }
+        
+        .contact-info h3 {
+            color: var(--accent-gold);
+            margin-bottom: 1rem;
+        }
+        
+        .contact-info p {
+            margin-bottom: 0.5rem;
+            opacity: 0.9;
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        
+        .social-links a {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            background: var(--accent-gold);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+            text-decoration: none;
+            transition: transform 0.3s;
+        }
+        
+        .social-links a:hover {
+            transform: scale(1.1);
+        }
+        
+        /* Footer */
+        footer {
+            background: #2c2416;
+            color: var(--white);
+            text-align: center;
+            padding: 2rem;
+        }
+        
+        footer p {
+            opacity: 0.7;
+        }
+        
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+            
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .hero .subtitle {
+                font-size: 1.4rem;
+            }
+            
+            .teacher-profile {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .teacher-photo {
+                width: 250px;
+                height: 250px;
+            }
+            
+            .section-title {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">珊蒂美語 <span>S.E.E</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">首頁</a></li>
+                <li><a href="#teacher">認識老師</a></li>
+                <li><a href="#philosophy">教學理念</a></li>
+                <li><a href="#classes">班別介紹</a></li>
+                <li><a href="#resources">學習資源</a></li>
+                <li><a href="#contact">聯絡我們</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>珊蒂美語教室</h1>
+            <p class="subtitle">Sandy's Enlighten English Learning Center</p>
+            <p class="tagline">快樂中學習，學習中得到快樂 | Happy Learning, Joy from Learning</p>
+            <a href="https://lin.ee/7XaGaW2" class="cta-button" target="_blank">預約免費程度檢測 / 試聽課程</a>
+        </div>
+    </section>
+
+    <!-- Meet the Teacher Section -->
+    <section class="teacher-section" id="teacher">
+        <div class="container">
+            <h2 class="section-title">認識我們的老師 Meet Our Teacher</h2>
+            <div class="teacher-profile">
+                <img src="images/teacher-sandy.jpg" alt="Ms. Sandy" class="teacher-photo" onerror="this.src='https://via.placeholder.com/300?text=Ms.+Sandy'">
+                <div class="teacher-info">
+                    <h3>郭珊蒂 Sandy Kuo</h3>
+                    <p class="role">創辨人暨首席教師 | Founder & Lead Teacher</p>
+                    <p>擁有近三十年的美語教學經驗，Sandy 老師在加州大學洛杉磯分校 (UCLA) 求學期間即開始從事美語教學工作。她深知台灣孩子在學習美語時的痛點與挑戰，因此創立了珊蒂美語教室。</p>
+                    <p>「我們不只教英文，更教導孩子如何用英文思考、表達自己。」這是 Sandy 老師的教學信念。在她的課堂上，每個孩子都能被看見、被聽見，在快樂的氛圍中建立自信。</p>
+                    <p><strong>學歷：</strong>UCLA 數學系 | <strong>教學年資：</strong>近三十年 | <strong>專長：</strong>沉浸式教學、發音矯正、兒童心理學</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Philosophy Section -->
+    <section class="philosophy" id="philosophy">
+        <div class="container">
+            <h2 class="section-title">我們的教學理念 Our Philosophy</h2>
+            <div class="philosophy-grid">
+                <div class="philosophy-card">
+                    <h3>【專業師資】</h3>
+                    <p>我們不只會說英文，更懂教學。老師在加州大學洛杉磯分校 (UCLA) 就讀時就開始在當地補教業教書近三十年，非常了解孩子在學習英文時的痛點。</p>
+                </div>
+                <div class="philosophy-card">
+                    <h3>【小班制教學】</h3>
+                    <p>我們深知，語言學習最需要的是「被聽見」。在我們的教室裡，老師能看見每個孩子的困惑與進步並時刻幫助他們。因為人少，孩子更有勇氣開口。</p>
+                </div>
+                <div class="philosophy-card">
+                    <h3>【實戰成果】</h3>
+                    <p>從自然發音到流利溝通，我們都會詳細記錄並提供清晰的成長地圖，讓孩子們的進步能夠被清楚地看見。每個階段都有明確的學習目標和評量標準。</p>
+                </div>
+                <div class="philosophy-card">
+                    <h3>【國際教材】</h3>
+                    <p>我們不使用本地重新編排的二修教材。孩子讀的書、看的繪本、練習的教材，全數由老師親自從美國帶回，與美國當地小學同步，採用加州教育標準。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Class Levels Section -->
+    <section class="classes" id="classes">
+        <div class="container">
+            <h2 class="section-title">我們的班別 Our Classes</h2>
+            <p style="text-align: center; max-width: 800px; margin: 0 auto 2rem; color: #666;">
+                不同於台灣的年齡分班，我們引進美國加州教學體系，為孩子量身打造 6 個階段的成長路徑，讓語言學習不再是碎片，而是完整的實力建構。
+            </p>
+            <div class="class-levels">
+                <div class="class-card">
+                    <h3>Pre-K</h3>
+                    <p class="english-name">The Explorer · 啟蒙探索期</p>
+                    <ul>
+                        <li>語感啟蒙、聽力建立</li>
+                        <li>自然發音 (Phonics) 最初步</li>
+                        <li>透過繪本與感官遊戲學習</li>
+                        <li>讓孩子像母語者一樣自然熟悉美語</li>
+                    </ul>
+                </div>
+                <div class="class-card">
+                    <h3>Basic</h3>
+                    <p class="english-name">The Builder · 基礎奠定期</p>
+                    <ul>
+                        <li>單字量擴充、簡單句型建構</li>
+                        <li>能聽懂課堂指令</li>
+                        <li>用簡單句子表達需求與心情</li>
+                        <li>建立基礎溝通能力</li>
+                    </ul>
+                </div>
+                <div class="class-card">
+                    <h3>Level 1 & 2</h3>
+                    <p class="english-name">The Speaker · 自信表達期</p>
+                    <ul>
+                        <li>閱讀流暢度、生活對話運用</li>
+                        <li>基礎書寫能力培養</li>
+                        <li>符合美國小學低年級標準</li>
+                        <li>能閱讀簡易橋樑書，進行主題討論</li>
+                    </ul>
+                </div>
+                <div class="class-card">
+                    <h3>Level 3 & 4</h3>
+                    <p class="english-name">The Thinker · 邏輯思考期</p>
+                    <ul>
+                        <li>批判性思考、學術單字</li>
+                        <li>長篇寫作訓練</li>
+                        <li>達到美國小學中高年級水準</li>
+                        <li>能針對社會或科學議題發表看法</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section class="resources" id="resources">
+        <div class="container">
+            <h2 class="section-title">學習資源 Learning Resources</h2>
+            <div class="resource-cards">
+                <a href="vocabulary.html" class="resource-card">
+                    <div class="card-image">📚</div>
+                    <div class="card-content">
+                        <h3>單字表 Vocabulary Lists</h3>
+                        <p>各級數單字對照表，含中文解釋與例句，幫助孩子系統性學習與複習。</p>
+                    </div>
+                </a>
+                <a href="audiobooks.html" class="resource-card">
+                    <div class="card-image">🎧</div>
+                    <div class="card-content">
+                        <h3>有聲書 Audio Books</h3>
+                        <p>精選英文有聲書，培養聽力與閱讀興趣，從 Magic Tree House 到經典文學。</p>
+                    </div>
+                </a>
+                <a href="songs.html" class="resource-card">
+                    <div class="card-image">🎵</div>
+                    <div class="card-content">
+                        <h3>每月歌曲 Monthly Songs</h3>
+                        <p>透過音樂學英文，每月精選主題歌曲，讓孩子在旋律中自然記住單字與句型。</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">聯絡我們 Contact Us</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>教室位置 Location</h3>
+                    <p>台灣 新北市 林口區</p>
+                    <p>仁愛路二段 630 號</p>
+                </div>
+                <div class="contact-info">
+                    <h3>連絡電話 Phone</h3>
+                    <p>0911-128-881 (教室)</p>
+                    <p>0912-911-638 (郭小姐/Ms. Sandy)</p>
+                    <p>0933-481-322 (胡先生/John)</p>
+                </div>
+                <div class="contact-info">
+                    <h3>線上預約 Online Booking</h3>
+                    <p>加入我們的 Line 官方帳號</p>
+                    <p>預約免費程度檢測與試聽課程</p>
+                    <div class="social-links">
+                        <a href="https://lin.ee/7XaGaW2" target="_blank" title="Line">L</a>
+                        <a href="https://www.facebook.com/1638sandy" target="_blank" title="Facebook">F</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Copyright © 2020-2025 Enlighten Learning Center (珊蒂美語教室 S.E.E). All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add scroll effect to navigation
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 100) {
+                nav.style.boxShadow = '0 2px 10px rgba(0,0,0,0.1)';
+            } else {
+                nav.style.boxShadow = '0 2px 5px rgba(0,0,0,0.1)';
+            }
+        });
+    </script>
+</body>
+</html>
