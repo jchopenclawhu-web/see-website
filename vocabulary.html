@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>單字表 Vocabulary Lists | 珊蒂美語教室 S.E.E</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Caveat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-brown: #857251;
+            --accent-gold: #CEA964;
+            --light-beige: #F7F4EE;
+            --dark-text: #333;
+            --white: #fff;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            line-height: 1.6;
+            color: var(--dark-text);
+            background: var(--light-beige);
+        }
+        
+        /* Navigation */
+        nav {
+            background: var(--white);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-brown);
+            text-decoration: none;
+        }
+        
+        .logo span {
+            font-family: 'Caveat', cursive;
+            font-size: 1.2rem;
+            color: var(--accent-gold);
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+        
+        .nav-links a {
+            text-decoration: none;
+            color: var(--dark-text);
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        
+        .nav-links a:hover {
+            color: var(--primary-brown);
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, var(--primary-brown) 0%, var(--accent-gold) 100%);
+            color: var(--white);
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+        
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        /* Main Content */
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        
+        /* Level Selection */
+        .level-section {
+            background: var(--white);
+            border-radius: 15px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+        }
+        
+        .level-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 3px solid var(--accent-gold);
+        }
+        
+        .level-icon {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, var(--primary-brown) 0%, var(--accent-gold) 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        
+        .level-title {
+            flex: 1;
+        }
+        
+        .level-title h2 {
+            color: var(--primary-brown);
+            font-size: 1.5rem;
+        }
+        
+        .level-title p {
+            color: #666;
+            font-size: 0.9rem;
+        }
+        
+        /* Dropdown Styles */
+        .week-selector {
+            margin-bottom: 2rem;
+        }
+        
+        .week-selector label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: var(--primary-brown);
+            font-weight: 500;
+        }
+        
+        .week-dropdown {
+            width: 100%;
+            padding: 1rem;
+            font-size: 1rem;
+            border: 2px solid var(--accent-gold);
+            border-radius: 10px;
+            background: var(--white);
+            color: var(--dark-text);
+            cursor: pointer;
+            transition: border-color 0.3s;
+        }
+        
+        .week-dropdown:hover,
+        .week-dropdown:focus {
+            border-color: var(--primary-brown);
+            outline: none;
+        }
+        
+        /* Vocabulary Display */
+        .vocab-display {
+            display: none;
+            animation: fadeIn 0.5s ease;
+        }
+        
+        .vocab-display.active {
+            display: block;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .vocab-header {
+            background: var(--light-beige);
+            padding: 1rem;
+            border-radius: 10px;
+            margin-bottom: 1.5rem;
+        }
+        
+        .vocab-header h3 {
+            color: var(--primary-brown);
+            margin-bottom: 0.5rem;
+        }
+        
+        .vocab-header p {
+            color: #666;
+            font-size: 0.9rem;
+        }
+        
+        /* Flashcard Styles */
+        .flashcard-container {
+            display: grid;
+            gap: 1rem;
+        }
+        
+        .flashcard {
+            background: var(--white);
+            border-left: 5px solid var(--accent-gold);
+            border-radius: 10px;
+            padding: 1.5rem;
+            cursor: pointer;
+            transition: transform 0.3s, box-shadow 0.3s;
+            position: relative;
+        }
+        
+        .flashcard:hover {
+            transform: translateX(5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .flashcard-front {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .word {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--primary-brown);
+        }
+        
+        .phonetic {
+            color: #888;
+            font-style: italic;
+        }
+        
+        .flashcard-back {
+            display: none;
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px dashed var(--accent-gold);
+        }
+        
+        .flashcard.flipped .flashcard-back {
+            display: block;
+        }
+        
+        .flashcard.flipped .flashcard-front {
+            opacity: 0.6;
+        }
+        
+        .definition {
+            font-size: 1.1rem;
+            color: var(--dark-text);
+            margin-bottom: 0.5rem;
+        }
+        
+        .example {
+            color: #666;
+            font-style: italic;
+            margin-bottom: 0.3rem;
+        }
+        
+        .example-translation {
+            color: #888;
+            font-size: 0.9rem;
+        }
+        
+        .flip-hint {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            font-size: 0.8rem;
+            color: var(--accent-gold);
+            opacity: 0.7;
+        }
+        
+        /* Navigation Buttons */
+        .nav-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        
+        .nav-btn {
+            padding: 0.8rem 1.5rem;
+            background: var(--primary-brown);
+            color: var(--white);
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background 0.3s;
+        }
+        
+        .nav-btn:hover {
+            background: var(--accent-gold);
+        }
+        
+        .nav-btn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+        
+        /* Progress Indicator */
+        .progress-bar {
+            background: var(--light-beige);
+            height: 8px;
+            border-radius: 4px;
+            margin: 1.5rem 0;
+            overflow: hidden;
+        }
+        
+        .progress-fill {
+            background: linear-gradient(90deg, var(--primary-brown) 0%, var(--accent-gold) 100%);
+            height: 100%;
+            border-radius: 4px;
+            transition: width 0.3s;
+        }
+        
+        /* Footer */
+        footer {
+            background: #2c2416;
+            color: var(--white);
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+        
+        footer p {
+            opacity: 0.7;
+        }
+        
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+            
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+            
+            .level-header {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo">珊蒂美語 <span>S.E.E</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html">首頁</a></li>
+                <li><a href="vocabulary.html">單字表</a></li>
+                <li><a href="audiobooks.html">有聲書</a></li>
+                <li><a href="songs.html">每月歌曲</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>單字表 Vocabulary Lists</h1>
+        <p>2025-2026學年度 · 沉浸式美語學習</p>
+    </section>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Level 2 -->
+        <div class="level-section">
+            <div class="level-header">
+                <div class="level-icon">L2</div>
+                <div class="level-title">
+                    <h2>Level 2 · 自信表達期</h2>
+                    <p>The Speaker · 適合小學低年級 · 生活對話與基礎閱讀</p>
+                </div>
+            </div>
+            
+            <div class="week-selector">
+                <label for="l2-week">選擇週次 Select Week:</label>
+                <select id="l2-week" class="week-dropdown" onchange="loadVocabulary('l2', this.value)">
+                    <option value="">-- 請選擇週次 --</option>
+                    <option value="250901">Week 1 · 250901 · 烘焙與食材 (Baking & Ingredients)</option>
+                    <option value="250910">Week 2 · 250910 · 購物與方向 (Shopping & Directions)</option>
+                    <option value="250916">Week 3 · 250916 · 家庭與日常 (Family & Daily Life)</option>
+                    <option value="250923">Week 4 · 250923 · 學校生活 (School Life)</option>
+                    <option value="251007">Week 5 · 251007 · 節慶活動 (Festivals)</option>
+                    <option value="251014">Week 6 · 251014 · 天氣與季節 (Weather & Seasons)</option>
+                    <option value="251021">Week 7 · 251021 · 動物世界 (Animal World)</option>
+                    <option value="251028">Week 8 · 251028 · 健康飲食 (Healthy Eating)</option>
+                    <option value="251104">Week 9 · 251104 · 交通工具 (Transportation)</option>
+                    <option value="251111">Week 10 · 251111 · 職業探索 (Jobs & Careers)</option>
+                    <option value="251118">Week 11 · 251118 · 情緒表達 (Emotions)</option>
+                    <option value="251125">Week 12 · 251125 · 自然環境 (Nature)</option>
+                    <option value="251202">Week 13 · 251202 · 運動健身 (Sports)</option>
+                    <option value="251209">Week 14 · 251209 · 音樂藝術 (Music & Art)</option>
+                    <option value="251216">Week 15 · 251216 · 節日慶祝 (Holiday Celebrations)</option>
+                    <option value="251223">Week 16 · 251223 · 寒假複習 (Winter Review)</option>
+                    <option value="260106">Week 17 · 260106 · 開學新氣象 (New Term)</option>
+                    <option value="260113">Week 18 · 260113 · 科技生活 (Technology)</option>
+                    <option value="260120">Week 19 · 260120 · 未來夢想 (Future Dreams)</option>
+                    <option value="260127">Week 20 · 260127 · 學期複習 (Term Review)</option>
+                </select>
+            </div>
+            
+            <div id="l2-display" class="vocab-display">
+                <!-- Vocabulary will be loaded here -->
+            </div>
+        </div>
+
+        <!-- Level 1 -->
+        <div class="level-section">
+            <div class="level-header">
+                <div class="level-icon">L1</div>
+                <div class="level-title">
+                    <h2>Level 1 · 基礎奠定期</h2>
+                    <p>The Builder · 適合初學者 · 單字與簡單句型</p>
+                </div>
+            </div>
+            
+            <div class="week-selector">
+                <label for="l1-week">選擇週次 Select Week:</label>
+                <select id="l1-week" class="week-dropdown" onchange="loadVocabulary('l1', this.value)">
+                    <option value="">-- 請選擇週次 --</option>
+                    <option value="250901">Week 1 · 250901 · 問候與介紹 (Greetings)</option>
+                    <option value="250908">Week 2 · 250908 · 數字與顏色 (Numbers & Colors)</option>
+                    <option value="250915">Week 3 · 250915 · 家庭成員 (Family)</option>
+                    <option value="250922">Week 4 · 250922 · 學校物品 (School Items)</option>
+                    <option value="251006">Week 5 · 251006 · 身體部位 (Body Parts)</option>
+                    <option value="251013">Week 6 · 251013 · 食物與飲料 (Food & Drinks)</option>
+                    <option value="251020">Week 7 · 251020 · 動物 (Animals)</option>
+                    <option value="251027">Week 8 · 251027 · 天氣 (Weather)</option>
+                    <option value="251103">Week 9 · 251103 · 衣服 (Clothes)</option>
+                    <option value="251110">Week 10 · 251110 · 情緒 (Feelings)</option>
+                    <option value="251117">Week 11 · 251117 · 動作 (Actions)</option>
+                    <option value="251124">Week 12 · 251124 · 位置 (Positions)</option>
+                    <option value="251201">Week 13 · 251201 · 節日 (Holidays)</option>
+                    <option value="251208">Week 14 · 251208 · 複習 Review</option>
+                </select>
+            </div>
+            
+            <div id="l1-display" class="vocab-display">
+                <!-- Vocabulary will be loaded here -->
+            </div>
+        </div>
+
+        <!-- Basic -->
+        <div class="level-section">
+            <div class="level-header">
+                <div class="level-icon">B</div>
+                <div class="level-title">
+                    <h2>Basic · 啟蒙探索期</h2>
+                    <p>The Explorer · 適合學齡前 · 語感與發音</p>
+                </div>
+            </div>
+            
+            <div class="week-selector">
+                <label for="basic-week">選擇週次 Select Week:</label>
+                <select id="basic-week" class="week-dropdown" onchange="loadVocabulary('basic', this.value)">
+                    <option value="">-- 請選擇週次 --</option>
+                    <option value="250901">Week 1 · 250901 · Hello!</option>
+                    <option value="250908">Week 2 · 250908 · ABC Song</option>
+                    <option value="250915">Week 3 · 250915 · Numbers 1-10</option>
+                    <option value="250922">Week 4 · 250922 · Colors</option>
+                    <option value="251006">Week 5 · 251006 · Shapes</option>
+                    <option value="251013">Week 6 · 251013 · Animals</option>
+                    <option value="251020">Week 7 · 251020 · Fruits</option>
+                    <option value="251027">Week 8 · 251027 · Family</option>
+                    <option value="251103">Week 9 · 251103 · Actions</option>
+                    <option value="251110">Week 10 · 251110 · Review</option>
+                </select>
+            </div>
+            
+            <div id="basic-display" class="vocab-display">
+                <!-- Vocabulary will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Copyright © 2020-2025 Enlighten Learning Center (珊蒂美語教室 S.E.E). All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Vocabulary data (will be populated from Google Sheets export)
+        const vocabularyData = {
+            l2: {
+                '250901': [
+                    { word: 'pantry', phonetic: '/ˈpæntri/', def: '食物櫃', example: 'Mom put food in the pantry.', translation: '媽媽把食物放進了食品櫃。' },
+                    { word: 'flour', phonetic: '/flaʊr/', def: '麵粉', example: 'We need flour to bake a cake.', translation: '我們需要麵粉來烤蛋糕。' },
+                    { word: 'sugar', phonetic: '/ˈʃʊɡər/', def: '糖', example: 'I put sugar in my tea.', translation: '我在茶裡加了糖。' },
+                    { word: 'vanilla', phonetic: '/vəˈnɪlə/', def: '香草', example: 'I like vanilla ice cream.', translation: '我喜歡香草冰淇淋。' },
+                    { word: 'blend', phonetic: '/blend/', def: '混合', example: 'I like to blend fruits for a smoothie.', translation: '我喜歡把水果打成冰沙。' },
+                    { word: 'butter', phonetic: '/ˈbʌtər/', def: '奶油', example: 'I spread butter on my toast.', translation: '我在吐司上塗了奶油。' },
+                    { word: 'remove', phonetic: '/rɪˈmuːv/', def: '移開', example: 'Please remove the book from the table.', translation: '請把書從桌上拿走。' },
+                    { word: 'ingredient', phonetic: '/ɪnˈɡriːdiənt/', def: '成分', example: 'Sugar is an ingredient in cookies.', translation: '糖是餅乾的配料之一。' },
+                    { word: 'powder', phonetic: '/ˈpaʊdər/', def: '粉末', example: 'The baby has powder on its skin.', translation: '嬰兒身上沾了爽身粉。' },
+                    { word: 'oven', phonetic: '/ˈʌvən/', def: '烤箱', example: 'I put the cake in the oven.', translation: '我把蛋糕放進了烤箱。' }
+                ],
+                '250910': [
+                    { word: 'customer', phonetic: '/ˈkʌstəmər/', def: '顧客', example: 'The customer bought a toy.', translation: '顧客買了一件玩具。' },
+                    { word: 'half', phonetic: '/hæf/', def: '一半', example: 'I ate half of the apple.', translation: '我吃了半個蘋果。' },
+                    { word: 'believe', phonetic: '/bɪˈliːv/', def: '相信', example: 'I believe in magic.', translation: '我相信魔法。' },
+                    { word: 'minute', phonetic: '/ˈmɪnɪt/', def: '分鐘', example: 'I will be there in one minute.', translation: '我馬上就到。' },
+                    { word: 'north', phonetic: '/nɔːrθ/', def: '北', example: 'The North Pole is very cold.', translation: '北極非常寒冷。' },
+                    { word: 'south', phonetic: '/saʊθ/', def: '南', example: 'The birds fly south for the winter.', translation: '這些鳥兒會飛往南方過冬。' },
+                    { word: 'strong', phonetic: '/strɔːŋ/', def: '強的', example: 'The boy is very strong.', translation: '這個男孩力氣很大。' },
+                    { word: 'explosion', phonetic: '/ɪkˈspləʊʒən/', def: '爆炸', example: 'The loud explosion made a big sound.', translation: '巨大的爆炸聲震耳欲聾。' }
+                ]
+            }
+        };
+
+        let currentCardIndex = 0;
+        let currentVocab = [];
+
+        function loadVocabulary(level, week) {
+            if (!week) return;
+            
+            const display = document.getElementById(level + '-display');
+            const data = vocabularyData[level] && vocabularyData[level][week];
+            
+            if (!data) {
+                display.innerHTML = '<p style="text-align: center; color: #666; padding: 2rem;">Vocabulary data loading... Please check back later.</p>';
+                display.classList.add('active');
+                return;
+            }
+            
+            currentVocab = data;
+            currentCardIndex = 0;
+            
+            let html = `
+                <div class="vocab-header">
+                    <h3>Week ${week.substring(4)} · ${data.length} Words</h3>
+                    <p>Click on any card to see the definition and example sentence. Use buttons below to navigate.</p>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progress-${level}" style="width: ${(1/data.length)*100}%"></div>
+                </div>
+                <div class="flashcard-container" id="flashcard-${level}">
+            `;
+            
+            data.forEach((item, index) => {
+                html += `
+                    <div class="flashcard" onclick="flipCard(this, '${level}')" data-index="${index}">
+                        <span class="flip-hint">Click to flip ↻</span>
+                        <div class="flashcard-front">
+                            <div>
+                                <div class="word">${item.word}</div>
+                                <div class="phonetic">${item.phonetic}</div>
+                            </div>
+                        </div>
+                        <div class="flashcard-back">
+                            <div class="definition">${item.def}</div>
+                            <div class="example">${item.example}</div>
+                            <div class="example-translation">${item.translation}</div>
+                        </div>
+                    </div>
+                `;
+            });
+            
+            html += `
+                </div>
+                <div class="nav-buttons">
+                    <button class="nav-btn" onclick="prevCard('${level}')" id="prev-${level}">← Previous</button>
+                    <button class="nav-btn" onclick="nextCard('${level}')" id="next-${level}">Next →</button>
+                </div>
+            `;
+            
+            display.innerHTML = html;
+            display.classList.add('active');
+            updateCardVisibility(level);
+        }
+
+        function flipCard(card, level) {
+            card.classList.toggle('flipped');
+        }
+
+        function updateCardVisibility(level) {
+            const cards = document.querySelectorAll(`#flashcard-${level} .flashcard`);
+            cards.forEach((card, index) => {
+                card.style.display = index === currentCardIndex ? 'block' : 'none';
+                card.classList.remove('flipped');
+            });
+            
+            const progress = ((currentCardIndex + 1) / cards.length) * 100;
+            document.getElementById(`progress-${level}`).style.width = progress + '%';
+            
+            document.getElementById(`prev-${level}`).disabled = currentCardIndex === 0;
+            document.getElementById(`next-${level}`).disabled = currentCardIndex === cards.length - 1;
+        }
+
+        function nextCard(level) {
+            const cards = document.querySelectorAll(`#flashcard-${level} .flashcard`);
+            if (currentCardIndex < cards.length - 1) {
+                currentCardIndex++;
+                updateCardVisibility(level);
+            }
+        }
+
+        function prevCard(level) {
+            if (currentCardIndex > 0) {
+                currentCardIndex--;
+                updateCardVisibility(level);
+            }
+        }
+    </script>
+</body>
+</html>
