@@ -76,6 +76,16 @@
             color: var(--primary-brown);
         }
         
+        /* Mobile Menu Toggle */
+        .menu-toggle {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: var(--primary-brown);
+        }
+        
         /* Hero Section */
         .hero {
             background: var(--primary-brown);
@@ -412,8 +422,25 @@
         
         /* Mobile Responsive */
         @media (max-width: 768px) {
+            .menu-toggle {
+                display: block;
+            }
+            
             .nav-links {
                 display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: var(--white);
+                flex-direction: column;
+                padding: 1rem;
+                box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+                gap: 1rem;
+            }
+            
+            .nav-links.active {
+                display: flex;
             }
             
             .hero h1 {
@@ -445,6 +472,7 @@
     <nav>
         <div class="nav-container">
             <div class="logo">珊蒂美語 <span>S.E.E</span></div>
+            <button class="menu-toggle" aria-label="Menu">☰</button>
             <ul class="nav-links">
                 <li><a href="#home">首頁</a></li>
                 <li><a href="#teacher">認識老師</a></li>
@@ -647,6 +675,18 @@
             } else {
                 nav.style.boxShadow = '0 2px 5px rgba(0,0,0,0.1)';
             }
+        });
+
+        // Mobile menu toggle
+        document.querySelector('.menu-toggle').addEventListener('click', () => {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+
+        // Close menu when clicking a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.querySelector('.nav-links').classList.remove('active');
+            });
         });
     </script>
 </body>
