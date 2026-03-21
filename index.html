@@ -24,7 +24,8 @@
             font-family: 'Noto Sans TC', sans-serif;
             line-height: 1.6;
             color: var(--dark-text);
-            background: var(--light-beige);
+            background: url('images/background.png') no-repeat center center fixed;
+            background-size: cover;
         }
         
         /* Navigation */
@@ -76,24 +77,13 @@
         
         /* Hero Section */
         .hero {
-            background: linear-gradient(135deg, var(--primary-brown) 0%, var(--accent-gold) 100%);
+            background: rgba(133, 114, 81, 0.85);
             color: var(--white);
             padding: 6rem 2rem;
             text-align: center;
             position: relative;
             overflow: hidden;
-        }
-        
-        .hero::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/></svg>');
-            background-size: 100px 100px;
-            opacity: 0.3;
+            backdrop-filter: blur(5px);
         }
         
         .hero-content {
@@ -144,7 +134,7 @@
         /* Meet the Teacher Section */
         .teacher-section {
             padding: 5rem 2rem;
-            background: var(--white);
+            background: rgba(255, 255, 255, 0.95);
         }
         
         .container {
@@ -212,7 +202,7 @@
         /* Philosophy Section */
         .philosophy {
             padding: 5rem 2rem;
-            background: var(--light-beige);
+            background: rgba(247, 244, 238, 0.95);
         }
         
         .philosophy-grid {
@@ -248,7 +238,7 @@
         /* Class Levels */
         .classes {
             padding: 5rem 2rem;
-            background: var(--white);
+            background: rgba(255, 255, 255, 0.95);
         }
         
         .class-levels {
@@ -304,7 +294,7 @@
         /* Resources Section */
         .resources {
             padding: 5rem 2rem;
-            background: var(--light-beige);
+            background: rgba(247, 244, 238, 0.95);
         }
         
         .resource-cards {
