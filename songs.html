@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>每月歌曲 Monthly Songs | 珊蒂美語教室 S.E.E</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Caveat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-brown: #857251;
+            --accent-gold: #CEA964;
+            --light-beige: #F7F4EE;
+            --dark-text: #333;
+            --white: #fff;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            line-height: 1.6;
+            color: var(--dark-text);
+            background: var(--light-beige);
+        }
+        
+        /* Navigation */
+        nav {
+            background: var(--white);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-brown);
+            text-decoration: none;
+        }
+        
+        .logo span {
+            font-family: 'Caveat', cursive;
+            font-size: 1.2rem;
+            color: var(--accent-gold);
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+        
+        .nav-links a {
+            text-decoration: none;
+            color: var(--dark-text);
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        
+        .nav-links a:hover {
+            color: var(--primary-brown);
+        }
+        
+        .menu-toggle {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: var(--primary-brown);
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, var(--primary-brown) 0%, var(--accent-gold) 100%);
+            color: var(--white);
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+        
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        /* Main Content */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        
+        /* Level Tabs */
+        .level-tabs {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+        
+        .level-tab {
+            padding: 0.8rem 1.5rem;
+            background: var(--white);
+            border: 2px solid var(--accent-gold);
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 500;
+            color: var(--primary-brown);
+            transition: all 0.3s;
+        }
+        
+        .level-tab:hover {
+            background: var(--accent-gold);
+            color: var(--white);
+        }
+        
+        .level-tab.active {
+            background: var(--primary-brown);
+            border-color: var(--primary-brown);
+            color: var(--white);
+        }
+        
+        /* Songs Grid */
+        .songs-container {
+            display: none;
+        }
+        
+        .songs-container.active {
+            display: block;
+            animation: fadeIn 0.5s ease;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .songs-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+        }
+        
+        .song-card {
+            background: var(--white);
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        
+        .song-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            background: #000;
+        }
+        
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        
+        .song-info {
+            padding: 1.5rem;
+        }
+        
+        .song-month {
+            display: inline-block;
+            background: var(--accent-gold);
+            color: var(--white);
+            padding: 0.3rem 0.8rem;
+            border-radius: 15px;
+            font-size: 0.85rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .song-title {
+            font-size: 1.1rem;
+            color: var(--primary-brown);
+            margin-bottom: 0.3rem;
+        }
+        
+        .song-artist {
+            color: #888;
+            font-size: 0.9rem;
+        }
+        
+        /* Footer */
+        footer {
+            background: #2c2416;
+            color: var(--white);
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+        
+        footer p {
+            opacity: 0.7;
+        }
+        
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: var(--white);
+                flex-direction: column;
+                padding: 1rem;
+                box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+                gap: 1rem;
+            }
+            
+            .nav-links.active {
+                display: flex;
+            }
+            
+            .menu-toggle {
+                display: block;
+            }
+            
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+            
+            .level-tabs {
+                gap: 0.5rem;
+            }
+            
+            .level-tab {
+                padding: 0.6rem 1rem;
+                font-size: 0.9rem;
+            }
+            
+            .songs-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo">珊蒂美語 <span>S.E.E</span></a>
+            <button class="menu-toggle" aria-label="Menu">☰</button>
+            <ul class="nav-links">
+                <li><a href="index.html">首頁</a></li>
+                <li><a href="vocabulary.html">單字表</a></li>
+                <li><a href="audiobooks.html">有聲書</a></li>
+                <li><a href="songs.html">每月歌曲</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>每月歌曲 Monthly Songs</h1>
+        <p>透過音樂學英文 · Learn English Through Music</p>
+    </section>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Level Tabs -->
+        <div class="level-tabs">
+            <button class="level-tab active" onclick="showLevel('prek', this)">Pre-K</button>
+            <button class="level-tab" onclick="showLevel('basic', this)">Basic</button>
+            <button class="level-tab" onclick="showLevel('l1', this)">Level 1</button>
+            <button class="level-tab" onclick="showLevel('l2', this)">Level 2</button>
+            <button class="level-tab" onclick="showLevel('l3', this)">Level 3</button>
+            <button class="level-tab" onclick="showLevel('l4', this)">Level 4</button>
+        </div>
+
+        <!-- Pre-K Songs -->
+        <div id="prek" class="songs-container active">
+            <div class="songs-grid">
+                <div class="song-card">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/SGleC7edeG4" allowfullscreen></iframe>
+                    </div>
+                    <div class="song-info">
+                        <span class="song-month">Pre-K</span>
+                        <h3 class="song-title">Phonics Song</h3>
+                        <p class="song-artist">Kids Learning Videos</p>
+                    </div>
+                </div>
+                <div class="song-card">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/HSmsq2iq4bQ" allowfullscreen></iframe>
+                    </div>
+                    <div class="song-info">
+                        <span class="song-month">Pre-K</span>
+                        <h3 class="song-title">ABC Song</h3>
+                        <p class="song-artist">Super Simple Songs</p>
+                    </div>
+                </div>
+                <div class="song-card">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/Tm4jDxUqQgg" allowfullscreen></iframe>
+                    </div>
+                    <div class="song-info">
+                        <span class="song-month">Pre-K</span>
+                        <h3 class="song-title">Numbers Song</h3>
+                        <p class="song-artist">Cocomelon</p>
+                    </div>
+                </div>
+                <div class="song-card">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/6916kVhbEZw" allowfullscreen></iframe>
+                    </div>
+                    <div class="song-info">
+                        <span class="song-month">Pre-K</span>
+                        <h3 class="song-title">Colors Song</h3>
+                        <p class="song-artist">Super Simple Songs</p>
+                    </div>
+                </div>
+                <div class="song-card">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/hPv9vMtbaqM" allowfullscreen></iframe>
+                    </div>
+                    <div class="song-info">
+                        <span class="song-month">Pre-K</span>
+                        <h3 class="song-title">Shapes Song</h3>
+                        <p class="song-artist">Kids TV</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Basic Songs -->
+        <div id="basic" class="songs-container">
+            <div class="songs-grid">
+                <div class="song-card">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/Uf04rQgisME" allowfullscreen></iframe>
+                    </div>
+                    <div class="song-info">
+                        <span class="song-month">Basic</span>
+                        <h3 class="song-title">Hello Song</h3>
+                        <p class="song-artist">Super Simple Songs</p>
+                    </div>
+                </div>
+                <div class="song-card">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/Ix99GSb3yKI" allowfullscreen></iframe>
+                    </div>
+                    <div class="song-info">
+                        <span class="song-month">Basic</span>
+                        <h3 class="song-title">Days of the Week</h3>
+                        <p class="song-artist">Super Simple Songs</p>
+                    </div>
+                </div>
+                <div class="song-card">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/iwvjyNBqqYs" allowfullscreen></iframe>
+                    </div>
+                    <div class="song-info">
+                        <span class="song-month">Basic</span>
+                        <h3 class="song-title">Months of the Year</h3>
+                        <p class="song-artist">Kids Learning Tube</p>
+                    </div>
+                </div>
+                <div class="song-card">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/LFrKYjrIDs8" allowfullscreen></iframe>
+                    </div>
+                    <div class="song-info">
+                        <span class="song-month">Basic</span>
+                        <h3 class="song-title">Weather Song</h3>
+                        <p class="song-artist">Super Simple Songs</p>
+                    </div>
+                </div>
+                <div class="song-card">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/4XLQpRI_wOQ" allowfullscreen></iframe>
+                    </div>
+                    <div class="song-info">
+                        <span class="song-month">Basic</span>
+                        <h3 class="song-title">Family Song</h3>
+                        <p class="song-artist">Cocomelon</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Level 1 Songs -->
+        <div id="l1" class="songs-container">
+            <div class="songs-grid">
+                <div class="song-card">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/BDuUbv8wt1c" allowfullscreen></iframe>
+                    </div>
+                    <div class="song-info">
+                        <span class="song-month">Level 1</span>
+                        <h3 class="song-title">Action Verbs</h3>
+                        <p class="song-artist">Maple Leaf Learning</p>
+                    </div>
+                </div>
+                <div class="song-card">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/JbM9hi5pd-w" allowfullscreen></iframe>
+                    </div>
+                    <div class="song-info">
+                        <span class="song-month">Level 1</span>
+                        <h3 class="song-title">Food Song</h3>
+                        <p class="song-artist">Super Simple Songs</p>
+                    </div>
+                </div>
+                <div class="song-card">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/fyEAX7Cd3OE" allowfullscreen></iframe>
+                    </div>
+                    <div class="song-info">
+                        <span class="song-month">Level 1</span>
+                        <h3 class="song-title">Animals Song</h3>
+                        <p class="song-artist">Pinkfong</p>
+                    </div>
+                </div>
+                <div class="song-card">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/OEAgkPCphjI" allowfullscreen></iframe>
+                    </div>
+                    <div class="song-info">
+                        <span class="song-month">Level 1</span>
+                        <h3 class="song-title">Clothes Song</h3>
+                        <p class="song-artist">Super Simple Songs</p>
+                    </div>
+                </div>
+                <div class="song-card">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/6k8cpUkKK4c" allowfullscreen></iframe>
+                    </div>
+                    <div class="song-info">
+                        <span class="song-month">Level 1</span>
+                        <h3 class="song-title">Body Parts</h3>
+                        <p class="song-artist">Super Simple Songs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Level 2 Songs -->
+        <div id="l2" class="songs-container">
+            <div class="songs-grid">
+                <div class="song-card">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/FV-HPOHu8mY" allowfullscreen></iframe>
+                    </div>
+                    <div class="song-info">
+                        <span class="song-month">Level 2</span>
+                        <h3 class="song-title">Daily Routines</h3>
+                        <p class="song-artist">Super Simple Songs</p>
+                    </div>
+                </div>
+                <div class="song-card">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/03bHHEkbZsw" allowfullscreen></iframe>
+                    </div>
+                    <div class="song-info">
+                        <span class="song-month">Level 2</span>
+                        <h3 class="song-title">Transportation</h3>
+                        <p class="song-artist">Super Simple Songs</p>
+                    </div>
+                </div>
+                <div class="song-card">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/FR8oqeNFy0U" allowfullscreen></iframe>
+                    </div>
+                    <div class="song-info">
+                        <span class="song-month">Level 2</span>
+                        <h3 class="song-title">Jobs Song</h3>
+                        <p class="song-artist">Kids TV</p>
+                    </div>
+                </div>
+                <div class="song-card">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/jdDa1wv22o0" allowfullscreen></iframe>
+                    </div>
+                    <div class="song-info">
+                        <span class="song-month">Level 2</span>
+                        <h3 class="song-title">Emotions Song</h3>
+                        <p class="song-artist">Super Simple Songs</p>
+                    </div>
+                </div>
+                <div class="song-card">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/cmSbXsFE3l8" allowfullscreen></iframe>
+                    </div>
+                    <div class="song-info">
+                        <span class="song-month">Level 2</span>
+                        <h3 class="song-title">Hobbies Song</h3>
+                        <p class="song-artist">Maple Leaf Learning</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Level 3 Songs -->
+        <div id="l3" class="songs-container">
+            <div class="songs-grid">
+                <div class="song-card">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/jJvDnYdD8JQ" allowfullscreen></iframe>
+                    </div>
+                    <div class="song-info">
+                        <span class="song-month">Level 3</span>
+                        <h3 class="song-title">Past Tense</h3>
+                        <p class="song-artist">Maple Leaf Learning</p>
+                    </div>
+                </div>
+                <div class="song-card">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/HpphFd_mzXE" allowfullscreen></iframe>
+                    </div>
+                    <div class="song-info">
+                        <span class="song-month">Level 3</span>
+                        <h3 class="song-title">Comparatives</h3>
+                        <p class="song-artist">Kids Learning Tube</p>
+                    </div>
+                </div>
+                <div class="song-card">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/fyEAX7Cd3OE" allowfullscreen></iframe>
+                    </div>
+                    <div class="song-info">
+                        <span class="song-month">Level 3</span>
+                        <h3 class="song-title">Wild Animals</h3>
+                        <p class="song-artist">Pinkfong</p>
+                    </div>
+                </div>
+                <div class="song-card">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/KINfQbfZwik" allowfullscreen></iframe>
+                    </div>
+                    <div class="song-info">
+                        <span class="song-month">Level 3</span>
+                        <h3 class="song-title">Nature Song</h3>
+                        <p class="song-artist">Super Simple Songs</p>
+                    </div>
+                </div>
+                <div class="song-card">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/W0DM5lcj6mw" allowfullscreen></iframe>
+                    </div>
+                    <div class="song-info">
+                        <span class="song-month">Level 3</span>
+                        <h3 class="song-title">Science Song</h3>
+                        <p class="song-artist">Kids Learning Tube</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Level 4 Songs -->
+        <div id="l4" class="songs-container">
+            <div class="songs-grid">
+                <div class="song-card">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/-MrK0_5VgdM" allowfullscreen></iframe>
+                    </div>
+                    <div class="song-info">
+                        <span class="song-month">Level 4</span>
+                        <h3 class="song-title">Future Tense</h3>
+                        <p class="song-artist">Maple Leaf Learning</p>
+                    </div>
+                </div>
+                <div class="song-card">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/s3wNuru4U0I" allowfullscreen></iframe>
+                    </div>
+                    <div class="song-info">
+                        <span class="song-month">Level 4</span>
+                        <h3 class="song-title">Conditionals</h3>
+                        <p class="song-artist">English with Lucy</p>
+                    </div>
+                </div>
+                <div class="song-card">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/fyEAX7Cd3OE" allowfullscreen></iframe>
+                    </div>
+                    <div class="song-info">
+                        <span class="song-month">Level 4</span>
+                        <h3 class="song-title">World Geography</h3>
+                        <p class="song-artist">Kids Learning Tube</p>
+                    </div>
+                </div>
+                <div class="song-card">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/Pr-Vfnd7Yno" allowfullscreen></iframe>
+                    </div>
+                    <div class="song-info">
+                        <span class="song-month">Level 4</span>
+                        <h3 class="song-title">History Song</h3>
+                        <p class="song-artist">Kids Learning Tube</p>
+                    </div>
+                </div>
+                <div class="song-card">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/bG9z-atG7gc" allowfullscreen></iframe>
+                    </div>
+                    <div class="song-info">
+                        <span class="song-month">Level 4</span>
+                        <h3 class="song-title">Debate Skills</h3>
+                        <p class="song-artist">TED-Ed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Copyright © 2020-2025 Enlighten Learning Center (珊蒂美語教室 S.E.E). All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.menu-toggle').addEventListener('click', () => {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+
+        // Close menu when clicking a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.querySelector('.nav-links').classList.remove('active');
+            });
+        });
+
+        // Level tabs functionality
+        function showLevel(levelId, tabElement) {
+            // Hide all containers
+            document.querySelectorAll('.songs-container').forEach(container => {
+                container.classList.remove('active');
+            });
+            
+            // Remove active class from all tabs
+            document.querySelectorAll('.level-tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            
+            // Show selected container
+            document.getElementById(levelId).classList.add('active');
+            
+            // Add active class to clicked tab
+            tabElement.classList.add('active');
+        }
+    </script>
+</body>
+</html>
