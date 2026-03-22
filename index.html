@@ -24,11 +24,21 @@
             font-family: 'Noto Sans TC', sans-serif;
             line-height: 1.6;
             color: var(--dark-text);
-            background-image: url('images/background.png') !important;
-            background-repeat: no-repeat !important;
-            background-position: center center !important;
-            background-attachment: fixed !important;
-            background-size: 70% !important;
+            background: #F7F4EE;
+        }
+        
+        .background-layer {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('images/background.png');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: 70%;
+            z-index: -1;
+            opacity: 0.3;
         }
         
         /* Navigation */
@@ -471,15 +481,16 @@
                 font-size: 1.8rem;
             }
             
-            /* iOS fix for background */
-            body {
-                background-attachment: scroll !important;
-                background-size: 100% !important;
+            /* Mobile background */
+            .background-layer {
+                background-size: 100%;
+                opacity: 0.2;
             }
         }
     </style>
 </head>
 <body>
+    <div class="background-layer"></div>
     <!-- Navigation -->
     <nav>
         <div class="nav-container">
