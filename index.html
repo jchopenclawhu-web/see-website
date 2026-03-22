@@ -28,7 +28,7 @@
             background-repeat: no-repeat !important;
             background-position: center center !important;
             background-attachment: fixed !important;
-            background-size: cover !important;
+            background-size: 70% !important;
         }
         
         /* Navigation */
@@ -90,12 +90,16 @@
         
         /* Hero Section */
         .hero {
-            background: transparent;
+            background: rgba(0, 0, 0, 0.4);
             color: var(--white);
             padding: 6rem 2rem;
             text-align: center;
             position: relative;
             overflow: hidden;
+        }
+        
+        .hero h1, .hero p {
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
         }
         
         .hero-content {
