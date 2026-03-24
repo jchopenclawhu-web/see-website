@@ -1,0 +1,16 @@
+# Ignore large original files that have been optimized
+images/background_original.png
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Ignore logs
+*.log
