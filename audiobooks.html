@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audiobooks - 珊蒂美語 | Sandy's Enlighten English</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Nunito', sans-serif; color: #333; line-height: 1.6; min-height: 100vh; position: relative; }
+        .background-layer { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: url('images/background.png') center/cover no-repeat; opacity: 0.15; z-index: -1; }
+        nav { background: rgba(133, 114, 81, 0.95); padding: 1rem 2rem; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .nav-container { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-family: 'Playfair Display', serif; font-size: 1.5rem; color: #F7F4EE; text-decoration: none; font-weight: 700; }
+        .nav-links { display: flex; list-style: none; gap: 2rem; }
+        .nav-links a { color: #F7F4EE; text-decoration: none; font-weight: 600; transition: color 0.3s; }
+        .nav-links a:hover { color: #CEA964; }
+        .hamburger { display: none; flex-direction: column; cursor: pointer; }
+        .hamburger span { width: 25px; height: 3px; background: #F7F4EE; margin: 3px 0; transition: 0.3s; }
+        .page-header { background: linear-gradient(135deg, #857251 0%, #CEA964 100%); color: #F7F4EE; padding: 4rem 2rem; text-align: center; }
+        .page-header h1 { font-family: 'Playfair Display', serif; font-size: 3rem; margin-bottom: 1rem; }
+        .page-header p { font-size: 1.2rem; max-width: 600px; margin: 0 auto; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 3rem 2rem; }
+        .level-tabs { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 2rem; border-bottom: 3px solid #857251; padding-bottom: 1rem; }
+        .level-tab { padding: 0.75rem 1.5rem; background: #F7F4EE; border: 2px solid #857251; border-radius: 25px; cursor: pointer; font-weight: 600; color: #857251; transition: all 0.3s; }
+        .level-tab:hover { background: #857251; color: #F7F4EE; }
+        .level-tab.active { background: #857251; color: #F7F4EE; }
+        .level-content { display: none; }
+        .level-content.active { display: block; }
+        .level-description { background: rgba(206, 169, 100, 0.2); padding: 1.5rem; border-radius: 10px; margin-bottom: 2rem; border-left: 4px solid #CEA964; }
+        .level-description h2 { font-family: 'Playfair Display', serif; color: #857251; margin-bottom: 0.5rem; }
+        .section { margin-bottom: 3rem; }
+        .section-title { font-family: 'Playfair Display', serif; font-size: 1.8rem; color: #857251; margin-bottom: 1.5rem; padding-bottom: 0.5rem; border-bottom: 2px solid #CEA964; }
+        .audiobook-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5rem; }
+        .audiobook-card { background: white; border-radius: 10px; padding: 1.5rem; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border: 1px solid rgba(133, 114, 81, 0.2); transition: transform 0.3s, box-shadow 0.3s; }
+        .audiobook-card:hover { transform: translateY(-5px); box-shadow: 0 8px 15px rgba(0,0,0,0.15); }
+        .audiobook-card h3 { font-family: 'Playfair Display', serif; color: #857251; margin-bottom: 0.5rem; font-size: 1.2rem; }
+        .audiobook-card .chapter { color: #666; font-size: 0.9rem; margin-bottom: 1rem; }
+        .drive-link { display: inline-flex; align-items: center; gap: 0.5rem; background: #4285F4; color: white; padding: 0.75rem 1.5rem; border-radius: 25px; text-decoration: none; font-weight: 600; transition: background 0.3s; }
+        .drive-link:hover { background: #3367D6; }
+        .youtube-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 10px; margin-top: 1rem; }
+        .youtube-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; }
+        footer { background: #857251; color: #F7F4EE; text-align: center; padding: 2rem; margin-top: 4rem; }
+        @media (max-width: 768px) { .nav-links { display: none; position: absolute; top: 100%; left: 0; width: 100%; background: rgba(133, 114, 81, 0.98); flex-direction: column; padding: 1rem; gap: 1rem; } .nav-links.active { display: flex; } .hamburger { display: flex; } .page-header h1 { font-size: 2rem; } .level-tabs { justify-content: center; } .audiobook-grid { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+    <div class="background-layer"></div>
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo">珊蒂美語</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#classes">Classes</a></li>
+                <li><a href="songs.html">Monthly Songs</a></li>
+                <li><a href="vocabulary.html">Vocabulary</a></li>
+                <li><a href="audiobooks.html">Audiobooks</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" onclick="toggleNav()"><span></span><span></span><span></span></div>
+        </div>
+    </nav>
+    <header class="page-header">
+        <h1>Audiobooks</h1>
+        <p>Listen and learn with our collection of audiobooks, from phonics practice to classic chapter books</p>
+    </header>
+    <main class="container">
+        <div class="level-tabs">
+            <button class="level-tab active" onclick="showLevel('prek')">Pre-K</button>
+            <button class="level-tab" onclick="showLevel('basic')">Basic</button>
+            <button class="level-tab" onclick="showLevel('level1')">Level 1</button>
+            <button class="level-tab" onclick="showLevel('level2')">Level 2</button>
+            <button class="level-tab" onclick="showLevel('level3')">Level 3</button>
+            <button class="level-tab" onclick="showLevel('level4')">Level 4</button>
+        </div>
+
+        <!-- Pre-K -->
+        <div id="prek" class="level-content active">
+            <div class="level-description"><h2>Pre-K Audiobooks</h2><p>Phonics practice and mini books for our youngest learners.</p></div>
+            <div class="section"><h3 class="section-title">Phonics Files</h3><div class="audiobook-grid">
+                <div class="audiobook-card"><h3>A B C</h3><p class="chapter">Alphabet Practice</p><a href="https://drive.google.com/file/d/103w-JiUTuXzNbn0Xt8v5HNbkcl-tNbnj/view" target="_blank" class="drive-link">▶ Listen</a></div>
+                <div class="audiobook-card"><h3>1 2 3 ... 100</h3><p class="chapter">Number Practice</p><a href="https://drive.google.com/file/d/16aSPqBJSkaeXHIqkWm5YlBe6vkmFDQ7r/view" target="_blank" class="drive-link">▶ Listen</a></div>
+            </div></div>
+            <div class="section"><h3 class="section-title">Mini Books</h3><div class="audiobook-grid">
+                <div class="audiobook-card"><h3>Mini Book B</h3><a href="https://drive.google.com/file/d/1dtUlU2vMqh0uejdGmfFF-LXE9VcA6cbk/view" target="_blank" class="drive-link">▶ Listen</a></div>
+                <div class="audiobook-card"><h3>Mini Book C</h3><a href="https://drive.google.com/file/d/1bz89hejeMptg89yb6GHH5cub3bPl7yC7/view" target="_blank" class="drive-link">▶ Listen</a></div>
+                <div class="audiobook-card"><h3>Mini Book D</h3><a href="https://drive.google.com/file/d/1bvtOQXfL8HOz8zDxa6L0OEUUiWkbJVPY/view" target="_blank" class="drive-link">▶ Listen</a></div>
+                <div class="audiobook-card"><h3>Mini Book F</h3><a href="https://drive.google.com/file/d/1ds31-H8XyuZcjVHU-PTut2_YtjANJUWx/view" target="_blank" class="drive-link">▶ Listen</a></div>
+                <div class="audiobook-card"><h3>Mini Book G</h3><a href="https://drive.google.com/file/d/1bn7rcLO8FUndvkrWBHUuIErJvg58glpF/view" target="_blank" class="drive-link">▶ Listen</a></div>
+                <div class="audiobook-card"><h3>Mini Book H</h3><a href="https://drive.google.com/file/d/1e7pxNk7H39Rp8QBslyC2aJCHFF4DX8Ga/view" target="_blank" class="drive-link">▶ Listen</a></div>
+                <div class="audiobook-card"><h3>Mini Book J</h3><a href="https://drive.google.com/file/d/1N--CIUKpAoYoZXWH29jQwXsZi44urf5h/view" target="_blank" class="drive-link">▶ Listen</a></div>
+                <div class="audiobook-card"><h3>Mini Book K</h3><a href="https://drive.google.com/file/d/1N7NdFyCmN5ENUbdM69VvgJhAHAM-QQ1V/view" target="_blank" class="drive-link">▶ Listen</a></div>
+                <div class="audiobook-card"><h3>Mini Book L</h3><a href="https://drive.google.com/file/d/1NA9q-rHRWxzhsuwK4hyT0tuX4qcNo0BJ/view" target="_blank" class="drive-link">▶ Listen</a></div>
+                <div class="audiobook-card"><h3>Mini Book M</h3><a href="https://drive.google.com/file/d/1MzfGkjFONfYkrcxE5MvHapeo-Vs3SRox/view" target="_blank" class="drive-link">▶ Listen</a></div>
+                <div class="audiobook-card"><h3>Mini Book N</h3><a href="https://drive.google.com/file/d/1PQdRJycwY8NWvWIZ9DBDjhI0_GngAn1g/view" target="_blank" class="drive-link">▶ Listen</a></div>
+                <div class="audiobook-card"><h3>Mini Book P</h3><a href="https://drive.google.com/file/d/1PR9n-KrgNBzGIQTbgQETZ5Y81kavUDVQ/view" target="_blank" class="drive-link">▶ Listen</a></div>
+                <div class="audiobook-card"><h3>The Big Pig</h3><a href="https://drive.google.com/file/d/1N-h8Hf-Bi0mltCyRlgCCAOrgFN-Gc3Bs/view" target="_blank" class="drive-link">▶ Listen</a></div>
+            </div></div>
+        </div>
+
+        <!-- Basic -->
+        <div id="basic" class="level-content">
+            <div class="level-description"><h2>Basic Level Audiobooks</h2><p>Classroom reading, minibooks, Dr. Seuss, and children's books.</p></div>
+            <div class="section"><h3 class="section-title">Classroom Reading</h3><div class="audiobook-grid">
+                <div class="audiobook-card"><h3>A Job for Bob</h3><a href="https://drive.google.com/file/d/1T-Llun0MpcGUxswOEZ4C889Z5G_uxX19/view" target="_blank" class="drive-link">▶ Listen</a></div>
+                <div class="audiobook-card"><h3>Drop the Mop</h3><a href="https://drive.google.com/file/d/1F23Y6GTzAY_y7bpnCsaO-YgbC8nIh-it/view" target="_blank" class="drive-link">▶ Listen</a></div>
+                <div class="audiobook-card"><h3>Fun in the Sun</h3><a href="https://drive.google.com/file/d/15KP9MieqyANEYzBS6vyrKKuOuqFW06ym/view" target="_blank" class="drive-link">▶ Listen</a></div>
+                <div class="audiobook-card"><h3>Kick the Brick</h3><a href="https://drive.google.com/file/d/1ruxLDuJFycVD02eYdmo_CILft7RvaV_v/view" target="_blank" class="drive-link">▶ Listen</a></div>
+                <div class="audiobook-card"><h3>My First Hat</h3><a href="https://drive.google.com/file/d/1q2UYSOT1Li8TjNNXL395FNFjD_pgY7iT/view" target="_blank" class="drive-link">▶ Listen</a></div>
+                <div class="audiobook-card"><h3>My Sled is Red</h3><a href="https://drive.google.com/file/d/1_LIPN0mmJUAViUbJMK4Ix9NqxkgpjUb_/view" target="_blank" class="drive-link">▶ Listen</a></div>
+                <div class="audiobook-card"><h3>Shut the Hut</h3><a href="https://drive.google.com/file/d/15wmEgDnYJX5RjYYKBYXyzPbJTBkiu4Ev/view" target="_blank" class="drive-link">▶ Listen</a></div>
+                <div class="audiobook-card"><h3>Snack in the Sack</h3><a href="https://drive.google.com/file/d/1OoOEg9nNZ7Aa7W6QhuYvIjpalwbt8KY_/view" target="_blank" class="drive-link">▶ Listen</a></div>
+                <div class="audiobook-card"><h3>Ten Hen in the Pen</h3><a href="https://drive.google.com/file/d/1B0HrhRmcYdnYj4vIv0GzQHAaRJK3RU0e/view" target="_blank" class="drive-link">▶ Listen</a></div>
+                <div class="audiobook-card"><h3>The Bug on the Rug</h3><a href="https://drive.google.com/file/d/1a54N18vMjemcDIQ4ld4OyE5a1iMCJt_q/view" target="_blank" class="drive-link">▶ Listen</a></div>
+                <div class="audiobook-card"><h3>The Cat on the Mat</h3><a href="https://drive.google.com/file/d/1qIBnCFPPazDAbEldghoZpDFrsXW-J08C/view" target="_blank" class="drive-link">▶ Listen</a></div>
+                <div class="audiobook-card"><h3>The Duck is Stuck</h3><a href="https://drive.google.com/file/d/1MqtFAYRtKMuqTOMIvtA9mmqBf6krQgJR/view" target="_blank" class="drive-link">▶ Listen</a></div>
+                <div class="audiobook-card"><h3>The Kid Will Win a Ship</h3><a href="https://drive.google.com/file/d/1N2fU7LEOioxA_Y5njB-TZA41yVKve9p4/view" target="_blank" class="drive-link">▶ Listen</a></div>
+                <div class="audiobook-card"><h3>The Man Has a Can</h3><a href="https://drive.google.com/file/d/1thx4t1qyBqToXw1oJ_gcDRSUiVKY3AZY/view" target="_blank" class="drive-link">▶ Listen</a></div>
+                <div class="audiobook-card"><h3>The Pot is Hot</h3><a href="https://drive.google.com/file/d/1tKXwjHretNEbiD84weu1pYYuPfzf3K1n/view" target="_blank" class="drive-link">▶ Listen</a></div>
+                <div class="audiobook-card"><h3>The Rock in My Sock</h3><a href="https://drive.google.com/file/d/1ArLYA6wONrDSCOERqtWj4AjEbEE1LeaL/view" target="_blank" class="drive-link">▶ Listen</a></div>
+                <div class="audiobook-card"><h3>Tap on the Map</h3><a href="https://drive.google.com/file/d/1qLnc0seL6VDFVHcGCZG2MF981cWIPHle/view" target="_blank" class="drive-link">▶ Listen</a></div>
+                <div class="audiobook-card"><h3>What We Like</h3><a href="https://drive.google.com/file/d/1NV84oRRJJUKAPzYlNqTCp6FVnKbePkxY/view" target="_blank" class="drive-link">▶ Listen</a></div>
+                <div class="audiobook-card"><h3>Who Fell into the Well</h3><a href="https://drive.google.com/file/d/1WrihRvSxnkD8j119NZw8ouGMMG9kJtUq/view" target="_blank" class="drive-link">▶ Listen</a></div>
+                <div class="audiobook-card"><h3>The Pet Gets Wet</h3><a href="https://drive.google.com/file/d/1kaWhWXN16LqJurLJMCL7oBS8uIlbfTQh/view" target="_blank" class="drive-link">▶ Listen</a></div>
+            </div></div>
+        </div>
+
+        <!-- Level 1 -->
+        <div id="level1" class="level-content">
+            <div class="level-description"><h2>Level 1 Audiobooks</h2><p>HOP Books series for emerging readers.</p></div>
+            <div class="section"><h3 class="section-title">HOP Books</h3><div class="audiobook-grid">
+                <div class="audiobook-card"><h3>Slam and Dunk and the Big Game</h3><a href="https://drive.google.com/file/d/15S_3jl23NWMKFjYturW9-oGSQnvIfrTi/view" target="_blank" class="drive-link">▶ Listen</a></div>
+                <div class="audiobook-card"><h3>Slam and Dunk Go To the Moon</h3><a href="https://drive.google.com/file/d/14Pmq2dF8BA5ipxIOI5rep1Yixl8E8Ics/view" target="_blank" class="drive-link">▶ Listen</a></div>
+                <div class="audiobook-card"><h3>Slam and Dunk In the Dark</h3><a href="https://drive.google.com/file/d/14IeFfCKzLLNL_yqOwlD4j11jlN4G-ap7/view" target="_blank" class="drive-link">▶ Listen</a></div>
+                <div class="audiobook-card"><h3>Skip & Spin Swim with Dolphins</h3><a href="https://drive.google.com/file/d/15UW1KhVYxTFEGhgnFiWC-aOgPX7QOJ-E/view" target="_blank" class="drive-link">▶ Listen</a></div>
+                <div class="audiobook-card"><h3>The Race</h3><a href="https://drive.google.com/file/d/14Vf-W6FU5xnvGdj-KPxlcsuahKAltg2K/view" target="_blank" class="drive-link">▶ Listen</a></div>
+                <div class="audiobook-card"><h3>Mad Dog</h3><a href="https://drive.google.com/file/d/14PlQ-QIw2CXxZjKUYocQJX63E0xwWn94/view" target="_blank" class="drive-link">▶ Listen</a></div>
+                <div class="audiobook-card"><h3>Wacky Jack</h3><a href="https://drive.google.com/file/d/14uei0IaPwNz6UlX7c8FI6KHhjMMOpASA/view" target="_blank" class="drive-link">▶ Listen</a></div>
+                <div class="audiobook-card"><h3>Camper Kim</h3><a href="https://drive.google.com/file/d/1NcjmfzETBKa5L2QjeSOdFLgTqJN18aIB/view" target="_blank" class="drive-link">▶ Listen</a></div>
+                <div class="audiobook-card"><h3>The Best Grandma Ever</h3><a href="https://drive.google.com/file/d/1NibijdpLic6K-qAhyR-ofXzxnYYO9agd/view" target="_blank" class="drive-link">▶ Listen</a></div>
+                <div class="audiobook-card"><h3>The Very Hungry Bear</h3><a href="https://drive.google.com/file/d/1NUk8sJ_OuNr5ZOl4rdbhQ1ml7JAPu1xD/view" target="_blank" class="drive-link">▶ Listen</a></div>
+                <div class="audiobook-card"><h3>Cat Tricks</h3><a href="https://drive.google.com/file/d/1NZlqwEQiBGpwOBBHbEUANZQ2-GCdDD0m/view" target="_blank" class="drive-link">▶ Listen</a></div>
+                <div class="audiobook-card"><h3>Night is Right for Me</h3><a href="https://drive.google.com/file/d/1Ndmp2ZMKJD9maWoH0PTMT-D5lZd6BFIO/view" target="_blank" class="drive-link">▶ Listen</a></div>
+                <div class="audiobook-card"><h3>The Cereal Box</h3><a href="https://drive.google.com/file/d/1NbWUREid_0Y9cVj5UFuv5MO-KxFDYWav/view" target="_blank" class="drive-link">▶ Listen</a></div>
+                <div class="audiobook-card"><h3>A Rose A Bridge And A Wild Black Horse</h3><a href="https://drive.google.com/file/d/1Q_wt_s4ofLfwx8nCXNm3hg9PqBDDJxRF/view" target="_blank" class="drive-link">▶ Listen</a></div>
+                <div class="audiobook-card"><h3>It's Not Easy Being a Bunny</h3><a href="https://drive.google.com/file/d/1NUwM64nj0bv4wPzhjJtvZ6EW-gst1-p2/view" target="_blank" class="drive-link">▶ Listen</a></div>
+                <div class="audiobook-card"><h3>Pete the Cat Too Cool for School</h3><a href="https://drive.google.com/file/d/1bUZsTEzR7zoxKJ8zkfqPevfZB-OLSGCB/view" target="_blank" class="drive-link">▶ Listen</a></div>
+            </div></div>
+        </div>
+
+        <!-- Level 2 -->
+        <div id="level2" class="level-content">
+            <div class="level-description"><h2>Level 2 Audiobooks</h2><p>Stone Fox - A classic chapter book for developing readers.</p></div>
+            <div class="section"><h3 class="section-title">Stone Fox</h3><div class="audiobook-grid">
+                <div class="audiobook-card"><h3>Chapter 1</h3><div class="youtube-container"><iframe src="https://www.youtube.com/embed/_wQuSaHh2LU" allowfullscreen></iframe></div></div>
+                <div class="audiobook-card"><h3>Chapter 2</h3><div class="youtube-container"><iframe src="https://www.youtube.com/embed/7mzLmAMTOWs" allowfullscreen></iframe></div></div>
+                <div class="audiobook-card"><h3>Chapter 3</h3><div class="youtube-container"><iframe src="https://www.youtube.com/embed/tQuE3kW00pA" allowfullscreen></iframe></div></div>
+                <div class="audiobook-card"><h3>Chapter 4</h3><div class="youtube-container"><iframe src="https://www.youtube.com/embed/QPQmt74EqzA" allowfullscreen></iframe></div></div>
+                <div class="audiobook-card"><h3>Chapter 5</h3><div class="youtube-container"><iframe src="https://www.youtube.com/embed/QPQmt74EqzA" allowfullscreen></iframe></div></div>
+                <div class="audiobook-card"><h3>Chapter 6</h3><div class="youtube-container"><iframe src="https://www.youtube.com/embed/bLSKnefw79o" allowfullscreen></iframe></div></div>
+                <div class="audiobook-card"><h3>Chapter 7</h3><div class="youtube-container"><iframe src="https://www.youtube.com/embed/m0fCYQ4LwRA" allowfullscreen></iframe></div></div>
+                <div class="audiobook-card"><h3>Chapter 8</h3><div class="youtube-container"><iframe src="https://www.youtube.com/embed/ud5kCle7vsI" allowfullscreen></iframe></div></div>
+                <div class="audiobook-card"><h3>Chapter 9</h3><div class="youtube-container"><iframe src="https://www.youtube.com/embed/zhFhrj7y1-g" allowfullscreen></iframe></div></div>
+                <div class="audiobook-card"><h3>Chapter 10</h3><div class="youtube-container"><iframe src="https://www.youtube.com/embed/6L4k9-NZuQY" allowfullscreen></iframe></div></div>
+            </div></div>
+        </div>
+
+        <!-- Level 3 -->
+        <div id="level3" class="level-content">
+            <div class="level-description"><h2>Level 3 Audiobooks</h2><p>Frindle by Andrew Clements - A beloved novel about creativity and words.</p></div>
+            <div class="section"><h3 class="section-title">Frindle</h3><div class="audiobook-grid">
+                <div class="audiobook-card"><h3>Chapters 1 & 2</h3><div class="youtube-container"><iframe src="https://www.youtube.com/embed/GWPYRiS6uqI" allowfullscreen></iframe></div></div>
+                <div class="audiobook-card"><h3>Chapters 3 & 4</h3><div class="youtube-container"><iframe src="https://www.youtube.com/embed/QWIsmK_lwqs" allowfullscreen></iframe></div></div>
+                <div class="audiobook-card"><h3>Chapter 5</h3><div class="youtube-container"><iframe src="https://www.youtube.com/embed/qMUKPqMa8-A" allowfullscreen></iframe></div></div>
+                <div class="audiobook-card"><h3>Chapter 6</h3><div class="youtube-container"><iframe src="https://www.youtube.com/embed/FWGl_IE-MOg" allowfullscreen></iframe></div></div>
+                <div class="audiobook-card"><h3>Chapters 7 & 8</h3><div class="youtube-container"><iframe src="https://www.youtube.com/embed/bDCUIZkAh2Q" allowfullscreen></iframe></div></div>
+                <div class="audiobook-card"><h3>Chapter 9</h3><div class="youtube-container"><iframe src="https://www.youtube.com/embed/meBPVCL-p6Y" allowfullscreen></iframe></div></div>
+                <div class="audiobook-card"><h3>Chapter 10</h3><div class="youtube-container"><iframe src="https://www.youtube.com/embed/meBPVCL-p6Y" allowfullscreen></iframe></div></div>
+                <div class="audiobook-card"><h3>Chapter 11</h3><div class="youtube-container"><iframe src="https://www.youtube.com/embed/v69NUS_yyqQ" allowfullscreen></iframe></div></div>
+                <div class="audiobook-card"><h3>Chapter 12</h3><div class="youtube-container"><iframe src="https://www.youtube.com/embed/uCHUROAmAgM" allowfullscreen></iframe></div></div>
+                <div class="audiobook-card"><h3>Chapters 13 & 14</h3><div class="youtube-container"><iframe src="https://www.youtube.com/embed/dGmC5SBIsMY" allowfullscreen></iframe></div></div>
+                <div class="audiobook-card"><h3>Chapter 15</h3><div class="youtube-container"><iframe src="https://www.youtube.com/embed/TPqxl15Az28" allowfullscreen></iframe></div></div>
+            </div></div>
+        </div>
+
+        <!-- Level 4 -->
+        <div id="level4" class="level-content">
+            <div class="level-description"><h2>Level 4 Audiobooks</h2><p>Harry Potter and the Philosopher's Stone - The magical beginning of the Harry Potter series.</p></div>
+            <div class="section"><h3 class="section-title">Harry Potter and the Philosopher's Stone</h3><div class="audiobook-grid">
+                <div class="audiobook-card"><h3>Chapter 1</h3><a href="https://drive.google.com/file/d/1tZshSsECg1tR29r6p9JhTDBPebIJaezO/view" target="_blank" class="drive-link">▶ Listen</a></div>
+                <div class="audiobook-card"><h3>Chapter 2</h3><a href="https://drive.google.com/file/d/1tjKATx3h607ji1TTB9oDYf_gch9Ld1yf/view" target="_blank" class="drive-link">▶ Listen</a></div>
+                <div class="audiobook-card"><h3>Chapter 3</h3><a href="https://drive.google.com/file/d/1tWStI_ioVguV0XhHthLf8pMuOv_S-1B6/view" target="_blank" class="drive-link">▶ Listen</a></div>
+                <div class="audiobook-card"><h3>Chapter 4</h3><a href="https://drive.google.com/file/d/1tOIVO5VgvTrAgwyf-z3hFlRbcAc10XX2/view" target="_blank" class="drive-link">▶ Listen</a></div>
+                <div class="audiobook-card"><h3>Chapter 5</h3><a href="https://drive.google.com/file/d/1thF_DU28icB1sULRlFdzF3vrwZfoE5oO/view" target="_blank" class="drive-link">▶ Listen</a></div>
+                <div class="audiobook-card"><h3>Chapter 6</h3><a href="https://drive.google.com/file/d/1
