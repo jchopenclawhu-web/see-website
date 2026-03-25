@@ -35,17 +35,18 @@
         .vocab-card { background: white; border-radius: 10px; padding: 1.5rem; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border: 1px solid rgba(133, 114, 81, 0.2); }
         .vocab-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem; }
         .vocab-word { font-family: 'Playfair Display', serif; font-size: 1.5rem; color: #857251; }
-        .vocab-chinese { color: #666; font-size: 1.1rem; margin-bottom: 0.5rem; }
+        .vocab-chinese { color: #666; font-size: 1.2rem; margin-bottom: 0.5rem; }
         .vocab-example { color: #888; font-size: 0.9rem; font-style: italic; }
-        .pronounce-btn { background: #CEA964; color: white; border: none; width: 40px; height: 40px; border-radius: 50%; cursor: pointer; font-size: 1.2rem; display: flex; align-items: center; justify-content: center; transition: background 0.3s; }
+        .pronounce-btn { background: #CEA964; color: white; border: none; width: 44px; height: 44px; border-radius: 50%; cursor: pointer; font-size: 1.2rem; display: flex; align-items: center; justify-content: center; transition: background 0.3s; }
         .pronounce-btn:hover { background: #857251; }
+        .loading { text-align: center; padding: 2rem; color: #857251; font-size: 1.2rem; }
         .flashcard-section { margin-top: 4rem; padding-top: 3rem; border-top: 3px solid #CEA964; }
         .flashcard-section h2 { font-family: 'Playfair Display', serif; color: #857251; margin-bottom: 1.5rem; text-align: center; }
         .flashcard-container { display: flex; flex-direction: column; align-items: center; gap: 1.5rem; }
         .flashcard { width: 340px; min-height: 220px; background: white; border-radius: 15px; box-shadow: 0 8px 15px rgba(0,0,0,0.15); display: flex; flex-direction: column; align-items: center; justify-content: center; cursor: pointer; transition: transform 0.3s; padding: 2rem; text-align: center; }
         .flashcard:hover { transform: translateY(-5px); }
         .flashcard-word { font-family: 'Playfair Display', serif; font-size: 2.2rem; color: #857251; margin-bottom: 0.5rem; }
-        .flashcard-chinese { font-size: 1.5rem; color: #666; }
+        .flashcard-chinese { font-size: 1.6rem; color: #666; }
         .flashcard-controls { display: flex; gap: 1rem; }
         .flashcard-btn { padding: 0.75rem 1.5rem; background: #857251; color: #F7F4EE; border: none; border-radius: 25px; cursor: pointer; font-weight: 600; transition: background 0.3s; }
         .flashcard-btn:hover { background: #CEA964; }
@@ -79,6 +80,8 @@
             <button class="level-tab active" onclick="showLevel('basic')">Basic</button>
             <button class="level-tab" onclick="showLevel('level1')">Level 1</button>
             <button class="level-tab" onclick="showLevel('level2')">Level 2</button>
+            <button class="level-tab" onclick="showLevel('level3')">Level 3</button>
+            <button class="level-tab" onclick="showLevel('level4')">Level 4</button>
         </div>
 
         <!-- Basic Level -->
@@ -89,7 +92,7 @@
                     <select id="basicWeek" onchange="loadVocab('basic')"></select>
                 </div>
             </div>
-            <div id="basicVocab" class="vocab-grid"></div>
+            <div id="basicVocab" class="vocab-grid"><div class="loading">Loading...</div></div>
             <div class="flashcard-section">
                 <h2>Flashcard Practice</h2>
                 <div class="flashcard-container">
@@ -113,7 +116,7 @@
                     <select id="level1Week" onchange="loadVocab('level1')"></select>
                 </div>
             </div>
-            <div id="level1Vocab" class="vocab-grid"></div>
+            <div id="level1Vocab" class="vocab-grid"><div class="loading">Loading...</div></div>
             <div class="flashcard-section">
                 <h2>Flashcard Practice</h2>
                 <div class="flashcard-container">
@@ -137,7 +140,7 @@
                     <select id="level2Week" onchange="loadVocab('level2')"></select>
                 </div>
             </div>
-            <div id="level2Vocab" class="vocab-grid"></div>
+            <div id="level2Vocab" class="vocab-grid"><div class="loading">Loading...</div></div>
             <div class="flashcard-section">
                 <h2>Flashcard Practice</h2>
                 <div class="flashcard-container">
@@ -152,78 +155,87 @@
                 </div>
             </div>
         </div>
+
+        <!-- Level 3 -->
+        <div id="level3" class="level-content">
+            <div id="level3Vocab" class="vocab-grid"><div class="loading">Loading...</div></div>
+            <div class="flashcard-section">
+                <h2>Flashcard Practice</h2>
+                <div class="flashcard-container">
+                    <div class="flashcard" id="level3Flashcard" onclick="flipCard('level3')">
+                        <div class="flashcard-word">Click to Start</div>
+                        <div class="flashcard-chinese"></div>
+                    </div>
+                    <div class="flashcard-controls">
+                        <button class="flashcard-btn" onclick="prevCard('level3')">← Previous</button>
+                        <button class="flashcard-btn" onclick="nextCard('level3')">Next →</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Level 4 -->
+        <div id="level4" class="level-content">
+            <div id="level4Vocab" class="vocab-grid"><div class="loading">Loading...</div></div>
+            <div class="flashcard-section">
+                <h2>Flashcard Practice</h2>
+                <div class="flashcard-container">
+                    <div class="flashcard" id="level4Flashcard" onclick="flipCard('level4')">
+                        <div class="flashcard-word">Click to Start</div>
+                        <div class="flashcard-chinese"></div>
+                    </div>
+                    <div class="flashcard-controls">
+                        <button class="flashcard-btn" onclick="prevCard('level4')">← Previous</button>
+                        <button class="flashcard-btn" onclick="nextCard('level4')">Next →</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
         <p>&copy; 2025 珊蒂美語 | Sandy's Enlighten English. All rights reserved.</p>
     </footer>
 
     <script>
-        // Vocabulary data with Chinese definitions (from Google Sheets App_Data)
-        const vocabData = {
-            basic: [
-                {date: '250905', word: 'mat', chinese: '墊子', example: 'I see a mat.'},
-                {date: '250905', word: 'cat', chinese: '貓', example: 'The cat eats fish.'},
-                {date: '250905', word: 'rat', chinese: '鼠', example: 'The rat runs.'},
-                {date: '250905', word: 'had', chinese: '有', example: 'The boy had a ball.'},
-                {date: '250905', word: 'hat', chinese: '帽子', example: 'She wears a hat.'},
-                {date: '250905', word: 'and', chinese: '和', example: 'I like cats and dogs.'},
-                {date: '250905', word: 'the', chinese: '這', example: 'The cat eats fish.'},
-                {date: '250905', word: 'it', chinese: '它', example: 'It is big.'},
-                {date: '250905', word: 'on', chinese: '在...上', example: 'The cat sits on the chair.'},
-                {date: '250905', word: 'with', chinese: '和', example: 'I play with my friend.'},
-                {date: '250912', word: 'man', chinese: '男人', example: 'The man drives a car.'},
-                {date: '250912', word: 'can', chinese: '能', example: 'I can see.'},
-                {date: '250912', word: 'ran', chinese: '跑了', example: 'The dog ran home.'},
-                {date: '250912', word: 'pan', chinese: '平底鍋', example: 'I see the pan.'},
-                {date: '250912', word: 'van', chinese: '貨車', example: 'The van carries toys.'},
-                {date: '250912', word: 'is', chinese: '是', example: 'The sky is blue.'},
-                {date: '250912', word: 'in', chinese: '在', example: 'The cat is in the house.'},
-                {date: '250912', word: 'to', chinese: '到', example: 'I go to school.'},
-                {date: '250912', word: 'where', chinese: '在哪裡', example: 'Where is my dog?'},
-                {date: '250912', word: 'what', chinese: '什麼', example: 'What is this?'}
-            ],
-            level1: [
-                {date: '250905', word: 'share', chinese: '分享', example: 'I will share my toys.'},
-                {date: '250905', word: 'tasty', chinese: '好吃的', example: 'The cake is tasty.'},
-                {date: '250905', word: 'pair', chinese: '一雙', example: 'I have a pair of shoes.'},
-                {date: '250905', word: 'mean', chinese: '意思是', example: 'What does this word mean?'},
-                {date: '250905', word: 'just', chinese: '只是', example: 'I just want to help.'},
-                {date: '250905', word: 'brave', chinese: '勇敢的', example: 'The brave boy helped his friend.'},
-                {date: '250905', word: 'frozen', chinese: '冷凍的', example: 'The lake is frozen.'},
-                {date: '250905', word: 'breathe', chinese: '呼吸', example: 'Breathe in and out.'},
-                {date: '250905', word: 'mind', chinese: '介意', example: 'Do you mind if I sit here?'},
-                {date: '250905', word: 'notice', chinese: '注意到', example: 'Did you notice the bird?'}
-            ],
-            level2: [
-                {date: 'Week 1', word: 'adventure', chinese: '冒險', example: 'We went on an adventure.'},
-                {date: 'Week 1', word: 'believe', chinese: '相信', example: 'I believe in you.'},
-                {date: 'Week 1', word: 'comfortable', chinese: '舒服的', example: 'This chair is comfortable.'},
-                {date: 'Week 1', word: 'dangerous', chinese: '危險的', example: 'The fire is dangerous.'},
-                {date: 'Week 1', word: 'enormous', chinese: '巨大的', example: 'The elephant is enormous.'},
-                {date: 'Week 2', word: 'famous', chinese: '有名的', example: 'He is a famous singer.'},
-                {date: 'Week 2', word: 'generous', chinese: '慷慨的', example: 'She is generous with her time.'},
-                {date: 'Week 2', word: 'horrible', chinese: '可怕的', example: 'The storm was horrible.'},
-                {date: 'Week 2', word: 'important', chinese: '重要的', example: 'This is very important.'},
-                {date: 'Week 2', word: 'journey', chinese: '旅程', example: 'The journey took two hours.'}
-            ]
-        };
-
+        // Load vocabulary data from JSON file
+        let vocabData = {};
         let currentState = {
             basic: { week: '', index: 0, flipped: false },
             level1: { week: '', index: 0, flipped: false },
-            level2: { week: '', index: 0, flipped: false }
+            level2: { week: '', index: 0, flipped: false },
+            level3: { index: 0, flipped: false },
+            level4: { index: 0, flipped: false }
         };
 
+        async function loadData() {
+            try {
+                const response = await fetch('data/vocabulary.json');
+                vocabData = await response.json();
+                init();
+            } catch (error) {
+                console.error('Error loading vocabulary:', error);
+                document.querySelectorAll('.vocab-grid').forEach(el => {
+                    el.innerHTML = '<div class="loading">Error loading data. Please refresh.</div>';
+                });
+            }
+        }
+
         function init() {
+            // Initialize Basic, Level 1, Level 2 with week selectors
             ['basic', 'level1', 'level2'].forEach(level => {
                 populateWeekSelect(level);
                 loadVocab(level);
+            });
+            
+            // Initialize Level 3, Level 4 (all words, no week filter)
+            ['level3', 'level4'].forEach(level => {
+                loadAdvancedVocab(level);
             });
         }
 
         function populateWeekSelect(level) {
             const select = document.getElementById(level + 'Week');
-            const words = vocabData[level];
+            const words = vocabData[level] || [];
             const weeks = [...new Set(words.map(w => w.date))];
             
             select.innerHTML = '';
@@ -234,15 +246,20 @@
                 select.appendChild(option);
             });
             
-            currentState[level].week = weeks[0];
+            if (weeks.length > 0) {
+                currentState[level].week = weeks[0];
+            }
         }
 
         function formatWeek(week) {
             if (week.startsWith('Week')) return week;
-            const year = '20' + week.substring(0, 2);
-            const month = week.substring(2, 4);
-            const day = week.substring(4, 6);
-            return `${year}-${month}-${day}`;
+            if (week.length === 6) {
+                const year = '20' + week.substring(0, 2);
+                const month = week.substring(2, 4);
+                const day = week.substring(4, 6);
+                return `${year}-${month}-${day}`;
+            }
+            return week;
         }
 
         function showLevel(level) {
@@ -255,7 +272,7 @@
         function loadVocab(level) {
             const week = document.getElementById(level + 'Week').value;
             currentState[level].week = week;
-            const words = vocabData[level].filter(w => w.date === week);
+            const words = (vocabData[level] || []).filter(w => w.date === week);
             
             const container = document.getElementById(level + 'Vocab');
             container.innerHTML = '';
@@ -268,8 +285,8 @@
                         <span class="vocab-word">${item.word}</span>
                         <button class="pronounce-btn" onclick="event.stopPropagation(); pronounce('${item.word}')">🔊</button>
                     </div>
-                    <div class="vocab-chinese">${item.chinese}</div>
-                    <div class="vocab-example">${item.example}</div>
+                    <div class="vocab-chinese">${item.chinese || ''}</div>
+                    ${item.example ? `<div class="vocab-example">${item.example}</div>` : ''}
                 `;
                 container.appendChild(card);
             });
@@ -277,6 +294,30 @@
             currentState[level].index = 0;
             currentState[level].flipped = false;
             updateFlashcard(level);
+        }
+
+        function loadAdvancedVocab(level) {
+            const words = vocabData[level] || [];
+            const container = document.getElementById(level + 'Vocab');
+            container.innerHTML = '';
+            
+            words.forEach(item => {
+                const card = document.createElement('div');
+                card.className = 'vocab-card';
+                card.innerHTML = `
+                    <div class="vocab-header">
+                        <span class="vocab-word">${item.word}</span>
+                        <button class="pronounce-btn" onclick="event.stopPropagation(); pronounce('${item.word}')">🔊</button>
+                    </div>
+                    <div class="vocab-chinese">${item.chinese || ''}</div>
+                    ${item.example ? `<div class="vocab-example">${item.example}</div>` : ''}
+                `;
+                container.appendChild(card);
+            });
+            
+            currentState[level].index = 0;
+            currentState[level].flipped = false;
+            updateAdvancedFlashcard(level);
         }
 
         function pronounce(word) {
@@ -288,12 +329,16 @@
 
         function flipCard(level) {
             currentState[level].flipped = !currentState[level].flipped;
-            updateFlashcard(level);
+            if (['level3', 'level4'].includes(level)) {
+                updateAdvancedFlashcard(level);
+            } else {
+                updateFlashcard(level);
+            }
         }
 
         function updateFlashcard(level) {
             const card = document.getElementById(level + 'Flashcard');
-            const words = vocabData[level].filter(w => w.date === currentState[level].week);
+            const words = (vocabData[level] || []).filter(w => w.date === currentState[level].week);
             
             if (words.length === 0) {
                 card.querySelector('.flashcard-word').textContent = 'No words';
@@ -304,7 +349,28 @@
             const item = words[currentState[level].index];
             if (currentState[level].flipped) {
                 card.querySelector('.flashcard-word').textContent = item.word;
-                card.querySelector('.flashcard-chinese').textContent = item.chinese;
+                card.querySelector('.flashcard-chinese').textContent = item.chinese || '';
+                pronounce(item.word);
+            } else {
+                card.querySelector('.flashcard-word').textContent = '?';
+                card.querySelector('.flashcard-chinese').textContent = 'Click to reveal';
+            }
+        }
+
+        function updateAdvancedFlashcard(level) {
+            const card = document.getElementById(level + 'Flashcard');
+            const words = vocabData[level] || [];
+            
+            if (words.length === 0) {
+                card.querySelector('.flashcard-word').textContent = 'No words';
+                card.querySelector('.flashcard-chinese').textContent = '';
+                return;
+            }
+            
+            const item = words[currentState[level].index];
+            if (currentState[level].flipped) {
+                card.querySelector('.flashcard-word').textContent = item.word;
+                card.querySelector('.flashcard-chinese').textContent = item.chinese || '';
                 pronounce(item.word);
             } else {
                 card.querySelector('.flashcard-word').textContent = '?';
@@ -313,25 +379,43 @@
         }
 
         function nextCard(level) {
-            const words = vocabData[level].filter(w => w.date === currentState[level].week);
+            let words;
+            if (['level3', 'level4'].includes(level)) {
+                words = vocabData[level] || [];
+            } else {
+                words = (vocabData[level] || []).filter(w => w.date === currentState[level].week);
+            }
             currentState[level].index = (currentState[level].index + 1) % words.length;
             currentState[level].flipped = false;
-            updateFlashcard(level);
+            if (['level3', 'level4'].includes(level)) {
+                updateAdvancedFlashcard(level);
+            } else {
+                updateFlashcard(level);
+            }
         }
 
         function prevCard(level) {
-            const words = vocabData[level].filter(w => w.date === currentState[level].week);
+            let words;
+            if (['level3', 'level4'].includes(level)) {
+                words = vocabData[level] || [];
+            } else {
+                words = (vocabData[level] || []).filter(w => w.date === currentState[level].week);
+            }
             currentState[level].index = (currentState[level].index - 1 + words.length) % words.length;
             currentState[level].flipped = false;
-            updateFlashcard(level);
+            if (['level3', 'level4'].includes(level)) {
+                updateAdvancedFlashcard(level);
+            } else {
+                updateFlashcard(level);
+            }
         }
 
         function toggleNav() {
             document.getElementById('navLinks').classList.toggle('active');
         }
 
-        // Initialize
-        init();
+        // Load data on page load
+        loadData();
     </script>
 </body>
 </html>

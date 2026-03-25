@@ -1,0 +1,6234 @@
+{
+  "basic": [
+    {
+      "date": "250905",
+      "word": "mat",
+      "chinese": "墊子",
+      "example": "I see a mat."
+    },
+    {
+      "date": "250905",
+      "word": "cat",
+      "chinese": "貓",
+      "example": "The cat eats fish."
+    },
+    {
+      "date": "250905",
+      "word": "rat",
+      "chinese": "鼠",
+      "example": "The rat runs."
+    },
+    {
+      "date": "250905",
+      "word": "had",
+      "chinese": "有",
+      "example": "The boy had a ball."
+    },
+    {
+      "date": "250905",
+      "word": "hat",
+      "chinese": "帽子",
+      "example": "She wears a hat."
+    },
+    {
+      "date": "250905",
+      "word": "and",
+      "chinese": "和",
+      "example": "I like cats and dogs."
+    },
+    {
+      "date": "250905",
+      "word": "the",
+      "chinese": "這",
+      "example": "The cat eats fish."
+    },
+    {
+      "date": "250905",
+      "word": "it",
+      "chinese": "它",
+      "example": "It is big."
+    },
+    {
+      "date": "250905",
+      "word": "on",
+      "chinese": "在...上",
+      "example": "The cat sits on the chair."
+    },
+    {
+      "date": "250905",
+      "word": "with",
+      "chinese": "和",
+      "example": "I play with my friend."
+    },
+    {
+      "date": "250912",
+      "word": "man",
+      "chinese": "男人",
+      "example": "The man drives a car."
+    },
+    {
+      "date": "250912",
+      "word": "can",
+      "chinese": "能",
+      "example": "I can see."
+    },
+    {
+      "date": "250912",
+      "word": "ran",
+      "chinese": "跑了",
+      "example": "The dog ran home."
+    },
+    {
+      "date": "250912",
+      "word": "pan",
+      "chinese": "平底鍋",
+      "example": "I see the pan."
+    },
+    {
+      "date": "250912",
+      "word": "van",
+      "chinese": "貨車",
+      "example": "The van carries toys."
+    },
+    {
+      "date": "250912",
+      "word": "is",
+      "chinese": "是",
+      "example": "The sky is blue."
+    },
+    {
+      "date": "250912",
+      "word": "in",
+      "chinese": "在",
+      "example": "The cat is in the house."
+    },
+    {
+      "date": "250912",
+      "word": "to",
+      "chinese": "到",
+      "example": "I go to school."
+    },
+    {
+      "date": "250912",
+      "word": "where",
+      "chinese": "在哪裡",
+      "example": "Where is my dog?"
+    },
+    {
+      "date": "250912",
+      "word": "what",
+      "chinese": "什麼",
+      "example": "I know what."
+    },
+    {
+      "date": "250919",
+      "word": "cap",
+      "chinese": "棒球帽",
+      "example": "I wear a cap."
+    },
+    {
+      "date": "250919",
+      "word": "nap",
+      "chinese": "小睡",
+      "example": "I take a nap."
+    },
+    {
+      "date": "250919",
+      "word": "map",
+      "chinese": "地圖",
+      "example": "I see the map."
+    },
+    {
+      "date": "250919",
+      "word": "he",
+      "chinese": "他",
+      "example": "He likes apples."
+    },
+    {
+      "date": "250919",
+      "word": "she",
+      "chinese": "她",
+      "example": "She sees a bird."
+    },
+    {
+      "date": "250919",
+      "word": "you",
+      "chinese": "你；你們",
+      "example": "You like cake."
+    },
+    {
+      "date": "250919",
+      "word": "how",
+      "chinese": "如何",
+      "example": "I know how."
+    },
+    {
+      "date": "250919",
+      "word": "why",
+      "chinese": "為什麼",
+      "example": "I know why."
+    },
+    {
+      "date": "250919",
+      "word": "who",
+      "chinese": "誰",
+      "example": "Who is the boy?"
+    },
+    {
+      "date": "250919",
+      "word": "when",
+      "chinese": "何時/當...時候",
+      "example": "I eat when I am hungry."
+    },
+    {
+      "date": "250926",
+      "word": "snack",
+      "chinese": "小吃；零食",
+      "example": "I eat a snack."
+    },
+    {
+      "date": "250926",
+      "word": "black",
+      "chinese": "黑色的",
+      "example": "The cat is black."
+    },
+    {
+      "date": "250926",
+      "word": "his",
+      "chinese": "他的",
+      "example": "He sees his dog."
+    },
+    {
+      "date": "250926",
+      "word": "her",
+      "chinese": "她的",
+      "example": "He sees her."
+    },
+    {
+      "date": "250926",
+      "word": "your",
+      "chinese": "你的",
+      "example": "I like your toy."
+    },
+    {
+      "date": "250926",
+      "word": "backpack",
+      "chinese": "背包",
+      "example": "I carry my backpack."
+    },
+    {
+      "date": "250926",
+      "word": "are",
+      "chinese": "是",
+      "example": "They are fast runners."
+    },
+    {
+      "date": "250926",
+      "word": "put",
+      "chinese": "放",
+      "example": "I put the toy away."
+    },
+    {
+      "date": "250926",
+      "word": "we",
+      "chinese": "我們",
+      "example": "We play soccer."
+    },
+    {
+      "date": "250926",
+      "word": "they",
+      "chinese": "他們",
+      "example": "They play outside."
+    },
+    {
+      "date": "251003",
+      "word": "pit",
+      "chinese": "坑，核",
+      "example": "I see the pit."
+    },
+    {
+      "date": "251003",
+      "word": "hit",
+      "chinese": "打",
+      "example": "The ball hit the wall."
+    },
+    {
+      "date": "251003",
+      "word": "sit",
+      "chinese": "坐",
+      "example": "I sit on the chair."
+    },
+    {
+      "date": "251003",
+      "word": "bit",
+      "chinese": "咬，一點",
+      "example": "The dog bit the bone."
+    },
+    {
+      "date": "251003",
+      "word": "spit",
+      "chinese": "吐",
+      "example": "The boy will spit."
+    },
+    {
+      "date": "251003",
+      "word": "dig",
+      "chinese": "挖",
+      "example": "I dig a hole."
+    },
+    {
+      "date": "251003",
+      "word": "big",
+      "chinese": "大的",
+      "example": "I see a big dog."
+    },
+    {
+      "date": "251003",
+      "word": "have/has",
+      "chinese": "有",
+      "example": "I have a toy."
+    },
+    {
+      "date": "251003",
+      "word": "one",
+      "chinese": "一",
+      "example": "I see one bird."
+    },
+    {
+      "date": "251003",
+      "word": "two",
+      "chinese": "二",
+      "example": "I see two dogs."
+    },
+    {
+      "date": "251003",
+      "word": "three",
+      "chinese": "三",
+      "example": "I see three birds."
+    },
+    {
+      "date": "251003",
+      "word": "this",
+      "chinese": "這",
+      "example": "This is a book."
+    },
+    {
+      "date": "251003",
+      "word": "that",
+      "chinese": "那",
+      "example": "That is a bike."
+    },
+    {
+      "date": "251003",
+      "word": "make",
+      "chinese": "製作",
+      "example": "I make a cake."
+    },
+    {
+      "date": "251003",
+      "word": "like",
+      "chinese": "喜歡",
+      "example": "I like cats."
+    },
+    {
+      "date": "251017",
+      "word": "pin",
+      "chinese": "別針",
+      "example": "I see a pin."
+    },
+    {
+      "date": "251017",
+      "word": "thin",
+      "chinese": "薄的",
+      "example": "The book is thin."
+    },
+    {
+      "date": "251017",
+      "word": "spin",
+      "chinese": "旋轉",
+      "example": "I spin the top."
+    },
+    {
+      "date": "251017",
+      "word": "win",
+      "chinese": "贏",
+      "example": "We will win the game."
+    },
+    {
+      "date": "251017",
+      "word": "fin",
+      "chinese": "鰭",
+      "example": "A fish has a fin."
+    },
+    {
+      "date": "251017",
+      "word": "name",
+      "chinese": "姓名",
+      "example": "I know his name."
+    },
+    {
+      "date": "251017",
+      "word": "get",
+      "chinese": "得到",
+      "example": "I get a new toy."
+    },
+    {
+      "date": "251017",
+      "word": "kick",
+      "chinese": "踢",
+      "example": "I kick the ball."
+    },
+    {
+      "date": "251017",
+      "word": "brick",
+      "chinese": "磚",
+      "example": "I see a red brick."
+    },
+    {
+      "date": "251017",
+      "word": "thick",
+      "chinese": "厚的",
+      "example": "The book is thick."
+    },
+    {
+      "date": "251017",
+      "word": "pick",
+      "chinese": "挑選；摘取",
+      "example": "I pick a flower."
+    },
+    {
+      "date": "251017",
+      "word": "lick",
+      "chinese": "舔",
+      "example": "I lick the ice cream."
+    },
+    {
+      "date": "251017",
+      "word": "sick",
+      "chinese": "生病的",
+      "example": "The boy is sick."
+    },
+    {
+      "date": "251017",
+      "word": "quick",
+      "chinese": "快的",
+      "example": "The cat is quick."
+    },
+    {
+      "date": "251017",
+      "word": "take",
+      "chinese": "拿",
+      "example": "I take the book."
+    },
+    {
+      "date": "251107",
+      "word": "from",
+      "chinese": "從",
+      "example": "I came from home."
+    },
+    {
+      "date": "251107",
+      "word": "fast",
+      "chinese": "快速地",
+      "example": "The car is fast."
+    },
+    {
+      "date": "251107",
+      "word": "hot",
+      "chinese": "熱的",
+      "example": "The sun is hot."
+    },
+    {
+      "date": "251107",
+      "word": "pot",
+      "chinese": "鍋",
+      "example": "I see the pot."
+    },
+    {
+      "date": "251107",
+      "word": "dot",
+      "chinese": "點",
+      "example": "I see a dot."
+    },
+    {
+      "date": "251107",
+      "word": "robot",
+      "chinese": "機器人",
+      "example": "The robot has wheels."
+    },
+    {
+      "date": "251107",
+      "word": "soup",
+      "chinese": "湯",
+      "example": "I eat soup."
+    },
+    {
+      "date": "251107",
+      "word": "follow",
+      "chinese": "跟隨",
+      "example": "I follow the dog."
+    },
+    {
+      "date": "251107",
+      "word": "ball",
+      "chinese": "球",
+      "example": "I throw the ball."
+    },
+    {
+      "date": "251107",
+      "word": "there is",
+      "chinese": "有",
+      "example": "There is a dog."
+    },
+    {
+      "date": "251107",
+      "word": "there are",
+      "chinese": "有",
+      "example": "There are many dogs."
+    },
+    {
+      "date": "251114",
+      "word": "mop",
+      "chinese": "拖把",
+      "example": "I use the mop."
+    },
+    {
+      "date": "251114",
+      "word": "top",
+      "chinese": "頂部; 陀螺",
+      "example": "I see the top."
+    },
+    {
+      "date": "251114",
+      "word": "stop",
+      "chinese": "停止",
+      "example": "The car stops here."
+    },
+    {
+      "date": "251114",
+      "word": "cop",
+      "chinese": "警察",
+      "example": "The cop drives a car."
+    },
+    {
+      "date": "251114",
+      "word": "not",
+      "chinese": "不是",
+      "example": "I do not run fast."
+    },
+    {
+      "date": "251114",
+      "word": "drop",
+      "chinese": "掉落",
+      "example": "I drop the ball."
+    },
+    {
+      "date": "251114",
+      "word": "give",
+      "chinese": "給",
+      "example": "I give you a present."
+    },
+    {
+      "date": "251114",
+      "word": "help",
+      "chinese": "幫助",
+      "example": "I help my mom."
+    },
+    {
+      "date": "251114",
+      "word": "want",
+      "chinese": "想要",
+      "example": "I want a cookie."
+    },
+    {
+      "date": "251114",
+      "word": "count",
+      "chinese": "數",
+      "example": "I can count the stars."
+    },
+    {
+      "date": "251114",
+      "word": "a lot",
+      "chinese": "很多",
+      "example": "I eat a lot."
+    },
+    {
+      "date": "251121",
+      "word": "corn",
+      "chinese": "玉米",
+      "example": "I eat corn."
+    },
+    {
+      "date": "251121",
+      "word": "job",
+      "chinese": "工作",
+      "example": "My dad has a job."
+    },
+    {
+      "date": "251121",
+      "word": "farm",
+      "chinese": "農場",
+      "example": "I see a big farm."
+    },
+    {
+      "date": "251121",
+      "word": "sell",
+      "chinese": "賣",
+      "example": "I sell my old toys."
+    },
+    {
+      "date": "251121",
+      "word": "need",
+      "chinese": "需要",
+      "example": "I need a toy."
+    },
+    {
+      "date": "251121",
+      "word": "color",
+      "chinese": "顏色",
+      "example": "I see a bright color."
+    },
+    {
+      "date": "251121",
+      "word": "for",
+      "chinese": "為了",
+      "example": "This toy is for me."
+    },
+    {
+      "date": "251121",
+      "word": "time",
+      "chinese": "時間",
+      "example": "I need more time."
+    },
+    {
+      "date": "251121",
+      "word": "open",
+      "chinese": "打開",
+      "example": "I open the door."
+    },
+    {
+      "date": "251121",
+      "word": "close",
+      "chinese": "關閉",
+      "example": "I close the door."
+    },
+    {
+      "date": "251128",
+      "word": "key",
+      "chinese": "鑰匙",
+      "example": "I see the key."
+    },
+    {
+      "date": "251128",
+      "word": "use",
+      "chinese": "使用",
+      "example": "I use the crayon."
+    },
+    {
+      "date": "251128",
+      "word": "rock",
+      "chinese": "石頭",
+      "example": "I see a big rock."
+    },
+    {
+      "date": "251128",
+      "word": "sock",
+      "chinese": "襪",
+      "example": "I wear a sock."
+    },
+    {
+      "date": "251128",
+      "word": "lock",
+      "chinese": "鎖",
+      "example": "I lock the door."
+    },
+    {
+      "date": "251128",
+      "word": "clock",
+      "chinese": "時鐘",
+      "example": "The clock tells time."
+    },
+    {
+      "date": "251128",
+      "word": "blue",
+      "chinese": "藍色的",
+      "example": "I see the blue sky."
+    },
+    {
+      "date": "251128",
+      "word": "purple",
+      "chinese": "紫色的",
+      "example": "I see a purple flower."
+    },
+    {
+      "date": "251128",
+      "word": "green",
+      "chinese": "綠色的",
+      "example": "I see a green frog."
+    },
+    {
+      "date": "251128",
+      "word": "yellow",
+      "chinese": "黃色的",
+      "example": "The sun is yellow."
+    },
+    {
+      "date": "251205",
+      "word": "cut",
+      "chinese": "切",
+      "example": "I cut the paper."
+    },
+    {
+      "date": "251205",
+      "word": "fun",
+      "chinese": "好玩",
+      "example": "I have fun."
+    },
+    {
+      "date": "251205",
+      "word": "nut",
+      "chinese": "堅果",
+      "example": "I eat a nut."
+    },
+    {
+      "date": "251205",
+      "word": "shut",
+      "chinese": "關閉",
+      "example": "I shut the door."
+    },
+    {
+      "date": "251205",
+      "word": "door",
+      "chinese": "門",
+      "example": "I open the door."
+    },
+    {
+      "date": "251205",
+      "word": "some",
+      "chinese": "一些",
+      "example": "I see some birds."
+    },
+    {
+      "date": "251205",
+      "word": "now",
+      "chinese": "現在",
+      "example": "I eat now."
+    },
+    {
+      "date": "251205",
+      "word": "naughty",
+      "chinese": "淘氣",
+      "example": "The boy is naughty."
+    },
+    {
+      "date": "251205",
+      "word": "nice",
+      "chinese": "好的",
+      "example": "I see a nice dog."
+    },
+    {
+      "date": "251205",
+      "word": "town",
+      "chinese": "鎮",
+      "example": "I see the town."
+    },
+    {
+      "date": "251212",
+      "word": "rug",
+      "chinese": "毯子",
+      "example": "I see the rug."
+    },
+    {
+      "date": "251212",
+      "word": "bug",
+      "chinese": "蟲",
+      "example": "The bug is small."
+    },
+    {
+      "date": "251212",
+      "word": "hug",
+      "chinese": "抱",
+      "example": "I hug my mom."
+    },
+    {
+      "date": "251212",
+      "word": "but",
+      "chinese": "但",
+      "example": "I like cake, but I like pie more."
+    },
+    {
+      "date": "251212",
+      "word": "sleep",
+      "chinese": "睡覺",
+      "example": "I need to sleep."
+    },
+    {
+      "date": "251212",
+      "word": "awake",
+      "chinese": "醒",
+      "example": "I feel awake."
+    },
+    {
+      "date": "251212",
+      "word": "umbrella",
+      "chinese": "傘",
+      "example": "I need an umbrella."
+    },
+    {
+      "date": "251212",
+      "word": "many",
+      "chinese": "許多",
+      "example": "I see many stars."
+    },
+    {
+      "date": "251212",
+      "word": "happy",
+      "chinese": "快樂的",
+      "example": "I feel happy."
+    },
+    {
+      "date": "251212",
+      "word": "new year",
+      "chinese": "新年",
+      "example": "We celebrate New Year."
+    },
+    {
+      "date": "251212",
+      "word": "look",
+      "chinese": "看",
+      "example": "I look at the bird."
+    },
+    {
+      "date": "251219",
+      "word": "luck",
+      "chinese": "運氣",
+      "example": "I need luck."
+    },
+    {
+      "date": "251219",
+      "word": "duck",
+      "chinese": "鴨子",
+      "example": "The duck swims water."
+    },
+    {
+      "date": "251219",
+      "word": "suck",
+      "chinese": "吸",
+      "example": "The baby can suck milk."
+    },
+    {
+      "date": "251219",
+      "word": "stuck",
+      "chinese": "卡住",
+      "example": "The car got stuck."
+    },
+    {
+      "date": "251219",
+      "word": "lollipop",
+      "chinese": "棒棒糖",
+      "example": "I eat a lollipop."
+    },
+    {
+      "date": "251219",
+      "word": "kind",
+      "chinese": "種類；仁慈的",
+      "example": "I see a kind boy."
+    },
+    {
+      "date": "251219",
+      "word": "weather",
+      "chinese": "天氣",
+      "example": "I like the weather."
+    },
+    {
+      "date": "251219",
+      "word": "list",
+      "chinese": "清單",
+      "example": "I write a list."
+    },
+    {
+      "date": "251219",
+      "word": "sunny",
+      "chinese": "陽光明媚",
+      "example": "The day is sunny."
+    },
+    {
+      "date": "251219",
+      "word": "rainy",
+      "chinese": "下雨",
+      "example": "The day is rainy."
+    },
+    {
+      "date": "251219",
+      "word": "hair",
+      "chinese": "頭髮",
+      "example": "I see his hair."
+    },
+    {
+      "date": "251119",
+      "word": "listen",
+      "chinese": "聽",
+      "example": "I listen to music."
+    },
+    {
+      "date": "251119",
+      "word": "talk",
+      "chinese": "演講",
+      "example": "I can talk to my friend."
+    },
+    {
+      "date": "251119",
+      "word": "jump",
+      "chinese": "跳",
+      "example": "The frog jumps high."
+    },
+    {
+      "date": "251119",
+      "word": "exercise",
+      "chinese": "鍛鍊",
+      "example": "I exercise daily."
+    },
+    {
+      "date": "251119",
+      "word": "read",
+      "chinese": "讀",
+      "example": "I read a book."
+    },
+    {
+      "date": "251119",
+      "word": "sit",
+      "chinese": "坐",
+      "example": "I sit on the chair."
+    },
+    {
+      "date": "251119",
+      "word": "run",
+      "chinese": "跑步",
+      "example": "I run fast."
+    },
+    {
+      "date": "251119",
+      "word": "walk",
+      "chinese": "走",
+      "example": "I walk my dog."
+    },
+    {
+      "date": "251119",
+      "word": "write",
+      "chinese": "寫",
+      "example": "I write a letter."
+    },
+    {
+      "date": "251119",
+      "word": "watch",
+      "chinese": "手錶",
+      "example": "I see my watch."
+    },
+    {
+      "date": "251119",
+      "word": "dance",
+      "chinese": "舞蹈",
+      "example": "I can dance."
+    },
+    {
+      "date": "251119",
+      "word": "sing",
+      "chinese": "唱歌",
+      "example": "I sing a song."
+    },
+    {
+      "date": "251119",
+      "word": "open",
+      "chinese": "打開",
+      "example": "I open the box."
+    },
+    {
+      "date": "251119",
+      "word": "play",
+      "chinese": "玩",
+      "example": "I play soccer."
+    },
+    {
+      "date": "251119",
+      "word": "close",
+      "chinese": "關閉",
+      "example": "I close the book."
+    },
+    {
+      "date": "251119",
+      "word": "give",
+      "chinese": "給",
+      "example": "I give you a book."
+    },
+    {
+      "date": "251224",
+      "word": "ski",
+      "chinese": "滑雪",
+      "example": "I ski fast."
+    },
+    {
+      "date": "251224",
+      "word": "smell",
+      "chinese": "聞",
+      "example": "I smell the flowers."
+    },
+    {
+      "date": "251224",
+      "word": "drive",
+      "chinese": "駕駛",
+      "example": "I drive a car."
+    },
+    {
+      "date": "251224",
+      "word": "fly",
+      "chinese": "飛",
+      "example": "Birds fly high."
+    },
+    {
+      "date": "251224",
+      "word": "skate",
+      "chinese": "滑冰",
+      "example": "I skate fast."
+    },
+    {
+      "date": "251224",
+      "word": "sleep",
+      "chinese": "睡覺",
+      "example": "I need sleep now."
+    },
+    {
+      "date": "251224",
+      "word": "dive",
+      "chinese": "潛水",
+      "example": "I dive in the pool."
+    },
+    {
+      "date": "251224",
+      "word": "swing",
+      "chinese": "搖擺",
+      "example": "I swing the bat."
+    },
+    {
+      "date": "251224",
+      "word": "swim",
+      "chinese": "游泳",
+      "example": "I swim in the pool."
+    },
+    {
+      "date": "251224",
+      "word": "sail",
+      "chinese": "帆",
+      "example": "We sail the boat."
+    },
+    {
+      "date": "251224",
+      "word": "climb",
+      "chinese": "爬",
+      "example": "I climb the tree."
+    },
+    {
+      "date": "251224",
+      "word": "drink",
+      "chinese": "喝",
+      "example": "I drink water."
+    },
+    {
+      "date": "251224",
+      "word": "ride",
+      "chinese": "騎",
+      "example": "I ride my bike."
+    },
+    {
+      "date": "251224",
+      "word": "eat",
+      "chinese": "吃",
+      "example": "I eat an apple."
+    },
+    {
+      "date": "251224",
+      "word": "slide",
+      "chinese": "滑動",
+      "example": "I slide down the hill."
+    },
+    {
+      "date": "251224",
+      "word": "wake",
+      "chinese": "喚醒",
+      "example": "I wake up."
+    },
+    {
+      "date": "251226",
+      "word": "pet",
+      "chinese": "寵物",
+      "example": "I love my pet."
+    },
+    {
+      "date": "251226",
+      "word": "wet",
+      "chinese": "濕的",
+      "example": "I see a wet cat."
+    },
+    {
+      "date": "251226",
+      "word": "family",
+      "chinese": "家庭",
+      "example": "I love my family."
+    },
+    {
+      "date": "251226",
+      "word": "favorite",
+      "chinese": "最喜歡的",
+      "example": "I like my favorite toy."
+    },
+    {
+      "date": "251226",
+      "word": "know",
+      "chinese": "知道",
+      "example": "I know the answer."
+    },
+    {
+      "date": "251226",
+      "word": "thing",
+      "chinese": "事物",
+      "example": "I see one thing."
+    },
+    {
+      "date": "251226",
+      "word": "bath",
+      "chinese": "洗澡",
+      "example": "I take a bath."
+    },
+    {
+      "date": "251226",
+      "word": "their",
+      "chinese": "他們的",
+      "example": "They play their games."
+    },
+    {
+      "date": "251226",
+      "word": "our",
+      "chinese": "我們的",
+      "example": "We love our dog."
+    },
+    {
+      "date": "251226",
+      "word": "girl",
+      "chinese": "女孩",
+      "example": "The girl sees a flower."
+    },
+    {
+      "date": "251226",
+      "word": "boy",
+      "chinese": "男生",
+      "example": "The boy sees a dog."
+    },
+    {
+      "date": "260109",
+      "word": "talk",
+      "chinese": "說話",
+      "example": "I talk to my friend."
+    },
+    {
+      "date": "260109",
+      "word": "buy",
+      "chinese": "買",
+      "example": "I buy a toy."
+    },
+    {
+      "date": "260109",
+      "word": "read",
+      "chinese": "讀",
+      "example": "I read a book."
+    },
+    {
+      "date": "260109",
+      "word": "draw",
+      "chinese": "畫",
+      "example": "I draw a picture."
+    },
+    {
+      "date": "260109",
+      "word": "sing",
+      "chinese": "唱歌",
+      "example": "I sing a song."
+    },
+    {
+      "date": "260109",
+      "word": "build",
+      "chinese": "建造",
+      "example": "I build a tower."
+    },
+    {
+      "date": "260109",
+      "word": "ride",
+      "chinese": "騎",
+      "example": "I ride a bike."
+    },
+    {
+      "date": "260109",
+      "word": "white",
+      "chinese": "白色的",
+      "example": "I see a white cat."
+    },
+    {
+      "date": "260109",
+      "word": "cloud",
+      "chinese": "雲",
+      "example": "I see a cloud."
+    },
+    {
+      "date": "260109",
+      "word": "hide",
+      "chinese": "隱藏",
+      "example": "I hide the toy."
+    },
+    {
+      "date": "260109",
+      "word": "flower",
+      "chinese": "花",
+      "example": "I see a flower."
+    },
+    {
+      "date": "260225",
+      "word": "snow",
+      "chinese": "雪",
+      "example": "I see the snow."
+    },
+    {
+      "date": "260225",
+      "word": "red",
+      "chinese": "紅色的",
+      "example": "I see a red ball."
+    },
+    {
+      "date": "260225",
+      "word": "sled",
+      "chinese": "雪橇",
+      "example": "I see a sled."
+    },
+    {
+      "date": "260225",
+      "word": "room",
+      "chinese": "房間",
+      "example": "I clean my room."
+    },
+    {
+      "date": "260225",
+      "word": "animal",
+      "chinese": "動物",
+      "example": "I see an animal."
+    },
+    {
+      "date": "260225",
+      "word": "number",
+      "chinese": "數位",
+      "example": "I see a number."
+    },
+    {
+      "date": "260225",
+      "word": "rule",
+      "chinese": "規則",
+      "example": "I follow the rule."
+    },
+    {
+      "date": "260225",
+      "word": "live",
+      "chinese": "居住",
+      "example": "I live in a house."
+    },
+    {
+      "date": "260225",
+      "word": "eleven",
+      "chinese": "十一",
+      "example": "I see eleven apples."
+    },
+    {
+      "date": "260225",
+      "word": "twelve",
+      "chinese": "十二",
+      "example": "I see twelve apples."
+    },
+    {
+      "date": "260225",
+      "word": "thirteen",
+      "chinese": "十三",
+      "example": "I have thirteen toys."
+    },
+    {
+      "date": "260306",
+      "word": "fall",
+      "chinese": "掉/秋天",
+      "example": "Leaves fall from trees."
+    },
+    {
+      "date": "260306",
+      "word": "fell",
+      "chinese": "跌倒",
+      "example": "The boy fell down."
+    },
+    {
+      "date": "260306",
+      "word": "well",
+      "chinese": "好/井",
+      "example": "I see a well."
+    },
+    {
+      "date": "260306",
+      "word": "bell",
+      "chinese": "鐘/鈴鐺",
+      "example": "I see a bell."
+    },
+    {
+      "date": "260306",
+      "word": "spell",
+      "chinese": "拼字",
+      "example": "I spell my name."
+    },
+    {
+      "date": "260306",
+      "word": "tell",
+      "chinese": "告訴",
+      "example": "I tell a story."
+    },
+    {
+      "date": "260306",
+      "word": "people",
+      "chinese": "人(們)",
+      "example": "I see many people."
+    },
+    {
+      "date": "260306",
+      "word": "fireman",
+      "chinese": "消防員",
+      "example": "The fireman drives a truck."
+    },
+    {
+      "date": "260306",
+      "word": "fourteen",
+      "chinese": "十四",
+      "example": "I have fourteen toys."
+    },
+    {
+      "date": "260306",
+      "word": "fifteen",
+      "chinese": "十五",
+      "example": "I have fifteen books."
+    },
+    {
+      "date": "260306",
+      "word": "sixteen",
+      "chinese": "十六",
+      "example": "I see sixteen birds."
+    },
+    {
+      "date": "260313",
+      "word": "about",
+      "chinese": "關於",
+      "example": "I read a book about dogs."
+    },
+    {
+      "date": "260313",
+      "word": "tree",
+      "chinese": "樹",
+      "example": "I see a tree."
+    },
+    {
+      "date": "260313",
+      "word": "think",
+      "chinese": "思考",
+      "example": "I think a lot."
+    },
+    {
+      "date": "260313",
+      "word": "glad",
+      "chinese": "高興的",
+      "example": "I am glad."
+    },
+    {
+      "date": "260313",
+      "word": "bad",
+      "chinese": "壞的",
+      "example": "The apple is bad."
+    },
+    {
+      "date": "260313",
+      "word": "first",
+      "chinese": "第一的",
+      "example": "I am first."
+    },
+    {
+      "date": "260313",
+      "word": "lose",
+      "chinese": "失去",
+      "example": "I lose my toy."
+    },
+    {
+      "date": "260313",
+      "word": "water",
+      "chinese": "水",
+      "example": "I drink water."
+    },
+    {
+      "date": "260313",
+      "word": "seventeen",
+      "chinese": "十七",
+      "example": "I see seventeen apples."
+    },
+    {
+      "date": "260313",
+      "word": "eighteen",
+      "chinese": "十八",
+      "example": "I see eighteen apples."
+    },
+    {
+      "date": "260313",
+      "word": "grow up",
+      "chinese": "長大",
+      "example": "I want to grow up."
+    },
+    {
+      "date": "260320",
+      "word": "best",
+      "chinese": "最好的",
+      "example": "You are my best friend."
+    },
+    {
+      "date": "260320",
+      "word": "plant",
+      "chinese": "植物",
+      "example": "I water the plant."
+    },
+    {
+      "date": "260320",
+      "word": "which",
+      "chinese": "哪個",
+      "example": "Which toy do you want?"
+    },
+    {
+      "date": "260320",
+      "word": "contest",
+      "chinese": "競賽",
+      "example": "I won the contest."
+    },
+    {
+      "date": "260320",
+      "word": "story",
+      "chinese": "故事",
+      "example": "I read a story."
+    },
+    {
+      "date": "260320",
+      "word": "call",
+      "chinese": "稱呼",
+      "example": "I call my mom."
+    },
+    {
+      "date": "260320",
+      "word": "seed",
+      "chinese": "種子",
+      "example": "I plant a seed."
+    },
+    {
+      "date": "260320",
+      "word": "leaf",
+      "chinese": "葉子",
+      "example": "I see a leaf."
+    },
+    {
+      "date": "260320",
+      "word": "ship",
+      "chinese": "船",
+      "example": "I see a ship."
+    },
+    {
+      "date": "260320",
+      "word": "nineteen",
+      "chinese": "十九",
+      "example": "I have nineteen apples."
+    },
+    {
+      "date": "260320",
+      "word": "twenty",
+      "chinese": "二十",
+      "example": "I have twenty toys."
+    }
+  ],
+  "level1": [
+    {
+      "date": "250905",
+      "word": "share",
+      "chinese": "分享",
+      "example": "I share my toys with my friend."
+    },
+    {
+      "date": "250905",
+      "word": "tasty",
+      "chinese": "可口",
+      "example": "The cake is very tasty."
+    },
+    {
+      "date": "250905",
+      "word": "pair",
+      "chinese": "一對",
+      "example": "I have a pair of shoes."
+    },
+    {
+      "date": "250905",
+      "word": "mean",
+      "chinese": "意思是",
+      "example": "I do not mean to be rude."
+    },
+    {
+      "date": "250905",
+      "word": "just",
+      "chinese": "只是",
+      "example": "I just eat an apple."
+    },
+    {
+      "date": "250905",
+      "word": "brave",
+      "chinese": "勇敢的",
+      "example": "She is a brave girl."
+    },
+    {
+      "date": "250905",
+      "word": "frozen",
+      "chinese": "冷凍",
+      "example": "The ground is frozen now."
+    },
+    {
+      "date": "250905",
+      "word": "breathe",
+      "chinese": "呼吸",
+      "example": "We breathe air."
+    },
+    {
+      "date": "250905",
+      "word": "mind",
+      "chinese": "頭腦",
+      "example": "I do not mind the loud music."
+    },
+    {
+      "date": "250905",
+      "word": "notice",
+      "chinese": "注意",
+      "example": "I notice the big, red flower."
+    },
+    {
+      "date": "250905",
+      "word": "get out",
+      "chinese": "出去",
+      "example": "I get out of the car."
+    },
+    {
+      "date": "250912",
+      "word": "ask",
+      "chinese": "問",
+      "example": "I ask my teacher a question."
+    },
+    {
+      "date": "250912",
+      "word": "fluffy",
+      "chinese": "蓬鬆的",
+      "example": "The cat is fluffy."
+    },
+    {
+      "date": "250912",
+      "word": "high",
+      "chinese": "高的",
+      "example": "The kite flies high in the sky."
+    },
+    {
+      "date": "250912",
+      "word": "found",
+      "chinese": "找到",
+      "example": "I find my lost toy."
+    },
+    {
+      "date": "250912",
+      "word": "rhyme",
+      "chinese": "押韻",
+      "example": "Cat and hat rhyme."
+    },
+    {
+      "date": "250912",
+      "word": "poem",
+      "chinese": "詩",
+      "example": "I read a poem."
+    },
+    {
+      "date": "250912",
+      "word": "soft",
+      "chinese": "柔軟的",
+      "example": "The bunny feels soft."
+    },
+    {
+      "date": "250912",
+      "word": "cherry",
+      "chinese": "櫻桃",
+      "example": "I like to eat a cherry."
+    },
+    {
+      "date": "250912",
+      "word": "lemon",
+      "chinese": "檸檬",
+      "example": "A lemon is yellow and sour."
+    },
+    {
+      "date": "250912",
+      "word": "giant",
+      "chinese": "巨大的",
+      "example": "The tree is giant."
+    },
+    {
+      "date": "250912",
+      "word": "get up",
+      "chinese": "起床",
+      "example": "I get up early every day."
+    },
+    {
+      "date": "250919",
+      "word": "pass",
+      "chinese": "經過",
+      "example": "I pass the ball to my friend."
+    },
+    {
+      "date": "250919",
+      "word": "hive",
+      "chinese": "蜂巢",
+      "example": "The bees live in a hive."
+    },
+    {
+      "date": "250919",
+      "word": "honey",
+      "chinese": "蜂蜜",
+      "example": "I like honey on my toast."
+    },
+    {
+      "date": "250919",
+      "word": "basketball",
+      "chinese": "籃球",
+      "example": "I play basketball after school."
+    },
+    {
+      "date": "250919",
+      "word": "recess",
+      "chinese": "凹陷處",
+      "example": "We play games during recess."
+    },
+    {
+      "date": "250919",
+      "word": "giraffe",
+      "chinese": "長頸鹿",
+      "example": "A giraffe is very tall."
+    },
+    {
+      "date": "250919",
+      "word": "welcome",
+      "chinese": "歡迎",
+      "example": "We welcome our new student."
+    },
+    {
+      "date": "250919",
+      "word": "birthday",
+      "chinese": "生日",
+      "example": "Today is my birthday."
+    },
+    {
+      "date": "250919",
+      "word": "thirty",
+      "chinese": "三十",
+      "example": "I count to thirty."
+    },
+    {
+      "date": "250919",
+      "word": "forty",
+      "chinese": "四十",
+      "example": "I count forty apples."
+    },
+    {
+      "date": "250919",
+      "word": "give up",
+      "chinese": "放棄",
+      "example": "I never give up when the game is hard."
+    },
+    {
+      "date": "250926",
+      "word": "merit",
+      "chinese": "優秀",
+      "example": "She works hard and shows great merit in school."
+    },
+    {
+      "date": "250926",
+      "word": "roll",
+      "chinese": "卷,滾",
+      "example": "I roll the ball on the floor."
+    },
+    {
+      "date": "250926",
+      "word": "study",
+      "chinese": "讀書",
+      "example": "I study for my test every day."
+    },
+    {
+      "date": "250926",
+      "word": "picture",
+      "chinese": "圖片.照片",
+      "example": "I see a nice picture on the wall."
+    },
+    {
+      "date": "250926",
+      "word": "clean",
+      "chinese": "乾淨的",
+      "example": "I clean my room every day."
+    },
+    {
+      "date": "250926",
+      "word": "science",
+      "chinese": "科學",
+      "example": "I like to learn about science in school."
+    },
+    {
+      "date": "250926",
+      "word": "learn",
+      "chinese": "學.得知",
+      "example": "I learn about animals in school."
+    },
+    {
+      "date": "250926",
+      "word": "better",
+      "chinese": "較好的",
+      "example": "I feel better today."
+    },
+    {
+      "date": "250926",
+      "word": "bring",
+      "chinese": "帶來",
+      "example": "I bring my book to school."
+    },
+    {
+      "date": "250926",
+      "word": "vegetable",
+      "chinese": "蔬菜",
+      "example": "I eat a vegetable."
+    },
+    {
+      "date": "250926",
+      "word": "have to",
+      "chinese": "必須/不得不",
+      "example": "I have to go home now."
+    },
+    {
+      "date": "251003",
+      "word": "answer",
+      "chinese": "回答",
+      "example": "I answer the teacher's question."
+    },
+    {
+      "date": "251003",
+      "word": "question",
+      "chinese": "問題",
+      "example": "I ask a question in class."
+    },
+    {
+      "date": "251003",
+      "word": "focus",
+      "chinese": "專注",
+      "example": "I focus on my homework."
+    },
+    {
+      "date": "251003",
+      "word": "bedroom",
+      "chinese": "臥室",
+      "example": "I clean my bedroom every day."
+    },
+    {
+      "date": "251003",
+      "word": "street",
+      "chinese": "街道",
+      "example": "A big car drives on the street."
+    },
+    {
+      "date": "251003",
+      "word": "floor",
+      "chinese": "地面",
+      "example": "I sweep the floor every day."
+    },
+    {
+      "date": "251003",
+      "word": "character",
+      "chinese": "角色;",
+      "example": "My favorite book character is a friendly dog."
+    },
+    {
+      "date": "251003",
+      "word": "lie",
+      "chinese": "說謊, 躺",
+      "example": "He does not lie to his mother."
+    },
+    {
+      "date": "251003",
+      "word": "hurt",
+      "chinese": "傷害",
+      "example": "My arm hurts when I fall."
+    },
+    {
+      "date": "251003",
+      "word": "every",
+      "chinese": "每一個",
+      "example": "Every day, I play outside."
+    },
+    {
+      "date": "251003",
+      "word": "friend",
+      "chinese": "朋友",
+      "example": "My friend plays with me."
+    },
+    {
+      "date": "251003",
+      "word": "spring",
+      "chinese": "春天",
+      "example": "Flowers bloom in the spring."
+    },
+    {
+      "date": "251003",
+      "word": "summer",
+      "chinese": "夏天",
+      "example": "I love summer vacation."
+    },
+    {
+      "date": "251003",
+      "word": "winter",
+      "chinese": "冬天",
+      "example": "Winter is cold."
+    },
+    {
+      "date": "251003",
+      "word": "take place",
+      "chinese": "發生",
+      "example": "The party takes place at my house."
+    },
+    {
+      "date": "251017",
+      "word": "middle",
+      "chinese": "中間",
+      "example": "The red ball is in the middle of the box."
+    },
+    {
+      "date": "251017",
+      "word": "full",
+      "chinese": "滿的",
+      "example": "The basket is full of apples."
+    },
+    {
+      "date": "251017",
+      "word": "dolphin",
+      "chinese": "海豚",
+      "example": "A dolphin swims in the ocean."
+    },
+    {
+      "date": "251017",
+      "word": "solution",
+      "chinese": "解決方案",
+      "example": "I find a good solution to the puzzle."
+    },
+    {
+      "date": "251017",
+      "word": "problem",
+      "chinese": "問題",
+      "example": "I have a math problem."
+    },
+    {
+      "date": "251017",
+      "word": "picnic",
+      "chinese": "野餐",
+      "example": "We have a picnic today."
+    },
+    {
+      "date": "251017",
+      "word": "pole",
+      "chinese": "竿",
+      "example": "The flag is on the pole."
+    },
+    {
+      "date": "251017",
+      "word": "lake",
+      "chinese": "湖",
+      "example": "We swim in the lake."
+    },
+    {
+      "date": "251017",
+      "word": "really",
+      "chinese": "真的",
+      "example": "I really like ice cream."
+    },
+    {
+      "date": "251017",
+      "word": "catch",
+      "chinese": "抓住;捉",
+      "example": "I catch the ball."
+    },
+    {
+      "date": "251017",
+      "word": "guide",
+      "chinese": "指導",
+      "example": "The map can guide us."
+    },
+    {
+      "date": "251017",
+      "word": "solve",
+      "chinese": "解決",
+      "example": "I solve the puzzle."
+    },
+    {
+      "date": "251017",
+      "word": "napkin",
+      "chinese": "餐巾",
+      "example": "I put a napkin on my lap."
+    },
+    {
+      "date": "251017",
+      "word": "messy",
+      "chinese": "凌亂的",
+      "example": "My room is very messy."
+    },
+    {
+      "date": "251017",
+      "word": "count on",
+      "chinese": "依賴",
+      "example": "I count on my mom to help me."
+    },
+    {
+      "date": "251107",
+      "word": "pants",
+      "chinese": "褲子",
+      "example": "I wear my blue pants today."
+    },
+    {
+      "date": "251107",
+      "word": "shorts",
+      "chinese": "短褲",
+      "example": "I wear my shorts when it is hot."
+    },
+    {
+      "date": "251107",
+      "word": "skirt",
+      "chinese": "裙子",
+      "example": "She wears a pink skirt."
+    },
+    {
+      "date": "251107",
+      "word": "fold",
+      "chinese": "折疊",
+      "example": "I fold my clothes."
+    },
+    {
+      "date": "251107",
+      "word": "suppose",
+      "chinese": "認為",
+      "example": "I suppose the sun is yellow."
+    },
+    {
+      "date": "251107",
+      "word": "careful",
+      "chinese": "小心",
+      "example": "Be careful when you cross the road."
+    },
+    {
+      "date": "251107",
+      "word": "special",
+      "chinese": "特別的",
+      "example": "Today is a special day."
+    },
+    {
+      "date": "251107",
+      "word": "together",
+      "chinese": "一起",
+      "example": "We play games together."
+    },
+    {
+      "date": "251107",
+      "word": "remind",
+      "chinese": "提醒",
+      "example": "I remind my friend to bring her book."
+    },
+    {
+      "date": "251107",
+      "word": "beside",
+      "chinese": "旁",
+      "example": "My dog sits beside me."
+    },
+    {
+      "date": "251107",
+      "word": "put away",
+      "chinese": "收起來",
+      "example": "I put away my toys after I play."
+    },
+    {
+      "date": "251114",
+      "word": "guitar",
+      "chinese": "吉他",
+      "example": "I play my guitar."
+    },
+    {
+      "date": "251114",
+      "word": "keyboard",
+      "chinese": "鍵盤",
+      "example": "I use the keyboard to type."
+    },
+    {
+      "date": "251114",
+      "word": "band",
+      "chinese": "樂團",
+      "example": "The band plays music."
+    },
+    {
+      "date": "251114",
+      "word": "wrong",
+      "chinese": "錯誤的",
+      "example": "My answer is wrong."
+    },
+    {
+      "date": "251114",
+      "word": "beautiful",
+      "chinese": "美麗的",
+      "example": "The flower is beautiful."
+    },
+    {
+      "date": "251114",
+      "word": "insecure",
+      "chinese": "沒自信的",
+      "example": "He feels insecure about the test."
+    },
+    {
+      "date": "251114",
+      "word": "travel",
+      "chinese": "旅行",
+      "example": "I travel to see my grandma."
+    },
+    {
+      "date": "251114",
+      "word": "secret",
+      "chinese": "秘密",
+      "example": "I keep a secret in my diary."
+    },
+    {
+      "date": "251114",
+      "word": "both",
+      "chinese": "兩個都",
+      "example": "Both cats eat fish."
+    },
+    {
+      "date": "251114",
+      "word": "grammar",
+      "chinese": "文法",
+      "example": "I study grammar in my English class."
+    },
+    {
+      "date": "251114",
+      "word": "how many",
+      "chinese": "多少",
+      "example": "How many apples are there?"
+    },
+    {
+      "date": "251114",
+      "word": "how much",
+      "chinese": "多少",
+      "example": "How much money do you have?"
+    },
+    {
+      "date": "251121",
+      "word": "astronaut",
+      "chinese": "太空人",
+      "example": "An astronaut goes to space."
+    },
+    {
+      "date": "251121",
+      "word": "still",
+      "chinese": "仍然",
+      "example": "He still plays with his toy cars."
+    },
+    {
+      "date": "251121",
+      "word": "bubble",
+      "chinese": "氣泡",
+      "example": "A soap bubble floats in the air."
+    },
+    {
+      "date": "251121",
+      "word": "person",
+      "chinese": "人",
+      "example": "The person smiles."
+    },
+    {
+      "date": "251121",
+      "word": "bottle",
+      "chinese": "瓶子",
+      "example": "I drink water from my bottle."
+    },
+    {
+      "date": "251121",
+      "word": "sentence",
+      "chinese": "句子",
+      "example": "I write a good sentence."
+    },
+    {
+      "date": "251121",
+      "word": "delicious",
+      "chinese": "可口的",
+      "example": "The pizza is delicious."
+    },
+    {
+      "date": "251121",
+      "word": "museum",
+      "chinese": "博物館",
+      "example": "I visit the museum today."
+    },
+    {
+      "date": "251121",
+      "word": "laugh",
+      "chinese": "笑",
+      "example": "I laugh at the funny joke."
+    },
+    {
+      "date": "251121",
+      "word": "less than",
+      "chinese": "少於",
+      "example": "Three is less than five."
+    },
+    {
+      "date": "251121",
+      "word": "lots of/a lot of",
+      "chinese": "很多",
+      "example": "I see lots of stars at night."
+    },
+    {
+      "date": "251128",
+      "word": "between",
+      "chinese": "之間",
+      "example": "The ball is between the two cones."
+    },
+    {
+      "date": "251128",
+      "word": "loud",
+      "chinese": "大聲",
+      "example": "The music is loud."
+    },
+    {
+      "date": "251128",
+      "word": "instead",
+      "chinese": "反而；取代",
+      "example": "I eat an apple instead of a cookie."
+    },
+    {
+      "date": "251128",
+      "word": "hundred",
+      "chinese": "百",
+      "example": "I see one hundred stars at night."
+    },
+    {
+      "date": "251128",
+      "word": "thousand",
+      "chinese": "千",
+      "example": "There are one thousand stars in the sky."
+    },
+    {
+      "date": "251128",
+      "word": "idea",
+      "chinese": "主意",
+      "example": "I have a good idea."
+    },
+    {
+      "date": "251128",
+      "word": "choice",
+      "chinese": "選擇",
+      "example": "I have a choice of apples or bananas."
+    },
+    {
+      "date": "251128",
+      "word": "guess",
+      "chinese": "猜測",
+      "example": "I guess the answer."
+    },
+    {
+      "date": "251128",
+      "word": "invite",
+      "chinese": "邀請",
+      "example": "I invite my friend to my party."
+    },
+    {
+      "date": "251128",
+      "word": "enough",
+      "chinese": "足夠的",
+      "example": "I have enough money for a toy."
+    },
+    {
+      "date": "251128",
+      "word": "lost and found",
+      "chinese": "失物招領",
+      "example": "I go to the lost and found to look for my jacket."
+    },
+    {
+      "date": "251205",
+      "word": "understand",
+      "chinese": "了解",
+      "example": "I understand the rule."
+    },
+    {
+      "date": "251205",
+      "word": "speak",
+      "chinese": "說",
+      "example": "I speak English with my friend."
+    },
+    {
+      "date": "251205",
+      "word": "sibling",
+      "chinese": "兄弟姊妹",
+      "example": "I have one sibling."
+    },
+    {
+      "date": "251205",
+      "word": "spoon",
+      "chinese": "湯匙",
+      "example": "I use a spoon to eat soup."
+    },
+    {
+      "date": "251205",
+      "word": "correct",
+      "chinese": "正確的, 訂正",
+      "example": "My answer is correct."
+    },
+    {
+      "date": "251205",
+      "word": "born",
+      "chinese": "出生",
+      "example": "I am born in December."
+    },
+    {
+      "date": "251205",
+      "word": "month",
+      "chinese": "月",
+      "example": "A year has twelve months."
+    },
+    {
+      "date": "251205",
+      "word": "feed",
+      "chinese": "餵",
+      "example": "I feed my dog every morning."
+    },
+    {
+      "date": "251205",
+      "word": "describe",
+      "chinese": "形容",
+      "example": "I describe the dog."
+    },
+    {
+      "date": "251205",
+      "word": "parents",
+      "chinese": "父母",
+      "example": "My parents love me."
+    },
+    {
+      "date": "251205",
+      "word": "happy holidays",
+      "chinese": "佳節愉快",
+      "example": "We say \"Happy Holidays\" in December."
+    },
+    {
+      "date": "251212",
+      "word": "always",
+      "chinese": "總是",
+      "example": "I always play outside."
+    },
+    {
+      "date": "251212",
+      "word": "before",
+      "chinese": "在...之前",
+      "example": "I eat breakfast before school."
+    },
+    {
+      "date": "251212",
+      "word": "fork",
+      "chinese": "叉子",
+      "example": "I use a fork to eat."
+    },
+    {
+      "date": "251212",
+      "word": "earthquake",
+      "chinese": "地震",
+      "example": "The ground shakes during an earthquake."
+    },
+    {
+      "date": "251212",
+      "word": "shovel",
+      "chinese": "鏟子",
+      "example": "I use a shovel to dig in the dirt."
+    },
+    {
+      "date": "251212",
+      "word": "bucket",
+      "chinese": "桶子",
+      "example": "I fill the bucket with sand."
+    },
+    {
+      "date": "251212",
+      "word": "puzzle",
+      "chinese": "拼圖/困惑",
+      "example": "I do a puzzle."
+    },
+    {
+      "date": "251212",
+      "word": "stare",
+      "chinese": "盯",
+      "example": "I stare at the big dog."
+    },
+    {
+      "date": "251212",
+      "word": "Christmas",
+      "chinese": "聖誕節",
+      "example": "I love Christmas."
+    },
+    {
+      "date": "251212",
+      "word": "cousin",
+      "chinese": "表哥",
+      "example": "My cousin plays with me."
+    },
+    {
+      "date": "251212",
+      "word": "from now on",
+      "chinese": "今後",
+      "example": "From now on, I always eat vegetables."
+    },
+    {
+      "date": "251219",
+      "word": "mistake",
+      "chinese": "錯誤",
+      "example": "I make a mistake on the test."
+    },
+    {
+      "date": "251219",
+      "word": "tissue",
+      "chinese": "組織 衛生紙",
+      "example": "I use a tissue for my nose."
+    },
+    {
+      "date": "251219",
+      "word": "should",
+      "chinese": "應該",
+      "example": "You should help your friend."
+    },
+    {
+      "date": "251219",
+      "word": "tonight",
+      "chinese": "今晚",
+      "example": "I read a book tonight."
+    },
+    {
+      "date": "251219",
+      "word": "silver",
+      "chinese": "銀",
+      "example": "The ring is silver."
+    },
+    {
+      "date": "251219",
+      "word": "lonely",
+      "chinese": "孤獨",
+      "example": "I feel lonely when my friends are not here."
+    },
+    {
+      "date": "251219",
+      "word": "plan",
+      "chinese": "計劃",
+      "example": "I plan to read a book today."
+    },
+    {
+      "date": "251219",
+      "word": "bead",
+      "chinese": "珠",
+      "example": "I put a bead on the string."
+    },
+    {
+      "date": "251219",
+      "word": "earring",
+      "chinese": "耳環",
+      "example": "She wears one earring."
+    },
+    {
+      "date": "251219",
+      "word": "scoop",
+      "chinese": "舀",
+      "example": "I scoop ice cream into a bowl."
+    },
+    {
+      "date": "251219",
+      "word": "feather",
+      "chinese": "羽毛",
+      "example": "A bird has a soft feather."
+    },
+    {
+      "date": "251219",
+      "word": "turn on",
+      "chinese": "打開",
+      "example": "I turn on the light."
+    },
+    {
+      "date": "251219",
+      "word": "turn off",
+      "chinese": "關",
+      "example": "I turn off the light."
+    },
+    {
+      "date": "251226",
+      "word": "next",
+      "chinese": "下一個",
+      "example": "The next time we play, I choose the game."
+    },
+    {
+      "date": "251226",
+      "word": "ago",
+      "chinese": "前",
+      "example": "I saw a dinosaur long ago."
+    },
+    {
+      "date": "251226",
+      "word": "clothes",
+      "chinese": "衣服",
+      "example": "I put on my clean clothes."
+    },
+    {
+      "date": "251226",
+      "word": "square",
+      "chinese": "方塊",
+      "example": "A box is a square shape."
+    },
+    {
+      "date": "251226",
+      "word": "triangle",
+      "chinese": "三角形",
+      "example": "A triangle has three sides."
+    },
+    {
+      "date": "251226",
+      "word": "rectangle",
+      "chinese": "長方形",
+      "example": "A book is a rectangle."
+    },
+    {
+      "date": "251226",
+      "word": "then",
+      "chinese": "然後",
+      "example": "I eat my lunch, then I play outside."
+    },
+    {
+      "date": "251226",
+      "word": "whose",
+      "chinese": "誰的",
+      "example": "Whose book is this?"
+    },
+    {
+      "date": "251226",
+      "word": "negative",
+      "chinese": "消極的",
+      "example": "He has a negative attitude."
+    },
+    {
+      "date": "251226",
+      "word": "positive",
+      "chinese": "積極的",
+      "example": "I have a positive attitude."
+    },
+    {
+      "date": "251226",
+      "word": "during",
+      "chinese": "期間",
+      "example": "I read a book during my free time."
+    },
+    {
+      "date": "251226",
+      "word": "on time",
+      "chinese": "準時",
+      "example": "I go to school on time."
+    },
+    {
+      "date": "260109",
+      "word": "lunar",
+      "chinese": "農曆",
+      "example": "The lunar cycle affects the tides."
+    },
+    {
+      "date": "260109",
+      "word": "envelope",
+      "chinese": "信封",
+      "example": "I put the letter in the envelope."
+    },
+    {
+      "date": "260109",
+      "word": "parade",
+      "chinese": "遊行",
+      "example": "We watch the parade."
+    },
+    {
+      "date": "260109",
+      "word": "famous",
+      "chinese": "著名的",
+      "example": "The actor is famous."
+    },
+    {
+      "date": "260109",
+      "word": "celebrate",
+      "chinese": "慶祝",
+      "example": "We celebrate my birthday."
+    },
+    {
+      "date": "260109",
+      "word": "celebration",
+      "chinese": "慶典",
+      "example": "The party is a fun celebration."
+    },
+    {
+      "date": "260109",
+      "word": "evil",
+      "chinese": "邪惡的",
+      "example": "The evil witch is mean."
+    },
+    {
+      "date": "260109",
+      "word": "spirit",
+      "chinese": "精神",
+      "example": "She has a good spirit."
+    },
+    {
+      "date": "260109",
+      "word": "dragon",
+      "chinese": "龍",
+      "example": "The dragon is big and green."
+    },
+    {
+      "date": "260109",
+      "word": "dessert",
+      "chinese": "甜點",
+      "example": "I eat dessert after dinner."
+    },
+    {
+      "date": "260109",
+      "word": "deny",
+      "chinese": "否定",
+      "example": "I deny the rumor."
+    },
+    {
+      "date": "260109",
+      "word": "dirty",
+      "chinese": "骯髒的",
+      "example": "My shoes are dirty."
+    },
+    {
+      "date": "260109",
+      "word": "hit the road",
+      "chinese": "上路",
+      "example": "We hit the road to go home."
+    },
+    {
+      "date": "260223",
+      "word": "usually",
+      "chinese": "通常",
+      "example": "I usually eat an apple for snack."
+    },
+    {
+      "date": "260223",
+      "word": "change",
+      "chinese": "改變",
+      "example": "I change my clothes."
+    },
+    {
+      "date": "260223",
+      "word": "vacation",
+      "chinese": "假期",
+      "example": "I like my summer vacation."
+    },
+    {
+      "date": "260223",
+      "word": "smile",
+      "chinese": "微笑",
+      "example": "I smile at my friend."
+    },
+    {
+      "date": "260223",
+      "word": "important",
+      "chinese": "重要的",
+      "example": "School is very important."
+    },
+    {
+      "date": "260223",
+      "word": "become",
+      "chinese": "變得",
+      "example": "Caterpillars become butterflies."
+    },
+    {
+      "date": "260223",
+      "word": "wherever",
+      "chinese": "無論",
+      "example": "My dog follows me wherever I go."
+    },
+    {
+      "date": "260223",
+      "word": "upset",
+      "chinese": "沮喪的",
+      "example": "I feel upset when I lose my toy."
+    },
+    {
+      "date": "260223",
+      "word": "candle",
+      "chinese": "蠟燭",
+      "example": "The candle burns on the table."
+    },
+    {
+      "date": "260223",
+      "word": "guest",
+      "chinese": "客人",
+      "example": "A guest comes to my house."
+    },
+    {
+      "date": "260223",
+      "word": "clap",
+      "chinese": "拍",
+      "example": "I clap my hands."
+    },
+    {
+      "date": "260223",
+      "word": "daily routine",
+      "chinese": "日常生活",
+      "example": "I follow my daily routine every morning."
+    },
+    {
+      "date": "260306",
+      "word": "present",
+      "chinese": "現在/禮物",
+      "example": "I have a present for you."
+    },
+    {
+      "date": "260306",
+      "word": "different",
+      "chinese": "不同的",
+      "example": "The two cats are different colors."
+    },
+    {
+      "date": "260306",
+      "word": "rule",
+      "chinese": "規則",
+      "example": "I follow the school rule."
+    },
+    {
+      "date": "260306",
+      "word": "wish",
+      "chinese": "希望",
+      "example": "I wish for a new toy."
+    },
+    {
+      "date": "260306",
+      "word": "burn",
+      "chinese": "燒傷",
+      "example": "The fire burns the wood."
+    },
+    {
+      "date": "260306",
+      "word": "warn",
+      "chinese": "警告",
+      "example": "I warn my friend about the hot stove."
+    },
+    {
+      "date": "260306",
+      "word": "spend",
+      "chinese": "花費",
+      "example": "I spend my money on toys."
+    },
+    {
+      "date": "260306",
+      "word": "through",
+      "chinese": "透過",
+      "example": "I look through the window."
+    },
+    {
+      "date": "260306",
+      "word": "true'",
+      "chinese": "真的",
+      "example": "The story is true."
+    },
+    {
+      "date": "260306",
+      "word": "false'",
+      "chinese": "錯誤的",
+      "example": "This answer is false."
+    },
+    {
+      "date": "260306",
+      "word": "get dressed",
+      "chinese": "穿好衣服",
+      "example": "I get dressed for school every morning."
+    },
+    {
+      "date": "260306",
+      "word": "brush teeth",
+      "chinese": "刷牙",
+      "example": "I brush my teeth every morning."
+    },
+    {
+      "date": "260313",
+      "word": "spicy",
+      "chinese": "辣的",
+      "example": "The pepper is spicy."
+    },
+    {
+      "date": "260313",
+      "word": "whatever",
+      "chinese": "任何",
+      "example": "You can eat whatever you want."
+    },
+    {
+      "date": "260313",
+      "word": "suddenly",
+      "chinese": "突然",
+      "example": "The cat jumps suddenly."
+    },
+    {
+      "date": "260313",
+      "word": "mirror",
+      "chinese": "鏡子",
+      "example": "I look in the mirror."
+    },
+    {
+      "date": "260313",
+      "word": "nowhere",
+      "chinese": "無所不在",
+      "example": "I see my cat nowhere."
+    },
+    {
+      "date": "260313",
+      "word": "point",
+      "chinese": "觀點",
+      "example": "I see your point."
+    },
+    {
+      "date": "260313",
+      "word": "grade",
+      "chinese": "年級",
+      "example": "I am in third grade."
+    },
+    {
+      "date": "260313",
+      "word": "mathematics",
+      "chinese": "數學",
+      "example": "I study mathematics at school."
+    },
+    {
+      "date": "260313",
+      "word": "hurry",
+      "chinese": "匆忙",
+      "example": "I hurry to school."
+    },
+    {
+      "date": "260313",
+      "word": "restaurant",
+      "chinese": "餐廳",
+      "example": "I eat pizza at the restaurant."
+    },
+    {
+      "date": "260313",
+      "word": "have breakfast",
+      "chinese": "吃早餐",
+      "example": "I have breakfast every morning."
+    },
+    {
+      "date": "260313",
+      "word": "get ready",
+      "chinese": "準備",
+      "example": "I get ready for school."
+    },
+    {
+      "date": "260320",
+      "word": "behind",
+      "chinese": "在後面",
+      "example": "The cat hides behind the chair."
+    },
+    {
+      "date": "260320",
+      "word": "future",
+      "chinese": "未來",
+      "example": "I dream about the future."
+    },
+    {
+      "date": "260320",
+      "word": "menu",
+      "chinese": "選單",
+      "example": "I look at the food menu."
+    },
+    {
+      "date": "260320",
+      "word": "Chinese",
+      "chinese": "中國人",
+      "example": "I like to eat Chinese food."
+    },
+    {
+      "date": "260320",
+      "word": "English",
+      "chinese": "英語",
+      "example": "I speak English at school."
+    },
+    {
+      "date": "260320",
+      "word": "subject",
+      "chinese": "主題",
+      "example": "Math is my favorite subject."
+    },
+    {
+      "date": "260320",
+      "word": "across",
+      "chinese": "穿過",
+      "example": "I walk across the street."
+    },
+    {
+      "date": "260320",
+      "word": "chase",
+      "chinese": "追趕",
+      "example": "The dog chases the cat."
+    },
+    {
+      "date": "260320",
+      "word": "early",
+      "chinese": "早的",
+      "example": "I wake up early for school."
+    },
+    {
+      "date": "260320",
+      "word": "surprise",
+      "chinese": "驚喜",
+      "example": "I have a surprise for you."
+    },
+    {
+      "date": "260320",
+      "word": "disappear",
+      "chinese": "消失",
+      "example": "The sun disappears behind the clouds."
+    },
+    {
+      "date": "260320",
+      "word": "change clothes",
+      "chinese": "換衣服",
+      "example": "I change clothes after school."
+    }
+  ],
+  "level2": [
+    {
+      "date": "250902",
+      "word": "deserve",
+      "chinese": "應得",
+      "example": "You deserve a big hug for being so helpful."
+    },
+    {
+      "date": "250902",
+      "word": "construction",
+      "chinese": "建造",
+      "example": "The construction site is very busy."
+    },
+    {
+      "date": "250902",
+      "word": "custodian",
+      "chinese": "保管人",
+      "example": "The custodian cleans the hallways."
+    },
+    {
+      "date": "250902",
+      "word": "introduce",
+      "chinese": "介紹",
+      "example": "I will introduce my mom to my teacher."
+    },
+    {
+      "date": "250902",
+      "word": "deliver",
+      "chinese": "遞送",
+      "example": "The boy will deliver the newspaper."
+    },
+    {
+      "date": "250902",
+      "word": "prompt",
+      "chinese": "迅速的",
+      "example": "The alarm was a prompt for me to wake up."
+    },
+    {
+      "date": "250902",
+      "word": "gradually",
+      "chinese": "逐步地",
+      "example": "The sky gradually became dark as the sun went down."
+    },
+    {
+      "date": "250902",
+      "word": "successful",
+      "chinese": "成功的",
+      "example": "She was successful in her singing competition."
+    },
+    {
+      "date": "250902",
+      "word": "monopoly",
+      "chinese": "壟斷",
+      "example": "One company had a monopoly on selling all the soda in the town."
+    },
+    {
+      "date": "250902",
+      "word": "reputation",
+      "chinese": "名聲",
+      "example": "A good reputation means people think you are a good person."
+    },
+    {
+      "date": "250902",
+      "word": "versus",
+      "chinese": "相對",
+      "example": "The blue team versus the red team is the final match."
+    },
+    {
+      "date": "250902",
+      "word": "generation",
+      "chinese": "世代",
+      "example": "This new game console is for the next generation of players."
+    },
+    {
+      "date": "250902",
+      "word": "assignment",
+      "chinese": "任務",
+      "example": "I have a big assignment for homework tonight."
+    },
+    {
+      "date": "250902",
+      "word": "insert",
+      "chinese": "插入",
+      "example": "Please insert the key into the lock."
+    },
+    {
+      "date": "250902",
+      "word": "website",
+      "chinese": "網站",
+      "example": "We looked at the school website for information."
+    },
+    {
+      "date": "250902",
+      "word": "this instant",
+      "chinese": "瞬間",
+      "example": "Finish your homework this instant."
+    },
+    {
+      "date": "250916",
+      "word": "familiar",
+      "chinese": "熟悉的",
+      "example": "His face looked very familiar to me."
+    },
+    {
+      "date": "250916",
+      "word": "annoy",
+      "chinese": "煩人",
+      "example": "My little brother likes to annoy me when I am doing my homework."
+    },
+    {
+      "date": "250916",
+      "word": "vehicle",
+      "chinese": "車輛",
+      "example": "The school bus is a big yellow vehicle."
+    },
+    {
+      "date": "250916",
+      "word": "vocabulary",
+      "chinese": "詞彙",
+      "example": "Learning new words improves my vocabulary."
+    },
+    {
+      "date": "250916",
+      "word": "obviously",
+      "chinese": "明顯地",
+      "example": "Obviously, the sun is very bright."
+    },
+    {
+      "date": "250916",
+      "word": "random",
+      "chinese": "隨機的",
+      "example": "I chose a random number between one and ten."
+    },
+    {
+      "date": "250916",
+      "word": "vibrate",
+      "chinese": "顫動",
+      "example": "The guitar strings will vibrate when you pluck them."
+    },
+    {
+      "date": "250916",
+      "word": "result",
+      "chinese": "結果",
+      "example": "The test result made me happy."
+    },
+    {
+      "date": "250916",
+      "word": "instrument",
+      "chinese": "樂器",
+      "example": "The musician played a song on her instrument."
+    },
+    {
+      "date": "250916",
+      "word": "orchestra",
+      "chinese": "樂團",
+      "example": "The school orchestra practiced after class."
+    },
+    {
+      "date": "250916",
+      "word": "uniform",
+      "chinese": "制服",
+      "example": "We have to wear a school uniform every day."
+    },
+    {
+      "date": "250916",
+      "word": "Australia",
+      "chinese": "澳洲",
+      "example": "Australia is a large island country."
+    },
+    {
+      "date": "250916",
+      "word": "Aisa",
+      "chinese": "愛莎",
+      "example": "Aisa loves to play with her puppy in the park."
+    },
+    {
+      "date": "250916",
+      "word": "Europe",
+      "chinese": "歐洲",
+      "example": "Europe is a continent with many different countries to explore."
+    },
+    {
+      "date": "250916",
+      "word": "Africa",
+      "chinese": "非洲",
+      "example": "Africa is home to many amazing animals."
+    },
+    {
+      "date": "250916",
+      "word": "in other words",
+      "chinese": "換句話說",
+      "example": "The cat is nocturnal; in other words, it sleeps during the day."
+    },
+    {
+      "date": "250930",
+      "word": "syllable",
+      "chinese": "音節",
+      "example": "The word \"cat\" has one syllable."
+    },
+    {
+      "date": "250930",
+      "word": "universe",
+      "chinese": "宇宙",
+      "example": "The universe is full of stars and planets."
+    },
+    {
+      "date": "250930",
+      "word": "worship",
+      "chinese": "崇拜",
+      "example": "We worship together at the church every Sunday."
+    },
+    {
+      "date": "250930",
+      "word": "graduate",
+      "chinese": "畢業",
+      "example": "My sister will graduate from high school next year."
+    },
+    {
+      "date": "250930",
+      "word": "memory",
+      "chinese": "記憶",
+      "example": "I have a happy memory of my birthday party."
+    },
+    {
+      "date": "250930",
+      "word": "attendance",
+      "chinese": "出席",
+      "example": "Good attendance is important for school."
+    },
+    {
+      "date": "250930",
+      "word": "vision",
+      "chinese": "想像",
+      "example": "I have a vision for a better world."
+    },
+    {
+      "date": "250930",
+      "word": "essential",
+      "chinese": "基本的",
+      "example": "Food and sleep are essential for a good day."
+    },
+    {
+      "date": "250930",
+      "word": "require",
+      "chinese": "要求",
+      "example": "We require tickets to enter the movie theater."
+    },
+    {
+      "date": "250930",
+      "word": "Antarctica",
+      "chinese": "南極洲",
+      "example": "Antarctica is the coldest continent on Earth."
+    },
+    {
+      "date": "250930",
+      "word": "North America",
+      "chinese": "北美洲",
+      "example": "North America is where we live and where many animals roam."
+    },
+    {
+      "date": "250930",
+      "word": "South America",
+      "chinese": "南美洲",
+      "example": "South America is a big continent."
+    },
+    {
+      "date": "250930",
+      "word": "Atlantic Ocean",
+      "chinese": "大西洋",
+      "example": "The Atlantic Ocean is big and full of fish."
+    },
+    {
+      "date": "250930",
+      "word": "Pacific Ocean",
+      "chinese": "太平洋",
+      "example": "The Pacific Ocean is the biggest ocean in the world."
+    },
+    {
+      "date": "250930",
+      "word": "command",
+      "chinese": "命令",
+      "example": "The general gave a command to the soldiers."
+    },
+    {
+      "date": "250930",
+      "word": "expand",
+      "chinese": "擴張",
+      "example": "The city plans to expand the park."
+    },
+    {
+      "date": "251014",
+      "word": "popular",
+      "chinese": "受歡迎的",
+      "example": "The blue robot toy is very popular."
+    },
+    {
+      "date": "251014",
+      "word": "paragraph",
+      "chinese": "段落",
+      "example": "I wrote one paragraph about my day."
+    },
+    {
+      "date": "251014",
+      "word": "investment",
+      "chinese": "投資",
+      "example": "My parents said education is the best investment."
+    },
+    {
+      "date": "251014",
+      "word": "charity",
+      "chinese": "慈善機構",
+      "example": "We gave money to a charity to help people."
+    },
+    {
+      "date": "251014",
+      "word": "properly",
+      "chinese": "適當地",
+      "example": "Please sit properly in your chair."
+    },
+    {
+      "date": "251014",
+      "word": "acquire",
+      "chinese": "獲得",
+      "example": "I want to acquire a new book."
+    },
+    {
+      "date": "251014",
+      "word": "particular",
+      "chinese": "特別的",
+      "example": "I like this particular blue shirt the best."
+    },
+    {
+      "date": "251014",
+      "word": "acquaint",
+      "chinese": "熟人",
+      "example": "I will acquaint myself with the new rules."
+    },
+    {
+      "date": "251014",
+      "word": "procedure",
+      "chinese": "程式",
+      "example": "The steps for baking a cake are an easy procedure."
+    },
+    {
+      "date": "251014",
+      "word": "review",
+      "chinese": "審查",
+      "example": "I will review my notes before the test."
+    },
+    {
+      "date": "251014",
+      "word": "delay",
+      "chinese": "延遲",
+      "example": "The bus had a delay because of the traffic."
+    },
+    {
+      "date": "251014",
+      "word": "decade",
+      "chinese": "十年",
+      "example": "A decade is ten years long."
+    },
+    {
+      "date": "251014",
+      "word": "ideal",
+      "chinese": "理想的",
+      "example": "The park is an ideal place to play soccer."
+    },
+    {
+      "date": "251014",
+      "word": "Arctic Ocean",
+      "chinese": "北冰洋",
+      "example": "The Arctic Ocean is very cold and has lots of ice."
+    },
+    {
+      "date": "251014",
+      "word": "Indian Ocean",
+      "chinese": "印度洋",
+      "example": "The Indian Ocean is one of the world's five oceans."
+    },
+    {
+      "date": "251014",
+      "word": "sooner or later",
+      "chinese": "遲早",
+      "example": "You will learn to ride your bike sooner or later."
+    },
+    {
+      "date": "251028",
+      "word": "announcement",
+      "chinese": "公告",
+      "example": "The principal made an announcement about the school fair."
+    },
+    {
+      "date": "251028",
+      "word": "bracelet",
+      "chinese": "手鐲",
+      "example": "I wore a new bracelet on my wrist."
+    },
+    {
+      "date": "251028",
+      "word": "order",
+      "chinese": "命令",
+      "example": "I will order a pizza for dinner."
+    },
+    {
+      "date": "251028",
+      "word": "circular",
+      "chinese": "圓",
+      "example": "The playground has a big circular sandbox."
+    },
+    {
+      "date": "251028",
+      "word": "release",
+      "chinese": "發布",
+      "example": "We will release the balloons into the sky."
+    },
+    {
+      "date": "251028",
+      "word": "capsule",
+      "chinese": "膠囊",
+      "example": "The astronaut climbed into the space capsule."
+    },
+    {
+      "date": "251028",
+      "word": "persuade",
+      "chinese": "說服",
+      "example": "I tried to persuade my friend to play soccer with me."
+    },
+    {
+      "date": "251028",
+      "word": "guarantee",
+      "chinese": "保證",
+      "example": "I guarantee you will have fun at the party."
+    },
+    {
+      "date": "251028",
+      "word": "hesitate",
+      "chinese": "猶豫",
+      "example": "Do not hesitate to ask questions in class."
+    },
+    {
+      "date": "251028",
+      "word": "pause",
+      "chinese": "暫停",
+      "example": "I need to pause the movie."
+    },
+    {
+      "date": "251028",
+      "word": "seal",
+      "chinese": "海豹",
+      "example": "The seal clapped its flippers at the zoo."
+    },
+    {
+      "date": "251028",
+      "word": "straight",
+      "chinese": "直的",
+      "example": "Please draw a straight line."
+    },
+    {
+      "date": "251028",
+      "word": "include",
+      "chinese": "包括",
+      "example": "Does the price include a drink?"
+    },
+    {
+      "date": "251028",
+      "word": "increase",
+      "chinese": "增加",
+      "example": "The water level will increase when it rains a lot."
+    },
+    {
+      "date": "251028",
+      "word": "decrease",
+      "chinese": "減少",
+      "example": "The number of apples in the basket will decrease if we eat some."
+    },
+    {
+      "date": "251028",
+      "word": "also known as",
+      "chinese": "也稱為",
+      "example": "A koala is also known as a koala bear."
+    },
+    {
+      "date": "251118",
+      "word": "molecule",
+      "chinese": "分子",
+      "example": "A molecule is like a tiny building block that makes up everything around us."
+    },
+    {
+      "date": "251118",
+      "word": "atom",
+      "chinese": "原子",
+      "example": "An atom is a tiny building block of all things."
+    },
+    {
+      "date": "251118",
+      "word": "evaporate",
+      "chinese": "蒸發",
+      "example": "The puddle will evaporate in the sun."
+    },
+    {
+      "date": "251118",
+      "word": "maximum",
+      "chinese": "最大限度",
+      "example": "The maximum number of cookies you can have is five."
+    },
+    {
+      "date": "251118",
+      "word": "minimum",
+      "chinese": "最低限度",
+      "example": "The minimum number of players needed for the game is two."
+    },
+    {
+      "date": "251118",
+      "word": "modern",
+      "chinese": "現代的",
+      "example": "The city built a modern building with glass walls."
+    },
+    {
+      "date": "251118",
+      "word": "technology",
+      "chinese": "科技",
+      "example": "Modern technology makes talking to people far away easy."
+    },
+    {
+      "date": "251118",
+      "word": "practically",
+      "chinese": "幾乎",
+      "example": "The homework was practically finished when the bell rang."
+    },
+    {
+      "date": "251118",
+      "word": "property",
+      "chinese": "財產",
+      "example": "The playground is a fun property where we can play."
+    },
+    {
+      "date": "251118",
+      "word": "liquid",
+      "chinese": "液體",
+      "example": "Juice is a sweet liquid that we drink."
+    },
+    {
+      "date": "251118",
+      "word": "solid",
+      "chinese": "堅硬的",
+      "example": "The ice cube is solid and cold."
+    },
+    {
+      "date": "251118",
+      "word": "bother",
+      "chinese": "打擾",
+      "example": "Please don't bother the sleeping cat."
+    },
+    {
+      "date": "251118",
+      "word": "attach",
+      "chinese": "附",
+      "example": "I will attach the picture to the wall."
+    },
+    {
+      "date": "251118",
+      "word": "definition",
+      "chinese": "定義",
+      "example": "I looked up the definition of the word in the dictionary."
+    },
+    {
+      "date": "251118",
+      "word": "attendance",
+      "chinese": "出席",
+      "example": "Good attendance is important for school."
+    },
+    {
+      "date": "251118",
+      "word": "oral report",
+      "chinese": "口頭報告",
+      "example": "I need to give an oral report on my favorite animal."
+    },
+    {
+      "date": "251202",
+      "word": "impossible",
+      "chinese": "不可能",
+      "example": "It is impossible to fly without wings."
+    },
+    {
+      "date": "251202",
+      "word": "constantly",
+      "chinese": "不斷地",
+      "example": "The cat is constantly meowing for food."
+    },
+    {
+      "date": "251202",
+      "word": "interrupt",
+      "chinese": "中斷",
+      "example": "It is rude to interrupt someone when they are speaking."
+    },
+    {
+      "date": "251202",
+      "word": "scholarship",
+      "chinese": "獎學金",
+      "example": "She got a scholarship to help pay for college."
+    },
+    {
+      "date": "251202",
+      "word": "manner",
+      "chinese": "方式",
+      "example": "She asked for the book in a polite manner."
+    },
+    {
+      "date": "251202",
+      "word": "immediately",
+      "chinese": "立刻",
+      "example": "She immediately ran to her mom when she saw the puppy."
+    },
+    {
+      "date": "251202",
+      "word": "adjust",
+      "chinese": "調整",
+      "example": "I need to adjust the volume on the TV."
+    },
+    {
+      "date": "251202",
+      "word": "culture",
+      "chinese": "文化",
+      "example": "We learned about the culture of different countries."
+    },
+    {
+      "date": "251202",
+      "word": "raise",
+      "chinese": "舉起",
+      "example": "I will raise my hand to ask a question."
+    },
+    {
+      "date": "251202",
+      "word": "concentration",
+      "chinese": "專注",
+      "example": "When I do my homework, I need a lot of concentration to finish it."
+    },
+    {
+      "date": "251202",
+      "word": "observe",
+      "chinese": "觀察",
+      "example": "We can observe the birds in the park."
+    },
+    {
+      "date": "251202",
+      "word": "suffer",
+      "chinese": "經歷",
+      "example": "My pet dog might suffer if he does not eat enough food."
+    },
+    {
+      "date": "251202",
+      "word": "swear",
+      "chinese": "發誓",
+      "example": "I swear I will clean my room today."
+    },
+    {
+      "date": "251202",
+      "word": "reflect",
+      "chinese": "反射",
+      "example": "I need to reflect on my day before I go to sleep."
+    },
+    {
+      "date": "251202",
+      "word": "proof",
+      "chinese": "證明",
+      "example": "I need proof that you finished your chores."
+    },
+    {
+      "date": "251202",
+      "word": "for example",
+      "chinese": "例如",
+      "example": "I like many fruits, for example, apples and bananas."
+    },
+    {
+      "date": "251216",
+      "word": "applause",
+      "chinese": "掌聲",
+      "example": "The crowd gave a big applause for the singer."
+    },
+    {
+      "date": "251216",
+      "word": "fascinate",
+      "chinese": "吸引",
+      "example": "Dinosaurs fascinate me because they are so big and mysterious."
+    },
+    {
+      "date": "251216",
+      "word": "talent",
+      "chinese": "天賦",
+      "example": "She has a talent for drawing cute animals."
+    },
+    {
+      "date": "251216",
+      "word": "contain",
+      "chinese": "包含",
+      "example": "The jar can contain many small candies."
+    },
+    {
+      "date": "251216",
+      "word": "reunion",
+      "chinese": "團圓",
+      "example": "We had a family reunion at the park."
+    },
+    {
+      "date": "251216",
+      "word": "oxygen",
+      "chinese": "氧",
+      "example": "Plants need oxygen to grow."
+    },
+    {
+      "date": "251216",
+      "word": "carbon dioxide",
+      "chinese": "二氧化碳",
+      "example": "Plants use carbon dioxide to make food."
+    },
+    {
+      "date": "251216",
+      "word": "spectacular",
+      "chinese": "壯觀",
+      "example": "The mountain view was spectacular."
+    },
+    {
+      "date": "251216",
+      "word": "provide",
+      "chinese": "提供",
+      "example": "The teacher will provide pencils for the class."
+    },
+    {
+      "date": "251216",
+      "word": "launch",
+      "chinese": "發射",
+      "example": "The rocket will launch into space tomorrow."
+    },
+    {
+      "date": "251216",
+      "word": "globe",
+      "chinese": "地球",
+      "example": "The globe shows where all the countries are in the world."
+    },
+    {
+      "date": "251216",
+      "word": "preposition",
+      "chinese": "介詞",
+      "example": "The cat is under the table, and \"under\" is a preposition."
+    },
+    {
+      "date": "251216",
+      "word": "personality",
+      "chinese": "性格",
+      "example": "She has a cheerful personality that makes everyone smile."
+    },
+    {
+      "date": "251216",
+      "word": "resemble",
+      "chinese": "類似",
+      "example": "The puppy and the kitten resemble each other because they both have fluffy fur."
+    },
+    {
+      "date": "251216",
+      "word": "convention",
+      "chinese": "習俗",
+      "example": "We went to a fun comic book convention on Saturday."
+    },
+    {
+      "date": "251216",
+      "word": "made my day",
+      "chinese": "讓我今天心情很好",
+      "example": "Finding a puppy at the park made my day."
+    },
+    {
+      "date": "260106",
+      "word": "characteristics",
+      "chinese": "特徵",
+      "example": "A giraffe's long neck is one of its main characteristics."
+    },
+    {
+      "date": "260106",
+      "word": "complement",
+      "chinese": "補充",
+      "example": "The blue shirt and the yellow skirt complement each other nicely."
+    },
+    {
+      "date": "260106",
+      "word": "diverse",
+      "chinese": "各種各樣的",
+      "example": "Our class has diverse students from many countries."
+    },
+    {
+      "date": "260106",
+      "word": "campus",
+      "chinese": "校園",
+      "example": "The college campus has many green trees."
+    },
+    {
+      "date": "260106",
+      "word": "cruel",
+      "chinese": "殘忍的",
+      "example": "It is cruel to be mean to animals."
+    },
+    {
+      "date": "260106",
+      "word": "judgement",
+      "chinese": "判斷",
+      "example": "She used good judgement to choose the right answer."
+    },
+    {
+      "date": "260106",
+      "word": "chaotic",
+      "chinese": "混亂",
+      "example": "The classroom became chaotic when the teacher left."
+    },
+    {
+      "date": "260106",
+      "word": "associate",
+      "chinese": "聯繫",
+      "example": "I associate the smell of cookies with my grandma's house."
+    },
+    {
+      "date": "260106",
+      "word": "appreciate",
+      "chinese": "欣賞",
+      "example": "I appreciate your help with my homework."
+    },
+    {
+      "date": "260106",
+      "word": "absorb",
+      "chinese": "吸收",
+      "example": "The sponge can absorb water."
+    },
+    {
+      "date": "260106",
+      "word": "serious",
+      "chinese": "嚴肅的",
+      "example": "The boy looked serious when he took the test."
+    },
+    {
+      "date": "260106",
+      "word": "oath",
+      "chinese": "誓言",
+      "example": "She took an oath to tell the truth."
+    },
+    {
+      "date": "260106",
+      "word": "purpose",
+      "chinese": "目的",
+      "example": "The purpose of the game is to have fun."
+    },
+    {
+      "date": "260106",
+      "word": "emphasize",
+      "chinese": "強調",
+      "example": "The teacher will emphasize the important rules."
+    },
+    {
+      "date": "260106",
+      "word": "ballpoint pen",
+      "chinese": "原子筆",
+      "example": "I used a blue ballpoint pen to write my name."
+    },
+    {
+      "date": "260106",
+      "word": "sense of humor",
+      "chinese": "幽默感",
+      "example": "She has a good sense of humor and makes everyone laugh."
+    },
+    {
+      "date": "260106",
+      "word": "disrupt",
+      "chinese": "擾亂",
+      "example": "Please do not disrupt the class."
+    },
+    {
+      "date": "260224",
+      "word": "generous",
+      "chinese": "慷慨的",
+      "example": "My generous friend shared her snacks with me."
+    },
+    {
+      "date": "260224",
+      "word": "miserable",
+      "chinese": "悲慘的",
+      "example": "I felt miserable when I lost my favorite toy."
+    },
+    {
+      "date": "260224",
+      "word": "rude",
+      "chinese": "粗魯的",
+      "example": "It is rude to shout at your friends."
+    },
+    {
+      "date": "260224",
+      "word": "flight attendant",
+      "chinese": "空服員",
+      "example": "The flight attendant helped the passengers on the plane."
+    },
+    {
+      "date": "260224",
+      "word": "ambitious",
+      "chinese": "雄心勃勃",
+      "example": "The ambitious girl wants to be a doctor when she grows up."
+    },
+    {
+      "date": "260224",
+      "word": "passenger",
+      "chinese": "乘客",
+      "example": "The passenger sits on the bus."
+    },
+    {
+      "date": "260224",
+      "word": "selfish",
+      "chinese": "自私",
+      "example": "The selfish boy did not want to share his toys."
+    },
+    {
+      "date": "260224",
+      "word": "sociable",
+      "chinese": "善於交際",
+      "example": "My brother is very sociable and loves to make new friends."
+    },
+    {
+      "date": "260224",
+      "word": "performance",
+      "chinese": "表現",
+      "example": "The students gave a great performance in the school play."
+    },
+    {
+      "date": "260224",
+      "word": "fountain pen",
+      "chinese": "鋼筆",
+      "example": "I use a fountain pen to write in my notebook."
+    },
+    {
+      "date": "260224",
+      "word": "individual",
+      "chinese": "個人",
+      "example": "Each individual student has a desk."
+    },
+    {
+      "date": "260224",
+      "word": "auditorium",
+      "chinese": "禮堂",
+      "example": "The students gathered in the auditorium for the school play."
+    },
+    {
+      "date": "260224",
+      "word": "furious",
+      "chinese": "狂怒",
+      "example": "My mom was furious when I broke the vase."
+    },
+    {
+      "date": "260224",
+      "word": "honor",
+      "chinese": "榮譽",
+      "example": "It is a great honor to win the first prize."
+    },
+    {
+      "date": "260224",
+      "word": "gymnasium",
+      "chinese": "健身房",
+      "example": "We play sports in the school gymnasium."
+    },
+    {
+      "date": "260224",
+      "word": "bulletin board",
+      "chinese": "公告板",
+      "example": "The teacher put my drawing on the bulletin board."
+    },
+    {
+      "date": "260310",
+      "word": "detention",
+      "chinese": "拘留",
+      "example": "The student had to stay for detention after school."
+    },
+    {
+      "date": "260310",
+      "word": "conference",
+      "chinese": "會議",
+      "example": "The teachers are having a conference in the library."
+    },
+    {
+      "date": "260310",
+      "word": "replace",
+      "chinese": "代替",
+      "example": "I need to replace my old batteries with new ones."
+    },
+    {
+      "date": "260310",
+      "word": "complain",
+      "chinese": "空服員",
+      "example": "My brother likes to complain about the food."
+    },
+    {
+      "date": "260310",
+      "word": "arrange",
+      "chinese": "安排",
+      "example": "I will arrange the books on the shelf."
+    },
+    {
+      "date": "260310",
+      "word": "threaten",
+      "chinese": "威脅",
+      "example": "The big dog began to threaten the small cat."
+    },
+    {
+      "date": "260310",
+      "word": "aisle",
+      "chinese": "走道",
+      "example": "The bride walked down the aisle."
+    },
+    {
+      "date": "260310",
+      "word": "superintendent",
+      "chinese": "校長",
+      "example": "The school superintendent visited our classroom today."
+    },
+    {
+      "date": "260310",
+      "word": "committee",
+      "chinese": "委員會",
+      "example": "The school committee met to talk about the new playground."
+    },
+    {
+      "date": "260310",
+      "word": "passport",
+      "chinese": "護照",
+      "example": "I need a passport to travel to another country."
+    },
+    {
+      "date": "260310",
+      "word": "embarrass",
+      "chinese": "尷尬",
+      "example": "I feel embarrassed when I make a mistake in front of the class."
+    },
+    {
+      "date": "260310",
+      "word": "encourage",
+      "chinese": "鼓勵",
+      "example": "My teacher will encourage me to do my best."
+    },
+    {
+      "date": "260310",
+      "word": "rebellion",
+      "chinese": "叛亂",
+      "example": "The students started a rebellion because they did not like the new school rules."
+    },
+    {
+      "date": "260310",
+      "word": "security",
+      "chinese": "安全",
+      "example": "The security guard helps keep the school safe."
+    },
+    {
+      "date": "260310",
+      "word": "terminal",
+      "chinese": "終端",
+      "example": "The airport terminal is very big."
+    },
+    {
+      "date": "260310",
+      "word": "take off",
+      "chinese": "起飛",
+      "example": "The plane will take off soon."
+    },
+    {
+      "date": "260324",
+      "word": "international",
+      "chinese": "國際的",
+      "example": "People from many different countries joined the international soccer game."
+    },
+    {
+      "date": "260324",
+      "word": "nation",
+      "chinese": "國家",
+      "example": "People from every nation love to play sports."
+    },
+    {
+      "date": "260324",
+      "word": "departure",
+      "chinese": "離開",
+      "example": "We waited at the airport for our departure to London."
+    },
+    {
+      "date": "260324",
+      "word": "arrival",
+      "chinese": "空服員",
+      "example": "We are waiting for the arrival of the bus."
+    },
+    {
+      "date": "260324",
+      "word": "disrespectful",
+      "chinese": "不尊重",
+      "example": "It is disrespectful to talk while the teacher is speaking."
+    },
+    {
+      "date": "260324",
+      "word": "defender",
+      "chinese": "防守隊員",
+      "example": "The soccer defender kicked the ball away from the goal."
+    },
+    {
+      "date": "260324",
+      "word": "council",
+      "chinese": "理事會",
+      "example": "The school council met to talk about the new playground."
+    },
+    {
+      "date": "260324",
+      "word": "knock it off",
+      "chinese": "別鬧了",
+      "example": "Please knock it off and stop making so much noise."
+    },
+    {
+      "date": "260324",
+      "word": "cancel",
+      "chinese": "取消",
+      "example": "I need to cancel my doctor's appointment because I feel better."
+    },
+    {
+      "date": "260324",
+      "word": "call off",
+      "chinese": "取消",
+      "example": "The teacher had to call off the soccer game because of the rain."
+    },
+    {
+      "date": "260324",
+      "word": "involve",
+      "chinese": "涉及",
+      "example": "The science project will involve all the students in our class."
+    },
+    {
+      "date": "260324",
+      "word": "forbid",
+      "chinese": "禁止",
+      "example": "The teacher will forbid the students from running in the hallway."
+    },
+    {
+      "date": "260324",
+      "word": "standard",
+      "chinese": "標準",
+      "example": "We must follow the standard rules of the game."
+    },
+    {
+      "date": "260324",
+      "word": "issue",
+      "chinese": "問題",
+      "example": "We have a small issue with the school bus today."
+    },
+    {
+      "date": "260324",
+      "word": "harmless",
+      "chinese": "無害",
+      "example": "The little spider is harmless and will not hurt you."
+    },
+    {
+      "date": "260324",
+      "word": "vandalism",
+      "chinese": "故意破壞",
+      "example": "The boy had to clean the park after he was caught doing vandalism."
+    },
+    {
+      "date": "260324",
+      "word": "invincible",
+      "chinese": "無敵",
+      "example": "The superhero in the movie is invincible and cannot be hurt."
+    },
+    {
+      "date": "260324",
+      "word": "take it easy",
+      "chinese": "別緊張",
+      "example": "You should take it easy and relax after you finish your homework."
+    },
+    {
+      "date": "260324",
+      "word": "remote control",
+      "chinese": "遙控",
+      "example": "I use the remote control to change the channel on the TV."
+    }
+  ],
+  "level3": [
+    {
+      "date": "250902",
+      "word": "deserve",
+      "chinese": "應得",
+      "example": "You deserve a big hug for being so helpful."
+    },
+    {
+      "date": "250902",
+      "word": "construction",
+      "chinese": "建造",
+      "example": "The construction site is very busy."
+    },
+    {
+      "date": "250902",
+      "word": "custodian",
+      "chinese": "保管人",
+      "example": "The custodian cleans the hallways."
+    },
+    {
+      "date": "250902",
+      "word": "introduce",
+      "chinese": "介紹",
+      "example": "I will introduce my mom to my teacher."
+    },
+    {
+      "date": "250902",
+      "word": "deliver",
+      "chinese": "遞送",
+      "example": "The boy will deliver the newspaper."
+    },
+    {
+      "date": "250902",
+      "word": "prompt",
+      "chinese": "迅速的",
+      "example": "The alarm was a prompt for me to wake up."
+    },
+    {
+      "date": "250902",
+      "word": "gradually",
+      "chinese": "逐步地",
+      "example": "The sky gradually became dark as the sun went down."
+    },
+    {
+      "date": "250902",
+      "word": "successful",
+      "chinese": "成功的",
+      "example": "She was successful in her singing competition."
+    },
+    {
+      "date": "250902",
+      "word": "monopoly",
+      "chinese": "壟斷",
+      "example": "One company had a monopoly on selling all the soda in the town."
+    },
+    {
+      "date": "250902",
+      "word": "reputation",
+      "chinese": "名聲",
+      "example": "A good reputation means people think you are a good person."
+    },
+    {
+      "date": "250902",
+      "word": "versus",
+      "chinese": "相對",
+      "example": "The blue team versus the red team is the final match."
+    },
+    {
+      "date": "250902",
+      "word": "generation",
+      "chinese": "世代",
+      "example": "This new game console is for the next generation of players."
+    },
+    {
+      "date": "250902",
+      "word": "assignment",
+      "chinese": "任務",
+      "example": "I have a big assignment for homework tonight."
+    },
+    {
+      "date": "250902",
+      "word": "insert",
+      "chinese": "插入",
+      "example": "Please insert the key into the lock."
+    },
+    {
+      "date": "250902",
+      "word": "website",
+      "chinese": "網站",
+      "example": "We looked at the school website for information."
+    },
+    {
+      "date": "250902",
+      "word": "this instant",
+      "chinese": "瞬間",
+      "example": "Finish your homework this instant."
+    },
+    {
+      "date": "250916",
+      "word": "familiar",
+      "chinese": "熟悉的",
+      "example": "His face looked very familiar to me."
+    },
+    {
+      "date": "250916",
+      "word": "annoy",
+      "chinese": "煩人",
+      "example": "My little brother likes to annoy me when I am doing my homework."
+    },
+    {
+      "date": "250916",
+      "word": "vehicle",
+      "chinese": "車輛",
+      "example": "The school bus is a big yellow vehicle."
+    },
+    {
+      "date": "250916",
+      "word": "vocabulary",
+      "chinese": "詞彙",
+      "example": "Learning new words improves my vocabulary."
+    },
+    {
+      "date": "250916",
+      "word": "obviously",
+      "chinese": "明顯地",
+      "example": "Obviously, the sun is very bright."
+    },
+    {
+      "date": "250916",
+      "word": "random",
+      "chinese": "隨機的",
+      "example": "I chose a random number between one and ten."
+    },
+    {
+      "date": "250916",
+      "word": "vibrate",
+      "chinese": "顫動",
+      "example": "The guitar strings will vibrate when you pluck them."
+    },
+    {
+      "date": "250916",
+      "word": "result",
+      "chinese": "結果",
+      "example": "The test result made me happy."
+    },
+    {
+      "date": "250916",
+      "word": "instrument",
+      "chinese": "樂器",
+      "example": "The musician played a song on her instrument."
+    },
+    {
+      "date": "250916",
+      "word": "orchestra",
+      "chinese": "樂團",
+      "example": "The school orchestra practiced after class."
+    },
+    {
+      "date": "250916",
+      "word": "uniform",
+      "chinese": "制服",
+      "example": "We have to wear a school uniform every day."
+    },
+    {
+      "date": "250916",
+      "word": "Australia",
+      "chinese": "澳洲",
+      "example": "Australia is a large island country."
+    },
+    {
+      "date": "250916",
+      "word": "Aisa",
+      "chinese": "愛莎",
+      "example": "Aisa loves to play with her puppy in the park."
+    },
+    {
+      "date": "250916",
+      "word": "Europe",
+      "chinese": "歐洲",
+      "example": "Europe is a continent with many different countries to explore."
+    },
+    {
+      "date": "250916",
+      "word": "Africa",
+      "chinese": "非洲",
+      "example": "Africa is home to many amazing animals."
+    },
+    {
+      "date": "250916",
+      "word": "in other words",
+      "chinese": "換句話說",
+      "example": "The cat is nocturnal; in other words, it sleeps during the day."
+    },
+    {
+      "date": "250930",
+      "word": "syllable",
+      "chinese": "音節",
+      "example": "The word \"cat\" has one syllable."
+    },
+    {
+      "date": "250930",
+      "word": "universe",
+      "chinese": "宇宙",
+      "example": "The universe is full of stars and planets."
+    },
+    {
+      "date": "250930",
+      "word": "worship",
+      "chinese": "崇拜",
+      "example": "We worship together at the church every Sunday."
+    },
+    {
+      "date": "250930",
+      "word": "graduate",
+      "chinese": "畢業",
+      "example": "My sister will graduate from high school next year."
+    },
+    {
+      "date": "250930",
+      "word": "memory",
+      "chinese": "記憶",
+      "example": "I have a happy memory of my birthday party."
+    },
+    {
+      "date": "250930",
+      "word": "attendance",
+      "chinese": "出席",
+      "example": "Good attendance is important for school."
+    },
+    {
+      "date": "250930",
+      "word": "vision",
+      "chinese": "想像",
+      "example": "I have a vision for a better world."
+    },
+    {
+      "date": "250930",
+      "word": "essential",
+      "chinese": "基本的",
+      "example": "Food and sleep are essential for a good day."
+    },
+    {
+      "date": "250930",
+      "word": "require",
+      "chinese": "要求",
+      "example": "We require tickets to enter the movie theater."
+    },
+    {
+      "date": "250930",
+      "word": "Antarctica",
+      "chinese": "南極洲",
+      "example": "Antarctica is the coldest continent on Earth."
+    },
+    {
+      "date": "250930",
+      "word": "North America",
+      "chinese": "北美洲",
+      "example": "North America is where we live and where many animals roam."
+    },
+    {
+      "date": "250930",
+      "word": "South America",
+      "chinese": "南美洲",
+      "example": "South America is a big continent."
+    },
+    {
+      "date": "250930",
+      "word": "Atlantic Ocean",
+      "chinese": "大西洋",
+      "example": "The Atlantic Ocean is big and full of fish."
+    },
+    {
+      "date": "250930",
+      "word": "Pacific Ocean",
+      "chinese": "太平洋",
+      "example": "The Pacific Ocean is the biggest ocean in the world."
+    },
+    {
+      "date": "250930",
+      "word": "command",
+      "chinese": "命令",
+      "example": "The general gave a command to the soldiers."
+    },
+    {
+      "date": "250930",
+      "word": "expand",
+      "chinese": "擴張",
+      "example": "The city plans to expand the park."
+    },
+    {
+      "date": "251014",
+      "word": "popular",
+      "chinese": "受歡迎的",
+      "example": "The blue robot toy is very popular."
+    },
+    {
+      "date": "251014",
+      "word": "paragraph",
+      "chinese": "段落",
+      "example": "I wrote one paragraph about my day."
+    },
+    {
+      "date": "251014",
+      "word": "investment",
+      "chinese": "投資",
+      "example": "My parents said education is the best investment."
+    },
+    {
+      "date": "251014",
+      "word": "charity",
+      "chinese": "慈善機構",
+      "example": "We gave money to a charity to help people."
+    },
+    {
+      "date": "251014",
+      "word": "properly",
+      "chinese": "適當地",
+      "example": "Please sit properly in your chair."
+    },
+    {
+      "date": "251014",
+      "word": "acquire",
+      "chinese": "獲得",
+      "example": "I want to acquire a new book."
+    },
+    {
+      "date": "251014",
+      "word": "particular",
+      "chinese": "特別的",
+      "example": "I like this particular blue shirt the best."
+    },
+    {
+      "date": "251014",
+      "word": "acquaint",
+      "chinese": "熟人",
+      "example": "I will acquaint myself with the new rules."
+    },
+    {
+      "date": "251014",
+      "word": "procedure",
+      "chinese": "程式",
+      "example": "The steps for baking a cake are an easy procedure."
+    },
+    {
+      "date": "251014",
+      "word": "review",
+      "chinese": "審查",
+      "example": "I will review my notes before the test."
+    },
+    {
+      "date": "251014",
+      "word": "delay",
+      "chinese": "延遲",
+      "example": "The bus had a delay because of the traffic."
+    },
+    {
+      "date": "251014",
+      "word": "decade",
+      "chinese": "十年",
+      "example": "A decade is ten years long."
+    },
+    {
+      "date": "251014",
+      "word": "ideal",
+      "chinese": "理想的",
+      "example": "The park is an ideal place to play soccer."
+    },
+    {
+      "date": "251014",
+      "word": "Arctic Ocean",
+      "chinese": "北冰洋",
+      "example": "The Arctic Ocean is very cold and has lots of ice."
+    },
+    {
+      "date": "251014",
+      "word": "Indian Ocean",
+      "chinese": "印度洋",
+      "example": "The Indian Ocean is one of the world's five oceans."
+    },
+    {
+      "date": "251014",
+      "word": "sooner or later",
+      "chinese": "遲早",
+      "example": "You will learn to ride your bike sooner or later."
+    },
+    {
+      "date": "251028",
+      "word": "announcement",
+      "chinese": "公告",
+      "example": "The principal made an announcement about the school fair."
+    },
+    {
+      "date": "251028",
+      "word": "bracelet",
+      "chinese": "手鐲",
+      "example": "I wore a new bracelet on my wrist."
+    },
+    {
+      "date": "251028",
+      "word": "order",
+      "chinese": "命令",
+      "example": "I will order a pizza for dinner."
+    },
+    {
+      "date": "251028",
+      "word": "circular",
+      "chinese": "圓",
+      "example": "The playground has a big circular sandbox."
+    },
+    {
+      "date": "251028",
+      "word": "release",
+      "chinese": "發布",
+      "example": "We will release the balloons into the sky."
+    },
+    {
+      "date": "251028",
+      "word": "capsule",
+      "chinese": "膠囊",
+      "example": "The astronaut climbed into the space capsule."
+    },
+    {
+      "date": "251028",
+      "word": "persuade",
+      "chinese": "說服",
+      "example": "I tried to persuade my friend to play soccer with me."
+    },
+    {
+      "date": "251028",
+      "word": "guarantee",
+      "chinese": "保證",
+      "example": "I guarantee you will have fun at the party."
+    },
+    {
+      "date": "251028",
+      "word": "hesitate",
+      "chinese": "猶豫",
+      "example": "Do not hesitate to ask questions in class."
+    },
+    {
+      "date": "251028",
+      "word": "pause",
+      "chinese": "暫停",
+      "example": "I need to pause the movie."
+    },
+    {
+      "date": "251028",
+      "word": "seal",
+      "chinese": "海豹",
+      "example": "The seal clapped its flippers at the zoo."
+    },
+    {
+      "date": "251028",
+      "word": "straight",
+      "chinese": "直的",
+      "example": "Please draw a straight line."
+    },
+    {
+      "date": "251028",
+      "word": "include",
+      "chinese": "包括",
+      "example": "Does the price include a drink?"
+    },
+    {
+      "date": "251028",
+      "word": "increase",
+      "chinese": "增加",
+      "example": "The water level will increase when it rains a lot."
+    },
+    {
+      "date": "251028",
+      "word": "decrease",
+      "chinese": "減少",
+      "example": "The number of apples in the basket will decrease if we eat some."
+    },
+    {
+      "date": "251028",
+      "word": "also known as",
+      "chinese": "也稱為",
+      "example": "A koala is also known as a koala bear."
+    },
+    {
+      "date": "251118",
+      "word": "molecule",
+      "chinese": "分子",
+      "example": "A molecule is like a tiny building block that makes up everything around us."
+    },
+    {
+      "date": "251118",
+      "word": "atom",
+      "chinese": "原子",
+      "example": "An atom is a tiny building block of all things."
+    },
+    {
+      "date": "251118",
+      "word": "evaporate",
+      "chinese": "蒸發",
+      "example": "The puddle will evaporate in the sun."
+    },
+    {
+      "date": "251118",
+      "word": "maximum",
+      "chinese": "最大限度",
+      "example": "The maximum number of cookies you can have is five."
+    },
+    {
+      "date": "251118",
+      "word": "minimum",
+      "chinese": "最低限度",
+      "example": "The minimum number of players needed for the game is two."
+    },
+    {
+      "date": "251118",
+      "word": "modern",
+      "chinese": "現代的",
+      "example": "The city built a modern building with glass walls."
+    },
+    {
+      "date": "251118",
+      "word": "technology",
+      "chinese": "科技",
+      "example": "Modern technology makes talking to people far away easy."
+    },
+    {
+      "date": "251118",
+      "word": "practically",
+      "chinese": "幾乎",
+      "example": "The homework was practically finished when the bell rang."
+    },
+    {
+      "date": "251118",
+      "word": "property",
+      "chinese": "財產",
+      "example": "The playground is a fun property where we can play."
+    },
+    {
+      "date": "251118",
+      "word": "liquid",
+      "chinese": "液體",
+      "example": "Juice is a sweet liquid that we drink."
+    },
+    {
+      "date": "251118",
+      "word": "solid",
+      "chinese": "堅硬的",
+      "example": "The ice cube is solid and cold."
+    },
+    {
+      "date": "251118",
+      "word": "bother",
+      "chinese": "打擾",
+      "example": "Please don't bother the sleeping cat."
+    },
+    {
+      "date": "251118",
+      "word": "attach",
+      "chinese": "附",
+      "example": "I will attach the picture to the wall."
+    },
+    {
+      "date": "251118",
+      "word": "definition",
+      "chinese": "定義",
+      "example": "I looked up the definition of the word in the dictionary."
+    },
+    {
+      "date": "251118",
+      "word": "attendance",
+      "chinese": "出席",
+      "example": "Good attendance is important for school."
+    },
+    {
+      "date": "251118",
+      "word": "oral report",
+      "chinese": "口頭報告",
+      "example": "I need to give an oral report on my favorite animal."
+    },
+    {
+      "date": "251202",
+      "word": "impossible",
+      "chinese": "不可能",
+      "example": "It is impossible to fly without wings."
+    },
+    {
+      "date": "251202",
+      "word": "constantly",
+      "chinese": "不斷地",
+      "example": "The cat is constantly meowing for food."
+    },
+    {
+      "date": "251202",
+      "word": "interrupt",
+      "chinese": "中斷",
+      "example": "It is rude to interrupt someone when they are speaking."
+    },
+    {
+      "date": "251202",
+      "word": "scholarship",
+      "chinese": "獎學金",
+      "example": "She got a scholarship to help pay for college."
+    },
+    {
+      "date": "251202",
+      "word": "manner",
+      "chinese": "方式",
+      "example": "She asked for the book in a polite manner."
+    },
+    {
+      "date": "251202",
+      "word": "immediately",
+      "chinese": "立刻",
+      "example": "She immediately ran to her mom when she saw the puppy."
+    },
+    {
+      "date": "251202",
+      "word": "adjust",
+      "chinese": "調整",
+      "example": "I need to adjust the volume on the TV."
+    },
+    {
+      "date": "251202",
+      "word": "culture",
+      "chinese": "文化",
+      "example": "We learned about the culture of different countries."
+    },
+    {
+      "date": "251202",
+      "word": "raise",
+      "chinese": "舉起",
+      "example": "I will raise my hand to ask a question."
+    },
+    {
+      "date": "251202",
+      "word": "concentration",
+      "chinese": "專注",
+      "example": "When I do my homework, I need a lot of concentration to finish it."
+    },
+    {
+      "date": "251202",
+      "word": "observe",
+      "chinese": "觀察",
+      "example": "We can observe the birds in the park."
+    },
+    {
+      "date": "251202",
+      "word": "suffer",
+      "chinese": "經歷",
+      "example": "My pet dog might suffer if he does not eat enough food."
+    },
+    {
+      "date": "251202",
+      "word": "swear",
+      "chinese": "發誓",
+      "example": "I swear I will clean my room today."
+    },
+    {
+      "date": "251202",
+      "word": "reflect",
+      "chinese": "反射",
+      "example": "I need to reflect on my day before I go to sleep."
+    },
+    {
+      "date": "251202",
+      "word": "proof",
+      "chinese": "證明",
+      "example": "I need proof that you finished your chores."
+    },
+    {
+      "date": "251202",
+      "word": "for example",
+      "chinese": "例如",
+      "example": "I like many fruits, for example, apples and bananas."
+    },
+    {
+      "date": "251216",
+      "word": "applause",
+      "chinese": "掌聲",
+      "example": "The crowd gave a big applause for the singer."
+    },
+    {
+      "date": "251216",
+      "word": "fascinate",
+      "chinese": "吸引",
+      "example": "Dinosaurs fascinate me because they are so big and mysterious."
+    },
+    {
+      "date": "251216",
+      "word": "talent",
+      "chinese": "天賦",
+      "example": "She has a talent for drawing cute animals."
+    },
+    {
+      "date": "251216",
+      "word": "contain",
+      "chinese": "包含",
+      "example": "The jar can contain many small candies."
+    },
+    {
+      "date": "251216",
+      "word": "reunion",
+      "chinese": "團圓",
+      "example": "We had a family reunion at the park."
+    },
+    {
+      "date": "251216",
+      "word": "oxygen",
+      "chinese": "氧",
+      "example": "Plants need oxygen to grow."
+    },
+    {
+      "date": "251216",
+      "word": "carbon dioxide",
+      "chinese": "二氧化碳",
+      "example": "Plants use carbon dioxide to make food."
+    },
+    {
+      "date": "251216",
+      "word": "spectacular",
+      "chinese": "壯觀",
+      "example": "The mountain view was spectacular."
+    },
+    {
+      "date": "251216",
+      "word": "provide",
+      "chinese": "提供",
+      "example": "The teacher will provide pencils for the class."
+    },
+    {
+      "date": "251216",
+      "word": "launch",
+      "chinese": "發射",
+      "example": "The rocket will launch into space tomorrow."
+    },
+    {
+      "date": "251216",
+      "word": "globe",
+      "chinese": "地球",
+      "example": "The globe shows where all the countries are in the world."
+    },
+    {
+      "date": "251216",
+      "word": "preposition",
+      "chinese": "介詞",
+      "example": "The cat is under the table, and \"under\" is a preposition."
+    },
+    {
+      "date": "251216",
+      "word": "personality",
+      "chinese": "性格",
+      "example": "She has a cheerful personality that makes everyone smile."
+    },
+    {
+      "date": "251216",
+      "word": "resemble",
+      "chinese": "類似",
+      "example": "The puppy and the kitten resemble each other because they both have fluffy fur."
+    },
+    {
+      "date": "251216",
+      "word": "convention",
+      "chinese": "習俗",
+      "example": "We went to a fun comic book convention on Saturday."
+    },
+    {
+      "date": "251216",
+      "word": "made my day",
+      "chinese": "讓我今天心情很好",
+      "example": "Finding a puppy at the park made my day."
+    },
+    {
+      "date": "260106",
+      "word": "characteristics",
+      "chinese": "特徵",
+      "example": "A giraffe's long neck is one of its main characteristics."
+    },
+    {
+      "date": "260106",
+      "word": "complement",
+      "chinese": "補充",
+      "example": "The blue shirt and the yellow skirt complement each other nicely."
+    },
+    {
+      "date": "260106",
+      "word": "diverse",
+      "chinese": "各種各樣的",
+      "example": "Our class has diverse students from many countries."
+    },
+    {
+      "date": "260106",
+      "word": "campus",
+      "chinese": "校園",
+      "example": "The college campus has many green trees."
+    },
+    {
+      "date": "260106",
+      "word": "cruel",
+      "chinese": "殘忍的",
+      "example": "It is cruel to be mean to animals."
+    },
+    {
+      "date": "260106",
+      "word": "judgement",
+      "chinese": "判斷",
+      "example": "She used good judgement to choose the right answer."
+    },
+    {
+      "date": "260106",
+      "word": "chaotic",
+      "chinese": "混亂",
+      "example": "The classroom became chaotic when the teacher left."
+    },
+    {
+      "date": "260106",
+      "word": "associate",
+      "chinese": "聯繫",
+      "example": "I associate the smell of cookies with my grandma's house."
+    },
+    {
+      "date": "260106",
+      "word": "appreciate",
+      "chinese": "欣賞",
+      "example": "I appreciate your help with my homework."
+    },
+    {
+      "date": "260106",
+      "word": "absorb",
+      "chinese": "吸收",
+      "example": "The sponge can absorb water."
+    },
+    {
+      "date": "260106",
+      "word": "serious",
+      "chinese": "嚴肅的",
+      "example": "The boy looked serious when he took the test."
+    },
+    {
+      "date": "260106",
+      "word": "oath",
+      "chinese": "誓言",
+      "example": "She took an oath to tell the truth."
+    },
+    {
+      "date": "260106",
+      "word": "purpose",
+      "chinese": "目的",
+      "example": "The purpose of the game is to have fun."
+    },
+    {
+      "date": "260106",
+      "word": "emphasize",
+      "chinese": "強調",
+      "example": "The teacher will emphasize the important rules."
+    },
+    {
+      "date": "260106",
+      "word": "ballpoint pen",
+      "chinese": "原子筆",
+      "example": "I used a blue ballpoint pen to write my name."
+    },
+    {
+      "date": "260106",
+      "word": "sense of humor",
+      "chinese": "幽默感",
+      "example": "She has a good sense of humor and makes everyone laugh."
+    },
+    {
+      "date": "260106",
+      "word": "disrupt",
+      "chinese": "擾亂",
+      "example": "Please do not disrupt the class."
+    },
+    {
+      "date": "260224",
+      "word": "generous",
+      "chinese": "慷慨的",
+      "example": "My generous friend shared her snacks with me."
+    },
+    {
+      "date": "260224",
+      "word": "miserable",
+      "chinese": "悲慘的",
+      "example": "I felt miserable when I lost my favorite toy."
+    },
+    {
+      "date": "260224",
+      "word": "rude",
+      "chinese": "粗魯的",
+      "example": "It is rude to shout at your friends."
+    },
+    {
+      "date": "260224",
+      "word": "flight attendant",
+      "chinese": "空服員",
+      "example": "The flight attendant helped the passengers on the plane."
+    },
+    {
+      "date": "260224",
+      "word": "ambitious",
+      "chinese": "雄心勃勃",
+      "example": "The ambitious girl wants to be a doctor when she grows up."
+    },
+    {
+      "date": "260224",
+      "word": "passenger",
+      "chinese": "乘客",
+      "example": "The passenger sits on the bus."
+    },
+    {
+      "date": "260224",
+      "word": "selfish",
+      "chinese": "自私",
+      "example": "The selfish boy did not want to share his toys."
+    },
+    {
+      "date": "260224",
+      "word": "sociable",
+      "chinese": "善於交際",
+      "example": "My brother is very sociable and loves to make new friends."
+    },
+    {
+      "date": "260224",
+      "word": "performance",
+      "chinese": "表現",
+      "example": "The students gave a great performance in the school play."
+    },
+    {
+      "date": "260224",
+      "word": "fountain pen",
+      "chinese": "鋼筆",
+      "example": "I use a fountain pen to write in my notebook."
+    },
+    {
+      "date": "260224",
+      "word": "individual",
+      "chinese": "個人",
+      "example": "Each individual student has a desk."
+    },
+    {
+      "date": "260224",
+      "word": "auditorium",
+      "chinese": "禮堂",
+      "example": "The students gathered in the auditorium for the school play."
+    },
+    {
+      "date": "260224",
+      "word": "furious",
+      "chinese": "狂怒",
+      "example": "My mom was furious when I broke the vase."
+    },
+    {
+      "date": "260224",
+      "word": "honor",
+      "chinese": "榮譽",
+      "example": "It is a great honor to win the first prize."
+    },
+    {
+      "date": "260224",
+      "word": "gymnasium",
+      "chinese": "健身房",
+      "example": "We play sports in the school gymnasium."
+    },
+    {
+      "date": "260224",
+      "word": "bulletin board",
+      "chinese": "公告板",
+      "example": "The teacher put my drawing on the bulletin board."
+    },
+    {
+      "date": "260310",
+      "word": "detention",
+      "chinese": "拘留",
+      "example": "The student had to stay for detention after school."
+    },
+    {
+      "date": "260310",
+      "word": "conference",
+      "chinese": "會議",
+      "example": "The teachers are having a conference in the library."
+    },
+    {
+      "date": "260310",
+      "word": "replace",
+      "chinese": "代替",
+      "example": "I need to replace my old batteries with new ones."
+    },
+    {
+      "date": "260310",
+      "word": "complain",
+      "chinese": "空服員",
+      "example": "My brother likes to complain about the food."
+    },
+    {
+      "date": "260310",
+      "word": "arrange",
+      "chinese": "安排",
+      "example": "I will arrange the books on the shelf."
+    },
+    {
+      "date": "260310",
+      "word": "threaten",
+      "chinese": "威脅",
+      "example": "The big dog began to threaten the small cat."
+    },
+    {
+      "date": "260310",
+      "word": "aisle",
+      "chinese": "走道",
+      "example": "The bride walked down the aisle."
+    },
+    {
+      "date": "260310",
+      "word": "superintendent",
+      "chinese": "校長",
+      "example": "The school superintendent visited our classroom today."
+    },
+    {
+      "date": "260310",
+      "word": "committee",
+      "chinese": "委員會",
+      "example": "The school committee met to talk about the new playground."
+    },
+    {
+      "date": "260310",
+      "word": "passport",
+      "chinese": "護照",
+      "example": "I need a passport to travel to another country."
+    },
+    {
+      "date": "260310",
+      "word": "embarrass",
+      "chinese": "尷尬",
+      "example": "I feel embarrassed when I make a mistake in front of the class."
+    },
+    {
+      "date": "260310",
+      "word": "encourage",
+      "chinese": "鼓勵",
+      "example": "My teacher will encourage me to do my best."
+    },
+    {
+      "date": "260310",
+      "word": "rebellion",
+      "chinese": "叛亂",
+      "example": "The students started a rebellion because they did not like the new school rules."
+    },
+    {
+      "date": "260310",
+      "word": "security",
+      "chinese": "安全",
+      "example": "The security guard helps keep the school safe."
+    },
+    {
+      "date": "260310",
+      "word": "terminal",
+      "chinese": "終端",
+      "example": "The airport terminal is very big."
+    },
+    {
+      "date": "260310",
+      "word": "take off",
+      "chinese": "起飛",
+      "example": "The plane will take off soon."
+    },
+    {
+      "date": "260324",
+      "word": "international",
+      "chinese": "國際的",
+      "example": "People from many different countries joined the international soccer game."
+    },
+    {
+      "date": "260324",
+      "word": "nation",
+      "chinese": "國家",
+      "example": "People from every nation love to play sports."
+    },
+    {
+      "date": "260324",
+      "word": "departure",
+      "chinese": "離開",
+      "example": "We waited at the airport for our departure to London."
+    },
+    {
+      "date": "260324",
+      "word": "arrival",
+      "chinese": "空服員",
+      "example": "We are waiting for the arrival of the bus."
+    },
+    {
+      "date": "260324",
+      "word": "disrespectful",
+      "chinese": "不尊重",
+      "example": "It is disrespectful to talk while the teacher is speaking."
+    },
+    {
+      "date": "260324",
+      "word": "defender",
+      "chinese": "防守隊員",
+      "example": "The soccer defender kicked the ball away from the goal."
+    },
+    {
+      "date": "260324",
+      "word": "council",
+      "chinese": "理事會",
+      "example": "The school council met to talk about the new playground."
+    },
+    {
+      "date": "260324",
+      "word": "knock it off",
+      "chinese": "別鬧了",
+      "example": "Please knock it off and stop making so much noise."
+    },
+    {
+      "date": "260324",
+      "word": "cancel",
+      "chinese": "取消",
+      "example": "I need to cancel my doctor's appointment because I feel better."
+    },
+    {
+      "date": "260324",
+      "word": "call off",
+      "chinese": "取消",
+      "example": "The teacher had to call off the soccer game because of the rain."
+    },
+    {
+      "date": "260324",
+      "word": "involve",
+      "chinese": "涉及",
+      "example": "The science project will involve all the students in our class."
+    },
+    {
+      "date": "260324",
+      "word": "forbid",
+      "chinese": "禁止",
+      "example": "The teacher will forbid the students from running in the hallway."
+    },
+    {
+      "date": "260324",
+      "word": "standard",
+      "chinese": "標準",
+      "example": "We must follow the standard rules of the game."
+    },
+    {
+      "date": "260324",
+      "word": "issue",
+      "chinese": "問題",
+      "example": "We have a small issue with the school bus today."
+    },
+    {
+      "date": "260324",
+      "word": "harmless",
+      "chinese": "無害",
+      "example": "The little spider is harmless and will not hurt you."
+    },
+    {
+      "date": "260324",
+      "word": "vandalism",
+      "chinese": "故意破壞",
+      "example": "The boy had to clean the park after he was caught doing vandalism."
+    },
+    {
+      "date": "260324",
+      "word": "invincible",
+      "chinese": "無敵",
+      "example": "The superhero in the movie is invincible and cannot be hurt."
+    },
+    {
+      "date": "260324",
+      "word": "take it easy",
+      "chinese": "別緊張",
+      "example": "You should take it easy and relax after you finish your homework."
+    },
+    {
+      "date": "260324",
+      "word": "remote control",
+      "chinese": "遙控",
+      "example": "I use the remote control to change the channel on the TV."
+    }
+  ],
+  "level4": [
+    {
+      "date": "250904",
+      "word": "paranormal",
+      "chinese": "超自然現象",
+      "example": "We watched a movie about paranormal monsters."
+    },
+    {
+      "date": "250904",
+      "word": "incident",
+      "chinese": "事件",
+      "example": "The incident caused a small delay in our school trip."
+    },
+    {
+      "date": "250904",
+      "word": "region",
+      "chinese": "地區",
+      "example": "The mountainous region is a great place to hike."
+    },
+    {
+      "date": "250904",
+      "word": "transport",
+      "chinese": "運輸",
+      "example": "The school bus will transport us to the zoo for our field trip."
+    },
+    {
+      "date": "250904",
+      "word": "exaggerate",
+      "chinese": "誇大",
+      "example": "Please do not exaggerate how good the movie was."
+    },
+    {
+      "date": "250904",
+      "word": "urban",
+      "chinese": "城市的",
+      "example": "We took a bus to the urban center to see the tall buildings."
+    },
+    {
+      "date": "250904",
+      "word": "witness",
+      "chinese": "證人",
+      "example": "I was a witness to the bird building its nest in the tree."
+    },
+    {
+      "date": "250904",
+      "word": "sensationalize",
+      "chinese": "聳人聽聞",
+      "example": "The news anchor tried to sensationalize the story about the lost cat."
+    },
+    {
+      "date": "250904",
+      "word": "unbiased",
+      "chinese": "公正的",
+      "example": "A good referee must be unbiased when watching the game."
+    },
+    {
+      "date": "250904",
+      "word": "compass",
+      "chinese": "羅盤",
+      "example": "I used the compass to find north during our hike."
+    },
+    {
+      "date": "250904",
+      "word": "appropriate",
+      "chinese": "合適的",
+      "example": "It is appropriate to say thank you when someone gives you a gift."
+    },
+    {
+      "date": "250904",
+      "word": "public",
+      "chinese": "民眾",
+      "example": "The library is a public place where everyone can read books."
+    },
+    {
+      "date": "250904",
+      "word": "progress",
+      "chinese": "進步",
+      "example": "I made a lot of progress on my science project today."
+    },
+    {
+      "date": "250904",
+      "word": "feature",
+      "chinese": "特徵",
+      "example": "The new cell phone has a cool feature that takes pictures underwater."
+    },
+    {
+      "date": "250904",
+      "word": "badminton",
+      "chinese": "羽毛球",
+      "example": "I played badminton with my friend after school."
+    },
+    {
+      "date": "250904",
+      "word": "call it a day",
+      "chinese": "結束今天的工作吧",
+      "example": "Let's call it a day and finish the game tomorrow."
+    },
+    {
+      "date": "250918",
+      "word": "module",
+      "chinese": "模組",
+      "example": "The computer science class has a new module on coding games."
+    },
+    {
+      "date": "250918",
+      "word": "allowance",
+      "chinese": "津貼",
+      "example": "My parents give me an allowance for helping with the chores."
+    },
+    {
+      "date": "250918",
+      "word": "grumble",
+      "chinese": "嘰",
+      "example": "The dog began to grumble when it didn't get its treat."
+    },
+    {
+      "date": "250918",
+      "word": "slob",
+      "chinese": "邋遢鬼",
+      "example": "My brother is such a slob, he never cleans his room."
+    },
+    {
+      "date": "250918",
+      "word": "scheme",
+      "chinese": "方案",
+      "example": "The kids came up with a fun scheme to surprise their teacher on her birthday."
+    },
+    {
+      "date": "250918",
+      "word": "aluminum",
+      "chinese": "鋁",
+      "example": "We recycle aluminum cans to help the Earth."
+    },
+    {
+      "date": "250918",
+      "word": "lengthen",
+      "chinese": "加長",
+      "example": "We need to lengthen the rope to reach the top."
+    },
+    {
+      "date": "250918",
+      "word": "strengthen",
+      "chinese": "加強",
+      "example": "Lifting weights can help strengthen your arms and legs."
+    },
+    {
+      "date": "250918",
+      "word": "advance",
+      "chinese": "進步",
+      "example": "The class will advance to the next chapter next week."
+    },
+    {
+      "date": "250918",
+      "word": "negotiate",
+      "chinese": "談判",
+      "example": "We tried to negotiate a deal for the cool video game."
+    },
+    {
+      "date": "250918",
+      "word": "deed",
+      "chinese": "契據",
+      "example": "Helping your neighbor carry groceries is a kind deed."
+    },
+    {
+      "date": "250918",
+      "word": "structure",
+      "chinese": "結構",
+      "example": "The strong structure of the bridge makes it safe for cars."
+    },
+    {
+      "date": "250918",
+      "word": "transparent",
+      "chinese": "透明的",
+      "example": "The glass window is so transparent that you can see the birds outside."
+    },
+    {
+      "date": "250918",
+      "word": "defect",
+      "chinese": "缺點",
+      "example": "The new bicycle had a small defect in the wheel."
+    },
+    {
+      "date": "250918",
+      "word": "meticulous",
+      "chinese": "細緻",
+      "example": "The student was meticulous about checking every answer on the test."
+    },
+    {
+      "date": "250918",
+      "word": "from scratch",
+      "chinese": "從零開始",
+      "example": "My mom taught me how to make cookies from scratch."
+    },
+    {
+      "date": "251002",
+      "word": "apostrophe",
+      "chinese": "撇號",
+      "example": "An apostrophe is used to show possession, like in \"Sarah's book.\""
+    },
+    {
+      "date": "251002",
+      "word": "gymnastic",
+      "chinese": "體操",
+      "example": "She practices her gymnastic moves every afternoon."
+    },
+    {
+      "date": "251002",
+      "word": "athletics",
+      "chinese": "競技",
+      "example": "I joined the school athletics club to practice running and jumping."
+    },
+    {
+      "date": "251002",
+      "word": "tutor",
+      "chinese": "導師",
+      "example": "My older sister became my math tutor this summer."
+    },
+    {
+      "date": "251002",
+      "word": "finance",
+      "chinese": "金融",
+      "example": "We learned about finance when we talked about saving money at school."
+    },
+    {
+      "date": "251002",
+      "word": "assemble",
+      "chinese": "集合",
+      "example": "We need to assemble all the parts to build the robot."
+    },
+    {
+      "date": "251002",
+      "word": "refund",
+      "chinese": "退款",
+      "example": "I asked for a refund when the game didn't work."
+    },
+    {
+      "date": "251002",
+      "word": "element",
+      "chinese": "元素",
+      "example": "Oxygen is an important element for breathing."
+    },
+    {
+      "date": "251002",
+      "word": "insult",
+      "chinese": "侮辱",
+      "example": "It is mean to insult your friends."
+    },
+    {
+      "date": "251002",
+      "word": "qualify",
+      "chinese": "資格",
+      "example": "She needs to study hard to qualify for the advanced class."
+    },
+    {
+      "date": "251002",
+      "word": "category",
+      "chinese": "類別",
+      "example": "We put all the animals into a category based on what they eat."
+    },
+    {
+      "date": "251002",
+      "word": "predict",
+      "chinese": "預測",
+      "example": "The weatherman can predict if it will rain tomorrow."
+    },
+    {
+      "date": "251002",
+      "word": "inflation",
+      "chinese": "通貨膨脹",
+      "example": "Inflation makes the cost of things higher over time."
+    },
+    {
+      "date": "251002",
+      "word": "ridiculous",
+      "chinese": "荒謬的",
+      "example": "Wearing a heavy winter coat in the summer is ridiculous."
+    },
+    {
+      "date": "251002",
+      "word": "order",
+      "chinese": "命令",
+      "example": "I need to order a new book for school."
+    },
+    {
+      "date": "251002",
+      "word": "as well",
+      "chinese": "同樣",
+      "example": "I want to go to the movies as well."
+    },
+    {
+      "date": "251016",
+      "word": "productive",
+      "chinese": "生產力",
+      "example": "She had a productive morning because she finished all her schoolwork."
+    },
+    {
+      "date": "251016",
+      "word": "absorb",
+      "chinese": "吸收",
+      "example": "The sponge can absorb a lot of water when you clean up a spill."
+    },
+    {
+      "date": "251016",
+      "word": "formal",
+      "chinese": "正式的",
+      "example": "We had to wear formal clothes for the special school dinner."
+    },
+    {
+      "date": "251016",
+      "word": "informative",
+      "chinese": "資訊豐富的",
+      "example": "The documentary about space was very informative."
+    },
+    {
+      "date": "251016",
+      "word": "distraction",
+      "chinese": "分心",
+      "example": "The loud music was a big distraction while I was trying to do my homework."
+    },
+    {
+      "date": "251016",
+      "word": "pattern",
+      "chinese": "圖案",
+      "example": "I love the colorful pattern on my new shirt."
+    },
+    {
+      "date": "251016",
+      "word": "pointless",
+      "chinese": "無意義",
+      "example": "Arguing over who gets the last cookie is pointless."
+    },
+    {
+      "date": "251016",
+      "word": "issue",
+      "chinese": "問題",
+      "example": "The issue with the broken swing was fixed by the teacher."
+    },
+    {
+      "date": "251016",
+      "word": "underlying",
+      "chinese": "潛在的",
+      "example": "The underlying message in the book was about friendship."
+    },
+    {
+      "date": "251016",
+      "word": "energetic",
+      "chinese": "精力充沛",
+      "example": "The children were very energetic after eating ice cream."
+    },
+    {
+      "date": "251016",
+      "word": "economic",
+      "chinese": "經濟的",
+      "example": "The city's economic growth means more jobs for everyone."
+    },
+    {
+      "date": "251016",
+      "word": "data",
+      "chinese": "數據",
+      "example": "We collected data about how many people visited the park each day."
+    },
+    {
+      "date": "251016",
+      "word": "broadcast",
+      "chinese": "pod送",
+      "example": "The news will broadcast the weather report at six o'clock."
+    },
+    {
+      "date": "251016",
+      "word": "primary",
+      "chinese": "基本的",
+      "example": "My primary goal today is to finish my homework."
+    },
+    {
+      "date": "251016",
+      "word": "secondary",
+      "chinese": "次要",
+      "example": "The secondary colors, like green and purple, are made by mixing primary colors."
+    },
+    {
+      "date": "251016",
+      "word": "state of the art",
+      "chinese": "最先進的",
+      "example": "The new library has state of the art computers for everyone to use."
+    },
+    {
+      "date": "251030",
+      "word": "intermediate",
+      "chinese": "中間的",
+      "example": "The intermediate class is for students who are already good but not experts yet."
+    },
+    {
+      "date": "251030",
+      "word": "network",
+      "chinese": "網路",
+      "example": "My friends and I have a network for trading soccer cards."
+    },
+    {
+      "date": "251030",
+      "word": "discipline",
+      "chinese": "紀律",
+      "example": "Discipline means doing your homework every day even when you want to play."
+    },
+    {
+      "date": "251030",
+      "word": "strict",
+      "chinese": "嚴格的",
+      "example": "The teacher was strict about everyone finishing their homework on time."
+    },
+    {
+      "date": "251030",
+      "word": "restriction",
+      "chinese": "限制",
+      "example": "There is a restriction on how many cookies I can eat before dinner."
+    },
+    {
+      "date": "251030",
+      "word": "cottage",
+      "chinese": "小屋",
+      "example": "We stayed in a small cottage near the beach."
+    },
+    {
+      "date": "251030",
+      "word": "basement",
+      "chinese": "集合/組成",
+      "example": "My dad keeps his tools in the basement."
+    },
+    {
+      "date": "251030",
+      "word": "collapse",
+      "chinese": "坍塌",
+      "example": "The old building might collapse if there is a big earthquake."
+    },
+    {
+      "date": "251030",
+      "word": "odd",
+      "chinese": "奇怪的",
+      "example": "It was an odd feeling to see snow in the summer."
+    },
+    {
+      "date": "251030",
+      "word": "credit",
+      "chinese": "信用",
+      "example": "I need to save my allowance because I don't have enough credit to buy the new video game yet."
+    },
+    {
+      "date": "251030",
+      "word": "debt",
+      "chinese": "債務",
+      "example": "When you borrow money from someone, you have a debt that you need to pay back."
+    },
+    {
+      "date": "251030",
+      "word": "society",
+      "chinese": "社會",
+      "example": "It is important to be a helpful member of society."
+    },
+    {
+      "date": "251030",
+      "word": "algorithm",
+      "chinese": "演算法",
+      "example": "A search engine uses an algorithm to find the best websites for your question."
+    },
+    {
+      "date": "251030",
+      "word": "valuable",
+      "chinese": "有價值的",
+      "example": "Time is a valuable resource."
+    },
+    {
+      "date": "251030",
+      "word": "automatically",
+      "chinese": "自動地",
+      "example": "When you press the button, the door opens automatically."
+    },
+    {
+      "date": "251030",
+      "word": "under the weather",
+      "chinese": "身體不適",
+      "example": "My sister felt under the weather, so she stayed home from school."
+    },
+    {
+      "date": "251120",
+      "word": "ancient",
+      "chinese": "古老的",
+      "example": "We learned about the ancient pyramids of Egypt in history class."
+    },
+    {
+      "date": "251120",
+      "word": "merchant",
+      "chinese": "商人",
+      "example": "The merchant traveled far to sell his spices."
+    },
+    {
+      "date": "251120",
+      "word": "desire",
+      "chinese": "慾望",
+      "example": "My biggest desire is to visit a famous city someday."
+    },
+    {
+      "date": "251120",
+      "word": "physician",
+      "chinese": "醫生",
+      "example": "The physician checked my temperature and said I had a small cold."
+    },
+    {
+      "date": "251120",
+      "word": "battle",
+      "chinese": "戰鬥",
+      "example": "The knights had a big battle to protect their castle from the dragons."
+    },
+    {
+      "date": "251120",
+      "word": "develop",
+      "chinese": "發展",
+      "example": "I want to develop my drawing skills by practicing every day."
+    },
+    {
+      "date": "251120",
+      "word": "otherwise",
+      "chinese": "否則",
+      "example": "You need to wear a coat, otherwise you'll be cold outside."
+    },
+    {
+      "date": "251120",
+      "word": "memo",
+      "chinese": "備忘錄",
+      "example": "I wrote a quick memo to remind my friend about the party."
+    },
+    {
+      "date": "251120",
+      "word": "quality",
+      "chinese": "品質",
+      "example": "Good quality toys are safer and last for a long time."
+    },
+    {
+      "date": "251120",
+      "word": "improve",
+      "chinese": "提升",
+      "example": "I need to practice so I can improve my singing."
+    },
+    {
+      "date": "251120",
+      "word": "deliberate",
+      "chinese": "商榷",
+      "example": "She made a deliberate effort to speak clearly."
+    },
+    {
+      "date": "251120",
+      "word": "profit",
+      "chinese": "利潤",
+      "example": "The lemonade stand made a profit because they sold more cups than they spent on supplies."
+    },
+    {
+      "date": "251120",
+      "word": "devastate",
+      "chinese": "蹂躪",
+      "example": "The earthquake could devastate the old buildings in the city."
+    },
+    {
+      "date": "251120",
+      "word": "fabricate",
+      "chinese": "製造",
+      "example": "I like to fabricate fun stories about talking animals."
+    },
+    {
+      "date": "251120",
+      "word": "emulate",
+      "chinese": "模擬",
+      "example": "I try to emulate my favorite soccer player's moves during practice."
+    },
+    {
+      "date": "251120",
+      "word": "place an order",
+      "chinese": "下單",
+      "example": "I will place an order for a pizza for dinner tonight."
+    },
+    {
+      "date": "251204",
+      "word": "capable",
+      "chinese": "有能力的",
+      "example": "She is capable of finishing the race."
+    },
+    {
+      "date": "251204",
+      "word": "lack",
+      "chinese": "缺少",
+      "example": "We stopped playing because of a lack of light."
+    },
+    {
+      "date": "251204",
+      "word": "engage",
+      "chinese": "從事",
+      "example": "Let's engage in a fun game during recess!"
+    },
+    {
+      "date": "251204",
+      "word": "conduct",
+      "chinese": "執行",
+      "example": "The teacher will conduct a fun science experiment for the class."
+    },
+    {
+      "date": "251204",
+      "word": "conscious",
+      "chinese": "有意識的",
+      "example": "I was conscious that I forgot my lunch box."
+    },
+    {
+      "date": "251204",
+      "word": "intend",
+      "chinese": "打算",
+      "example": "I intend to study for the test tomorrow."
+    },
+    {
+      "date": "251204",
+      "word": "crane",
+      "chinese": "起重機",
+      "example": "The crane lifted the heavy box high into the air at the construction site."
+    },
+    {
+      "date": "251204",
+      "word": "bear",
+      "chinese": "熊",
+      "example": "The big brown bear likes to eat fish from the river."
+    },
+    {
+      "date": "251204",
+      "word": "shudder",
+      "chinese": "不寒而慄",
+      "example": "The cold wind made me shudder as I walked to school."
+    },
+    {
+      "date": "251204",
+      "word": "gossip",
+      "chinese": "閒話",
+      "example": "We should not spread gossip about our friends."
+    },
+    {
+      "date": "251204",
+      "word": "wrestle",
+      "chinese": "搏鬥",
+      "example": "The two friends decided to wrestle in the backyard for fun."
+    },
+    {
+      "date": "251204",
+      "word": "tawny",
+      "chinese": "黃褐色",
+      "example": "The lion's fur was a tawny color."
+    },
+    {
+      "date": "251204",
+      "word": "flutter",
+      "chinese": "撲",
+      "example": "The feather will flutter gently to the ground."
+    },
+    {
+      "date": "251204",
+      "word": "tantrum",
+      "chinese": "發脾氣",
+      "example": "The baby threw a tantrum because she wanted the toy."
+    },
+    {
+      "date": "251204",
+      "word": "behavior",
+      "chinese": "行為",
+      "example": "Good behavior means being kind and following the rules."
+    },
+    {
+      "date": "251204",
+      "word": "peculiar",
+      "chinese": "奇特",
+      "example": "The cat had a peculiar habit of sleeping upside down on the couch."
+    },
+    {
+      "date": "251204",
+      "word": "cloak",
+      "chinese": "披風",
+      "example": "The wizard wore a magical cloak that made him invisible."
+    },
+    {
+      "date": "251204",
+      "word": "weird",
+      "chinese": "詭異的",
+      "example": "The cat made a weird noise when it saw the dog."
+    },
+    {
+      "date": "251204",
+      "word": "contrary",
+      "chinese": "相反",
+      "example": "My answer is contrary to yours."
+    },
+    {
+      "date": "251204",
+      "word": "seize",
+      "chinese": "搶佔",
+      "example": "He ran to seize the last available seat on the bus."
+    },
+    {
+      "date": "251230",
+      "word": "inflation",
+      "chinese": "通貨膨脹",
+      "example": "Inflation makes the prices of toys and candy go up."
+    },
+    {
+      "date": "251230",
+      "word": "sequence",
+      "chinese": "順序",
+      "example": "We learned the correct sequence of steps to bake the cake."
+    },
+    {
+      "date": "251230",
+      "word": "ally",
+      "chinese": "盟友",
+      "example": "My best friend is my ally when we play team games."
+    },
+    {
+      "date": "251230",
+      "word": "payment",
+      "chinese": "支付",
+      "example": "I made a payment for my new book."
+    },
+    {
+      "date": "251230",
+      "word": "currency",
+      "chinese": "貨幣",
+      "example": "The Euro is the currency used in many countries in Europe."
+    },
+    {
+      "date": "251230",
+      "word": "trillion",
+      "chinese": "百萬",
+      "example": "A trillion is a very, very big number."
+    },
+    {
+      "date": "251230",
+      "word": "typo",
+      "chinese": "拼字錯誤",
+      "example": "I made a typo when I wrote \"cat\" instead of \"car.\""
+    },
+    {
+      "date": "251230",
+      "word": "miracle",
+      "chinese": "奇蹟",
+      "example": "It was a miracle that the small boat survived the storm."
+    },
+    {
+      "date": "251230",
+      "word": "stable",
+      "chinese": "穩定的",
+      "example": "The table is very stable and does not wobble."
+    },
+    {
+      "date": "251230",
+      "word": "supervision",
+      "chinese": "監督",
+      "example": "We need adult supervision when we swim in the deep end."
+    },
+    {
+      "date": "251230",
+      "word": "pierce",
+      "chinese": "刺穿",
+      "example": "She watched the needle pierce the fabric."
+    },
+    {
+      "date": "251230",
+      "word": "anxious",
+      "chinese": "焦慮的",
+      "example": "I feel anxious before a big test."
+    },
+    {
+      "date": "251230",
+      "word": "fright",
+      "chinese": "驚嚇",
+      "example": "The sudden shadow gave the child a fright."
+    },
+    {
+      "date": "251230",
+      "word": "flatter",
+      "chinese": "奉承",
+      "example": "He will flatter his teacher so he doesn't get homework."
+    },
+    {
+      "date": "251230",
+      "word": "exasperate",
+      "chinese": "惡化",
+      "example": "It can really exasperate a person when the Wi-Fi is slow."
+    },
+    {
+      "date": "251230",
+      "word": "falter",
+      "chinese": "猶豫不決",
+      "example": "He did not falter even when the path got muddy."
+    },
+    {
+      "date": "251230",
+      "word": "astound",
+      "chinese": "震驚",
+      "example": "The sudden fireworks display will astound everyone watching."
+    },
+    {
+      "date": "251230",
+      "word": "respond",
+      "chinese": "回應",
+      "example": "Please respond to my question."
+    },
+    {
+      "date": "251230",
+      "word": "occupy",
+      "chinese": "佔據",
+      "example": "The cat will occupy the sunny spot on the couch all morning."
+    },
+    {
+      "date": "251230",
+      "word": "survive",
+      "chinese": "存活",
+      "example": "We need water to survive."
+    },
+    {
+      "date": "260226",
+      "word": "atmosphere",
+      "chinese": "大氣層",
+      "example": "The Earth is surrounded by a thick layer of air called the atmosphere."
+    },
+    {
+      "date": "260226",
+      "word": "layer",
+      "chinese": "層",
+      "example": "I put a thin layer of butter on my toast."
+    },
+    {
+      "date": "260226",
+      "word": "occur",
+      "chinese": "發生",
+      "example": "The accident occurred when the driver did not stop at the red light."
+    },
+    {
+      "date": "260226",
+      "word": "organism",
+      "chinese": "生物",
+      "example": "A tiny organism can only be seen with a microscope."
+    },
+    {
+      "date": "260226",
+      "word": "decay",
+      "chinese": "衰變",
+      "example": "The old leaves on the ground will decay and turn into soil."
+    },
+    {
+      "date": "260226",
+      "word": "volcano",
+      "chinese": "火山",
+      "example": "The big volcano can erupt and send hot lava into the air."
+    },
+    {
+      "date": "260226",
+      "word": "condense",
+      "chinese": "凝結",
+      "example": "Water vapor will condense into small drops on a cold window."
+    },
+    {
+      "date": "260226",
+      "word": "bacteria",
+      "chinese": "細菌",
+      "example": "You should wash your hands to get rid of bacteria."
+    },
+    {
+      "date": "260226",
+      "word": "form",
+      "chinese": "形式",
+      "example": "Ice and snow are two different forms of water."
+    },
+    {
+      "date": "260226",
+      "word": "fossil",
+      "chinese": "化石",
+      "example": "The scientist found an old fish fossil in the mountains."
+    },
+    {
+      "date": "260226",
+      "word": "settler",
+      "chinese": "定居者",
+      "example": "The settler built a small wooden house for his family."
+    },
+    {
+      "date": "260226",
+      "word": "frontier",
+      "chinese": "邊境",
+      "example": "The explorers crossed the frontier to find new lands."
+    },
+    {
+      "date": "260226",
+      "word": "lumber",
+      "chinese": "木材",
+      "example": "The worker used a truck to move the heavy lumber to the construction site."
+    },
+    {
+      "date": "260226",
+      "word": "practically",
+      "chinese": "幾乎",
+      "example": "I have practically finished all my homework."
+    },
+    {
+      "date": "260226",
+      "word": "equipment",
+      "chinese": "裝置",
+      "example": "The hikers carried all the necessary camping equipment in their backpacks."
+    },
+    {
+      "date": "260226",
+      "word": "opposite",
+      "chinese": "對面的",
+      "example": "The bakery is on the opposite side of the street."
+    },
+    {
+      "date": "260226",
+      "word": "accurate",
+      "chinese": "準確的",
+      "example": "The weather report was accurate and it rained just like they said it would."
+    },
+    {
+      "date": "260226",
+      "word": "lack",
+      "chinese": "缺少",
+      "example": "The plant died because it had a lack of water."
+    },
+    {
+      "date": "260226",
+      "word": "flat",
+      "chinese": "平坦的",
+      "example": "The table is very flat, so it is easy to draw on."
+    },
+    {
+      "date": "260226",
+      "word": "solar system",
+      "chinese": "太陽系",
+      "example": "The Earth is one of the eight planets in our solar system."
+    },
+    {
+      "date": "260312",
+      "word": "aviation",
+      "chinese": "航空",
+      "example": "My brother wants to study aviation because he loves learning about airplanes."
+    },
+    {
+      "date": "260312",
+      "word": "previous",
+      "chinese": "以前的",
+      "example": "My previous teacher was very kind to everyone."
+    },
+    {
+      "date": "260312",
+      "word": "lease",
+      "chinese": "租",
+      "example": "My parents decided to lease a new car for three years."
+    },
+    {
+      "date": "260312",
+      "word": "crew",
+      "chinese": "全體人員",
+      "example": "The ship's crew worked together to sail across the ocean."
+    },
+    {
+      "date": "260312",
+      "word": "contract",
+      "chinese": "合約",
+      "example": "The player signed a new contract to play for the basketball team."
+    },
+    {
+      "date": "260312",
+      "word": "negotiation",
+      "chinese": "談判",
+      "example": "The two teams had a long negotiation to decide the rules of the game."
+    },
+    {
+      "date": "260312",
+      "word": "replacement",
+      "chinese": "替代品",
+      "example": "I need a replacement for my broken pencil."
+    },
+    {
+      "date": "260312",
+      "word": "customs",
+      "chinese": "海關",
+      "example": "We had to go through customs at the airport after our flight."
+    },
+    {
+      "date": "260312",
+      "word": "tendency",
+      "chinese": "趨勢",
+      "example": "He has a tendency to forget his umbrella when it rains."
+    },
+    {
+      "date": "260312",
+      "word": "luggage",
+      "chinese": "行李",
+      "example": "We packed our luggage and got ready for the family trip."
+    },
+    {
+      "date": "260312",
+      "word": "despite",
+      "chinese": "儘管",
+      "example": "We went to the park despite the rain."
+    },
+    {
+      "date": "260312",
+      "word": "delicacy",
+      "chinese": "美味",
+      "example": "The chocolate cake is a delicious delicacy that everyone enjoys at the party."
+    },
+    {
+      "date": "260312",
+      "word": "devastate",
+      "chinese": "蹂躪",
+      "example": "The big storm will devastate the small sandcastle on the beach."
+    },
+    {
+      "date": "260312",
+      "word": "evolve",
+      "chinese": "發展",
+      "example": "Some animals evolve over a long time to survive in their environment."
+    },
+    {
+      "date": "260312",
+      "word": "ecosystem",
+      "chinese": "生態系統",
+      "example": "A healthy ecosystem needs both plants and animals to work together."
+    },
+    {
+      "date": "260312",
+      "word": "exist",
+      "chinese": "存在",
+      "example": "Do you believe that aliens exist on other planets?"
+    },
+    {
+      "date": "260312",
+      "word": "erupt",
+      "chinese": "爆發",
+      "example": "The volcano might erupt and send smoke into the sky."
+    },
+    {
+      "date": "260312",
+      "word": "benefit",
+      "chinese": "益處",
+      "example": "Eating healthy food is a big benefit for your body."
+    },
+    {
+      "date": "260312",
+      "word": "enough",
+      "chinese": "足夠的",
+      "example": "I have enough money to buy a new toy."
+    },
+    {
+      "date": "260312",
+      "word": "call it a day",
+      "chinese": "結束今天的工作吧",
+      "example": "We are all very tired, so let's call it a day and go home."
+    }
+  ]
+}

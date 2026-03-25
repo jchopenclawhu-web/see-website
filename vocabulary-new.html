@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vocabulary - 珊蒂美語 | Sandy's Enlighten English</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Nunito', sans-serif; color: #333; line-height: 1.6; min-height: 100vh; position: relative; }
+        .background-layer { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: url('images/background.png') center/cover no-repeat; opacity: 0.15; z-index: -1; }
+        nav { background: rgba(133, 114, 81, 0.95); padding: 1rem 2rem; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .nav-container { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-family: 'Playfair Display', serif; font-size: 1.5rem; color: #F7F4EE; text-decoration: none; font-weight: 700; }
+        .nav-links { display: flex; list-style: none; gap: 2rem; }
+        .nav-links a { color: #F7F4EE; text-decoration: none; font-weight: 600; transition: color 0.3s; }
+        .nav-links a:hover { color: #CEA964; }
+        .hamburger { display: none; flex-direction: column; cursor: pointer; }
+        .hamburger span { width: 25px; height: 3px; background: #F7F4EE; margin: 3px 0; transition: 0.3s; }
+        .page-header { background: linear-gradient(135deg, #857251 0%, #CEA964 100%); color: #F7F4EE; padding: 4rem 2rem; text-align: center; }
+        .page-header h1 { font-family: 'Playfair Display', serif; font-size: 3rem; margin-bottom: 1rem; }
+        .page-header p { font-size: 1.2rem; max-width: 600px; margin: 0 auto; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 3rem 2rem; }
+        .controls { display: flex; flex-wrap: wrap; gap: 1rem; margin-bottom: 2rem; padding: 1.5rem; background: rgba(206, 169, 100, 0.2); border-radius: 10px; }
+        .control-group { display: flex; flex-direction: column; gap: 0.5rem; }
+        .control-group label { font-weight: 600; color: #857251; }
+        select { padding: 0.75rem 1rem; border: 2px solid #857251; border-radius: 8px; font-size: 1rem; background: white; cursor: pointer; }
+        .level-tabs { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 2rem; }
+        .level-tab { padding: 0.75rem 1.5rem; background: #F7F4EE; border: 2px solid #857251; border-radius: 25px; cursor: pointer; font-weight: 600; color: #857251; transition: all 0.3s; }
+        .level-tab:hover, .level-tab.active { background: #857251; color: #F7F4EE; }
+        .vocab-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; margin-bottom: 3rem; }
+        .vocab-card { background: white; border-radius: 10px; padding: 1.5rem; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border: 1px solid rgba(133, 114, 81, 0.2); display: flex; justify-content: space-between; align-items: center; }
+        .vocab-word { font-family: 'Playfair Display', serif; font-size: 1.3rem; color: #857251; }
+        .pronounce-btn { background: #CEA964; color: white; border: none; width: 40px; height: 40px; border-radius: 50%; cursor: pointer; font-size: 1.2rem; display: flex; align-items: center; justify-content: center; transition: background 0.3s; }
+        .pronounce-btn:hover { background: #857251; }
+        .flashcard-section { margin-top: 4rem; padding-top: 3rem; border-top: 3px solid #CEA964; }
+        .flashcard-section h2 { font-family: 'Playfair Display', serif; color: #857251; margin-bottom: 1.5rem; text-align: center; }
+        .flashcard-container { display: flex; flex-direction: column; align-items: center; gap: 1.5rem; }
+        .flashcard { width: 300px; height: 200px; background: white; border-radius: 15px; box-shadow: 0 8px 15px rgba(0,0,0,0.15); display: flex; align-items: center; justify-content: center; cursor: pointer; transition: transform 0.3s; font-family: 'Playfair Display', serif; font-size: 2rem; color: #857251; position: relative; }
+        .flashcard:hover { transform: translateY(-5px); }
+        .flashcard-controls { display: flex; gap: 1rem; }
+        .flashcard-btn { padding: 0.75rem 1.5rem; background: #857251; color: #F7F4EE; border: none; border-radius: 25px; cursor: pointer; font-weight: 600; transition: background 0.3s; }
+        .flashcard-btn:hover { background: #CEA964; }
+        footer { background: #857251; color: #F7F4EE; text-align: center; padding: 2rem; margin-top: 4rem; }
+        @media (max-width: 768px) { .nav-links { display: none; position: absolute; top: 100%; left: 0; width: 100%; background: rgba(133, 114, 81, 0.98); flex-direction: column; padding: 1rem; gap: 1rem; } .nav-links.active { display: flex; } .hamburger { display: flex; } .page-header h1 { font-size: 2rem; } .vocab-grid { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+    <div class="background-layer"></div>
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo">珊蒂美語</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#classes">Classes</a></li>
+                <li><a href="songs.html">Monthly Songs</a></li>
+                <li><a href="vocabulary.html">Vocabulary</a></li>
+                <li><a href="audiobooks.html">Audiobooks</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" onclick="toggleNav()"><span></span><span></span><span></span></div>
+        </div>
+    </nav>
+    <header class="page-header">
+        <h1>Vocabulary</h1>
+        <p>Practice your vocabulary with pronunciation and flashcards</p>
+    </header>
+    <main class="container">
+        <div class="level-tabs">
+            <button class="level-tab active" onclick="showLevel('basic')">Basic</button>
+            <button class="level-tab" onclick="showLevel('level1')">Level 1</button>
+            <button class="level-tab" onclick="showLevel('level2')">Level 2</button>
+            <button class="level-tab" onclick="showLevel('level3')">Level 3</button>
+            <button class="level-tab" onclick="showLevel('level4')">Level 4</button>
+        </div>
+        
+        <div class="controls">
+            <div class="control-group">
+                <label for="weekSelect">Select Week:</label>
+                <select id="weekSelect" onchange="loadWeek()"></select>
+            </div>
+        </div>
+        
+        <div id="vocabList" class="vocab-grid"></div>
+        
+        <div class="flashcard-section">
+            <h2>Flashcard Practice</h2>
+            <div class="flashcard-container">
+                <div class="flashcard" id="flashcard" onclick="flipCard()">Click to Start</div>
+                <div class="flashcard-controls">
+                    <button class="flashcard-btn" onclick="prevCard()">← Previous</button>
+                    <button class="flashcard-btn" onclick="nextCard()">Next →</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 珊蒂美語 | Sandy's Enlighten English. All rights reserved.</p>
+    </footer>
+    <script>
+        // Vocabulary data structure (will be populated from Google Sheets)
+        const vocabData = {
+            basic: {
+                weeks: ['250905', '250912', '250919', '250926', '251003', '251017', '251107', '251114', '251121', '251128', '251205', '251212', '251219', '251226', '260109'],
+                words: {
+                    '250905': ['mat', 'cat', 'rat', 'had', 'hat', 'and', 'the', 'it', 'on', 'with'],
+                    '250912': ['man', 'can', 'ran', 'pan', 'van', 'is', 'in', 'to', 'where', 'what'],
+                    '250919': ['cap', 'nap', 'map', 'he', 'she', 'you', 'how', 'why', 'who', 'when'],
+                    '250926': ['snack', 'black', 'his', 'her', 'your', 'backpack', 'are', 'put', 'we', 'they'],
+                    '251003': ['pit', 'hit', 'sit', 'bit', 'spit', 'dig', 'big', 'have/has', 'one', 'two'],
+                    '251017': ['pin', 'thin', 'spin', 'win', 'fin', 'name', 'get', 'kick', 'brick', 'thick']
+                }
+            },
+            level1: {
+                weeks: ['250905', '250912', '250919', '250926'],
+                words: {
+                    '250905': ['share', 'tasty', 'pair', 'mean', 'just', 'brave', 'frozen', 'breathe', 'mind', 'notice', 'get out'],
+                    '250912': ['ask', 'fluffy', 'high', 'found', 'rhyme', 'poem', 'soft', 'cherry', 'lemon', 'giant', 'get up'],
+                    '250919': ['pass', 'hive', 'honey', 'basketball', 'recess', 'giraffe', 'welcome', 'birthday', 'thirty', 'forty', 'give up'],
+                    '250926': ['merit', 'roll', 'study', 'picture', 'clean', 'science', 'learn', 'better', 'bring', 'vegetable', 'have to']
+                }
+            }
+        };
+
+        let currentLevel = 'basic';
+        let currentWeek = '';
+        let flashcardIndex = 0;
+        let flashcardWords = [];
+        let isFlipped = false;
+
+        function init() {
+            populateWeekSelect();
+            loadWeek();
+        }
+
+        function populateWeekSelect() {
+            const select = document.getElementById('weekSelect');
+            select.innerHTML = '';
+            const weeks = vocabData[currentLevel].weeks;
+            weeks.forEach(week => {
+                const option = document.createElement('option');
+                option.value = week;
+                option.textContent = formatWeek(week);
+                select.appendChild(option);
+            });
+            currentWeek = weeks[0];
+        }
+
+        function formatWeek(weekCode) {
+            const year = '20' + weekCode.substring(0, 2);
+            const month = weekCode.substring(2, 4);
+            const day = weekCode.substring(4, 6);
+            return `${year}-${month}-${day}`;
+        }
+
+        function showLevel(level) {
+            currentLevel = level;
+            document.querySelectorAll('.level-tab').forEach(tab => tab.classList.remove('active'));
+            event.target.classList.add('active');
+            populateWeekSelect();
+            loadWeek();
+        }
+
+        function loadWeek() {
+            currentWeek = document.getElementById('weekSelect').value;
+            const words = vocabData[currentLevel].words[currentWeek] || [];
+            
+            const vocabList = document.getElementById('vocabList');
+            vocabList.innerHTML = '';
+            
+            words.forEach(word => {
+                if (word) {
+                    const card = document.createElement('div');
+                    card.className = 'vocab-card';
+                    card.innerHTML = `
+                        <span class="vocab-word">${word}</span>
+                        <button class="pronounce-btn" onclick="pronounce('${word}')">🔊</button>
+                    `;
+                    vocabList.appendChild(card);
+                }
+            });
+            
+            // Update flashcards
+            flashcardWords = words.filter(w => w);
+            flashcardIndex = 0;
+            isFlipped = false;
+            updateFlashcard();
+        }
+
+        function pronounce(word) {
+            const utterance = new SpeechSynthesisUtterance(word);
+            utterance.lang = 'en-US';
+            utterance.rate = 0.8;
+            speechSynthesis.speak(utterance);
+        }
+
+        function flipCard() {
+            if (flashcardWords.length === 0) return;
+            isFlipped = !isFlipped;
+            updateFlashcard();
+        }
+
+        function updateFlashcard() {
+            const card = document.getElementById('flashcard');
+            if (flashcardWords.length === 0) {
+                card.textContent = 'No words';
+                return;
+            }
+            if (isFlipped) {
+                card.textContent = '🔊 Click to hear';
+                pronounce(flashcardWords[flashcardIndex]);
+            } else {
+                card.textContent = flashcardWords[flashcardIndex];
+            }
+        }
+
+        function nextCard() {
+            if (flashcardWords.length === 0) return;
+            flashcardIndex = (flashcardIndex + 1) % flashcardWords.length;
+            isFlipped = false;
+            updateFlashcard();
+        }
+
+        function prevCard() {
+            if (flashcardWords.length === 0) return;
+            flashcardIndex = (flashcardIndex - 1 + flashcardWords.length) % flashcardWords.length;
+            isFlipped = false;
+            updateFlashcard();
+        }
+
+        function toggleNav() {
+            document.getElementById('navLinks').classList.toggle('active');
+        }
+
+        // Initialize on load
+        init();
+    </script>
+</body>
+</html>
