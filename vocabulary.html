@@ -36,23 +36,16 @@
         .vocab-word { font-family: 'Playfair Display', serif; font-size: 1.4rem; color: #857251; }
         .pronounce-btn { background: #CEA964; color: white; border: none; width: 44px; height: 44px; border-radius: 50%; cursor: pointer; font-size: 1.3rem; display: flex; align-items: center; justify-content: center; transition: background 0.3s; }
         .pronounce-btn:hover { background: #857251; }
-        .advanced-card { background: white; border-radius: 10px; padding: 1.5rem; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border: 1px solid rgba(133, 114, 81, 0.2); margin-bottom: 1rem; }
-        .advanced-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem; }
-        .advanced-word { font-family: 'Playfair Display', serif; font-size: 1.6rem; color: #857251; }
-        .advanced-def { color: #666; font-style: italic; margin-bottom: 0.5rem; }
-        .advanced-example { color: #333; font-size: 0.95rem; padding-left: 1rem; border-left: 3px solid #CEA964; }
         .flashcard-section { margin-top: 4rem; padding-top: 3rem; border-top: 3px solid #CEA964; }
         .flashcard-section h2 { font-family: 'Playfair Display', serif; color: #857251; margin-bottom: 1.5rem; text-align: center; }
         .flashcard-container { display: flex; flex-direction: column; align-items: center; gap: 1.5rem; }
-        .flashcard { width: 320px; height: 220px; background: white; border-radius: 15px; box-shadow: 0 8px 15px rgba(0,0,0,0.15); display: flex; flex-direction: column; align-items: center; justify-content: center; cursor: pointer; transition: transform 0.3s; padding: 2rem; text-align: center; }
+        .flashcard { width: 320px; height: 200px; background: white; border-radius: 15px; box-shadow: 0 8px 15px rgba(0,0,0,0.15); display: flex; align-items: center; justify-content: center; cursor: pointer; transition: transform 0.3s; font-family: 'Playfair Display', serif; font-size: 2.5rem; color: #857251; }
         .flashcard:hover { transform: translateY(-5px); }
-        .flashcard-word { font-family: 'Playfair Display', serif; font-size: 2.2rem; color: #857251; margin-bottom: 0.5rem; }
-        .flashcard-def { font-size: 1.1rem; color: #666; }
         .flashcard-controls { display: flex; gap: 1rem; }
         .flashcard-btn { padding: 0.75rem 1.5rem; background: #857251; color: #F7F4EE; border: none; border-radius: 25px; cursor: pointer; font-weight: 600; transition: background 0.3s; }
         .flashcard-btn:hover { background: #CEA964; }
         footer { background: #857251; color: #F7F4EE; text-align: center; padding: 2rem; margin-top: 4rem; }
-        @media (max-width: 768px) { .nav-links { display: none; position: absolute; top: 100%; left: 0; width: 100%; background: rgba(133, 114, 81, 0.98); flex-direction: column; padding: 1rem; gap: 1rem; } .nav-links.active { display: flex; } .hamburger { display: flex; } .page-header h1 { font-size: 2rem; } .vocab-grid { grid-template-columns: 1fr; } .flashcard { width: 280px; height: 180px; } }
+        @media (max-width: 768px) { .nav-links { display: none; position: absolute; top: 100%; left: 0; width: 100%; background: rgba(133, 114, 81, 0.98); flex-direction: column; padding: 1rem; gap: 1rem; } .nav-links.active { display: flex; } .hamburger { display: flex; } .page-header h1 { font-size: 2rem; } .vocab-grid { grid-template-columns: 1fr; } .flashcard { width: 280px; height: 180px; font-size: 2rem; } }
     </style>
 </head>
 <body>
@@ -81,8 +74,6 @@
             <button class="level-tab active" onclick="showLevel('basic')">Basic</button>
             <button class="level-tab" onclick="showLevel('level1')">Level 1</button>
             <button class="level-tab" onclick="showLevel('level2')">Level 2</button>
-            <button class="level-tab" onclick="showLevel('level3')">Level 3</button>
-            <button class="level-tab" onclick="showLevel('level4')">Level 4</button>
         </div>
 
         <!-- Basic Level -->
@@ -90,16 +81,14 @@
             <div class="controls">
                 <div class="control-group">
                     <label for="basicWeek">Select Week:</label>
-                    <select id="basicWeek" onchange="loadSimpleVocab('basic')"></select>
+                    <select id="basicWeek" onchange="loadVocab('basic')"></select>
                 </div>
             </div>
             <div id="basicVocab" class="vocab-grid"></div>
             <div class="flashcard-section">
                 <h2>Flashcard Practice</h2>
                 <div class="flashcard-container">
-                    <div class="flashcard" id="basicFlashcard" onclick="flipCard('basic')">
-                        <div class="flashcard-word">Click to Start</div>
-                    </div>
+                    <div class="flashcard" id="basicFlashcard" onclick="flipCard('basic')">Click to Start</div>
                     <div class="flashcard-controls">
                         <button class="flashcard-btn" onclick="prevCard('basic')">← Previous</button>
                         <button class="flashcard-btn" onclick="nextCard('basic')">Next →</button>
@@ -113,16 +102,14 @@
             <div class="controls">
                 <div class="control-group">
                     <label for="level1Week">Select Week:</label>
-                    <select id="level1Week" onchange="loadSimpleVocab('level1')"></select>
+                    <select id="level1Week" onchange="loadVocab('level1')"></select>
                 </div>
             </div>
             <div id="level1Vocab" class="vocab-grid"></div>
             <div class="flashcard-section">
                 <h2>Flashcard Practice</h2>
                 <div class="flashcard-container">
-                    <div class="flashcard" id="level1Flashcard" onclick="flipCard('level1')">
-                        <div class="flashcard-word">Click to Start</div>
-                    </div>
+                    <div class="flashcard" id="level1Flashcard" onclick="flipCard('level1')">Click to Start</div>
                     <div class="flashcard-controls">
                         <button class="flashcard-btn" onclick="prevCard('level1')">← Previous</button>
                         <button class="flashcard-btn" onclick="nextCard('level1')">Next →</button>
@@ -136,55 +123,17 @@
             <div class="controls">
                 <div class="control-group">
                     <label for="level2Week">Select Week:</label>
-                    <select id="level2Week" onchange="loadSimpleVocab('level2')"></select>
+                    <select id="level2Week" onchange="loadVocab('level2')"></select>
                 </div>
             </div>
             <div id="level2Vocab" class="vocab-grid"></div>
             <div class="flashcard-section">
                 <h2>Flashcard Practice</h2>
                 <div class="flashcard-container">
-                    <div class="flashcard" id="level2Flashcard" onclick="flipCard('level2')">
-                        <div class="flashcard-word">Click to Start</div>
-                    </div>
+                    <div class="flashcard" id="level2Flashcard" onclick="flipCard('level2')">Click to Start</div>
                     <div class="flashcard-controls">
                         <button class="flashcard-btn" onclick="prevCard('level2')">← Previous</button>
                         <button class="flashcard-btn" onclick="nextCard('level2')">Next →</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Level 3 -->
-        <div id="level3" class="level-content">
-            <div id="level3Vocab"></div>
-            <div class="flashcard-section">
-                <h2>Flashcard Practice</h2>
-                <div class="flashcard-container">
-                    <div class="flashcard" id="level3Flashcard" onclick="flipCard('level3')">
-                        <div class="flashcard-word">Click to Start</div>
-                        <div class="flashcard-def"></div>
-                    </div>
-                    <div class="flashcard-controls">
-                        <button class="flashcard-btn" onclick="prevCard('level3')">← Previous</button>
-                        <button class="flashcard-btn" onclick="nextCard('level3')">Next →</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Level 4 -->
-        <div id="level4" class="level-content">
-            <div id="level4Vocab"></div>
-            <div class="flashcard-section">
-                <h2>Flashcard Practice</h2>
-                <div class="flashcard-container">
-                    <div class="flashcard" id="level4Flashcard" onclick="flipCard('level4')">
-                        <div class="flashcard-word">Click to Start</div>
-                        <div class="flashcard-def"></div>
-                    </div>
-                    <div class="flashcard-controls">
-                        <button class="flashcard-btn" onclick="prevCard('level4')">← Previous</button>
-                        <button class="flashcard-btn" onclick="nextCard('level4')">Next →</button>
                     </div>
                 </div>
             </div>
@@ -193,9 +142,10 @@
     <footer>
         <p>&copy; 2025 珊蒂美語 | Sandy's Enlighten English. All rights reserved.</p>
     </footer>
+
     <script>
-        // Simple vocabulary data (Basic, Level 1, Level 2)
-        const simpleVocab = {
+        // Vocabulary data for Basic, Level 1, Level 2
+        const vocabData = {
             basic: {
                 weeks: ['250905', '250912', '250919', '250926', '251003', '251017'],
                 words: {
@@ -219,157 +169,35 @@
             level2: {
                 weeks: ['Week 1', 'Week 2', 'Week 3', 'Week 4'],
                 words: {
-                    'Week 1': ['adventure', 'believe', 'comfortable', 'dangerous', 'enormous'],
-                    'Week 2': ['familiar', 'generous', 'horrible', 'important', 'journey'],
-                    'Week 3': ['knowledge', 'language', 'mountain', 'necessary', 'ordinary'],
-                    'Week 4': ['pleasant', 'question', 'remember', 'sentence', 'tomorrow']
+                    'Week 1': ['adventure', 'believe', 'comfortable', 'dangerous', 'enormous', 'famous', 'generous', 'horrible'],
+                    'Week 2': ['important', 'journey', 'knowledge', 'language', 'mountain', 'necessary', 'ordinary', 'pleasant'],
+                    'Week 3': ['question', 'remember', 'sentence', 'tomorrow', 'understand', 'vacation', 'weather', 'yesterday'],
+                    'Week 4': ['beautiful', 'different', 'excellent', 'favorite', 'hospital', 'interest', 'library', 'remember']
                 }
             }
-        };
-
-        // Advanced vocabulary data (Level 3, Level 4) - embedded from extracted data
-        const advancedVocab = {
-            level3: [
-{
-  "level3": [
-    {
-      "date": "250902",
-      "word": "deserve",
-      "definition": "\u61c9\u5f97",
-      "example1": "You deserve a big hug for being so helpful.",
-      "example2": "You deserve a big hug for being so kind."
-    },
-    {
-      "date": "250902",
-      "word": "construction",
-      "definition": "\u5efa\u9020",
-      "example1": "The construction site is very busy.",
-      "example2": "The construction workers are building a new playground."
-    },
-    {
-      "date": "250902",
-      "word": "custodian",
-      "definition": "\u4fdd\u7ba1\u4eba",
-      "example1": "The custodian cleans the hallways.",
-      "example2": "The custodian helps keep our school clean."
-    },
-    {
-      "date": "250902",
-      "word": "introduce",
-      "definition": "\u4ecb\u7d39",
-      "example1": "I will introduce my mom to my teacher.",
-      "example2": "I will introduce my new friend to the class."
-    },
-    {
-      "date": "250902",
-      "word": "deliver",
-      "definition": "\u905e\u9001",
-      "example1": "The boy will deliver the newspaper.",
-      "example2": "The mailman will deliver the package to our house."
-    },
-    {
-      "date": "250902",
-      "word": "prompt",
-      "definition": "\u8fc5\u901f\u7684",
-      "example1": "The alarm was a prompt for me to wake up.",
-      "example2": "The teacher gave us a prompt to start our story."
-    },
-    {
-      "date": "250902",
-      "word": "gradually",
-      "definition": "\u9010\u6b65\u5730",
-      "example1": "The sky gradually became dark as the sun went down.",
-      "example2": "The snow gradually melted as the sun came out."
-    },
-    {
-      "date": "250902",
-      "word": "successful",
-      "definition": "\u6210\u529f\u7684",
-      "example1": "She was successful in her singing competition.",
-      "example2": "She felt successful after finishing her homework."
-    },
-    {
-      "date": "250902",
-      "word": "monopoly",
-      "definition": "\u58df\u65b7",
-      "example1": "One company had a monopoly on selling all the soda in the town.",
-      "example2": "A monopoly is when one company is the only one that sells a certain toy in the whole town."
-    },
-    {
-      "date": "250902",
-      "word": "reputation",
-      "definition": "\u540d\u8072",
-      "example1": "A good reputation means people think you are a good person.",
-      "example2": "Sally has a good reputation because she is always kind to everyone."
-    },
-    {
-      "date": "250902",
-      "word": "versus",
-      "definition": "\u76f8\u5c0d",
-      "example1": "The blue team versus the red team is the final match.",
-      "example2": "The soccer game was the Tigers versus the Lions."
-    },
-    {
-      "date": "250902",
-      "word": "generation",
-      "definition": "\u4e16\u4ee3",
-      "example1": "This new game console is for the next generation of players.",
-      "example2": "My grandparents are from a different generation than I am."
-    },
-    {
-      "date": "250902",
-      "word": "assignment",
-      "definition": "\u4efb\u52d9",
-      "example1": "I have a big assignment for homework tonight.",
-      "example2": "I finished my math assignment before dinner."
-    },
-    {
-      "date": "250902",
-      "word": "insert",
-      "definition": "\u63d2\u5165",
-      "example1": "Please insert the key into the lock.",
-      "example2": "Please insert the coin into the slot."
-    },
-                {word: "deserve", def: "應得", example: "You deserve a big hug for being so helpful."},
-                {word: "construction", def: "建造", example: "The construction site is very busy."},
-                {word: "custodian", def: "保管人", example: "The custodian cleans the hallways."},
-                {word: "introduce", def: "介紹", example: "I will introduce my mom to my teacher."},
-                {word: "deliver", def: "遞送", example: "The boy will deliver the newspaper."}
-            ],
-            level4: [
-                {word: "paranormal", def: "超自然現象", example: "We watched a movie about paranormal monsters."},
-                {word: "incident", def: "事件", example: "The incident caused a small delay in our school trip."},
-                {word: "region", def: "地區", example: "The mountainous region is a great place to hike."},
-                {word: "transport", def: "運輸", example: "The school bus will transport us to the zoo."},
-                {word: "exaggerate", def: "誇大", example: "Please do not exaggerate how good the movie was."}
-            ]
         };
 
         let currentState = {
             basic: { week: '', index: 0, flipped: false },
             level1: { week: '', index: 0, flipped: false },
-            level2: { week: '', index: 0, flipped: false },
-            level3: { index: 0, flipped: false },
-            level4: { index: 0, flipped: false }
+            level2: { week: '', index: 0, flipped: false }
         };
 
         function init() {
-            // Initialize simple vocab week selectors
             ['basic', 'level1', 'level2'].forEach(level => {
                 const select = document.getElementById(level + 'Week');
-                simpleVocab[level].weeks.forEach(week => {
+                const weeks = vocabData[level].weeks;
+                
+                weeks.forEach(week => {
                     const option = document.createElement('option');
                     option.value = week;
                     option.textContent = formatWeek(week);
                     select.appendChild(option);
                 });
-                currentState[level].week = simpleVocab[level].weeks[0];
-                loadSimpleVocab(level);
+                
+                currentState[level].week = weeks[0];
+                loadVocab(level);
             });
-
-            // Load advanced vocab
-            loadAdvancedVocab('level3');
-            loadAdvancedVocab('level4');
         }
 
         function formatWeek(week) {
@@ -387,10 +215,10 @@
             event.target.classList.add('active');
         }
 
-        function loadSimpleVocab(level) {
+        function loadVocab(level) {
             const week = document.getElementById(level + 'Week').value;
             currentState[level].week = week;
-            const words = simpleVocab[level].words[week] || [];
+            const words = vocabData[level].words[week] || [];
             
             const container = document.getElementById(level + 'Vocab');
             container.innerHTML = '';
@@ -401,7 +229,7 @@
                     card.className = 'vocab-card';
                     card.innerHTML = `
                         <span class="vocab-word">${word}</span>
-                        <button class="pronounce-btn" onclick="pronounce('${word}')">🔊</button>
+                        <button class="pronounce-btn" onclick="event.stopPropagation(); pronounce('${word}')">🔊</button>
                     `;
                     container.appendChild(card);
                 }
@@ -409,31 +237,7 @@
             
             currentState[level].index = 0;
             currentState[level].flipped = false;
-            updateSimpleFlashcard(level);
-        }
-
-        function loadAdvancedVocab(level) {
-            const words = advancedVocab[level];
-            const container = document.getElementById(level + 'Vocab');
-            container.innerHTML = '';
-            
-            words.forEach(item => {
-                const card = document.createElement('div');
-                card.className = 'advanced-card';
-                card.innerHTML = `
-                    <div class="advanced-header">
-                        <span class="advanced-word">${item.word}</span>
-                        <button class="pronounce-btn" onclick="pronounce('${item.word}')">🔊</button>
-                    </div>
-                    <div class="advanced-def">${item.def}</div>
-                    <div class="advanced-example">${item.example}</div>
-                `;
-                container.appendChild(card);
-            });
-            
-            currentState[level].index = 0;
-            currentState[level].flipped = false;
-            updateAdvancedFlashcard(level);
+            updateFlashcard(level);
         }
 
         function pronounce(word) {
@@ -445,74 +249,39 @@
 
         function flipCard(level) {
             currentState[level].flipped = !currentState[level].flipped;
-            if (['level3', 'level4'].includes(level)) {
-                updateAdvancedFlashcard(level);
-            } else {
-                updateSimpleFlashcard(level);
-            }
+            updateFlashcard(level);
         }
 
-        function updateSimpleFlashcard(level) {
+        function updateFlashcard(level) {
             const card = document.getElementById(level + 'Flashcard');
-            const words = simpleVocab[level].words[currentState[level].week] || [];
+            const words = vocabData[level].words[currentState[level].week] || [];
             
             if (words.length === 0) {
-                card.querySelector('.flashcard-word').textContent = 'No words';
+                card.textContent = 'No words';
                 return;
             }
             
             const word = words[currentState[level].index];
             if (currentState[level].flipped) {
-                card.querySelector('.flashcard-word').textContent = '🔊 Click to hear';
                 pronounce(word);
+                card.textContent = word;
             } else {
-                card.querySelector('.flashcard-word').textContent = word;
-            }
-        }
-
-        function updateAdvancedFlashcard(level) {
-            const card = document.getElementById(level + 'Flashcard');
-            const words = advancedVocab[level];
-            
-            if (words.length === 0) return;
-            
-            const item = words[currentState[level].index];
-            if (currentState[level].flipped) {
-                card.querySelector('.flashcard-word').textContent = item.word;
-                card.querySelector('.flashcard-def').textContent = item.def;
-                pronounce(item.word);
-            } else {
-                card.querySelector('.flashcard-word').textContent = '?';
-                card.querySelector('.flashcard-def').textContent = 'Click to reveal';
+                card.textContent = '?';
             }
         }
 
         function nextCard(level) {
-            if (['level3', 'level4'].includes(level)) {
-                const max = advancedVocab[level].length;
-                currentState[level].index = (currentState[level].index + 1) % max;
-                currentState[level].flipped = false;
-                updateAdvancedFlashcard(level);
-            } else {
-                const words = simpleVocab[level].words[currentState[level].week] || [];
-                currentState[level].index = (currentState[level].index + 1) % words.length;
-                currentState[level].flipped = false;
-                updateSimpleFlashcard(level);
-            }
+            const words = vocabData[level].words[currentState[level].week] || [];
+            currentState[level].index = (currentState[level].index + 1) % words.length;
+            currentState[level].flipped = false;
+            updateFlashcard(level);
         }
 
         function prevCard(level) {
-            if (['level3', 'level4'].includes(level)) {
-                const max = advancedVocab[level].length;
-                currentState[level].index = (currentState[level].index - 1 + max) % max;
-                currentState[level].flipped = false;
-                updateAdvancedFlashcard(level);
-            } else {
-                const words = simpleVocab[level].words[currentState[level].week] || [];
-                currentState[level].index = (currentState[level].index - 1 + words.length) % words.length;
-                currentState[level].flipped = false;
-                updateSimpleFlashcard(level);
-            }
+            const words = vocabData[level].words[currentState[level].week] || [];
+            currentState[level].index = (currentState[level].index - 1 + words.length) % words.length;
+            currentState[level].flipped = false;
+            updateFlashcard(level);
         }
 
         function toggleNav() {
