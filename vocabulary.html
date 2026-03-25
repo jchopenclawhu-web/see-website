@@ -158,6 +158,12 @@
 
         <!-- Level 3 -->
         <div id="level3" class="level-content">
+            <div class="controls">
+                <div class="control-group">
+                    <label for="level3Week">Select Week:</label>
+                    <select id="level3Week" onchange="loadVocab('level3')"></select>
+                </div>
+            </div>
             <div id="level3Vocab" class="vocab-grid"><div class="loading">Loading...</div></div>
             <div class="flashcard-section">
                 <h2>Flashcard Practice</h2>
@@ -176,6 +182,12 @@
 
         <!-- Level 4 -->
         <div id="level4" class="level-content">
+            <div class="controls">
+                <div class="control-group">
+                    <label for="level4Week">Select Week:</label>
+                    <select id="level4Week" onchange="loadVocab('level4')"></select>
+                </div>
+            </div>
             <div id="level4Vocab" class="vocab-grid"><div class="loading">Loading...</div></div>
             <div class="flashcard-section">
                 <h2>Flashcard Practice</h2>
@@ -203,8 +215,8 @@
             basic: { week: '', index: 0, flipped: false },
             level1: { week: '', index: 0, flipped: false },
             level2: { week: '', index: 0, flipped: false },
-            level3: { index: 0, flipped: false },
-            level4: { index: 0, flipped: false }
+            level3: { week: '', index: 0, flipped: false },
+            level4: { week: '', index: 0, flipped: false }
         };
 
         async function loadData() {
@@ -221,15 +233,10 @@
         }
 
         function init() {
-            // Initialize Basic, Level 1, Level 2 with week selectors
-            ['basic', 'level1', 'level2'].forEach(level => {
+            // Initialize all levels with week selectors
+            ['basic', 'level1', 'level2', 'level3', 'level4'].forEach(level => {
                 populateWeekSelect(level);
                 loadVocab(level);
-            });
-            
-            // Initialize Level 3, Level 4 (all words, no week filter)
-            ['level3', 'level4'].forEach(level => {
-                loadAdvancedVocab(level);
             });
         }
 
@@ -296,30 +303,6 @@
             updateFlashcard(level);
         }
 
-        function loadAdvancedVocab(level) {
-            const words = vocabData[level] || [];
-            const container = document.getElementById(level + 'Vocab');
-            container.innerHTML = '';
-            
-            words.forEach(item => {
-                const card = document.createElement('div');
-                card.className = 'vocab-card';
-                card.innerHTML = `
-                    <div class="vocab-header">
-                        <span class="vocab-word">${item.word}</span>
-                        <button class="pronounce-btn" onclick="event.stopPropagation(); pronounce('${item.word}')">🔊</button>
-                    </div>
-                    <div class="vocab-chinese">${item.chinese || ''}</div>
-                    ${item.example ? `<div class="vocab-example">${item.example}</div>` : ''}
-                `;
-                container.appendChild(card);
-            });
-            
-            currentState[level].index = 0;
-            currentState[level].flipped = false;
-            updateAdvancedFlashcard(level);
-        }
-
         function pronounce(word) {
             const utterance = new SpeechSynthesisUtterance(word);
             utterance.lang = 'en-US';
@@ -329,11 +312,7 @@
 
         function flipCard(level) {
             currentState[level].flipped = !currentState[level].flipped;
-            if (['level3', 'level4'].includes(level)) {
-                updateAdvancedFlashcard(level);
-            } else {
-                updateFlashcard(level);
-            }
+            updateFlashcard(level);
         }
 
         function updateFlashcard(level) {
@@ -357,57 +336,18 @@
             }
         }
 
-        function updateAdvancedFlashcard(level) {
-            const card = document.getElementById(level + 'Flashcard');
-            const words = vocabData[level] || [];
-            
-            if (words.length === 0) {
-                card.querySelector('.flashcard-word').textContent = 'No words';
-                card.querySelector('.flashcard-chinese').textContent = '';
-                return;
-            }
-            
-            const item = words[currentState[level].index];
-            if (currentState[level].flipped) {
-                card.querySelector('.flashcard-word').textContent = item.word;
-                card.querySelector('.flashcard-chinese').textContent = item.chinese || '';
-                pronounce(item.word);
-            } else {
-                card.querySelector('.flashcard-word').textContent = '?';
-                card.querySelector('.flashcard-chinese').textContent = 'Click to reveal';
-            }
-        }
-
         function nextCard(level) {
-            let words;
-            if (['level3', 'level4'].includes(level)) {
-                words = vocabData[level] || [];
-            } else {
-                words = (vocabData[level] || []).filter(w => w.date === currentState[level].week);
-            }
+            const words = (vocabData[level] || []).filter(w => w.date === currentState[level].week);
             currentState[level].index = (currentState[level].index + 1) % words.length;
             currentState[level].flipped = false;
-            if (['level3', 'level4'].includes(level)) {
-                updateAdvancedFlashcard(level);
-            } else {
-                updateFlashcard(level);
-            }
+            updateFlashcard(level);
         }
 
         function prevCard(level) {
-            let words;
-            if (['level3', 'level4'].includes(level)) {
-                words = vocabData[level] || [];
-            } else {
-                words = (vocabData[level] || []).filter(w => w.date === currentState[level].week);
-            }
+            const words = (vocabData[level] || []).filter(w => w.date === currentState[level].week);
             currentState[level].index = (currentState[level].index - 1 + words.length) % words.length;
             currentState[level].flipped = false;
-            if (['level3', 'level4'].includes(level)) {
-                updateAdvancedFlashcard(level);
-            } else {
-                updateFlashcard(level);
-            }
+            updateFlashcard(level);
         }
 
         function toggleNav() {
