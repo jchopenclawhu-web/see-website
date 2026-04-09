@@ -1,6 +1,66 @@
 {
   "basic": [
     {
+      "date": "260410",
+      "word": "shine",
+      "chinese": "發光",
+      "example": "I shine bright."
+    },
+    {
+      "date": "260410",
+      "word": "light",
+      "chinese": "光",
+      "example": "I see the light."
+    },
+    {
+      "date": "260410",
+      "word": "way",
+      "chinese": "路",
+      "example": "This is my way."
+    },
+    {
+      "date": "260410",
+      "word": "dream",
+      "chinese": "夢想",
+      "example": "I have a dream."
+    },
+    {
+      "date": "260410",
+      "word": "star",
+      "chinese": "星星",
+      "example": "I see a star."
+    },
+    {
+      "date": "260410",
+      "word": "bright",
+      "chinese": "明亮的",
+      "example": "The sun is bright."
+    },
+    {
+      "date": "260410",
+      "word": "follow",
+      "chinese": "跟隨",
+      "example": "Follow me."
+    },
+    {
+      "date": "260410",
+      "word": "heart",
+      "chinese": "心",
+      "example": "I have a heart."
+    },
+    {
+      "date": "260410",
+      "word": "see",
+      "chinese": "看見",
+      "example": "I see you."
+    },
+    {
+      "date": "260410",
+      "word": "come",
+      "chinese": "來",
+      "example": "Come here."
+    },
+    {
       "date": "250905",
       "word": "mat",
       "chinese": "墊子",
