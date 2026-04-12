@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>珊蒂美語 S.E.E — 讓孩子愛上英語</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --white: #ffffff;
+      --near-black: #222222;
+      --brand-red: #ff385c;
+      --deep-red: #e00b41;
+      --text-secondary: #6a6a6a;
+      --border: #c1c1c1;
+      --surface: #f2f2f2;
+      --card-shadow: rgba(0,0,0,0.02) 0px 0px 0px 1px, rgba(0,0,0,0.04) 0px 2px 6px, rgba(0,0,0,0.1) 0px 4px 8px;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'DM Sans', system-ui, sans-serif;
+      color: var(--near-black);
+      background: var(--white);
+      line-height: 1.5;
+    }
+    /* NAV */
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 16px 48px;
+      border-bottom: 1px solid rgba(0,0,0,0.06);
+    }
+    .nav-logo {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--near-black);
+      letter-spacing: -0.4px;
+    }
+    .nav-links {
+      display: flex;
+      gap: 32px;
+      list-style: none;
+    }
+    .nav-links a {
+      color: var(--near-black);
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: 500;
+    }
+    .nav-cta {
+      background: var(--near-black);
+      color: var(--white);
+      padding: 12px 24px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: 500;
+      transition: background 0.2s;
+    }
+    /* HERO */
+    .hero {
+      padding: 80px 48px 100px;
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 64px;
+      align-items: center;
+    }
+    .hero-label {
+      font-size: 13px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--brand-red);
+      margin-bottom: 16px;
+    }
+    .hero h1 {
+      font-size: 56px;
+      font-weight: 700;
+      line-height: 1.15;
+      letter-spacing: -1px;
+      color: var(--near-black);
+      margin-bottom: 20px;
+    }
+    .hero p {
+      font-size: 19px;
+      font-weight: 400;
+      color: var(--text-secondary);
+      line-height: 1.6;
+      margin-bottom: 32px;
+    }
+    .hero-btns { display: flex; gap: 12px; }
+    .btn-primary {
+      background: var(--brand-red);
+      color: var(--white);
+      padding: 14px 28px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 500;
+      transition: background 0.2s;
+    }
+    .btn-secondary {
+      background: var(--surface);
+      color: var(--near-black);
+      padding: 14px 28px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 500;
+    }
+    .hero-image {
+      background: linear-gradient(135deg, #ff385c20 0%, #ff385c40 100%);
+      border-radius: 20px;
+      height: 360px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 80px;
+    }
+    /* LEVELS */
+    .levels {
+      background: var(--surface);
+      padding: 80px 48px;
+    }
+    .levels-inner { max-width: 1200px; margin: 0 auto; }
+    .section-label {
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--text-secondary);
+      margin-bottom: 8px;
+    }
+    .levels h2 {
+      font-size: 36px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      margin-bottom: 40px;
+    }
+    .level-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+    }
+    .level-card {
+      background: var(--white);
+      border-radius: 20px;
+      padding: 28px 24px;
+      box-shadow: var(--card-shadow);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .level-card:hover {
+      transform: translateY(-4px);
+      box-shadow: rgba(0,0,0,0.08) 0px 8px 20px;
+    }
+    .level-card .emoji { font-size: 40px; margin-bottom: 16px; }
+    .level-card h3 {
+      font-size: 20px;
+      font-weight: 600;
+      letter-spacing: -0.3px;
+      margin-bottom: 8px;
+    }
+    .level-card p {
+      font-size: 14px;
+      color: var(--text-secondary);
+      line-height: 1.5;
+    }
+    .level-card .age {
+      margin-top: 12px;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--brand-red);
+    }
+    /* CTA */
+    .cta-section {
+      padding: 80px 48px;
+      text-align: center;
+    }
+    .cta-section h2 {
+      font-size: 36px;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+    .cta-section p {
+      font-size: 18px;
+      color: var(--text-secondary);
+      margin-bottom: 32px;
+    }
+    /* FOOTER */
+    footer {
+      background: var(--near-black);
+      color: var(--white);
+      padding: 48px;
+      text-align: center;
+    }
+    footer .brand { font-size: 22px; font-weight: 700; margin-bottom: 8px; }
+    footer p { font-size: 14px; opacity: 0.5; }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="nav-logo">🌟 S.E.E 珊蒂美語</div>
+    <ul class="nav-links">
+      <li><a href="#">課程</a></li>
+      <li><a href="#">師資</a></li>
+      <li><a href="#">家長專區</a></li>
+      <li><a href="#">聯絡我們</a></li>
+    </ul>
+    <a href="#" class="nav-cta">立即報名</a>
+  </nav>
+
+  <section class="hero">
+    <div>
+      <div class="hero-label">S.E.E English School</div>
+      <h1>讓孩子<br>愛上說英語</h1>
+      <p>用歌曲、遊戲和故事，打造一個快樂的英語學習環境。激發孩子的好奇心，建立說英語的自信心。</p>
+      <div class="hero-btns">
+        <a href="#" class="btn-primary">免費試讀</a>
+        <a href="#" class="btn-secondary">觀看影片</a>
+      </div>
+    </div>
+    <div class="hero-image">🎵📚</div>
+  </section>
+
+  <section class="levels">
+    <div class="levels-inner">
+      <div class="section-label">我們的課程</div>
+      <h2>五個學習階段，陪伴孩子一路成長</h2>
+      <div class="level-grid">
+        <div class="level-card">
+          <div class="emoji">🌱</div>
+          <h3>啟蒙班 Basic</h3>
+          <p>以歌謠和遊戲為主，讓孩子在歡樂中自然接觸英語。</p>
+          <div class="age">適合 4-5 歲</div>
+        </div>
+        <div class="level-card">
+          <div class="emoji">📖</div>
+          <h3>基礎一 Level 1</h3>
+          <p>26個字母認識與發音練習，簡單生活詞彙與日常對話。</p>
+          <div class="age">適合 6-7 歲</div>
+        </div>
+        <div class="level-card">
+          <div class="emoji">✏️</div>
+          <h3>基礎二 Level 2</h3>
+          <p>自然發音法（Phonics）系統訓練，奠定紮實閱讀能力。</p>
+          <div class="age">適合 7-8 歲</div>
+        </div>
+        <div class="level-card">
+          <div class="emoji">🚀</div>
+          <h3>進階班 Level 3</h3>
+          <p>短文閱讀與寫作練習，培养英语思维与表达能力。</p>
+          <div class="age">適合 8-10 歲</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <h2>加入珊蒂美語大家庭</h2>
+    <p>超過60位學生、家長的信賴之選</p>
+    <a href="#" class="btn-primary">馬上報名</a>
+  </section>
+
+  <footer>
+    <div class="brand">🌟 S.E.E 珊蒂美語</div>
+    <p>© 2026 珊蒂美語 S.E.E English School</p>
+  </footer>
+</body>
+</html>
