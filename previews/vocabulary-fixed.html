@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vocabulary - 珊蒂美語 | Sandy's Enlighten English</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Nunito', sans-serif; color: #333; line-height: 1.6; min-height: 100vh; position: relative; }
+        .background-layer { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: url('images/background.png') center/cover no-repeat; opacity: 0.15; z-index: -1; }
+        nav { background: rgba(133, 114, 81, 0.95); padding: 1rem 2rem; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .nav-container { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-family: 'Playfair Display', serif; font-size: 1.5rem; color: #F7F4EE; text-decoration: none; font-weight: 700; }
+        .nav-links { display: flex; list-style: none; gap: 2rem; }
+        .nav-links a { color: #F7F4EE; text-decoration: none; font-weight: 600; transition: color 0.3s; }
+        .nav-links a:hover { color: #CEA964; }
+        .hamburger { display: none; flex-direction: column; cursor: pointer; }
+        .hamburger span { width: 25px; height: 3px; background: #F7F4EE; margin: 3px 0; transition: 0.3s; }
+        .page-header { background: linear-gradient(135deg, #857251 0%, #CEA964 100%); color: #F7F4EE; padding: 4rem 2rem; text-align: center; }
+        .page-header h1 { font-family: 'Playfair Display', serif; font-size: 3rem; margin-bottom: 1rem; }
+        .page-header p { font-size: 1.2rem; max-width: 600px; margin: 0 auto; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 3rem 2rem; }
+        .level-tabs { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 2rem; border-bottom: 3px solid #857251; padding-bottom: 1rem; }
+        .level-tab { padding: 0.75rem 1.5rem; background: #F7F4EE; border: 2px solid #857251; border-radius: 25px; cursor: pointer; font-weight: 600; color: #857251; transition: all 0.3s; }
+        .level-tab:hover { background: #857251; color: #F7F4EE; }
+        .level-tab.active { background: #857251; color: #F7F4EE; }
+        .level-content { display: none; }
+        .level-content.active { display: block; }
+        .controls { display: flex; flex-wrap: wrap; gap: 1rem; margin-bottom: 2rem; padding: 1.5rem; background: rgba(206, 169, 100, 0.2); border-radius: 10px; align-items: flex-end; }
+        .control-group { display: flex; flex-direction: column; gap: 0.5rem; }
+        .control-group label { font-weight: 600; color: #857251; }
+        select { padding: 0.75rem 1rem; border: 2px solid #857251; border-radius: 8px; font-size: 1rem; background: white; cursor: pointer; }
+        .vocab-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1rem; margin-bottom: 3rem; }
+        .vocab-card { background: white; border-radius: 10px; padding: 1.5rem; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border: 1px solid rgba(133, 114, 81, 0.2); }
+        .vocab-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem; }
+        .vocab-word { font-family: 'Playfair Display', serif; font-size: 1.5rem; color: #857251; }
+        .vocab-chinese { color: #666; font-size: 1.2rem; margin-bottom: 0.5rem; }
+        .vocab-example { color: #888; font-size: 0.9rem; font-style: italic; }
+        .pronounce-btn { background: #CEA964; color: white; border: none; width: 44px; height: 44px; border-radius: 50%; cursor: pointer; font-size: 1.2rem; display: flex; align-items: center; justify-content: center; transition: background 0.3s; }
+        .pronounce-btn:hover { background: #857251; }
+        .loading { text-align: center; padding: 2rem; color: #857251; font-size: 1.2rem; }
+
+        /* ===== FLASH CARD SECTION ===== */
+        .flashcard-section { margin-top: 4rem; padding-top: 3rem; border-top: 3px solid #CEA964; }
+        .flashcard-section h2 { font-family: 'Playfair Display', serif; color: #857251; margin-bottom: 1.5rem; text-align: center; }
+
+        /* Mode selector */
+        .flashcard-mode-bar {
+            display: flex; justify-content: center; align-items: center; gap: 1rem;
+            margin-bottom: 2rem; flex-wrap: wrap;
+        }
+        .mode-label { font-weight: 600; color: #857251; }
+        .mode-toggle {
+            display: flex; background: rgba(133,114,81,0.1); border-radius: 30px; padding: 4px;
+            border: 2px solid #857251;
+        }
+        .mode-btn {
+            padding: 8px 20px; border-radius: 26px; border: none; cursor: pointer;
+            font-family: 'Nunito', sans-serif; font-weight: 600; font-size: 0.95rem;
+            transition: all 0.25s; background: transparent; color: #857251;
+        }
+        .mode-btn.active {
+            background: #857251; color: #F7F4EE;
+        }
+        .mode-btn:hover:not(.active) { background: rgba(133,114,81,0.15); }
+
+        /* Flashcard container */
+        .flashcard-wrapper {
+            display: flex; flex-direction: column; align-items: center; gap: 1.5rem;
+        }
+
+        /* The actual card */
+        .flashcard {
+            width: 380px; min-height: 260px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 12px 40px rgba(0,0,0,0.15);
+            cursor: pointer;
+            transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s;
+            position: relative;
+            display: flex; flex-direction: column;
+            align-items: center; justify-content: center;
+            padding: 2rem;
+            text-align: center;
+            border: 2px solid rgba(133,114,81,0.15);
+            user-select: none;
+        }
+        .flashcard:hover { transform: translateY(-6px); box-shadow: 0 20px 60px rgba(0,0,0,0.2); }
+        .flashcard.flipped { transform: rotateY(180deg); }
+
+        /* Card inner — front and back */
+        .card-front, .card-back {
+            display: flex; flex-direction: column; align-items: center; justify-content: center;
+            width: 100%; gap: 8px;
+        }
+        .card-front { }
+        .card-back { display: none; }
+        .flashcard.flipped .card-front { display: none; }
+        .flashcard.flipped .card-back { display: flex; }
+
+        /* Front of card */
+        .card-front-word {
+            font-family: 'Playfair Display', serif;
+            font-size: 3rem; color: #857251;
+            line-height: 1.1;
+        }
+        .card-front-pronounce {
+            background: #CEA964; color: white; border: none;
+            width: 44px; height: 44px; border-radius: 50%;
+            cursor: pointer; font-size: 1.3rem;
+            display: flex; align-items: center; justify-content: center;
+            transition: background 0.2s; margin-top: 8px;
+        }
+        .card-front-pronounce:hover { background: #857251; }
+        .card-front-hint {
+            margin-top: 12px; font-size: 0.85rem; color: #aaa;
+        }
+
+        /* Back of card */
+        .card-back-chinese {
+            font-size: 2.4rem; color: #857251; font-weight: 700;
+            line-height: 1.2;
+        }
+        .card-back-divider {
+            width: 60px; height: 2px; background: #CEA964; margin: 4px 0;
+        }
+        .card-back-example-label {
+            font-size: 0.75rem; font-weight: 700; color: #CEA964;
+            text-transform: uppercase; letter-spacing: 1px; margin-top: 4px;
+        }
+        .card-back-example {
+            font-size: 1rem; color: #555; font-style: italic;
+            line-height: 1.5; max-width: 320px;
+        }
+        .card-back-pronounce {
+            background: #857251; color: white; border: none;
+            width: 36px; height: 36px; border-radius: 50%;
+            cursor: pointer; font-size: 1.1rem;
+            display: flex; align-items: center; justify-content: center;
+            margin-top: 8px; transition: background 0.2s;
+        }
+        .card-back-pronounce:hover { background: #CEA964; }
+
+        /* Progress + Controls */
+        .flashcard-meta {
+            display: flex; align-items: center; justify-content: center;
+            gap: 1rem; flex-wrap: wrap;
+        }
+        .flashcard-progress {
+            font-size: 1rem; font-weight: 600; color: #857251;
+            background: rgba(206,169,100,0.2); padding: 6px 16px;
+            border-radius: 20px;
+        }
+        .flashcard-controls { display: flex; gap: 0.75rem; }
+        .flashcard-btn {
+            padding: 0.75rem 1.5rem; background: #857251; color: #F7F4EE;
+            border: none; border-radius: 25px; cursor: pointer;
+            font-family: 'Nunito', sans-serif; font-weight: 600;
+            font-size: 0.95rem; transition: background 0.2s;
+        }
+        .flashcard-btn:hover { background: #CEA964; }
+        .flashcard-btn.shuffle {
+            background: transparent; color: #857251;
+            border: 2px solid #857251;
+        }
+        .flashcard-btn.shuffle:hover { background: #857251; color: #F7F4EE; }
+        .flashcard-total {
+            font-size: 0.9rem; color: #888; text-align: center; margin-top: 4px;
+        }
+
+        /* Tap hint on mobile */
+        .tap-hint {
+            font-size: 0.8rem; color: #aaa; text-align: center;
+            margin-top: 4px;
+        }
+
+        @media (max-width: 768px) {
+            .nav-links { display: none; position: absolute; top: 100%; left: 0; width: 100%; background: rgba(133, 114, 81, 0.98); flex-direction: column; padding: 1rem; gap: 1rem; }
+            .nav-links.active { display: flex; }
+            .hamburger { display: flex; }
+            .page-header h1 { font-size: 2rem; }
+            .vocab-grid { grid-template-columns: 1fr; }
+            .flashcard { width: 320px; min-height: 220px; }
+            .card-front-word { font-size: 2.2rem; }
+            .card-back-chinese { font-size: 2rem; }
+            .flashcard-btn { padding: 0.6rem 1.2rem; font-size: 0.9rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="background-layer"></div>
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo">珊蒂美語</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#classes">Classes</a></li>
+                <li><a href="songs.html">Monthly Songs</a></li>
+                <li><a href="vocabulary.html">Vocabulary</a></li>
+                <li><a href="audiobooks.html">Audiobooks</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" onclick="toggleNav()"><span></span><span></span><span></span></div>
+        </div>
+    </nav>
+    <header class="page-header">
+        <h1>Vocabulary</h1>
+        <p>Practice your vocabulary with pronunciation and flashcards</p>
+    </header>
+    <main class="container">
+        <div class="level-tabs">
+            <button class="level-tab active" onclick="showLevel('basic')">Basic</button>
+            <button class="level-tab" onclick="showLevel('level1')">Level 1</button>
+            <button class="level-tab" onclick="showLevel('level2')">Level 2</button>
+            <button class="level-tab" onclick="showLevel('level3')">Level 3</button>
+            <button class="level-tab" onclick="showLevel('level4')">Level 4</button>
+        </div>
+
+        <!-- Basic Level -->
+        <div id="basic" class="level-content active">
+            <div class="controls">
+                <div class="control-group">
+                    <label for="basicWeek">Select Week:</label>
+                    <select id="basicWeek" onchange="loadVocab('basic')"></select>
+                </div>
+            </div>
+            <div id="basicVocab" class="vocab-grid"><div class="loading">Loading...</div></div>
+            <!-- FLASHCARD -->
+            <div class="flashcard-section">
+                <h2>🔁 Flashcard Practice</h2>
+                <div class="flashcard-wrapper">
+                    <div class="flashcard-mode-bar">
+                        <span class="mode-label">Start with:</span>
+                        <div class="mode-toggle">
+                            <button class="mode-btn active" id="basic-mode-en" onclick="setMode('basic','en')">🇬🇧 English First</button>
+                            <button class="mode-btn" id="basic-mode-zh" onclick="setMode('basic','zh')">🇨🇳 中文先</button>
+                        </div>
+                    </div>
+                    <div class="flashcard" id="basicFlashcard" onclick="flipCard('basic')">
+                        <div class="card-front">
+                            <div class="card-front-word" id="basic-front-word">Click to Start</div>
+                            <button class="card-front-pronounce" id="basic-front-sound" onclick="event.stopPropagation(); pronounceCurrent('basic')">🔊</button>
+                            <div class="card-front-hint">tap card to flip →</div>
+                        </div>
+                        <div class="card-back">
+                            <div class="card-back-chinese" id="basic-back-chinese"></div>
+                            <div class="card-back-divider"></div>
+                            <div class="card-back-example-label">Example 例句</div>
+                            <div class="card-back-example" id="basic-back-example"></div>
+                            <button class="card-back-pronounce" onclick="event.stopPropagation(); pronounceCurrent('basic')">🔊</button>
+                        </div>
+                    </div>
+                    <div class="flashcard-meta">
+                        <div class="flashcard-progress" id="basic-progress">0 / 0</div>
+                        <div class="flashcard-controls">
+                            <button class="flashcard-btn" onclick="prevCard('basic')">← Previous</button>
+                            <button class="flashcard-btn" onclick="nextCard('basic')">Next →</button>
+                            <button class="flashcard-btn shuffle" onclick="shuffleCards('basic')">🔀 Shuffle</button>
+                        </div>
+                    </div>
+                    <div class="flashcard-total" id="basic-total"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Level 1 -->
+        <div id="level1" class="level-content">
+            <div class="controls">
+                <div class="control-group">
+                    <label for="level1Week">Select Week:</label>
+                    <select id="level1Week" onchange="loadVocab('level1')"></select>
+                </div>
+            </div>
+            <div id="level1Vocab" class="vocab-grid"><div class="loading">Loading...</div></div>
+            <div class="flashcard-section">
+                <h2>🔁 Flashcard Practice</h2>
+                <div class="flashcard-wrapper">
+                    <div class="flashcard-mode-bar">
+                        <span class="mode-label">Start with:</span>
+                        <div class="mode-toggle">
+                            <button class="mode-btn active" id="level1-mode-en" onclick="setMode('level1','en')">🇬🇧 English First</button>
+                            <button class="mode-btn" id="level1-mode-zh" onclick="setMode('level1','zh')">🇨🇳 中文先</button>
+                        </div>
+                    </div>
+                    <div class="flashcard" id="level1Flashcard" onclick="flipCard('level1')">
+                        <div class="card-front">
+                            <div class="card-front-word" id="level1-front-word">Click to Start</div>
+                            <button class="card-front-pronounce" id="level1-front-sound" onclick="event.stopPropagation(); pronounceCurrent('level1')">🔊</button>
+                            <div class="card-front-hint">tap card to flip →</div>
+                        </div>
+                        <div class="card-back">
+                            <div class="card-back-chinese" id="level1-back-chinese"></div>
+                            <div class="card-back-divider"></div>
+                            <div class="card-back-example-label">Example 例句</div>
+                            <div class="card-back-example" id="level1-back-example"></div>
+                            <button class="card-back-pronounce" onclick="event.stopPropagation(); pronounceCurrent('level1')">🔊</button>
+                        </div>
+                    </div>
+                    <div class="flashcard-meta">
+                        <div class="flashcard-progress" id="level1-progress">0 / 0</div>
+                        <div class="flashcard-controls">
+                            <button class="flashcard-btn" onclick="prevCard('level1')">← Previous</button>
+                            <button class="flashcard-btn" onclick="nextCard('level1')">Next →</button>
+                            <button class="flashcard-btn shuffle" onclick="shuffleCards('level1')">🔀 Shuffle</button>
+                        </div>
+                    </div>
+                    <div class="flashcard-total" id="level1-total"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Level 2 -->
+        <div id="level2" class="level-content">
+            <div class="controls">
+                <div class="control-group">
+                    <label for="level2Week">Select Week:</label>
+                    <select id="level2Week" onchange="loadVocab('level2')"></select>
+                </div>
+            </div>
+            <div id="level2Vocab" class="vocab-grid"><div class="loading">Loading...</div></div>
+            <div class="flashcard-section">
+                <h2>🔁 Flashcard Practice</h2>
+                <div class="flashcard-wrapper">
+                    <div class="flashcard-mode-bar">
+                        <span class="mode-label">Start with:</span>
+                        <div class="mode-toggle">
+                            <button class="mode-btn active" id="level2-mode-en" onclick="setMode('level2','en')">🇬🇧 English First</button>
+                            <button class="mode-btn" id="level2-mode-zh" onclick="setMode('level2','zh')">🇨🇳 中文先</button>
+                        </div>
+                    </div>
+                    <div class="flashcard" id="level2Flashcard" onclick="flipCard('level2')">
+                        <div class="card-front">
+                            <div class="card-front-word" id="level2-front-word">Click to Start</div>
+                            <button class="card-front-pronounce" id="level2-front-sound" onclick="event.stopPropagation(); pronounceCurrent('level2')">🔊</button>
+                            <div class="card-front-hint">tap card to flip →</div>
+                        </div>
+                        <div class="card-back">
+                            <div class="card-back-chinese" id="level2-back-chinese"></div>
+                            <div class="card-back-divider"></div>
+                            <div class="card-back-example-label">Example 例句</div>
+                            <div class="card-back-example" id="level2-back-example"></div>
+                            <button class="card-back-pronounce" onclick="event.stopPropagation(); pronounceCurrent('level2')">🔊</button>
+                        </div>
+                    </div>
+                    <div class="flashcard-meta">
+                        <div class="flashcard-progress" id="level2-progress">0 / 0</div>
+                        <div class="flashcard-controls">
+                            <button class="flashcard-btn" onclick="prevCard('level2')">← Previous</button>
+                            <button class="flashcard-btn" onclick="nextCard('level2')">Next →</button>
+                            <button class="flashcard-btn shuffle" onclick="shuffleCards('level2')">🔀 Shuffle</button>
+                        </div>
+                    </div>
+                    <div class="flashcard-total" id="level2-total"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Level 3 -->
+        <div id="level3" class="level-content">
+            <div class="controls">
+                <div class="control-group">
+                    <label for="level3Week">Select Week:</label>
+                    <select id="level3Week" onchange="loadVocab('level3')"></select>
+                </div>
+            </div>
+            <div id="level3Vocab" class="vocab-grid"><div class="loading">Loading...</div></div>
+            <div class="flashcard-section">
+                <h2>🔁 Flashcard Practice</h2>
+                <div class="flashcard-wrapper">
+                    <div class="flashcard-mode-bar">
+                        <span class="mode-label">Start with:</span>
+                        <div class="mode-toggle">
+                            <button class="mode-btn active" id="level3-mode-en" onclick="setMode('level3','en')">🇬🇧 English First</button>
+                            <button class="mode-btn" id="level3-mode-zh" onclick="setMode('level3','zh')">🇨🇳 中文先</button>
+                        </div>
+                    </div>
+                    <div class="flashcard" id="level3Flashcard" onclick="flipCard('level3')">
+                        <div class="card-front">
+                            <div class="card-front-word" id="level3-front-word">Click to Start</div>
+                            <button class="card-front-pronounce" id="level3-front-sound" onclick="event.stopPropagation(); pronounceCurrent('level3')">🔊</button>
+                            <div class="card-front-hint">tap card to flip →</div>
+                        </div>
+                        <div class="card-back">
+                            <div class="card-back-chinese" id="level3-back-chinese"></div>
+                            <div class="card-back-divider"></div>
+                            <div class="card-back-example-label">Example 例句</div>
+                            <div class="card-back-example" id="level3-back-example"></div>
+                            <button class="card-back-pronounce" onclick="event.stopPropagation(); pronounceCurrent('level3')">🔊</button>
+                        </div>
+                    </div>
+                    <div class="flashcard-meta">
+                        <div class="flashcard-progress" id="level3-progress">0 / 0</div>
+                        <div class="flashcard-controls">
+                            <button class="flashcard-btn" onclick="prevCard('level3')">← Previous</button>
+                            <button class="flashcard-btn" onclick="nextCard('level3')">Next →</button>
+                            <button class="flashcard-btn shuffle" onclick="shuffleCards('level3')">🔀 Shuffle</button>
+                        </div>
+                    </div>
+                    <div class="flashcard-total" id="level3-total"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Level 4 -->
+        <div id="level4" class="level-content">
+            <div class="controls">
+                <div class="control-group">
+                    <label for="level4Week">Select Week:</label>
+                    <select id="level4Week" onchange="loadVocab('level4')"></select>
+                </div>
+            </div>
+            <div id="level4Vocab" class="vocab-grid"><div class="loading">Loading...</div></div>
+            <div class="flashcard-section">
+                <h2>🔁 Flashcard Practice</h2>
+                <div class="flashcard-wrapper">
+                    <div class="flashcard-mode-bar">
+                        <span class="mode-label">Start with:</span>
+                        <div class="mode-toggle">
+                            <button class="mode-btn active" id="level4-mode-en" onclick="setMode('level4','en')">🇬🇧 English First</button>
+                            <button class="mode-btn" id="level4-mode-zh" onclick="setMode('level4','zh')">🇨🇳 中文先</button>
+                        </div>
+                    </div>
+                    <div class="flashcard" id="level4Flashcard" onclick="flipCard('level4')">
+                        <div class="card-front">
+                            <div class="card-front-word" id="level4-front-word">Click to Start</div>
+                            <button class="card-front-pronounce" id="level4-front-sound" onclick="event.stopPropagation(); pronounceCurrent('level4')">🔊</button>
+                            <div class="card-front-hint">tap card to flip →</div>
+                        </div>
+                        <div class="card-back">
+                            <div class="card-back-chinese" id="level4-back-chinese"></div>
+                            <div class="card-back-divider"></div>
+                            <div class="card-back-example-label">Example 例句</div>
+                            <div class="card-back-example" id="level4-back-example"></div>
+                            <button class="card-back-pronounce" onclick="event.stopPropagation(); pronounceCurrent('level4')">🔊</button>
+                        </div>
+                    </div>
+                    <div class="flashcard-meta">
+                        <div class="flashcard-progress" id="level4-progress">0 / 0</div>
+                        <div class="flashcard-controls">
+                            <button class="flashcard-btn" onclick="prevCard('level4')">← Previous</button>
+                            <button class="flashcard-btn" onclick="nextCard('level4')">Next →</button>
+                            <button class="flashcard-btn shuffle" onclick="shuffleCards('level4')">🔀 Shuffle</button>
+                        </div>
+                    </div>
+                    <div class="flashcard-total" id="level4-total"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>© 2025 珊蒂美語 | Sandy's Enlighten English. All rights reserved.</p>
+    </footer>
+
+    <script>
+        let vocabData = {};
+        // State per level
+        // shuffledWords: array of word objects (randomized)
+        // index: current position in shuffledWords
+        // flipped: bool
+        // mode: 'en' or 'zh' (which side shows first)
+        let fcState = {
+            basic:   { shuffledWords: [], index: 0, flipped: false, mode: 'en' },
+            level1:  { shuffledWords: [], index: 0, flipped: false, mode: 'en' },
+            level2:  { shuffledWords: [], index: 0, flipped: false, mode: 'en' },
+            level3:  { shuffledWords: [], index: 0, flipped: false, mode: 'en' },
+            level4:  { shuffledWords: [], index: 0, flipped: false, mode: 'en' }
+        };
+
+        async function loadData() {
+            try {
+                const response = await fetch('data/vocabulary.json');
+                vocabData = await response.json();
+                init();
+            } catch (error) {
+                console.error('Error loading vocabulary:', error);
+                document.querySelectorAll('.vocab-grid').forEach(el => {
+                    el.innerHTML = '<div class="loading">Error loading data. Please refresh.</div>';
+                });
+            }
+        }
+
+        function init() {
+            ['basic','level1','level2','level3','level4'].forEach(level => {
+                populateWeekSelect(level);
+                loadVocab(level);
+            });
+        }
+
+        function populateWeekSelect(level) {
+            const select = document.getElementById(level + 'Week');
+            const words = vocabData[level] || [];
+            const weeks = [...new Set(words.map(w => w.date))].sort();
+            select.innerHTML = '';
+            weeks.forEach(week => {
+                const option = document.createElement('option');
+                option.value = week;
+                option.textContent = formatWeek(week);
+                select.appendChild(option);
+            });
+            if (weeks.length > 0) {
+                fcState[level].shuffledWords = [];
+                fcState[level].index = 0;
+                fcState[level].flipped = false;
+            }
+        }
+
+        function formatWeek(week) {
+            if (week.startsWith('Week')) return week;
+            if (week.length === 6) {
+                const year = '20' + week.substring(0, 2);
+                const month = week.substring(2, 4);
+                const day = week.substring(4, 6);
+                return year + '-' + month + '-' + day;
+            }
+            return week;
+        }
+
+        function showLevel(level) {
+            document.querySelectorAll('.level-content').forEach(c => c.classList.remove('active'));
+            document.querySelectorAll('.level-tab').forEach(t => t.classList.remove('active'));
+            document.getElementById(level).classList.add('active');
+            event.target.classList.add('active');
+        }
+
+        function loadVocab(level) {
+            const week = document.getElementById(level + 'Week').value;
+            const allWords = (vocabData[level] || []).filter(w => w.date === week);
+
+            // Build shuffled deck
+            fcState[level].shuffledWords = shuffleArray([...allWords]);
+            fcState[level].index = 0;
+            fcState[level].flipped = false;
+
+            // Render word list
+            const container = document.getElementById(level + 'Vocab');
+            container.innerHTML = '';
+            allWords.forEach(item => {
+                const card = document.createElement('div');
+                card.className = 'vocab-card';
+                card.innerHTML = `
+                    <div class="vocab-header">
+                        <span class="vocab-word">${item.word}</span>
+                        <button class="pronounce-btn" onclick="event.stopPropagation(); pronounce('${item.word.replace(/'/g,"\\'")}')">🔊</button>
+                    </div>
+                    <div class="vocab-chinese">${item.chinese || ''}</div>
+                    ${item.example ? `<div class="vocab-example">${item.example}</div>` : ''}
+                `;
+                container.appendChild(card);
+            });
+
+            updateFlashcard(level);
+        }
+
+        function shuffleArray(arr) {
+            const a = [...arr];
+            for (let i = a.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [a[i], a[j]] = [a[j], a[i]];
+            }
+            return a;
+        }
+
+        function setMode(level, mode) {
+            fcState[level].mode = mode;
+            document.getElementById(level + '-mode-en').classList.toggle('active', mode === 'en');
+            document.getElementById(level + '-mode-zh').classList.toggle('active', mode === 'zh');
+            // If card is flipped, need to re-render the front to show the new starting side
+            updateFlashcard(level);
+        }
+
+        function pronounce(word) {
+            const utterance = new SpeechSynthesisUtterance(word);
+            utterance.lang = 'en-US';
+            utterance.rate = 0.8;
+            speechSynthesis.speak(utterance);
+        }
+
+        function pronounceCurrent(level) {
+            const words = fcState[level].shuffledWords;
+            if (words.length === 0) return;
+            pronounce(words[fcState[level].index].word);
+        }
+
+        function flipCard(level) {
+            const state = fcState[level];
+            if (state.shuffledWords.length === 0) return;
+            state.flipped = !state.flipped;
+            updateFlashcard(level);
+        }
+
+        function updateFlashcard(level) {
+            const state = fcState[level];
+            const card = document.getElementById(level + 'Flashcard');
+            const words = state.shuffledWords;
+
+            if (words.length === 0) {
+                document.getElementById(level + '-front-word').textContent = 'No words';
+                document.getElementById(level + '-back-chinese').textContent = '';
+                document.getElementById(level + '-back-example').textContent = '';
+                document.getElementById(level + '-progress').textContent = '0 / 0';
+                return;
+            }
+
+            const item = words[state.index];
+
+            // Update progress
+            document.getElementById(level + '-progress').textContent = (state.index + 1) + ' / ' + words.length;
+            document.getElementById(level + '-total').textContent = 'Total: ' + words.length + ' words in this set';
+
+            // Determine what front shows based on mode
+            const frontWord = state.mode === 'en' ? item.word : item.chinese;
+            document.getElementById(level + '-front-word').textContent = frontWord;
+            document.getElementById(level + '-back-chinese').textContent = state.mode === 'en' ? item.chinese : item.word;
+            document.getElementById(level + '-back-example').textContent = item.example || '';
+
+            // Flip the card visually
+            card.classList.toggle('flipped', state.flipped);
+        }
+
+        function nextCard(level) {
+            const state = fcState[level];
+            if (state.shuffledWords.length === 0) return;
+            state.index = (state.index + 1) % state.shuffledWords.length;
+            state.flipped = false;
+            updateFlashcard(level);
+        }
+
+        function prevCard(level) {
+            const state = fcState[level];
+            if (state.shuffledWords.length === 0) return;
+            state.index = (state.index - 1 + state.shuffledWords.length) % state.shuffledWords.length;
+            state.flipped = false;
+            updateFlashcard(level);
+        }
+
+        function shuffleCards(level) {
+            const state = fcState[level];
+            if (state.shuffledWords.length === 0) return;
+            state.shuffledWords = shuffleArray([...state.shuffledWords]);
+            state.index = 0;
+            state.flipped = false;
+            updateFlashcard(level);
+        }
+
+        function toggleNav() {
+            document.getElementById('navLinks').classList.toggle('active');
+        }
+
+        loadData();
+    </script>
+</body>
+</html>
