@@ -574,9 +574,9 @@
 
         function setMode(level, mode) {
             fcState[level].mode = mode;
+            fcState[level].flipped = false; // Reset to front when switching modes
             document.getElementById(level + '-mode-en').classList.toggle('active', mode === 'en');
             document.getElementById(level + '-mode-zh').classList.toggle('active', mode === 'zh');
-            // If card is flipped, need to re-render the front to show the new starting side
             updateFlashcard(level);
         }
 
