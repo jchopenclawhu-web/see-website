@@ -36,7 +36,9 @@
         .vocab-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem; }
         .vocab-word { font-family: 'Playfair Display', serif; font-size: 1.5rem; color: #857251; }
         .vocab-chinese { color: #666; font-size: 1.2rem; margin-bottom: 0.5rem; }
-        .vocab-example { color: #888; font-size: 0.9rem; font-style: italic; }
+        .vocab-example { font-size: 0.9rem; margin-top: 2px; }
+        .vocab-example.en { color: #666; font-style: italic; }
+        .vocab-example.zh { color: #CEA964; font-style: normal; font-weight: 600; }
         .pronounce-btn { background: #CEA964; color: white; border: none; width: 44px; height: 44px; border-radius: 50%; cursor: pointer; font-size: 1.2rem; display: flex; align-items: center; justify-content: center; transition: background 0.3s; }
         .pronounce-btn:hover { background: #857251; }
         .loading { text-align: center; padding: 2rem; color: #857251; font-size: 1.2rem; }
@@ -72,7 +74,7 @@
 
         /* The actual card */
         .flashcard {
-            width: 380px; min-height: 260px;
+            width: 380px; min-height: 300px;
             background: white;
             border-radius: 20px;
             box-shadow: 0 12px 40px rgba(0,0,0,0.15);
@@ -128,20 +130,21 @@
         }
 
         /* Back of card */
+        #card-back-content { width: 100%; }
         .card-back-chinese {
             font-size: 2.4rem; color: #857251; font-weight: 700;
-            line-height: 1.2;
+            line-height: 1.2; margin-bottom: 2px;
         }
         .card-back-divider {
-            width: 60px; height: 2px; background: #CEA964; margin: 4px 0;
+            width: 60px; height: 2px; background: #CEA964; margin: 4px auto;
         }
-        .card-back-example-label {
-            font-size: 0.75rem; font-weight: 700; color: #CEA964;
-            text-transform: uppercase; letter-spacing: 1px; margin-top: 4px;
+        .card-back-pair { margin-top: 6px; text-align: left; width: 100%; }
+        .card-back-en {
+            font-size: 0.95rem; color: #555; font-style: italic; line-height: 1.3;
         }
-        .card-back-example {
-            font-size: 1rem; color: #555; font-style: italic;
-            line-height: 1.5; max-width: 320px;
+        .card-back-zh {
+            font-size: 0.9rem; color: #CEA964; font-weight: 600; line-height: 1.3;
+            margin-top: 1px;
         }
         .card-back-pronounce {
             background: #857251; color: white; border: none;
@@ -191,7 +194,7 @@
             .hamburger { display: flex; }
             .page-header h1 { font-size: 2rem; }
             .vocab-grid { grid-template-columns: 1fr; }
-            .flashcard { width: 320px; min-height: 220px; }
+            .flashcard { width: 320px; min-height: 260px; }
             .card-front-word { font-size: 2.2rem; }
             .card-back-chinese { font-size: 2rem; }
             .flashcard-btn { padding: 0.6rem 1.2rem; font-size: 0.9rem; }
@@ -255,10 +258,7 @@
                             <div class="card-front-hint">tap card to flip →</div>
                         </div>
                         <div class="card-back">
-                            <div class="card-back-chinese" id="basic-back-chinese"></div>
-                            <div class="card-back-divider"></div>
-                            <div class="card-back-example-label">Example 例句</div>
-                            <div class="card-back-example" id="basic-back-example"></div>
+                            <div id="basic-back-content"></div>
                             <button class="card-back-pronounce" onclick="event.stopPropagation(); pronounceCurrent('basic')">🔊</button>
                         </div>
                     </div>
@@ -301,10 +301,7 @@
                             <div class="card-front-hint">tap card to flip →</div>
                         </div>
                         <div class="card-back">
-                            <div class="card-back-chinese" id="level1-back-chinese"></div>
-                            <div class="card-back-divider"></div>
-                            <div class="card-back-example-label">Example 例句</div>
-                            <div class="card-back-example" id="level1-back-example"></div>
+                            <div id="level1-back-content"></div>
                             <button class="card-back-pronounce" onclick="event.stopPropagation(); pronounceCurrent('level1')">🔊</button>
                         </div>
                     </div>
@@ -347,10 +344,7 @@
                             <div class="card-front-hint">tap card to flip →</div>
                         </div>
                         <div class="card-back">
-                            <div class="card-back-chinese" id="level2-back-chinese"></div>
-                            <div class="card-back-divider"></div>
-                            <div class="card-back-example-label">Example 例句</div>
-                            <div class="card-back-example" id="level2-back-example"></div>
+                            <div id="level2-back-content"></div>
                             <button class="card-back-pronounce" onclick="event.stopPropagation(); pronounceCurrent('level2')">🔊</button>
                         </div>
                     </div>
@@ -393,10 +387,7 @@
                             <div class="card-front-hint">tap card to flip →</div>
                         </div>
                         <div class="card-back">
-                            <div class="card-back-chinese" id="level3-back-chinese"></div>
-                            <div class="card-back-divider"></div>
-                            <div class="card-back-example-label">Example 例句</div>
-                            <div class="card-back-example" id="level3-back-example"></div>
+                            <div id="level3-back-content"></div>
                             <button class="card-back-pronounce" onclick="event.stopPropagation(); pronounceCurrent('level3')">🔊</button>
                         </div>
                     </div>
@@ -439,10 +430,7 @@
                             <div class="card-front-hint">tap card to flip →</div>
                         </div>
                         <div class="card-back">
-                            <div class="card-back-chinese" id="level4-back-chinese"></div>
-                            <div class="card-back-divider"></div>
-                            <div class="card-back-example-label">Example 例句</div>
-                            <div class="card-back-example" id="level4-back-example"></div>
+                            <div id="level4-back-content"></div>
                             <button class="card-back-pronounce" onclick="event.stopPropagation(); pronounceCurrent('level4')">🔊</button>
                         </div>
                     </div>
@@ -549,13 +537,20 @@
             allWords.forEach(item => {
                 const card = document.createElement('div');
                 card.className = 'vocab-card';
+                const ex1 = item.example_1 || '';
+                const tr1 = item.trans_1 || '';
+                const ex2 = item.example_2 || '';
+                const tr2 = item.trans_2 || '';
                 card.innerHTML = `
                     <div class="vocab-header">
                         <span class="vocab-word">${item.word}</span>
                         <button class="pronounce-btn" onclick="event.stopPropagation(); pronounce('${item.word.replace(/'/g,"\\'")}')">🔊</button>
                     </div>
                     <div class="vocab-chinese">${item.chinese || ''}</div>
-                    ${item.example ? `<div class="vocab-example">${item.example}</div>` : ''}
+                    ${ex1 ? `<div class="vocab-example en">${ex1}</div>` : ''}
+                    ${tr1 ? `<div class="vocab-example zh">${tr1}</div>` : ''}
+                    ${ex2 ? `<div class="vocab-example en">${ex2}</div>` : ''}
+                    ${tr2 ? `<div class="vocab-example zh">${tr2}</div>` : ''}
                 `;
                 container.appendChild(card);
             });
@@ -607,8 +602,7 @@
 
             if (words.length === 0) {
                 document.getElementById(level + '-front-word').textContent = 'No words';
-                document.getElementById(level + '-back-chinese').textContent = '';
-                document.getElementById(level + '-back-example').textContent = '';
+                document.getElementById(level + '-back-content').innerHTML = '';
                 document.getElementById(level + '-progress').textContent = '0 / 0';
                 return;
             }
@@ -622,8 +616,25 @@
             // Determine what front shows based on mode
             const frontWord = state.mode === 'en' ? item.word : item.chinese;
             document.getElementById(level + '-front-word').textContent = frontWord;
-            document.getElementById(level + '-back-chinese').textContent = state.mode === 'en' ? item.chinese : item.word;
-            document.getElementById(level + '-back-example').textContent = item.example || '';
+
+            // Build the back content based on mode
+            if (state.mode === 'en') {
+                // English front → Chinese back: show Chinese word + both examples with translations
+                document.getElementById(level + '-back-content').innerHTML = `
+                    <div class="card-back-chinese">${item.chinese || ''}</div>
+                    <div class="card-back-divider"></div>
+                    ${item.example_1 ? `<div class="card-back-pair"><div class="card-back-en">${item.example_1}</div><div class="card-back-zh">${item.trans_1 || ''}</div></div>` : ''}
+                    ${item.example_2 ? `<div class="card-back-pair"><div class="card-back-en">${item.example_2}</div><div class="card-back-zh">${item.trans_2 || ''}</div></div>` : ''}
+                `;
+            } else {
+                // Chinese front → English back: show English word + both examples with translations
+                document.getElementById(level + '-back-content').innerHTML = `
+                    <div class="card-back-chinese">${item.word || ''}</div>
+                    <div class="card-back-divider"></div>
+                    ${item.example_1 ? `<div class="card-back-pair"><div class="card-back-en">${item.example_1}</div><div class="card-back-zh">${item.trans_1 || ''}</div></div>` : ''}
+                    ${item.example_2 ? `<div class="card-back-pair"><div class="card-back-en">${item.example_2}</div><div class="card-back-zh">${item.trans_2 || ''}</div></div>` : ''}
+                `;
+            }
 
             // Flip the card visually
             card.classList.toggle('flipped', state.flipped);
