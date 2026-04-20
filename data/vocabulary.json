@@ -2247,7 +2247,7 @@
       "chinese": "在...上",
       "example_1": "The cat sits on the chair.",
       "example_2": "The cat is on the mat.",
-      "trans_1": "貓咪坐在椅子上。",
+      "trans_1": "貓坐在椅子上。",
       "trans_2": "貓在墊子上。"
     },
     {
@@ -4613,6 +4613,105 @@
   ],
   "level2": [
     {
+      "date": "260422",
+      "word": "none of your concern",
+      "chinese": "與你無關",
+      "example_1": "",
+      "example_2": "",
+      "trans_1": "",
+      "trans_2": ""
+    },
+    {
+      "date": "260422",
+      "word": "schedule",
+      "chinese": "行程",
+      "example_1": "",
+      "example_2": "",
+      "trans_1": "",
+      "trans_2": ""
+    },
+    {
+      "date": "260422",
+      "word": "reservation",
+      "chinese": "預訂",
+      "example_1": "",
+      "example_2": "",
+      "trans_1": "",
+      "trans_2": ""
+    },
+    {
+      "date": "260422",
+      "word": "receive",
+      "chinese": "收到",
+      "example_1": "",
+      "example_2": "",
+      "trans_1": "",
+      "trans_2": ""
+    },
+    {
+      "date": "260422",
+      "word": "treatment",
+      "chinese": "治療",
+      "example_1": "",
+      "example_2": "",
+      "trans_1": "",
+      "trans_2": ""
+    },
+    {
+      "date": "260422",
+      "word": "stand a chance",
+      "chinese": "有機會",
+      "example_1": "",
+      "example_2": "",
+      "trans_1": "",
+      "trans_2": ""
+    },
+    {
+      "date": "260422",
+      "word": "nervous",
+      "chinese": "緊張的",
+      "example_1": "",
+      "example_2": "",
+      "trans_1": "",
+      "trans_2": ""
+    },
+    {
+      "date": "260422",
+      "word": "cunning",
+      "chinese": "狡猾",
+      "example_1": "",
+      "example_2": "",
+      "trans_1": "",
+      "trans_2": ""
+    },
+    {
+      "date": "260422",
+      "word": "normal",
+      "chinese": "普通的",
+      "example_1": "",
+      "example_2": "",
+      "trans_1": "",
+      "trans_2": ""
+    },
+    {
+      "date": "260422",
+      "word": "construct",
+      "chinese": "構造",
+      "example_1": "",
+      "example_2": "",
+      "trans_1": "",
+      "trans_2": ""
+    },
+    {
+      "date": "260422",
+      "word": "member",
+      "chinese": "成員",
+      "example_1": "I am a member of the school soccer team.",
+      "example_2": "I am a member of the school chess club.",
+      "trans_1": "我是學校足球隊的隊員。",
+      "trans_2": "我是學校國際象棋俱樂部的成員。"
+    },
+    {
       "date": "260415",
       "word": "as far as I'm concerned",
       "chinese": "就我而言",
@@ -4642,11 +4741,20 @@
     {
       "date": "260415",
       "word": "building",
-      "chinese": "大樓",
+      "chinese": "建築物",
       "example_1": "",
       "example_2": "",
       "trans_1": "",
       "trans_2": ""
+    },
+    {
+      "date": "260415",
+      "word": "thumb",
+      "chinese": "大拇指",
+      "example_1": "I use my thumb to give a thumbs-up.",
+      "example_2": "I hit my thumb with a hammer, and now it is purple and sore.",
+      "trans_1": "我用拇指表示豎起大拇指。",
+      "trans_2": "我不小心用錘子砸到了大拇指，現在又紫又痛。"
     },
     {
       "date": "260401",
@@ -4895,109 +5003,109 @@
       "date": "260318",
       "word": "make sense",
       "chinese": "有道理",
-      "example_1": "",
-      "example_2": "",
-      "trans_1": "",
-      "trans_2": ""
+      "example_1": "That story does not make sense.",
+      "example_2": "The math problem does not make sense.",
+      "trans_1": "這個故事根本說不通。",
+      "trans_2": "這道數學題沒有意義。"
     },
     {
       "date": "260318",
       "word": "depend on",
       "chinese": "取決於",
-      "example_1": "",
-      "example_2": "",
-      "trans_1": "",
-      "trans_2": ""
+      "example_1": "Our plans depend on the weather.",
+      "example_2": "The plants depend on water to grow.",
+      "trans_1": "我們的計劃取決於天氣。",
+      "trans_2": "植物生長需要水。"
     },
     {
       "date": "260318",
       "word": "aisle",
       "chinese": "走道",
-      "example_1": "",
-      "example_2": "",
-      "trans_1": "",
-      "trans_2": ""
+      "example_1": "I walked down the grocery store aisle to find some juice.",
+      "example_2": "I walked down the grocery store aisle to find the cookies.",
+      "trans_1": "我沿著超市架走去，想找些果汁。",
+      "trans_2": "我沿著超市的貨架通道去找餅乾。"
     },
     {
       "date": "260318",
       "word": "bottom",
       "chinese": "底部",
-      "example_1": "",
-      "example_2": "",
-      "trans_1": "",
-      "trans_2": ""
+      "example_1": "The ball is at the bottom of the box.",
+      "example_2": "The toys are at the bottom of the big box.",
+      "trans_1": "球在盒子的底部。",
+      "trans_2": "玩具都在大箱子的底部。"
     },
     {
       "date": "260318",
       "word": "salty",
       "chinese": "鹹",
-      "example_1": "",
-      "example_2": "",
-      "trans_1": "",
-      "trans_2": ""
+      "example_1": "The popcorn is too salty.",
+      "example_2": "These potato chips are very salty.",
+      "trans_1": "爆米花太鹹了。",
+      "trans_2": "這些薯片很鹹。"
     },
     {
       "date": "260318",
       "word": "sour",
       "chinese": "酸的",
-      "example_1": "",
-      "example_2": "",
-      "trans_1": "",
-      "trans_2": ""
+      "example_1": "The lemon is very sour.",
+      "example_2": "The lemon tastes very sour.",
+      "trans_1": "這個檸檬很酸。",
+      "trans_2": "這個檸檬嘗起來很酸。"
     },
     {
       "date": "260318",
       "word": "cheap",
       "chinese": "便宜的",
-      "example_1": "",
-      "example_2": "",
-      "trans_1": "",
-      "trans_2": ""
+      "example_1": "The toy car was very cheap.",
+      "example_2": "The toy car was very cheap, so I bought it with my pocket money.",
+      "trans_1": "這輛玩具車很便宜。",
+      "trans_2": "這輛玩具車很便宜，所以我用零用錢買了它。"
     },
     {
       "date": "260318",
       "word": "recipe",
       "chinese": "食譜",
-      "example_1": "",
-      "example_2": "",
-      "trans_1": "",
-      "trans_2": ""
+      "example_1": "My mom has a great recipe for chocolate cookies.",
+      "example_2": "I used a special recipe to bake these cookies with my mom.",
+      "trans_1": "我媽媽有一個很棒的巧克力餅乾配方。",
+      "trans_2": "我和媽媽用一個特別的配方烤了這些餅乾。"
     },
     {
       "date": "260318",
       "word": "expensive",
       "chinese": "昂貴的",
-      "example_1": "",
-      "example_2": "",
-      "trans_1": "",
-      "trans_2": ""
+      "example_1": "That toy is very expensive.",
+      "example_2": "The new toy car is very expensive.",
+      "trans_1": "那個玩具很貴。",
+      "trans_2": "這款新玩具車非常貴。"
     },
     {
       "date": "260318",
       "word": "scale",
       "chinese": "規模",
-      "example_1": "",
-      "example_2": "",
-      "trans_1": "",
-      "trans_2": ""
+      "example_1": "The scale of the map is very small.",
+      "example_2": "The fish has many small scales on its body.",
+      "trans_1": "地圖比例尺非常小。",
+      "trans_2": "這種魚身上有很多細小的鱗片。"
     },
     {
       "date": "260318",
       "word": "terminal",
       "chinese": "終端",
-      "example_1": "",
-      "example_2": "",
-      "trans_1": "",
-      "trans_2": ""
+      "example_1": "We waited for our bus at the terminal.",
+      "example_2": "We waited at the airport terminal for our plane to arrive.",
+      "trans_1": "我們在汽車站等車。",
+      "trans_2": "我們在機場航站樓等待飛機到來。"
     },
     {
       "date": "260318",
       "word": "passport",
       "chinese": "護照",
-      "example_1": "",
-      "example_2": "",
-      "trans_1": "",
-      "trans_2": ""
+      "example_1": "I need a passport to travel to another country.",
+      "example_2": "I need my passport to travel to another country.",
+      "trans_1": "我需要護照才能去其他國家旅行。",
+      "trans_2": "我需要護照才能去其他國家旅行。"
     },
     {
       "date": "260318",
@@ -7000,6 +7108,150 @@
   ],
   "level3": [
     {
+      "date": "260421",
+      "word": "parking lot",
+      "chinese": "停車場",
+      "example_1": "There are many cars in the parking lot.",
+      "example_2": "There are many cars in the parking lot.",
+      "trans_1": "停車場裡停了很多車。",
+      "trans_2": "停車場裡停了很多車。"
+    },
+    {
+      "date": "260421",
+      "word": "avoid",
+      "chinese": "避免",
+      "example_1": "You should avoid touching the hot stove so you do not get burned.",
+      "example_2": "You should avoid touching the hot stove to stay safe.",
+      "trans_1": "你應該避免觸摸滾燙的爐灶，以免被燙傷。",
+      "trans_2": "為了安全起見，請避免觸摸熱爐灶。"
+    },
+    {
+      "date": "260421",
+      "word": "data",
+      "chinese": "數據",
+      "example_1": "The scientist collected data to learn about the animals.",
+      "example_2": "Scientists use telescopes to collect data about the stars.",
+      "trans_1": "科學家收集數據以了解這些動物。",
+      "trans_2": "科學家利用望遠鏡收集有關恆星的數據。"
+    },
+    {
+      "date": "260421",
+      "word": "structure",
+      "chinese": "結構",
+      "example_1": "The bridge is a very strong structure.",
+      "example_2": "The strong structure of the house keeps us safe from the wind.",
+      "trans_1": "這座橋結構非常堅固。",
+      "trans_2": "房屋堅固的結構使我們免受風的侵襲。"
+    },
+    {
+      "date": "260421",
+      "word": "malfunction",
+      "chinese": "故障",
+      "example_1": "The computer had a malfunction and would not turn on.",
+      "example_2": "The car would not start because of a engine malfunction.",
+      "trans_1": "電腦故障，無法開機。",
+      "trans_2": "由於引擎故障，汽車無法啟動。"
+    },
+    {
+      "date": "260421",
+      "word": "tragedy",
+      "chinese": "悲劇",
+      "example_1": "It was a tragedy when the old tree in the park fell down.",
+      "example_2": "The story about the lost dog was a very sad tragedy.",
+      "trans_1": "公園裡那棵老樹倒下，真是一場悲劇。",
+      "trans_2": "那隻走失的狗的故事真是一場令人悲傷的悲劇。"
+    },
+    {
+      "date": "260421",
+      "word": "damage",
+      "chinese": "損害",
+      "example_1": "The heavy rain did a lot of damage to the small garden.",
+      "example_2": "The strong wind caused damage to the tree.",
+      "trans_1": "暴雨對小花園造成了極大的破壞。",
+      "trans_2": "強風對樹木造成了損害。"
+    },
+    {
+      "date": "260421",
+      "word": "catastrophe",
+      "chinese": "災難",
+      "example_1": "The big storm was a catastrophe because it destroyed many homes.",
+      "example_2": "The heavy rain caused a major catastrophe in the small village.",
+      "trans_1": "這場大風暴是一場災難，因為它摧毀了許多房屋。",
+      "trans_2": "暴雨為這個小村莊帶來了巨大的災難。"
+    },
+    {
+      "date": "260421",
+      "word": "brag",
+      "chinese": "吹牛",
+      "example_1": "He likes to brag about his high score in the video game.",
+      "example_2": "He likes to brag about his new toys.",
+      "trans_1": "他喜歡炫耀自己在電子遊戲中取得的高分。",
+      "trans_2": "他喜歡炫耀他的新玩具。"
+    },
+    {
+      "date": "260421",
+      "word": "territory",
+      "chinese": "領土",
+      "example_1": "The lion will protect its territory from other animals.",
+      "example_2": "The bald eagle protects its nesting territory from other birds.",
+      "trans_1": "獅子會保護自己的領地免受其他動物的侵擾。",
+      "trans_2": "白頭鷹會保護自己的築巢領地，不讓其他鳥類侵擾。"
+    },
+    {
+      "date": "260421",
+      "word": "inhabit",
+      "chinese": "居住",
+      "example_1": "Many different animals inhabit the forest.",
+      "example_2": "Many different animals inhabit the forest.",
+      "trans_1": "森林裡棲息著許多不同的動物。",
+      "trans_2": "森林裡棲息著許多不同的動物。"
+    },
+    {
+      "date": "260421",
+      "word": "lounge",
+      "chinese": "休息室",
+      "example_1": "We waited for our flight in the comfortable airport lounge.",
+      "example_2": "We sat in the airport lounge while we waited for our plane.",
+      "trans_1": "我們在舒適的機場休息室等待航班。",
+      "trans_2": "我們在機場候機室坐著等飛機。"
+    },
+    {
+      "date": "260421",
+      "word": "immigration",
+      "chinese": "移民",
+      "example_1": "Immigration is when people move to a new country to live.",
+      "example_2": "Many people move to new countries through immigration to find jobs.",
+      "trans_1": "移民是指人們移居到另一個國家生活。",
+      "trans_2": "許多人透過移民移居到新的國家尋找工作。"
+    },
+    {
+      "date": "260421",
+      "word": "delicacy",
+      "chinese": "美味",
+      "example_1": "Sushi is a special delicacy that people enjoy on birthdays.",
+      "example_2": "This rare fish is a special delicacy in Japan.",
+      "trans_1": "壽司是一種特別的美味佳餚，人們通常在生日時享用。",
+      "trans_2": "這種珍稀魚類在日本是一種特別的美味佳餚。"
+    },
+    {
+      "date": "260421",
+      "word": "consist",
+      "chinese": "由",
+      "example_1": "The team will consist of five players.",
+      "example_2": "A team of five players will consist of students from our class.",
+      "trans_1": "該隊將由五名隊員組成。",
+      "trans_2": "我們將派出一支由五名隊員組成的隊伍，隊員均來自我們班。"
+    },
+    {
+      "date": "260421",
+      "word": "carriage",
+      "chinese": "運輸",
+      "example_1": "The princess rode in a beautiful horse-drawn carriage.",
+      "example_2": "The horse pulled the heavy carriage down the street.",
+      "trans_1": "公主乘坐一輛漂亮的馬車。",
+      "trans_2": "馬匹拉著沉重的馬車沿著街道行駛。"
+    },
+    {
       "date": "260407",
       "word": "catch up",
       "chinese": "趕上",
@@ -7194,7 +7446,7 @@
       "chinese": "標準",
       "example_1": "We must follow the standard rules of the game.",
       "example_2": "We should follow the high standard for our school project.",
-      "trans_1": "我們必須遵守遊戲規則。",
+      "trans_1": "我們必須遵守遊戲的既定規則。",
       "trans_2": "我們的學校計畫應該遵循高標準。"
     },
     {
@@ -7380,7 +7632,7 @@
     {
       "date": "260310",
       "word": "superintendent",
-      "chinese": "校長",
+      "chinese": "督學",
       "example_1": "The school superintendent visited our classroom today.",
       "example_2": "The school superintendent visited our classroom today.",
       "trans_1": "學校校長今天來我們教室視察了。",
@@ -8952,7 +9204,7 @@
       "example_1": "I used the electric kettle to boil water for my tea.",
       "example_2": "She waited for the kettle to whistle before making a cup of tea.",
       "trans_1": "我用電水壺燒水泡茶。",
-      "trans_2": "她等水壺發出鳴笛聲後才開始泡茶。"
+      "trans_2": "她等到水壺發出鳴笛聲後才開始泡茶。"
     },
     {
       "date": "260409",
@@ -10517,7 +10769,7 @@
       "chinese": "結構",
       "example_1": "The strong structure of the bridge makes it safe for cars.",
       "example_2": "The structure of the treehouse was strong enough to hold all of us.",
-      "trans_1": "這座橋樑結構堅固，車輛通行安全。",
+      "trans_1": "這座橋樑結構堅固，對車輛通行安全。",
       "trans_2": "樹屋的結構非常堅固，足以承受我們所有人的重量。"
     },
     {
@@ -10571,7 +10823,7 @@
       "chinese": "鋁",
       "example_1": "We recycle aluminum cans to help the Earth.",
       "example_2": "The soda can is made of aluminum, which is a shiny, silver metal.",
-      "trans_1": "我們回收鋁罐，為地球貢獻一份力量。",
+      "trans_1": "我們回收鋁罐，為地球貢獻一份心力。",
       "trans_2": "汽水罐由鋁製成，鋁是一種閃亮的銀色金屬。"
     },
     {
@@ -10625,7 +10877,7 @@
       "chinese": "羽毛球",
       "example_1": "I played badminton with my friend after school.",
       "example_2": "We played badminton in the backyard and tried to hit the birdie over the net.",
-      "trans_1": "放學後我和朋友一起打了羽球。",
+      "trans_1": "放學後我和朋友一起打了羽毛球。",
       "trans_2": "我們在後院打羽毛球，努力把球打過球網。"
     },
     {
@@ -10661,7 +10913,7 @@
       "chinese": "合適的",
       "example_1": "It is appropriate to say thank you when someone gives you a gift.",
       "example_2": "It's important to wear appropriate clothes for gym class, like sneakers and a t-shirt.",
-      "trans_1": "當有人送你禮物時，說謝謝是恰當的。",
+      "trans_1": "當有人送你禮物時，說聲謝謝是恰當的。",
       "trans_2": "上體育課時，穿著合適的衣服很重要，例如運動鞋和T卹。"
     },
     {
@@ -10698,7 +10950,7 @@
       "example_1": "I was a witness to the bird building its nest in the tree.",
       "example_2": "I was excited to be a witness at the school play and see my friends perform.",
       "trans_1": "我親眼目睹了那隻鳥在樹上築巢。",
-      "trans_2": "我很興奮能作為觀眾觀看學校的戲劇表演，並看到我的朋友們表演。"
+      "trans_2": "我很興奮能作為觀眾觀看學校的戲劇表演，並看到我的朋友們演出。"
     },
     {
       "date": "250904",
@@ -10715,7 +10967,7 @@
       "chinese": "誇大",
       "example_1": "Please do not exaggerate how good the movie was.",
       "example_2": "Sometimes people exaggerate by saying they caught a fish as big as a car!",
-      "trans_1": "請不要誇大這部電影有多好。",
+      "trans_1": "請不要誇大這部電影的好壞。",
       "trans_2": "有時人們會誇大其詞，說自己釣到了一條像汽車一樣大的魚！"
     },
     {
@@ -10733,7 +10985,7 @@
       "chinese": "地區",
       "example_1": "The mountainous region is a great place to hike.",
       "example_2": "The desert is a hot and dry region where very few plants can grow.",
-      "trans_1": "山區是健行的好去處。",
+      "trans_1": "這片山區是健行的好去處。",
       "trans_2": "沙漠是一個炎熱乾燥的地區，很少有植物能在那裡生長。"
     },
     {
