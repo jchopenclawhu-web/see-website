@@ -9144,6 +9144,150 @@
   ],
   "level4": [
     {
+      "date": "260423",
+      "word": "break a leg",
+      "chinese": "祝你一切順利",
+      "example_1": "You will be great in the school play, so break a leg!",
+      "example_2": "I know you will do a great job in the play tonight, so break a leg!",
+      "trans_1": "你在學校戲劇表演一定會表現出色，祝你演出成功！",
+      "trans_2": "我知道你今晚的演出一定會非常精彩，祝你演出成功！"
+    },
+    {
+      "date": "260423",
+      "word": "congratulation",
+      "chinese": "恭喜",
+      "example_1": "I sent a big congratulation to my friend for winning the race.",
+      "example_2": "Please accept my warmest congratulation on your recent promotion to senior manager.",
+      "trans_1": "我向贏得比賽的朋友表示衷心的祝賀。",
+      "trans_2": "請接受我對您晉升為高階經理人最熱烈的祝賀。"
+    },
+    {
+      "date": "260423",
+      "word": "assume",
+      "chinese": "認為",
+      "example_1": "I assume that the test will be easy because I studied hard.",
+      "example_2": "I assume that the meeting will start on time.",
+      "trans_1": "我估計考試會很簡單，因為我學得很努力。",
+      "trans_2": "我假設會議會準時開始。"
+    },
+    {
+      "date": "260423",
+      "word": "scientific",
+      "chinese": "科學",
+      "example_1": "We used the scientific method to see how plants grow in the sunlight.",
+      "example_2": "The researchers conducted a scientific study to determine the long-term effects of the new medication.",
+      "trans_1": "我們運用科學方法觀察植物在陽光下的生長情形。",
+      "trans_2": "研究人員進行了一項科學研究，以確定這種新藥的長期療效。"
+    },
+    {
+      "date": "260423",
+      "word": "allergic",
+      "chinese": "過敏",
+      "example_1": "I am allergic to cats, so I sneeze when they are near me.",
+      "example_2": "I am allergic to cats, so I cannot have one as a pet.",
+      "trans_1": "我對貓過敏，所以貓靠近我時我會打噴嚏。",
+      "trans_2": "我對貓過敏，所以不能養貓。"
+    },
+    {
+      "date": "260423",
+      "word": "flood",
+      "chinese": "洪水",
+      "example_1": "The heavy rain caused a big flood in the streets.",
+      "example_2": "The heavy rains caused the river to flood the surrounding streets.",
+      "trans_1": "暴雨導致街道嚴重積水。",
+      "trans_2": "暴雨導致河水氾濫，淹沒了周圍的街道。"
+    },
+    {
+      "date": "260423",
+      "word": "densely",
+      "chinese": "密集地",
+      "example_1": "The forest was densely covered with tall green trees.",
+      "example_2": "The city's downtown area is densely populated with high-rise apartments and office buildings.",
+      "trans_1": "森林裡長滿了高大的綠樹，十分茂密。",
+      "trans_2": "市中心區域高層公寓及辦公大樓林立，人口密度極高。"
+    },
+    {
+      "date": "260423",
+      "word": "merchandise",
+      "chinese": "商品",
+      "example_1": "The store sells many kinds of merchandise, like toys and clothes.",
+      "example_2": "The store sells a wide variety of official merchandise from the movie.",
+      "trans_1": "這家商店出售多種商品，例如玩具和衣服。",
+      "trans_2": "這家商店出售各種各樣的電影官方周邊商品。"
+    },
+    {
+      "date": "260423",
+      "word": "algae",
+      "chinese": "藻類",
+      "example_1": "The green algae made the water in the pond look like pea soup.",
+      "example_2": "The pond was covered in a thick layer of green algae.",
+      "trans_1": "池塘裡的綠藻讓水看起來像豌豆湯。",
+      "trans_2": "池塘上覆蓋著厚厚一層綠藻。"
+    },
+    {
+      "date": "260423",
+      "word": "therefore",
+      "chinese": "所以",
+      "example_1": "It was raining outside, therefore I stayed home to play video games.",
+      "example_2": "The weather was terrible; therefore, we decided to stay indoors.",
+      "trans_1": "外面下雨了，所以我待在家裡玩電子遊戲。",
+      "trans_2": "天氣很糟糕，因此我們決定待在室內。"
+    },
+    {
+      "date": "260423",
+      "word": "rough",
+      "chinese": "粗糙的",
+      "example_1": "The bark of the old tree feels very rough.",
+      "example_2": "The surface of the old wooden table was very rough to the touch.",
+      "trans_1": "這棵老樹的樹皮摸起來很粗糙。",
+      "trans_2": "那張舊木桌的表面摸起來非常粗糙。"
+    },
+    {
+      "date": "260423",
+      "word": "vanish",
+      "chinese": "消失",
+      "example_1": "The magician made the rabbit vanish into thin air during the show.",
+      "example_2": "The magician made the rabbit vanish into thin air during the final act of the show.",
+      "trans_1": "表演過程中，魔術師讓兔子憑空消失了。",
+      "trans_2": "在演出的最後一環節，魔術師讓兔子憑空消失了。"
+    },
+    {
+      "date": "260423",
+      "word": "conversation",
+      "chinese": "對話",
+      "example_1": "I had a long conversation with my friend about our favorite movies.",
+      "example_2": "We had a long conversation about our plans for the future.",
+      "trans_1": "我和朋友就我們最喜歡的電影進行了長時間的對話。",
+      "trans_2": "我們進行了長時間的談話，討論了我們未來的計劃。"
+    },
+    {
+      "date": "260423",
+      "word": "binocular",
+      "chinese": "雙筒望遠鏡",
+      "example_1": "I used my new binocular to see the birds in the tall tree.",
+      "example_2": "Binocular vision allows humans to perceive depth and distance more accurately.",
+      "trans_1": "我用新買的雙筒望遠鏡觀察高樹上的鳥兒。",
+      "trans_2": "雙眼視覺使人類更準確地感知深度和距離。"
+    },
+    {
+      "date": "260423",
+      "word": "concert",
+      "chinese": "音樂會",
+      "example_1": "I went to a fun music concert with my friends last night.",
+      "example_2": "We bought tickets to see our favorite band in concert next month.",
+      "trans_1": "昨晚我和朋友們一起去聽了一場很棒的音樂會。",
+      "trans_2": "我們買了下個月去看我們最喜歡的樂團演唱會的票。"
+    },
+    {
+      "date": "260423",
+      "word": "alternative",
+      "chinese": "選擇",
+      "example_1": "If you do not like apples, you can have a banana as an alternative.",
+      "example_2": "We had to find an alternative route because the main highway was closed.",
+      "trans_1": "如果你不喜歡蘋果，可以用香蕉代替。",
+      "trans_2": "由於主要公路封閉，我們不得不尋找替代路線。"
+    },
+    {
       "date": "260409",
       "word": "legal action",
       "chinese": "訴訟",
@@ -9204,7 +9348,7 @@
       "example_1": "I used the electric kettle to boil water for my tea.",
       "example_2": "She waited for the kettle to whistle before making a cup of tea.",
       "trans_1": "我用電水壺燒水泡茶。",
-      "trans_2": "她等到水壺發出鳴笛聲後才開始泡茶。"
+      "trans_2": "她等水壺發出鳴笛聲後才開始泡茶。"
     },
     {
       "date": "260409",
@@ -10769,7 +10913,7 @@
       "chinese": "結構",
       "example_1": "The strong structure of the bridge makes it safe for cars.",
       "example_2": "The structure of the treehouse was strong enough to hold all of us.",
-      "trans_1": "這座橋樑結構堅固，對車輛通行安全。",
+      "trans_1": "這座橋樑結構堅固，車輛通行安全。",
       "trans_2": "樹屋的結構非常堅固，足以承受我們所有人的重量。"
     },
     {
@@ -10823,7 +10967,7 @@
       "chinese": "鋁",
       "example_1": "We recycle aluminum cans to help the Earth.",
       "example_2": "The soda can is made of aluminum, which is a shiny, silver metal.",
-      "trans_1": "我們回收鋁罐，為地球貢獻一份心力。",
+      "trans_1": "我們回收鋁罐，為地球貢獻一份力量。",
       "trans_2": "汽水罐由鋁製成，鋁是一種閃亮的銀色金屬。"
     },
     {
@@ -10877,7 +11021,7 @@
       "chinese": "羽毛球",
       "example_1": "I played badminton with my friend after school.",
       "example_2": "We played badminton in the backyard and tried to hit the birdie over the net.",
-      "trans_1": "放學後我和朋友一起打了羽毛球。",
+      "trans_1": "放學後我和朋友一起打了羽球。",
       "trans_2": "我們在後院打羽毛球，努力把球打過球網。"
     },
     {
@@ -10913,7 +11057,7 @@
       "chinese": "合適的",
       "example_1": "It is appropriate to say thank you when someone gives you a gift.",
       "example_2": "It's important to wear appropriate clothes for gym class, like sneakers and a t-shirt.",
-      "trans_1": "當有人送你禮物時，說聲謝謝是恰當的。",
+      "trans_1": "當有人送你禮物時，說謝謝是恰當的。",
       "trans_2": "上體育課時，穿著合適的衣服很重要，例如運動鞋和T卹。"
     },
     {
@@ -10950,7 +11094,7 @@
       "example_1": "I was a witness to the bird building its nest in the tree.",
       "example_2": "I was excited to be a witness at the school play and see my friends perform.",
       "trans_1": "我親眼目睹了那隻鳥在樹上築巢。",
-      "trans_2": "我很興奮能作為觀眾觀看學校的戲劇表演，並看到我的朋友們演出。"
+      "trans_2": "我很興奮能作為觀眾觀看學校的戲劇表演，並看到我的朋友們表演。"
     },
     {
       "date": "250904",
@@ -10967,7 +11111,7 @@
       "chinese": "誇大",
       "example_1": "Please do not exaggerate how good the movie was.",
       "example_2": "Sometimes people exaggerate by saying they caught a fish as big as a car!",
-      "trans_1": "請不要誇大這部電影的好壞。",
+      "trans_1": "請不要誇大這部電影有多好。",
       "trans_2": "有時人們會誇大其詞，說自己釣到了一條像汽車一樣大的魚！"
     },
     {
@@ -10985,7 +11129,7 @@
       "chinese": "地區",
       "example_1": "The mountainous region is a great place to hike.",
       "example_2": "The desert is a hot and dry region where very few plants can grow.",
-      "trans_1": "這片山區是健行的好去處。",
+      "trans_1": "山區是健行的好去處。",
       "trans_2": "沙漠是一個炎熱乾燥的地區，很少有植物能在那裡生長。"
     },
     {
