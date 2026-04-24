@@ -1,6 +1,141 @@
 {
   "basic": [
     {
+      "date": "260424",
+      "word": "same",
+      "chinese": "相同的",
+      "example_1": "",
+      "example_2": "",
+      "trans_1": "",
+      "trans_2": ""
+    },
+    {
+      "date": "260424",
+      "word": "jump",
+      "chinese": "跳",
+      "example_1": "",
+      "example_2": "",
+      "trans_1": "",
+      "trans_2": ""
+    },
+    {
+      "date": "260424",
+      "word": "world",
+      "chinese": "世界",
+      "example_1": "",
+      "example_2": "",
+      "trans_1": "",
+      "trans_2": ""
+    },
+    {
+      "date": "260424",
+      "word": "whole",
+      "chinese": "所有的",
+      "example_1": "",
+      "example_2": "",
+      "trans_1": "",
+      "trans_2": ""
+    },
+    {
+      "date": "260424",
+      "word": "shake",
+      "chinese": "搖",
+      "example_1": "",
+      "example_2": "",
+      "trans_1": "",
+      "trans_2": ""
+    },
+    {
+      "date": "260424",
+      "word": "shape",
+      "chinese": "形狀",
+      "example_1": "",
+      "example_2": "",
+      "trans_1": "",
+      "trans_2": ""
+    },
+    {
+      "date": "260424",
+      "word": "space",
+      "chinese": "空間",
+      "example_1": "",
+      "example_2": "",
+      "trans_1": "",
+      "trans_2": ""
+    },
+    {
+      "date": "260424",
+      "word": "tape",
+      "chinese": "膠帶",
+      "example_1": "",
+      "example_2": "",
+      "trans_1": "",
+      "trans_2": ""
+    },
+    {
+      "date": "260424",
+      "word": "page",
+      "chinese": "頁",
+      "example_1": "",
+      "example_2": "",
+      "trans_1": "",
+      "trans_2": ""
+    },
+    {
+      "date": "260424",
+      "word": "try",
+      "chinese": "嘗試",
+      "example_1": "",
+      "example_2": "",
+      "trans_1": "",
+      "trans_2": ""
+    },
+    {
+      "date": "260424",
+      "word": "carry",
+      "chinese": "攜帶",
+      "example_1": "",
+      "example_2": "",
+      "trans_1": "",
+      "trans_2": ""
+    },
+    {
+      "date": "260424",
+      "word": "wait",
+      "chinese": "等待",
+      "example_1": "",
+      "example_2": "",
+      "trans_1": "",
+      "trans_2": ""
+    },
+    {
+      "date": "260424",
+      "word": "after",
+      "chinese": "後",
+      "example_1": "",
+      "example_2": "",
+      "trans_1": "",
+      "trans_2": ""
+    },
+    {
+      "date": "260424",
+      "word": "horse",
+      "chinese": "馬",
+      "example_1": "",
+      "example_2": "",
+      "trans_1": "",
+      "trans_2": ""
+    },
+    {
+      "date": "260424",
+      "word": "under",
+      "chinese": "在下面",
+      "example_1": "The cat is under the table.",
+      "example_2": "The ball is under the chair.",
+      "trans_1": "貓在桌子底下。",
+      "trans_2": "球在椅子下面。"
+    },
+    {
       "date": "260417",
       "word": "shine your way",
       "chinese": "閃耀你的道路",
@@ -247,91 +382,91 @@
       "date": "260320",
       "word": "twenty",
       "chinese": "二十",
-      "example_1": "",
-      "example_2": "",
-      "trans_1": "",
-      "trans_2": ""
+      "example_1": "I have twenty toys.",
+      "example_2": "I see twenty red apples.",
+      "trans_1": "我有二十件玩具。",
+      "trans_2": "我看到二十個紅蘋果。"
     },
     {
       "date": "260320",
       "word": "nineteen",
       "chinese": "十九",
-      "example_1": "",
-      "example_2": "",
-      "trans_1": "",
-      "trans_2": ""
+      "example_1": "I have nineteen apples.",
+      "example_2": "I see nineteen birds.",
+      "trans_1": "我有十九個蘋果。",
+      "trans_2": "我看到了十九隻鳥。"
     },
     {
       "date": "260320",
       "word": "ship",
       "chinese": "船",
-      "example_1": "",
-      "example_2": "",
-      "trans_1": "",
-      "trans_2": ""
+      "example_1": "I see a ship.",
+      "example_2": "The big ship is on the water.",
+      "trans_1": "我看到一艘船。",
+      "trans_2": "那艘大船在水面上。"
     },
     {
       "date": "260320",
       "word": "leaf",
       "chinese": "葉子",
-      "example_1": "",
-      "example_2": "",
-      "trans_1": "",
-      "trans_2": ""
+      "example_1": "I see a leaf.",
+      "example_2": "I see a green leaf.",
+      "trans_1": "我看到一片葉子。",
+      "trans_2": "我看到一片綠葉。"
     },
     {
       "date": "260320",
       "word": "seed",
       "chinese": "種子",
-      "example_1": "",
-      "example_2": "",
-      "trans_1": "",
-      "trans_2": ""
+      "example_1": "I plant a seed.",
+      "example_2": "I plant a small seed.",
+      "trans_1": "我種下一顆種子。",
+      "trans_2": "我種下了一顆小小的種子。"
     },
     {
       "date": "260320",
       "word": "call",
       "chinese": "稱呼",
-      "example_1": "",
-      "example_2": "",
-      "trans_1": "",
-      "trans_2": ""
+      "example_1": "I call my mom.",
+      "example_2": "I call my friend.",
+      "trans_1": "我打電話給媽媽。",
+      "trans_2": "我打電話給朋友。"
     },
     {
       "date": "260320",
       "word": "story",
       "chinese": "故事",
-      "example_1": "",
-      "example_2": "",
-      "trans_1": "",
-      "trans_2": ""
+      "example_1": "I read a story.",
+      "example_2": "I like to read a story.",
+      "trans_1": "我讀了一個故事。",
+      "trans_2": "我喜歡讀故事。"
     },
     {
       "date": "260320",
       "word": "contest",
       "chinese": "競賽",
-      "example_1": "",
-      "example_2": "",
-      "trans_1": "",
-      "trans_2": ""
+      "example_1": "I won the contest.",
+      "example_2": "I won the drawing contest.",
+      "trans_1": "我贏得了比賽。",
+      "trans_2": "我贏得了繪畫比賽。"
     },
     {
       "date": "260320",
       "word": "which",
       "chinese": "哪個",
-      "example_1": "",
-      "example_2": "",
-      "trans_1": "",
-      "trans_2": ""
+      "example_1": "Which toy do you want?",
+      "example_2": "Which toy do you like?",
+      "trans_1": "你想要哪個玩具？",
+      "trans_2": "你喜歡哪一種玩具？"
     },
     {
       "date": "260320",
       "word": "plant",
       "chinese": "植物",
-      "example_1": "",
-      "example_2": "",
-      "trans_1": "",
-      "trans_2": ""
+      "example_1": "I water the plant.",
+      "example_2": "I see a green plant.",
+      "trans_1": "我給植物澆水。",
+      "trans_2": "我看到一株綠色的植物。"
     },
     {
       "date": "260320",
@@ -1496,15 +1631,6 @@
     },
     {
       "date": "251119",
-      "word": "jump",
-      "chinese": "跳",
-      "example_1": "The frog jumps high.",
-      "example_2": "The frog can jump high.",
-      "trans_1": "這隻青蛙跳得很高。",
-      "trans_2": "青蛙能跳得很高。"
-    },
-    {
-      "date": "251119",
       "word": "listen",
       "chinese": "聽",
       "example_1": "I listen to music.",
@@ -2325,6 +2451,150 @@
   ],
   "level1": [
     {
+      "date": "260424",
+      "word": "wash dishes",
+      "chinese": "洗碗",
+      "example_1": "",
+      "example_2": "",
+      "trans_1": "",
+      "trans_2": ""
+    },
+    {
+      "date": "260424",
+      "word": "television",
+      "chinese": "電視",
+      "example_1": "",
+      "example_2": "",
+      "trans_1": "",
+      "trans_2": ""
+    },
+    {
+      "date": "260424",
+      "word": "refrigerator",
+      "chinese": "冰箱",
+      "example_1": "",
+      "example_2": "",
+      "trans_1": "",
+      "trans_2": ""
+    },
+    {
+      "date": "260424",
+      "word": "alarm clock",
+      "chinese": "鬧鐘",
+      "example_1": "",
+      "example_2": "",
+      "trans_1": "",
+      "trans_2": ""
+    },
+    {
+      "date": "260424",
+      "word": "take a bath",
+      "chinese": "泡澡",
+      "example_1": "",
+      "example_2": "",
+      "trans_1": "",
+      "trans_2": ""
+    },
+    {
+      "date": "260424",
+      "word": "take a shower",
+      "chinese": "淋浴",
+      "example_1": "",
+      "example_2": "",
+      "trans_1": "",
+      "trans_2": ""
+    },
+    {
+      "date": "260424",
+      "word": "Saturday",
+      "chinese": "週六",
+      "example_1": "",
+      "example_2": "",
+      "trans_1": "",
+      "trans_2": ""
+    },
+    {
+      "date": "260424",
+      "word": "Friday",
+      "chinese": "星期五",
+      "example_1": "",
+      "example_2": "",
+      "trans_1": "",
+      "trans_2": ""
+    },
+    {
+      "date": "260424",
+      "word": "knot",
+      "chinese": "結",
+      "example_1": "",
+      "example_2": "",
+      "trans_1": "",
+      "trans_2": ""
+    },
+    {
+      "date": "260424",
+      "word": "tie",
+      "chinese": "綁/領帶",
+      "example_1": "",
+      "example_2": "",
+      "trans_1": "",
+      "trans_2": ""
+    },
+    {
+      "date": "260424",
+      "word": "magazine",
+      "chinese": "雜誌",
+      "example_1": "",
+      "example_2": "",
+      "trans_1": "",
+      "trans_2": ""
+    },
+    {
+      "date": "260424",
+      "word": "newspaper",
+      "chinese": "報紙",
+      "example_1": "",
+      "example_2": "",
+      "trans_1": "",
+      "trans_2": ""
+    },
+    {
+      "date": "260424",
+      "word": "twist",
+      "chinese": "捻/扭",
+      "example_1": "",
+      "example_2": "",
+      "trans_1": "",
+      "trans_2": ""
+    },
+    {
+      "date": "260424",
+      "word": "exit",
+      "chinese": "出口",
+      "example_1": "",
+      "example_2": "",
+      "trans_1": "",
+      "trans_2": ""
+    },
+    {
+      "date": "260424",
+      "word": "suitcase",
+      "chinese": "行李箱",
+      "example_1": "",
+      "example_2": "",
+      "trans_1": "",
+      "trans_2": ""
+    },
+    {
+      "date": "260424",
+      "word": "whisper",
+      "chinese": "小聲說話",
+      "example_1": "I whisper a secret to my friend.",
+      "example_2": "I whisper a secret to my friend.",
+      "trans_1": "我悄悄地把一個秘密告訴了我的朋友。",
+      "trans_2": "我悄悄地把一個秘密告訴了我的朋友。"
+    },
+    {
       "date": "260417",
       "word": "Thursday",
       "chinese": "週四",
@@ -2373,10 +2643,10 @@
       "date": "260417",
       "word": "aboard",
       "chinese": "登上",
-      "example_1": "I go aboard the big ship.",
-      "example_2": "I step aboard the big boat.",
-      "trans_1": "我登上了那艘大船。",
-      "trans_2": "我登上了那艘大船。"
+      "example_1": "I step aboard the bus.",
+      "example_2": "The students go aboard the big bus.",
+      "trans_1": "我上了公車。",
+      "trans_2": "學生們登上巴士。"
     },
     {
       "date": "260410",
@@ -2571,100 +2841,100 @@
       "date": "260320",
       "word": "change clothes",
       "chinese": "換衣服",
-      "example_1": "",
-      "example_2": "",
-      "trans_1": "",
-      "trans_2": ""
+      "example_1": "I change clothes after school.",
+      "example_2": "I change clothes after school.",
+      "trans_1": "放學後我換衣服。",
+      "trans_2": "放學後我換衣服。"
     },
     {
       "date": "260320",
       "word": "disappear",
       "chinese": "消失",
-      "example_1": "",
-      "example_2": "",
-      "trans_1": "",
-      "trans_2": ""
+      "example_1": "The sun disappears behind the clouds.",
+      "example_2": "The cookies disappear from the plate.",
+      "trans_1": "太陽消失在雲層後面。",
+      "trans_2": "餅乾從盤子裡消失了。"
     },
     {
       "date": "260320",
       "word": "surprise",
       "chinese": "驚喜",
-      "example_1": "",
-      "example_2": "",
-      "trans_1": "",
-      "trans_2": ""
+      "example_1": "I have a surprise for you.",
+      "example_2": "I have a surprise for you.",
+      "trans_1": "我有個驚喜要給你。",
+      "trans_2": "我有個驚喜要給你。"
     },
     {
       "date": "260320",
       "word": "early",
       "chinese": "早的",
-      "example_1": "",
-      "example_2": "",
-      "trans_1": "",
-      "trans_2": ""
+      "example_1": "I wake up early for school.",
+      "example_2": "Early birds get the worm.",
+      "trans_1": "我每天早起去上學。",
+      "trans_2": "早起的鳥兒有蟲吃。"
     },
     {
       "date": "260320",
       "word": "chase",
       "chinese": "追趕",
-      "example_1": "",
-      "example_2": "",
-      "trans_1": "",
-      "trans_2": ""
+      "example_1": "The dog chases the cat.",
+      "example_2": "The dog chases the ball.",
+      "trans_1": "狗追貓。",
+      "trans_2": "狗追著球跑。"
     },
     {
       "date": "260320",
       "word": "across",
       "chinese": "穿過",
-      "example_1": "",
-      "example_2": "",
-      "trans_1": "",
-      "trans_2": ""
+      "example_1": "I walk across the street.",
+      "example_2": "I walk across the street.",
+      "trans_1": "我穿過馬路。",
+      "trans_2": "我穿過馬路。"
     },
     {
       "date": "260320",
       "word": "subject",
       "chinese": "主題",
-      "example_1": "",
-      "example_2": "",
-      "trans_1": "",
-      "trans_2": ""
+      "example_1": "Math is my favorite subject.",
+      "example_2": "Math is my favorite subject.",
+      "trans_1": "數學是我最喜歡的科目。",
+      "trans_2": "數學是我最喜歡的科目。"
     },
     {
       "date": "260320",
       "word": "English",
       "chinese": "英語",
-      "example_1": "",
-      "example_2": "",
-      "trans_1": "",
-      "trans_2": ""
+      "example_1": "I speak English at school.",
+      "example_2": "I speak English with my friends at school.",
+      "trans_1": "我在學校說英語。",
+      "trans_2": "我在學校和朋友們說英語。"
     },
     {
       "date": "260320",
       "word": "Chinese",
       "chinese": "中國人",
-      "example_1": "",
-      "example_2": "",
-      "trans_1": "",
-      "trans_2": ""
+      "example_1": "I like to eat Chinese food.",
+      "example_2": "I learn Chinese at school.",
+      "trans_1": "我喜歡吃中餐。",
+      "trans_2": "我在學校學習中文。"
     },
     {
       "date": "260320",
       "word": "menu",
       "chinese": "選單",
-      "example_1": "",
-      "example_2": "",
-      "trans_1": "",
-      "trans_2": ""
+      "example_1": "I look at the food menu.",
+      "example_2": "I look at the menu.",
+      "trans_1": "我看了看菜單。",
+      "trans_2": "我看了看菜單。"
     },
     {
       "date": "260320",
       "word": "future",
       "chinese": "未來",
-      "example_1": "",
-      "example_2": "",
-      "trans_1": "",
-      "trans_2": ""
+      "example_1": "I dream about the future.",
+      "example_2": "I want to be a pilot in the future.",
+      "trans_1": "我憧憬著未來。",
+      "trans_2": "我未來想成為一名飛行員。"
     },
     {
       "date": "260320",
@@ -4708,7 +4978,7 @@
       "chinese": "成員",
       "example_1": "I am a member of the school soccer team.",
       "example_2": "I am a member of the school chess club.",
-      "trans_1": "我是學校足球隊的隊員。",
+      "trans_1": "我是學校足球隊的成員。",
       "trans_2": "我是學校國際象棋俱樂部的成員。"
     },
     {
@@ -7176,7 +7446,7 @@
       "chinese": "災難",
       "example_1": "The big storm was a catastrophe because it destroyed many homes.",
       "example_2": "The heavy rain caused a major catastrophe in the small village.",
-      "trans_1": "這場大風暴是一場災難，因為它摧毀了許多房屋。",
+      "trans_1": "這場大風暴造成了災難性後果，因為它摧毀了許多房屋。",
       "trans_2": "暴雨為這個小村莊帶來了巨大的災難。"
     },
     {
@@ -7632,7 +7902,7 @@
     {
       "date": "260310",
       "word": "superintendent",
-      "chinese": "督學",
+      "chinese": "校長",
       "example_1": "The school superintendent visited our classroom today.",
       "example_2": "The school superintendent visited our classroom today.",
       "trans_1": "學校校長今天來我們教室視察了。",
@@ -9204,7 +9474,7 @@
       "example_1": "The forest was densely covered with tall green trees.",
       "example_2": "The city's downtown area is densely populated with high-rise apartments and office buildings.",
       "trans_1": "森林裡長滿了高大的綠樹，十分茂密。",
-      "trans_2": "市中心區域高層公寓及辦公大樓林立，人口密度極高。"
+      "trans_2": "市中心區域高樓林立，人口密度極高。"
     },
     {
       "date": "260423",
@@ -10706,7 +10976,7 @@
       "chinese": "資訊豐富的",
       "example_1": "The documentary about space was very informative.",
       "example_2": "The book about dinosaurs was very informative and taught me a lot of new things.",
-      "trans_1": "這部關於太空的紀錄片資訊量很大。",
+      "trans_1": "這部關於太空的紀錄片很有啟發性。",
       "trans_2": "那本關於恐龍的書內容非常豐富，讓我學到了很多新知識。"
     },
     {
@@ -10967,7 +11237,7 @@
       "chinese": "鋁",
       "example_1": "We recycle aluminum cans to help the Earth.",
       "example_2": "The soda can is made of aluminum, which is a shiny, silver metal.",
-      "trans_1": "我們回收鋁罐，為地球貢獻一份力量。",
+      "trans_1": "我們回收鋁罐，為地球貢獻一份心力。",
       "trans_2": "汽水罐由鋁製成，鋁是一種閃亮的銀色金屬。"
     },
     {
@@ -11021,7 +11291,7 @@
       "chinese": "羽毛球",
       "example_1": "I played badminton with my friend after school.",
       "example_2": "We played badminton in the backyard and tried to hit the birdie over the net.",
-      "trans_1": "放學後我和朋友一起打了羽球。",
+      "trans_1": "放學後我和朋友一起打了羽毛球。",
       "trans_2": "我們在後院打羽毛球，努力把球打過球網。"
     },
     {
@@ -11129,7 +11399,7 @@
       "chinese": "地區",
       "example_1": "The mountainous region is a great place to hike.",
       "example_2": "The desert is a hot and dry region where very few plants can grow.",
-      "trans_1": "山區是健行的好去處。",
+      "trans_1": "這片山區是健行的好去處。",
       "trans_2": "沙漠是一個炎熱乾燥的地區，很少有植物能在那裡生長。"
     },
     {
