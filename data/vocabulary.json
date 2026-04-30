@@ -2311,7 +2311,7 @@
       "example_1": "The sky is blue.",
       "example_2": "The cat is big.",
       "trans_1": "天空是藍色的。",
-      "trans_2": "這隻貓體型很大。"
+      "trans_2": "這隻貓很大。"
     },
     {
       "date": "250912",
@@ -2392,7 +2392,7 @@
       "example_1": "The cat eats fish.",
       "example_2": "The cat is big.",
       "trans_1": "這隻貓吃魚。",
-      "trans_2": "這隻貓體型很大。"
+      "trans_2": "這隻貓很大。"
     },
     {
       "date": "250905",
@@ -2437,7 +2437,7 @@
       "example_1": "The cat eats fish.",
       "example_2": "The cat is big.",
       "trans_1": "這隻貓吃魚。",
-      "trans_2": "這隻貓體型很大。"
+      "trans_2": "這隻貓很大。"
     },
     {
       "date": "250905",
@@ -4883,6 +4883,60 @@
   ],
   "level2": [
     {
+      "date": "260429",
+      "word": "as soon as possible",
+      "chinese": "盡快地",
+      "example_1": "",
+      "example_2": "",
+      "trans_1": "",
+      "trans_2": ""
+    },
+    {
+      "date": "260429",
+      "word": "blame",
+      "chinese": "責備",
+      "example_1": "",
+      "example_2": "",
+      "trans_1": "",
+      "trans_2": ""
+    },
+    {
+      "date": "260429",
+      "word": "motion",
+      "chinese": "運動",
+      "example_1": "",
+      "example_2": "",
+      "trans_1": "",
+      "trans_2": ""
+    },
+    {
+      "date": "260429",
+      "word": "deserted",
+      "chinese": "荒涼的",
+      "example_1": "",
+      "example_2": "",
+      "trans_1": "",
+      "trans_2": ""
+    },
+    {
+      "date": "260429",
+      "word": "tribe",
+      "chinese": "部落",
+      "example_1": "",
+      "example_2": "",
+      "trans_1": "",
+      "trans_2": ""
+    },
+    {
+      "date": "260429",
+      "word": "contestant",
+      "chinese": "選手",
+      "example_1": "The contestant won a prize in the game.",
+      "example_2": "The contestant wore a blue shirt for the game.",
+      "trans_1": "參賽者在遊戲中贏得了獎品。",
+      "trans_2": "參賽者比賽時穿了藍色襯衫。"
+    },
+    {
       "date": "260422",
       "word": "none of your concern",
       "chinese": "與你無關",
@@ -5165,100 +5219,100 @@
       "date": "260325",
       "word": "It's up to you.",
       "chinese": "由你決定。",
-      "example_1": "",
-      "example_2": "",
-      "trans_1": "",
-      "trans_2": ""
+      "example_1": "You can choose the movie for tonight; it's up to you.",
+      "example_2": "We can go to the park or the zoo; it's up to you.",
+      "trans_1": "今晚你想看什麼電影，你自己決定。",
+      "trans_2": "我們可以去公園或動物園，你決定。"
     },
     {
       "date": "260325",
       "word": "incredible",
       "chinese": "極佳的",
-      "example_1": "",
-      "example_2": "",
-      "trans_1": "",
-      "trans_2": ""
+      "example_1": "The magician performed an incredible trick for the class.",
+      "example_2": "The magician performed an incredible trick that surprised everyone.",
+      "trans_1": "魔術師為全班同學表演了一個精彩的魔術。",
+      "trans_2": "魔術師表演了一個令人難以置信的魔術，讓所有人都感到驚訝。"
     },
     {
       "date": "260325",
       "word": "weird",
       "chinese": "詭異的",
-      "example_1": "",
-      "example_2": "",
-      "trans_1": "",
-      "trans_2": ""
+      "example_1": "The cat has a weird tail.",
+      "example_2": "The cat has one blue eye and one green eye, which looks very weird.",
+      "trans_1": "這隻貓的尾巴很奇怪。",
+      "trans_2": "這隻貓一隻眼睛是藍色的，一隻眼睛是綠色的，看起來很奇怪。"
     },
     {
       "date": "260325",
       "word": "style",
       "chinese": "風格",
-      "example_1": "",
-      "example_2": "",
-      "trans_1": "",
-      "trans_2": ""
+      "example_1": "I like the style of your new shoes.",
+      "example_2": "I like the style of your new shoes.",
+      "trans_1": "我喜歡你新鞋的款式。",
+      "trans_2": "我喜歡你新鞋的款式。"
     },
     {
       "date": "260325",
       "word": "mechanic",
       "chinese": "機械",
-      "example_1": "",
-      "example_2": "",
-      "trans_1": "",
-      "trans_2": ""
+      "example_1": "The mechanic fixed the broken car.",
+      "example_2": "The mechanic fixed our broken car.",
+      "trans_1": "修車工修好了故障的汽車。",
+      "trans_2": "修車工修好了我們壞掉的車。"
     },
     {
       "date": "260325",
       "word": "typical",
       "chinese": "典型的",
-      "example_1": "",
-      "example_2": "",
-      "trans_1": "",
-      "trans_2": ""
+      "example_1": "It is a typical sunny day.",
+      "example_2": "A typical breakfast for me is cereal and milk.",
+      "trans_1": "這是一個典型的晴朗日子。",
+      "trans_2": "我平常的早餐是麥片加牛奶。"
     },
     {
       "date": "260325",
       "word": "traditional",
       "chinese": "傳統的",
-      "example_1": "",
-      "example_2": "",
-      "trans_1": "",
-      "trans_2": ""
+      "example_1": "We like to wear traditional clothes for the New Year festival.",
+      "example_2": "We wore traditional clothes for the New Year celebration.",
+      "trans_1": "我們喜歡在新年節日穿著傳統服裝。",
+      "trans_2": "我們穿著傳統服飾慶祝新年。"
     },
     {
       "date": "260325",
       "word": "claim",
       "chinese": "宣稱",
-      "example_1": "",
-      "example_2": "",
-      "trans_1": "",
-      "trans_2": ""
+      "example_1": "The boy can claim his prize after the game.",
+      "example_2": "The boy can claim his prize after the game.",
+      "trans_1": "比賽結束後，男孩可以領取獎品。",
+      "trans_2": "比賽結束後，男孩可以領取獎品。"
     },
     {
       "date": "260325",
       "word": "represent",
       "chinese": "代表",
-      "example_1": "",
-      "example_2": "",
-      "trans_1": "",
-      "trans_2": ""
+      "example_1": "The red star on the map represents the school.",
+      "example_2": "The red stars on the map represent the big cities.",
+      "trans_1": "地圖上的紅星代表學校。",
+      "trans_2": "地圖上的紅星代表大城市。"
     },
     {
       "date": "260325",
       "word": "tournament",
       "chinese": "比賽",
-      "example_1": "",
-      "example_2": "",
-      "trans_1": "",
-      "trans_2": ""
+      "example_1": "My team won the soccer tournament.",
+      "example_2": "Our team won a gold trophy at the soccer tournament last weekend.",
+      "trans_1": "我的球隊贏得了足球錦標賽。",
+      "trans_2": "上週末，我們隊在足球錦標賽上獲得了金獎盃。"
     },
     {
       "date": "260325",
       "word": "lawyer",
       "chinese": "律師",
-      "example_1": "",
-      "example_2": "",
-      "trans_1": "",
-      "trans_2": ""
+      "example_1": "A lawyer helps people with the law.",
+      "example_2": "A lawyer is a person who helps people with the law.",
+      "trans_1": "律師幫助人們處理法律問題。",
+      "trans_2": "律師是幫助人們處理法律事務的人。"
     },
     {
       "date": "260325",
@@ -10976,7 +11030,7 @@
       "chinese": "資訊豐富的",
       "example_1": "The documentary about space was very informative.",
       "example_2": "The book about dinosaurs was very informative and taught me a lot of new things.",
-      "trans_1": "這部關於太空的紀錄片很有啟發性。",
+      "trans_1": "這部關於太空的紀錄片資訊量很大。",
       "trans_2": "那本關於恐龍的書內容非常豐富，讓我學到了很多新知識。"
     },
     {
@@ -11183,7 +11237,7 @@
       "chinese": "結構",
       "example_1": "The strong structure of the bridge makes it safe for cars.",
       "example_2": "The structure of the treehouse was strong enough to hold all of us.",
-      "trans_1": "這座橋樑結構堅固，車輛通行安全。",
+      "trans_1": "這座橋樑結構堅固，對車輛通行安全。",
       "trans_2": "樹屋的結構非常堅固，足以承受我們所有人的重量。"
     },
     {
@@ -11237,7 +11291,7 @@
       "chinese": "鋁",
       "example_1": "We recycle aluminum cans to help the Earth.",
       "example_2": "The soda can is made of aluminum, which is a shiny, silver metal.",
-      "trans_1": "我們回收鋁罐，為地球貢獻一份心力。",
+      "trans_1": "我們回收鋁罐，為地球貢獻一份力量。",
       "trans_2": "汽水罐由鋁製成，鋁是一種閃亮的銀色金屬。"
     },
     {
@@ -11327,7 +11381,7 @@
       "chinese": "合適的",
       "example_1": "It is appropriate to say thank you when someone gives you a gift.",
       "example_2": "It's important to wear appropriate clothes for gym class, like sneakers and a t-shirt.",
-      "trans_1": "當有人送你禮物時，說謝謝是恰當的。",
+      "trans_1": "當有人送你禮物時，說聲謝謝是恰當的。",
       "trans_2": "上體育課時，穿著合適的衣服很重要，例如運動鞋和T卹。"
     },
     {
@@ -11364,7 +11418,7 @@
       "example_1": "I was a witness to the bird building its nest in the tree.",
       "example_2": "I was excited to be a witness at the school play and see my friends perform.",
       "trans_1": "我親眼目睹了那隻鳥在樹上築巢。",
-      "trans_2": "我很興奮能作為觀眾觀看學校的戲劇表演，並看到我的朋友們表演。"
+      "trans_2": "我很興奮能作為觀眾觀看學校的戲劇表演，並看到我的朋友們演出。"
     },
     {
       "date": "250904",
@@ -11399,7 +11453,7 @@
       "chinese": "地區",
       "example_1": "The mountainous region is a great place to hike.",
       "example_2": "The desert is a hot and dry region where very few plants can grow.",
-      "trans_1": "這片山區是健行的好去處。",
+      "trans_1": "山區是健行的好去處。",
       "trans_2": "沙漠是一個炎熱乾燥的地區，很少有植物能在那裡生長。"
     },
     {
