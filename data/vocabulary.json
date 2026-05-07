@@ -2,76 +2,6 @@
   "levels": {
     "BASIC": [
       {
-        "word": "smell",
-        "chinese": "",
-        "examples": []
-      },
-      {
-        "word": "touch",
-        "chinese": "",
-        "examples": []
-      },
-      {
-        "word": "hear",
-        "chinese": "",
-        "examples": []
-      },
-      {
-        "word": "food",
-        "chinese": "",
-        "examples": []
-      },
-      {
-        "word": "find",
-        "chinese": "",
-        "examples": []
-      },
-      {
-        "word": "short",
-        "chinese": "",
-        "examples": []
-      },
-      {
-        "word": "long",
-        "chinese": "",
-        "examples": []
-      },
-      {
-        "word": "chop",
-        "chinese": "",
-        "examples": []
-      },
-      {
-        "word": "shop",
-        "chinese": "",
-        "examples": []
-      },
-      {
-        "word": "pirate",
-        "chinese": "",
-        "examples": []
-      },
-      {
-        "word": "dirt",
-        "chinese": "",
-        "examples": []
-      },
-      {
-        "word": "root",
-        "chinese": "",
-        "examples": []
-      },
-      {
-        "word": "stem",
-        "chinese": "",
-        "examples": []
-      },
-      {
-        "word": "say",
-        "chinese": "",
-        "examples": []
-      },
-      {
         "word": "walk",
         "chinese": "",
         "examples": []
@@ -192,6 +122,56 @@
         "examples": []
       },
       {
+        "word": "store",
+        "chinese": "",
+        "examples": []
+      },
+      {
+        "word": "amazing",
+        "chinese": "",
+        "examples": []
+      },
+      {
+        "word": "crazy",
+        "chinese": "",
+        "examples": []
+      },
+      {
+        "word": "fantastic",
+        "chinese": "",
+        "examples": []
+      },
+      {
+        "word": "today",
+        "chinese": "",
+        "examples": []
+      },
+      {
+        "word": "race",
+        "chinese": "",
+        "examples": []
+      },
+      {
+        "word": "start",
+        "chinese": "",
+        "examples": []
+      },
+      {
+        "word": "finish",
+        "chinese": "",
+        "examples": []
+      },
+      {
+        "word": "face",
+        "chinese": "",
+        "examples": []
+      },
+      {
+        "word": "ground",
+        "chinese": "",
+        "examples": []
+      },
+      {
         "word": "under",
         "chinese": "",
         "examples": []
@@ -203,6 +183,76 @@
       },
       {
         "word": "each",
+        "chinese": "",
+        "examples": []
+      },
+      {
+        "word": "smell",
+        "chinese": "",
+        "examples": []
+      },
+      {
+        "word": "touch",
+        "chinese": "",
+        "examples": []
+      },
+      {
+        "word": "hear",
+        "chinese": "",
+        "examples": []
+      },
+      {
+        "word": "food",
+        "chinese": "",
+        "examples": []
+      },
+      {
+        "word": "find",
+        "chinese": "",
+        "examples": []
+      },
+      {
+        "word": "short",
+        "chinese": "",
+        "examples": []
+      },
+      {
+        "word": "long",
+        "chinese": "",
+        "examples": []
+      },
+      {
+        "word": "chop",
+        "chinese": "",
+        "examples": []
+      },
+      {
+        "word": "shop",
+        "chinese": "",
+        "examples": []
+      },
+      {
+        "word": "pirate",
+        "chinese": "",
+        "examples": []
+      },
+      {
+        "word": "dirt",
+        "chinese": "",
+        "examples": []
+      },
+      {
+        "word": "root",
+        "chinese": "",
+        "examples": []
+      },
+      {
+        "word": "stem",
+        "chinese": "",
+        "examples": []
+      },
+      {
+        "word": "say",
         "chinese": "",
         "examples": []
       },
@@ -1364,76 +1414,6 @@
     ],
     "L1": [
       {
-        "word": "keep the change",
-        "chinese": "",
-        "examples": []
-      },
-      {
-        "word": "contact book",
-        "chinese": "",
-        "examples": []
-      },
-      {
-        "word": "Tuesday",
-        "chinese": "",
-        "examples": []
-      },
-      {
-        "word": "Monday",
-        "chinese": "",
-        "examples": []
-      },
-      {
-        "word": "Sunday",
-        "chinese": "",
-        "examples": []
-      },
-      {
-        "word": "prepare",
-        "chinese": "",
-        "examples": []
-      },
-      {
-        "word": "himself",
-        "chinese": "",
-        "examples": []
-      },
-      {
-        "word": "arrive",
-        "chinese": "",
-        "examples": []
-      },
-      {
-        "word": "sticker",
-        "chinese": "",
-        "examples": []
-      },
-      {
-        "word": "empty",
-        "chinese": "",
-        "examples": []
-      },
-      {
-        "word": "case",
-        "chinese": "",
-        "examples": []
-      },
-      {
-        "word": "send",
-        "chinese": "",
-        "examples": []
-      },
-      {
-        "word": "poke",
-        "chinese": "",
-        "examples": []
-      },
-      {
-        "word": "maybe",
-        "chinese": "",
-        "examples": []
-      },
-      {
         "word": "pilot",
         "chinese": "",
         "examples": []
@@ -1559,6 +1539,71 @@
         "examples": []
       },
       {
+        "word": "listen to music",
+        "chinese": "",
+        "examples": []
+      },
+      {
+        "word": "weekend",
+        "chinese": "",
+        "examples": []
+      },
+      {
+        "word": "idea",
+        "chinese": "",
+        "examples": []
+      },
+      {
+        "word": "own",
+        "chinese": "",
+        "examples": []
+      },
+      {
+        "word": "closet",
+        "chinese": "",
+        "examples": []
+      },
+      {
+        "word": "blanket",
+        "chinese": "",
+        "examples": []
+      },
+      {
+        "word": "rescue",
+        "chinese": "",
+        "examples": []
+      },
+      {
+        "word": "prize",
+        "chinese": "",
+        "examples": []
+      },
+      {
+        "word": "downstairs",
+        "chinese": "",
+        "examples": []
+      },
+      {
+        "word": "upstairs",
+        "chinese": "",
+        "examples": []
+      },
+      {
+        "word": "sink",
+        "chinese": "",
+        "examples": []
+      },
+      {
+        "word": "carrot",
+        "chinese": "",
+        "examples": []
+      },
+      {
+        "word": "costume",
+        "chinese": "",
+        "examples": []
+      },
+      {
         "word": "whisper",
         "chinese": "",
         "examples": []
@@ -1570,6 +1615,76 @@
       },
       {
         "word": "college",
+        "chinese": "",
+        "examples": []
+      },
+      {
+        "word": "keep the change",
+        "chinese": "",
+        "examples": []
+      },
+      {
+        "word": "contact book",
+        "chinese": "",
+        "examples": []
+      },
+      {
+        "word": "Tuesday",
+        "chinese": "",
+        "examples": []
+      },
+      {
+        "word": "Monday",
+        "chinese": "",
+        "examples": []
+      },
+      {
+        "word": "Sunday",
+        "chinese": "",
+        "examples": []
+      },
+      {
+        "word": "prepare",
+        "chinese": "",
+        "examples": []
+      },
+      {
+        "word": "himself",
+        "chinese": "",
+        "examples": []
+      },
+      {
+        "word": "arrive",
+        "chinese": "",
+        "examples": []
+      },
+      {
+        "word": "sticker",
+        "chinese": "",
+        "examples": []
+      },
+      {
+        "word": "empty",
+        "chinese": "",
+        "examples": []
+      },
+      {
+        "word": "case",
+        "chinese": "",
+        "examples": []
+      },
+      {
+        "word": "send",
+        "chinese": "",
+        "examples": []
+      },
+      {
+        "word": "poke",
+        "chinese": "",
+        "examples": []
+      },
+      {
+        "word": "maybe",
         "chinese": "",
         "examples": []
       },
@@ -2140,11 +2255,6 @@
       },
       {
         "word": "choice",
-        "chinese": "",
-        "examples": []
-      },
-      {
-        "word": "idea",
         "chinese": "",
         "examples": []
       },
@@ -5400,32 +5510,27 @@
     ],
     "L4": [
       {
-        "word": "in order to",
+        "word": "equip",
         "chinese": "",
         "examples": []
       },
       {
-        "word": "whole grain",
+        "word": "wand",
         "chinese": "",
         "examples": []
       },
       {
-        "word": "extraordinary",
+        "word": "regret",
         "chinese": "",
         "examples": []
       },
       {
-        "word": "resent",
+        "word": "immerse",
         "chinese": "",
         "examples": []
       },
       {
-        "word": "persistent",
-        "chinese": "",
-        "examples": []
-      },
-      {
-        "word": "exessive",
+        "word": "encounter",
         "chinese": "",
         "examples": []
       },
@@ -5435,47 +5540,52 @@
         "examples": []
       },
       {
-        "word": "specialty",
+        "word": "exotic",
         "chinese": "",
         "examples": []
       },
       {
-        "word": "although",
+        "word": "destination",
         "chinese": "",
         "examples": []
       },
       {
-        "word": "least",
+        "word": "detour",
         "chinese": "",
         "examples": []
       },
       {
-        "word": "massive",
+        "word": "recreation",
         "chinese": "",
         "examples": []
       },
       {
-        "word": "harm",
+        "word": "itinerary",
         "chinese": "",
         "examples": []
       },
       {
-        "word": "embarrass",
+        "word": "nonchalant",
         "chinese": "",
         "examples": []
       },
       {
-        "word": "cinnamon",
+        "word": "fiction",
         "chinese": "",
         "examples": []
       },
       {
-        "word": "refuse",
+        "word": "embark",
         "chinese": "",
         "examples": []
       },
       {
-        "word": "squeeze",
+        "word": "nonsense",
+        "chinese": "",
+        "examples": []
+      },
+      {
+        "word": "anticipate",
         "chinese": "",
         "examples": []
       },
