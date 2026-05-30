@@ -468,7 +468,7 @@
 
         async function loadData() {
             try {
-                const response = await fetch(`data/vocabulary.json?v=${Date.now()}`);
+                const response = await fetch(`data/vocab.json?v=${Date.now()}`);
                 vocabData = await response.json();
                 init();
             } catch (error) {
