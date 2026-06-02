@@ -10844,6 +10844,15 @@
     },
     {
       "date": "250930",
+      "word": "attendance",
+      "chinese": "出席",
+      "example_1": "Good attendance is important for school.",
+      "example_2": "The teacher took attendance to see who was at school today.",
+      "trans_1": "良好的出勤率對學校學習很重要。",
+      "trans_2": "老師點名，看看今天有哪些學生到校。"
+    },
+    {
+      "date": "250930",
       "word": "South America",
       "chinese": "南美洲",
       "example_1": "South America is a big continent.",
@@ -12304,6 +12313,15 @@
     },
     {
       "date": "251230",
+      "word": "astound",
+      "chinese": "震驚",
+      "example_1": "The sudden fireworks display will astound everyone watching.",
+      "example_2": "The magician's final trick was designed to completely astound the audience.",
+      "trans_1": "突如其來的煙火表演會讓所有觀看的人感到驚嘆。",
+      "trans_2": "魔術師的最後一個魔術旨在讓觀眾徹底震驚。"
+    },
+    {
+      "date": "251230",
       "word": "anxious",
       "chinese": "焦慮的",
       "example_1": "I feel anxious before a big test.",
@@ -12382,6 +12400,15 @@
       "example_2": "The cat had a peculiar habit of sleeping upside down on the couch.",
       "trans_1": "這隻貓有個奇怪的習慣，喜歡倒掛在沙發上睡覺。",
       "trans_2": "這隻貓有個奇怪的習慣，喜歡倒掛在沙發上睡覺。"
+    },
+    {
+      "date": "251204",
+      "word": "lack",
+      "chinese": "缺少",
+      "example_1": "We stopped playing because of a lack of light.",
+      "example_2": "The plant didn't grow well because it had a lack of sunlight.",
+      "trans_1": "因為光線不足，我們停止了遊戲。",
+      "trans_2": "這株植物因為缺乏陽光而生長不良。"
     },
     {
       "date": "251204",
@@ -12589,6 +12616,15 @@
       "example_2": "Plants need sunlight and water to develop and grow strong.",
       "trans_1": "我想透過每天練習來提升我的繪畫技巧。",
       "trans_2": "植物需要陽光和水才能發展和茁壯。"
+    },
+    {
+      "date": "251120",
+      "word": "devastate",
+      "chinese": "蹂躪",
+      "example_1": "The earthquake could devastate the old buildings in the city.",
+      "example_2": "The big storm will devastate the sandcastle we built on the beach.",
+      "trans_1": "地震可能會摧毀這座城市的古老建築。",
+      "trans_2": "這場大風暴會摧毀我們在海灘上建造的沙堡。"
     },
     {
       "date": "251120",
@@ -12979,6 +13015,15 @@
     },
     {
       "date": "251002",
+      "word": "inflation",
+      "chinese": "通貨膨脹",
+      "example_1": "Inflation makes the cost of things higher over time.",
+      "example_2": "Inflation is when the prices of things like toys and snacks go up, so you need more money to buy them.",
+      "trans_1": "通貨膨脹會導致物價隨著時間而上漲。",
+      "trans_2": "通貨膨脹是指玩具、零食等物品的價格上漲，導致你需要更多的錢去購買它們。"
+    },
+    {
+      "date": "251002",
       "word": "gymnastic",
       "chinese": "體操",
       "example_1": "She practices her gymnastic moves every afternoon.",
@@ -13309,6 +13354,15 @@
       "example_2": "A compass helps you find your way by pointing to the north.",
       "trans_1": "徒步旅行時，我用指南針找到了北方。",
       "trans_2": "指南針透過指向北方來幫助你找到方向。"
+    },
+    {
+      "date": "250904",
+      "word": "call it a day",
+      "chinese": "結束今天的工作吧",
+      "example_1": "Let's call it a day and finish the game tomorrow.",
+      "example_2": "After finishing their homework, Sarah decided to call it a day and went outside to play.",
+      "trans_1": "今天就到此為止吧，明天再繼續比賽。",
+      "trans_2": "做完功課後，莎拉決定結束今天的學習，出去玩了。"
     },
     {
       "date": "250904",
