@@ -1,0 +1,191 @@
+/* CVC page — extends styles.css with week-grid + teacher panel + big word overlay */
+
+.words-card { padding: 16px; }
+
+.word-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.word-tile {
+  background: linear-gradient(180deg, #FFFCF0 0%, #FFF3C4 100%);
+  border: 2px solid var(--primary);
+  border-radius: var(--radius-sm);
+  padding: 16px 8px;
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(--ink);
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.1s ease, box-shadow 0.15s ease;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.word-tile:hover { transform: translateY(-2px); box-shadow: var(--shadow); }
+.word-tile:active { transform: translateY(0); }
+.word-tile.family-word {
+  background: linear-gradient(180deg, var(--primary) 0%, var(--primary-deep) 100%);
+  color: #FFFFFF;
+  border-color: var(--primary-deep);
+}
+
+/* Big word overlay (tap a tile to see it large) */
+.big-word-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s ease;
+}
+.big-word-overlay.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.big-word {
+  font-size: 18vw;
+  font-weight: 900;
+  color: #FFFFFF;
+  text-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+  letter-spacing: 2px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+.big-word-hint {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1rem;
+  margin-top: 20px;
+}
+
+/* Teacher panel */
+.teacher-panel {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 200;
+}
+.teacher-panel.visible { display: flex; }
+.teacher-card {
+  background: #FFFFFF;
+  border-radius: var(--radius);
+  padding: 24px;
+  width: min(420px, 90vw);
+  box-shadow: var(--shadow-lg);
+}
+.teacher-card h2 {
+  margin: 0 0 4px;
+  color: var(--primary-deep);
+}
+.teacher-hint {
+  margin: 0 0 18px;
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+}
+.field {
+  display: block;
+  margin-bottom: 18px;
+}
+.field > span {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.field select, .field input[type="range"] {
+  width: 100%;
+  font-size: 1rem;
+  padding: 8px 12px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: var(--radius-sm);
+  background: #FFFFFF;
+  font-family: inherit;
+}
+.teacher-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 8px;
+}
+#maxPagesField.disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+/* PIN dialog */
+.pin-dialog {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 300;
+}
+.pin-dialog.visible { display: flex; }
+.pin-card {
+  background: #FFFFFF;
+  border-radius: var(--radius);
+  padding: 24px;
+  width: min(320px, 90vw);
+  box-shadow: var(--shadow-lg);
+  text-align: center;
+}
+.pin-card h3 {
+  margin: 0 0 16px;
+  color: var(--ink);
+}
+.pin-card input {
+  font-size: 1.5rem;
+  text-align: center;
+  letter-spacing: 8px;
+  width: 100%;
+  padding: 12px;
+  border: 2px solid rgba(0, 0, 0, 0.15);
+  border-radius: var(--radius-sm);
+  font-family: ui-monospace, "SF Mono", Consolas, monospace;
+}
+.pin-error {
+  color: var(--warn);
+  font-size: 0.85rem;
+  margin: 8px 0 0;
+  min-height: 1em;
+}
+.pin-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+/* Unlocked/locked state */
+.player-card.locked {
+  opacity: 0.4;
+  pointer-events: none;
+}
+.words-card.locked {
+  opacity: 0.4;
+  pointer-events: none;
+}
+.locked-msg {
+  text-align: center;
+  padding: 40px 20px;
+  color: var(--ink-soft);
+  font-size: 1rem;
+}
+.locked-msg .lock-icon {
+  font-size: 3rem;
+  display: block;
+  margin-bottom: 12px;
+}
+
+@media (max-width: 480px) {
+  .word-grid { grid-template-columns: repeat(2, 1fr); gap: 8px; }
+  .word-tile { font-size: 1.4rem; padding: 14px 6px; }
+  .big-word { font-size: 24vw; }
+}

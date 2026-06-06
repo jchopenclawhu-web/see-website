@@ -1,0 +1,40 @@
+{
+  "_source": "Yellow CD 1 / Track 4 alphabet chart (Chun confirmed 2026-06-06)",
+  "notes": "Used for ABC's Start MVP and future RAG/quiz content. User-confirmed: G, I, J, O, R, W, Y.",
+  "labels": {
+    "A": "apple",
+    "B": "bell",
+    "C": "cat",
+    "D": "dog",
+    "E": "egg",
+    "F": "fox",
+    "G": "gas pump",
+    "H": "hat",
+    "I": "igloo",
+    "J": "jam",
+    "K": "kite",
+    "L": "log",
+    "M": "mop",
+    "N": "net",
+    "O": "ox",
+    "P": "pig",
+    "Q": "queen",
+    "R": "rabbit",
+    "S": "sun",
+    "T": "tent",
+    "U": "umbrella",
+    "V": "van",
+    "W": "wagon",
+    "X": "axe",
+    "Y": "yo-yo",
+    "Z": "zebra"
+  },
+  "layout": {
+    "rows": 4,
+    "cols": 7,
+    "row_0": ["A","B","C","D","E","F","G"],
+    "row_1": ["H","I","J","K","L","M","N"],
+    "row_2": ["O","P","Q","R","S","T","U"],
+    "row_3": ["V","W","X","Y","Z"]
+  }
+}

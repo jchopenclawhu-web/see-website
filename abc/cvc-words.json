@@ -1,0 +1,490 @@
+{
+  "version": 2,
+  "source": "Yellow Workbook CD 1 com.pdf (combined yellow print version)",
+  "audio_source": "HOP Yellow disk 1 + disk 2 (specific tracks per family)",
+  "order_note": "25 weeks of Pre-K content: -at, -an, -ap, -ag, -ad (short-a) \u2192 -ig, -id, -it, -in, -ip (short-i) \u2192 -ox, -ot, -op, -og, -ob (short-o) \u2192 -ug, -un, -ub, -ut, -up (short-u) \u2192 -ed, -et, -en, -eg, -el (short-e LAST, e/a blur in Mandarin).",
+  "total_words": 156,
+  "pages": [
+    {
+      "page": 1,
+      "week": 1,
+      "vowel": "a",
+      "family": "at",
+      "label": "-at family",
+      "workbook_page": null,
+      "audio_track": "yellow_cd1_t8",
+      "audio_file": "audio/yellow/yellow_cd1_t8_at.mp3",
+      "words": [
+        "at",
+        "mat",
+        "sat",
+        "rat",
+        "bat",
+        "cat",
+        "pat"
+      ],
+      "audio_duration_s": 21.0
+    },
+    {
+      "page": 2,
+      "week": 2,
+      "vowel": "a",
+      "family": "an",
+      "label": "-an family",
+      "workbook_page": null,
+      "audio_track": "yellow_cd1_t11",
+      "audio_file": "audio/yellow/yellow_cd1_t11_an.mp3",
+      "words": [
+        "an",
+        "man",
+        "fan",
+        "Jan",
+        "can",
+        "Dan",
+        "pan"
+      ],
+      "audio_duration_s": 21.0
+    },
+    {
+      "page": 3,
+      "week": 3,
+      "vowel": "a",
+      "family": "ap",
+      "label": "-ap family",
+      "workbook_page": null,
+      "audio_track": "yellow_cd1_t14",
+      "audio_file": "audio/yellow/yellow_cd1_t14_ap.mp3",
+      "words": [
+        "ap",
+        "map",
+        "sap",
+        "rap",
+        "nap",
+        "cap",
+        "gap"
+      ],
+      "audio_duration_s": 21.0
+    },
+    {
+      "page": 4,
+      "week": 4,
+      "vowel": "a",
+      "family": "ag",
+      "label": "-ag family",
+      "workbook_page": null,
+      "audio_track": "yellow_cd1_t17",
+      "audio_file": "audio/yellow/yellow_cd1_t17_ag.mp3",
+      "words": [
+        "ag",
+        "bag",
+        "sag",
+        "rag",
+        "wag",
+        "tag"
+      ],
+      "audio_duration_s": 8.3
+    },
+    {
+      "page": 5,
+      "week": 5,
+      "vowel": "a",
+      "family": "ad",
+      "label": "-ad family",
+      "workbook_page": null,
+      "audio_track": "yellow_cd1_t19",
+      "audio_file": "audio/yellow/yellow_cd1_t19_ad.mp3",
+      "words": [
+        "ad",
+        "mad",
+        "sad",
+        "add",
+        "bad",
+        "dad",
+        "had"
+      ],
+      "audio_duration_s": 32.9
+    },
+    {
+      "page": 6,
+      "week": 6,
+      "vowel": "i",
+      "family": "ig",
+      "label": "-ig family",
+      "workbook_page": null,
+      "audio_track": "yellow_cd1_t25",
+      "audio_file": "audio/yellow/yellow_cd1_t25_ig.mp3",
+      "words": [
+        "ig",
+        "big",
+        "fig",
+        "pig",
+        "wig",
+        "dig"
+      ],
+      "audio_duration_s": 25.6
+    },
+    {
+      "page": 7,
+      "week": 7,
+      "vowel": "i",
+      "family": "id",
+      "label": "-id family",
+      "workbook_page": null,
+      "audio_track": "yellow_cd1_t27",
+      "audio_file": "audio/yellow/yellow_cd1_t27_id.mp3",
+      "words": [
+        "id",
+        "bid",
+        "hid",
+        "kid",
+        "did",
+        "lid",
+        "rid"
+      ],
+      "audio_duration_s": 28.4
+    },
+    {
+      "page": 8,
+      "week": 8,
+      "vowel": "i",
+      "family": "it",
+      "label": "-it family",
+      "workbook_page": null,
+      "audio_track": "yellow_cd1_t29",
+      "audio_file": "audio/yellow/yellow_cd1_t29_it.mp3",
+      "words": [
+        "it",
+        "bit",
+        "fit",
+        "hit",
+        "kit",
+        "lit",
+        "pit"
+      ],
+      "audio_duration_s": 43.2
+    },
+    {
+      "page": 9,
+      "week": 9,
+      "vowel": "i",
+      "family": "in",
+      "label": "-in family",
+      "workbook_page": null,
+      "audio_track": "yellow_cd1_t34",
+      "audio_file": "audio/yellow/yellow_cd1_t34_in.mp3",
+      "words": [
+        "in",
+        "fin",
+        "pin",
+        "tin",
+        "win",
+        "inn"
+      ],
+      "audio_duration_s": 7.4
+    },
+    {
+      "page": 10,
+      "week": 10,
+      "vowel": "i",
+      "family": "ip",
+      "label": "-ip family",
+      "workbook_page": null,
+      "audio_track": "yellow_cd1_t35",
+      "audio_file": "audio/yellow/yellow_cd1_t35_ip.mp3",
+      "words": [
+        "ip",
+        "dip",
+        "hip",
+        "lip",
+        "rip",
+        "sip",
+        "tip"
+      ],
+      "audio_duration_s": 30.2
+    },
+    {
+      "page": 11,
+      "week": 11,
+      "vowel": "o",
+      "family": "ox",
+      "label": "-ox family",
+      "workbook_page": 55,
+      "audio_track": "yellow_cd2_t9",
+      "audio_file": "audio/yellow/yellow_cd2_t9_ox.mp3",
+      "words": [
+        "ox",
+        "box",
+        "fox"
+      ],
+      "audio_duration_s": 8.4
+    },
+    {
+      "page": 12,
+      "week": 12,
+      "vowel": "o",
+      "family": "ot",
+      "label": "-ot family",
+      "workbook_page": null,
+      "audio_track": "yellow_cd2_t12",
+      "audio_file": "audio/yellow/yellow_cd2_t12_ot.mp3",
+      "words": [
+        "ot",
+        "cot",
+        "dot",
+        "got",
+        "hot",
+        "lot",
+        "not"
+      ],
+      "audio_duration_s": 30.8
+    },
+    {
+      "page": 13,
+      "week": 13,
+      "vowel": "o",
+      "family": "op",
+      "label": "-op family",
+      "workbook_page": null,
+      "audio_track": "yellow_cd2_t12",
+      "audio_file": "audio/yellow/yellow_cd2_t12_op.mp3",
+      "words": [
+        "op",
+        "hop",
+        "mop",
+        "pop",
+        "top"
+      ],
+      "audio_duration_s": 30.8
+    },
+    {
+      "page": 14,
+      "week": 14,
+      "vowel": "o",
+      "family": "og",
+      "label": "-og family",
+      "workbook_page": 68,
+      "audio_track": "yellow_cd2_t18",
+      "audio_file": "audio/yellow/yellow_cd2_t18_og.mp3",
+      "words": [
+        "og",
+        "dog",
+        "fog",
+        "hog",
+        "jog",
+        "log"
+      ],
+      "audio_duration_s": 26.9
+    },
+    {
+      "page": 15,
+      "week": 15,
+      "vowel": "o",
+      "family": "ob",
+      "label": "-ob family",
+      "workbook_page": 70,
+      "audio_track": "yellow_cd2_t20",
+      "audio_file": "audio/yellow/yellow_cd2_t20_ob.mp3",
+      "words": [
+        "ob",
+        "Bob",
+        "job",
+        "rob",
+        "mob",
+        "sob"
+      ],
+      "audio_duration_s": 20.6
+    },
+    {
+      "page": 16,
+      "week": 16,
+      "vowel": "u",
+      "family": "ug",
+      "label": "-ug family",
+      "workbook_page": 78,
+      "audio_track": "yellow_cd2_t28",
+      "audio_file": "audio/yellow/yellow_cd2_t28_ug.mp3",
+      "words": [
+        "ug",
+        "bug",
+        "dug",
+        "hug",
+        "jug",
+        "mug",
+        "rug"
+      ],
+      "audio_duration_s": 30.2
+    },
+    {
+      "page": 17,
+      "week": 17,
+      "vowel": "u",
+      "family": "un",
+      "label": "-un family",
+      "workbook_page": 78,
+      "audio_track": "yellow_cd2_t28",
+      "audio_file": "audio/yellow/yellow_cd2_t28_un.mp3",
+      "words": [
+        "un",
+        "bun",
+        "gun",
+        "nun",
+        "run",
+        "sun",
+        "fun"
+      ],
+      "audio_duration_s": 30.2
+    },
+    {
+      "page": 18,
+      "week": 18,
+      "vowel": "u",
+      "family": "ub",
+      "label": "-ub family",
+      "workbook_page": 84,
+      "audio_track": "yellow_cd2_t31",
+      "audio_file": "audio/yellow/yellow_cd2_t31_ub.mp3",
+      "words": [
+        "ub",
+        "cub",
+        "hub",
+        "rub",
+        "tub"
+      ],
+      "audio_duration_s": 21.4
+    },
+    {
+      "page": 19,
+      "week": 19,
+      "vowel": "u",
+      "family": "ut",
+      "label": "-ut family",
+      "workbook_page": 90,
+      "audio_track": "yellow_cd2_t36",
+      "audio_file": "audio/yellow/yellow_cd2_t36_ut.mp3",
+      "words": [
+        "ut",
+        "but",
+        "cut",
+        "gut",
+        "hut",
+        "nut",
+        "rut"
+      ],
+      "audio_duration_s": 39.0
+    },
+    {
+      "page": 20,
+      "week": 20,
+      "vowel": "u",
+      "family": "up",
+      "label": "-up family",
+      "workbook_page": 92,
+      "audio_track": "yellow_cd2_t38",
+      "audio_file": "audio/yellow/yellow_cd2_t38_up.mp3",
+      "words": [
+        "up",
+        "cup",
+        "pup"
+      ],
+      "audio_duration_s": 12.8
+    },
+    {
+      "page": 21,
+      "week": 21,
+      "vowel": "e",
+      "family": "ed",
+      "label": "-ed family",
+      "workbook_page": 104,
+      "audio_track": "yellow_cd2_t48",
+      "audio_file": "audio/yellow/yellow_cd2_t48_ed.mp3",
+      "words": [
+        "ed",
+        "bed",
+        "Ed",
+        "fed",
+        "led",
+        "Ned",
+        "red"
+      ],
+      "audio_duration_s": 34.2
+    },
+    {
+      "page": 22,
+      "week": 22,
+      "vowel": "e",
+      "family": "et",
+      "label": "-et family",
+      "workbook_page": 104,
+      "audio_track": "yellow_cd2_t48",
+      "audio_file": "audio/yellow/yellow_cd2_t48_et.mp3",
+      "words": [
+        "et",
+        "bet",
+        "get",
+        "jet",
+        "let",
+        "met",
+        "net"
+      ],
+      "audio_duration_s": 34.2
+    },
+    {
+      "page": 23,
+      "week": 23,
+      "vowel": "e",
+      "family": "en",
+      "label": "-en family",
+      "workbook_page": 110,
+      "audio_track": "yellow_cd2_t51",
+      "audio_file": "audio/yellow/yellow_cd2_t51_en.mp3",
+      "words": [
+        "en",
+        "Ben",
+        "den",
+        "hen",
+        "men",
+        "pen",
+        "ten"
+      ],
+      "audio_duration_s": 20.1
+    },
+    {
+      "page": 24,
+      "week": 24,
+      "vowel": "e",
+      "family": "eg",
+      "label": "-eg family",
+      "workbook_page": 110,
+      "audio_track": "yellow_cd2_t51",
+      "audio_file": "audio/yellow/yellow_cd2_t51_eg.mp3",
+      "words": [
+        "eg",
+        "beg",
+        "leg",
+        "peg",
+        "egg"
+      ],
+      "audio_duration_s": 20.1
+    },
+    {
+      "page": 25,
+      "week": 25,
+      "vowel": "e",
+      "family": "el",
+      "label": "-el family",
+      "workbook_page": 116,
+      "audio_track": "yellow_cd2_t56",
+      "audio_file": "audio/yellow/yellow_cd2_t56_el.mp3",
+      "words": [
+        "el",
+        "Mel",
+        "bell",
+        "fell",
+        "sell",
+        "tell",
+        "well"
+      ],
+      "audio_duration_s": 33.7
+    }
+  ]
+}

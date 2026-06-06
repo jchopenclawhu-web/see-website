@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#FFC107">
+  <title>ABC's Start — 珊蒂美語</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="container">
+    <header class="hero">
+      <h1>ABC's Start</h1>
+      <p class="subtitle">珊蒂美語 · Pre-K on-ramp</p>
+    </header>
+
+    <section class="card player-card" aria-label="Audio player">
+      <div class="player-header">
+        <span class="badge">Track 2</span>
+        <h2>The ABC's</h2>
+        <p class="player-hint">Play along with the chart below</p>
+      </div>
+
+      <div class="player-body">
+        <button id="playBtn" class="play-btn" type="button" aria-label="Play">
+          <span class="play-icon" id="playIcon">▶</span>
+        </button>
+        <div class="progress-area">
+          <div class="progress-row">
+            <span class="time" id="timeCurrent">0:00</span>
+            <span class="time" id="timeTotal">0:00</span>
+          </div>
+          <div class="progress-track" id="progressTrack" role="slider" aria-label="Seek" tabindex="0">
+            <div class="progress-fill" id="progressFill"></div>
+            <div class="progress-handle" id="progressHandle"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="player-actions">
+        <button id="restartBtn" class="ghost-btn" type="button">↻ Restart</button>
+        <button id="loopBtn" class="ghost-btn loop-on" type="button" aria-pressed="true">🔁 Loop</button>
+      </div>
+
+      <audio id="audio" src="track2_web.mp3" preload="metadata" loop></audio>
+    </section>
+
+    <section class="card chart-card" aria-label="Alphabet chart">
+      <h2>Alphabet Chart</h2>
+      <p class="section-hint">Tap a picture to hear its sound and name</p>
+      <div class="chart-wrap">
+        <img src="chart.png?v=23" alt="Alphabet chart A to Z with pictures" class="chart" id="chartImg" draggable="false">
+        <div class="cell-layer" id="cellLayer" role="group" aria-label="Letters"></div>
+      </div>
+    </section>
+
+    <a href="cvc.html" class="next-level-link" aria-label="Continue to CVC words">
+      <span>Continue to CVC Words →</span>
+    </a>
+
+    <footer class="foot">
+      <p>Local MVP · v0.1</p>
+    </footer>
+  </main>
+
+  <script src="app.js?v=20"></script>
+</body>
+</html>
