@@ -21,6 +21,15 @@
         .page-header h1 { font-family: 'Playfair Display', serif; font-size: 3rem; margin-bottom: 1rem; }
         .page-header p { font-size: 1.2rem; max-width: 600px; margin: 0 auto; }
         .container { max-width: 1200px; margin: 0 auto; padding: 3rem 2rem; }
+        /* Semester toggle — sits above the level tabs */
+        .semester-bar { display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: center; justify-content: space-between; margin-bottom: 1.25rem; padding: 0.75rem 1rem; background: rgba(133,114,81,0.08); border: 2px dashed rgba(133,114,81,0.35); border-radius: 12px; }
+        .semester-bar .sem-label { font-weight: 700; color: #857251; font-size: 1rem; }
+        .semester-toggle { display: flex; background: white; border-radius: 24px; padding: 4px; border: 2px solid #857251; gap: 4px; }
+        .sem-btn { padding: 6px 14px; border-radius: 20px; border: none; cursor: pointer; font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 0.9rem; background: transparent; color: #857251; transition: all 0.2s; }
+        .sem-btn.active { background: #857251; color: #F7F4EE; }
+        .sem-btn:hover:not(.active) { background: rgba(133,114,81,0.15); }
+        .sem-meta { font-size: 0.85rem; color: #666; font-style: italic; }
+
         .level-tabs { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 2rem; border-bottom: 3px solid #857251; padding-bottom: 1rem; }
         .level-tab { padding: 0.75rem 1.5rem; background: #F7F4EE; border: 2px solid #857251; border-radius: 25px; cursor: pointer; font-weight: 600; color: #857251; transition: all 0.3s; }
         .level-tab:hover { background: #857251; color: #F7F4EE; }
@@ -223,6 +232,17 @@
         <p>Practice your vocabulary with pronunciation and flashcards</p>
     </header>
     <main class="container">
+        <div class="semester-bar">
+            <div style="display:flex; gap:0.75rem; align-items:center; flex-wrap:wrap;">
+                <span class="sem-label">📅 Semester:</span>
+                <div class="semester-toggle" id="semesterToggle">
+                    <button class="sem-btn active" data-sem="current">Current</button>
+                    <button class="sem-btn" data-sem="archived">📦 Archived</button>
+                </div>
+                <span class="sem-meta" id="semesterMeta"></span>
+            </div>
+        </div>
+
         <div class="level-tabs">
             <button class="level-tab active" onclick="showLevel('basic')">Basic</button>
             <button class="level-tab" onclick="showLevel('level1')">Level 1</button>
@@ -452,7 +472,49 @@
     </footer>
 
     <script>
-        let vocabData = {};
+        let vocabData = null;          // full JSON: { basic, level1..level4, archived: {...}, current_label, archived_label }
+        let currentSemester = 'current'; // 'current' or 'archived'
+
+        function getVocabFor(level) {
+            // Routes lookups through the active semester bucket.
+            if (!vocabData) return [];
+            if (currentSemester === 'archived') {
+                return (vocabData.archived && vocabData.archived[level]) || [];
+            }
+            return vocabData[level] || [];
+        }
+
+        function activeSemesterLabel() {
+            return currentSemester === 'archived'
+                ? (vocabData.archived_label || 'Archived')
+                : (vocabData.current_label  || 'Current');
+        }
+
+        function refreshSemesterUI() {
+            // Toggle button visual state
+            document.querySelectorAll('#semesterToggle .sem-btn').forEach(b => {
+                b.classList.toggle('active', b.dataset.sem === currentSemester);
+            });
+            // Meta text beside the toggle
+            const meta = document.getElementById('semesterMeta');
+            if (meta && vocabData) {
+                const isArch = currentSemester === 'archived';
+                const bucket = isArch
+                    ? vocabData.archived
+                    : {basic:vocabData.basic, level1:vocabData.level1, level2:vocabData.level2, level3:vocabData.level3, level4:vocabData.level4};
+                const counts = ['basic','level1','level2','level3','level4']
+                    .map(k => `${k}=${(bucket[k]||[]).length}`).join(', ');
+                meta.textContent = `${activeSemesterLabel()} · ${counts}`;
+            }
+            // Refresh week dropdown + grid + flashcard deck for every level
+            if (vocabData) {
+                ['basic','level1','level2','level3','level4'].forEach(level => {
+                    populateWeekSelect(level);
+                    loadVocab(level);
+                });
+            }
+        }
+
         // State per level
         // shuffledWords: array of word objects (randomized)
         // index: current position in shuffledWords
@@ -480,15 +542,26 @@
         }
 
         function init() {
+            // Wire semester toggle clicks
+            document.querySelectorAll('#semesterToggle .sem-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const next = btn.dataset.sem;
+                    if (next === currentSemester) return;
+                    currentSemester = next;
+                    refreshSemesterUI();
+                });
+            });
+
             ['basic','level1','level2','level3','level4'].forEach(level => {
                 populateWeekSelect(level);
                 loadVocab(level);
             });
+            refreshSemesterUI();
         }
 
         function populateWeekSelect(level) {
             const select = document.getElementById(level + 'Week');
-            const words = vocabData[level] || [];
+            const words = getVocabFor(level);
             const weeks = [...new Set(words.map(w => w.date))].sort();
             select.innerHTML = '';
             weeks.forEach(week => {
@@ -524,7 +597,7 @@
 
         function loadVocab(level) {
             const week = document.getElementById(level + 'Week').value;
-            const allWords = (vocabData[level] || []).filter(w => w.date === week);
+            const allWords = getVocabFor(level).filter(w => w.date === week);
 
             // Build shuffled deck
             fcState[level].shuffledWords = shuffleArray([...allWords]);
