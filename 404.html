@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>找不到頁面 404 | 珊蒂美語教室 S.E.E</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Caveat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-brown: #857251;
+            --accent-gold: #CEA964;
+            --light-beige: #F7F4EE;
+            --dark-text: #333;
+            --white: #fff;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            color: var(--dark-text);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            background: var(--light-beige);
+        }
+        nav {
+            background: var(--primary-brown);
+            padding: 1rem 2rem;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            color: var(--accent-gold);
+            font-family: 'Caveat', cursive;
+            font-size: 1.8rem;
+            font-weight: 700;
+            text-decoration: none;
+        }
+        .nav-links { display: flex; list-style: none; gap: 2rem; }
+        .nav-links a { color: var(--light-beige); text-decoration: none; font-weight: 600; transition: color 0.3s; }
+        .nav-links a:hover { color: var(--accent-gold); }
+        .menu-toggle { display: none; background: none; border: none; cursor: pointer; flex-direction: column; gap: 5px; }
+        .menu-toggle span { width: 25px; height: 3px; background: var(--accent-gold); border-radius: 2px; }
+        main {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+        .error-box {
+            background: var(--white);
+            border-radius: 12px;
+            padding: 3rem 2.5rem;
+            max-width: 560px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(133, 114, 81, 0.12);
+        }
+        .error-code {
+            font-family: 'Caveat', cursive;
+            font-size: 7rem;
+            color: var(--accent-gold);
+            line-height: 1;
+            font-weight: 700;
+        }
+        h1 {
+            color: var(--primary-brown);
+            font-size: 1.6rem;
+            margin: 0.5rem 0 0.8rem;
+            font-weight: 700;
+        }
+        p {
+            color: #555;
+            line-height: 1.8;
+            margin-bottom: 1.2rem;
+        }
+        .url-broken {
+            font-family: monospace;
+            background: var(--light-beige);
+            padding: 0.4rem 0.8rem;
+            border-radius: 6px;
+            color: var(--primary-brown);
+            word-break: break-all;
+            font-size: 0.95rem;
+            display: inline-block;
+            margin: 0.5rem 0 1.5rem;
+        }
+        .actions {
+            display: flex;
+            gap: 0.8rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 1.5rem;
+        }
+        .btn {
+            display: inline-block;
+            padding: 0.8rem 1.6rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.2s;
+        }
+        .btn-primary {
+            background: var(--primary-brown);
+            color: var(--white);
+        }
+        .btn-primary:hover { background: #6b5b42; }
+        .btn-secondary {
+            background: var(--white);
+            color: var(--primary-brown);
+            border: 2px solid var(--primary-brown);
+        }
+        .btn-secondary:hover { background: var(--light-beige); }
+        footer {
+            background: var(--primary-brown);
+            color: var(--light-beige);
+            text-align: center;
+            padding: 1.2rem;
+            font-size: 0.9rem;
+        }
+        footer a { color: var(--accent-gold); text-decoration: none; }
+        @media (max-width: 768px) {
+            .nav-links { display: none; position: absolute; top: 100%; left: 0; width: 100%; background: rgba(133, 114, 81, 0.98); flex-direction: column; padding: 1rem; gap: 1rem; }
+            .nav-links.active { display: flex; }
+            .menu-toggle { display: flex; }
+            nav { position: relative; }
+            .error-code { font-size: 5rem; }
+            h1 { font-size: 1.3rem; }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo">S.E.E</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html#home">首頁</a></li>
+                <li><a href="index.html#teacher">認識老師</a></li>
+                <li><a href="index.html#philosophy">教學理念</a></li>
+                <li><a href="index.html#classes">班別介紹</a></li>
+                <li><a href="index.html#resources">學習資源</a></li>
+                <li><a href="index.html#contact">聯絡我們</a></li>
+            </ul>
+            <button class="menu-toggle" id="menuToggle" aria-label="選單">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <div class="error-box">
+            <div class="error-code">404</div>
+            <h1>找不到這個頁面</h1>
+            <p>您要找的內容可能已經搬家、或者網址打錯了。<br>
+            The page you're looking for might have moved, or the link may be incorrect.</p>
+            <div class="url-broken" id="requestedUrl"></div>
+            <p style="font-size: 0.95rem;">如果這是您常用的連結，請告訴我們幫忙修一下 🙏</p>
+            <div class="actions">
+                <a href="index.html" class="btn btn-primary">← 回到首頁 Home</a>
+                <a href="index.html#resources" class="btn btn-secondary">學習資源 Resources</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        珊蒂美語教室 S.E.E · <a href="index.html#contact">聯絡我們 Contact</a>
+    </footer>
+
+    <script>
+        // Show what was requested
+        const requested = window.location.pathname.replace(/^\//, '') || '(empty path)';
+        document.getElementById('requestedUrl').textContent = requested;
+
+        // Mobile menu
+        document.getElementById('menuToggle').addEventListener('click', () => {
+            document.getElementById('navLinks').classList.toggle('active');
+        });
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.getElementById('navLinks').classList.remove('active');
+            });
+        });
+    </script>
+</body>
+</html>
