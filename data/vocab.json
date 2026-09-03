@@ -336,7 +336,7 @@
       "chinese": "網站",
       "example_1": "I visited a fun website to play learning games after school.",
       "example_2": "I used the computer to visit a fun website for my homework.",
-      "trans_1": "放學後，我造訪了一個有趣的網站，玩一些學習遊戲。",
+      "trans_1": "放學後，我造訪了一個有趣的網站，玩了一些學習遊戲。",
       "trans_2": "我用電腦造訪了一個有趣的網站來完成作業。"
     },
     {
@@ -426,7 +426,7 @@
       "chinese": "迅速的",
       "example_1": "She was always prompt and arrived at school on time.",
       "example_2": "The teacher asked everyone to be prompt so they would not be late for recess.",
-      "trans_1": "她總是很守時，準時到校。",
+      "trans_1": "她總是很準時，每次都準時到校。",
       "trans_2": "老師要求大家準時到校，以免課間休息遲到。"
     },
     {
@@ -547,6 +547,132 @@
       "example_2": "The milk in the refrigerator was out of date, so we had to throw it away.",
       "trans_1": "我的牛奶過期了，所以我不得不扔掉。",
       "trans_2": "冰箱裡的牛奶過期了，所以我們只好丟掉了。"
+    },
+    {
+      "date": "260901",
+      "word": "expect",
+      "chinese": "預計",
+      "example_1": "I expect to see my friends at the park today.",
+      "example_2": "We expect our teacher to give us extra time at recess today.",
+      "trans_1": "我今天應該會在公園見到我的朋友。",
+      "trans_2": "我們希望老師今天能給我們延長課間休息時間。"
+    },
+    {
+      "date": "260901",
+      "word": "involve",
+      "chinese": "涉及",
+      "example_1": "The game will involve two different teams.",
+      "example_2": "The science project will involve building a tiny volcano with clay.",
+      "trans_1": "比賽將由兩支不同的隊伍參加。",
+      "trans_2": "這個科學計畫將包括用黏土建造一座微型火山。"
+    },
+    {
+      "date": "260901",
+      "word": "firm",
+      "chinese": "公司",
+      "example_1": "Dad drives to his firm every weekday morning",
+      "example_2": "Mom asked the travel firm to plan our summer trip",
+      "trans_1": "爸爸每個工作日早上都會開車去公司。",
+      "trans_2": "媽媽請旅行社幫我們規劃暑假旅行"
+    },
+    {
+      "date": "260901",
+      "word": "drill",
+      "chinese": "鑽頭",
+      "example_1": "Be careful with that drill — it spins very fast!",
+      "example_2": "Dad bought a new drill to put up shelves in my room.",
+      "trans_1": "使用電鑽時要小心－它轉速非常快！",
+      "trans_2": "爸爸買了一台新電鑽，準備在我房間安裝架子。"
+    },
+    {
+      "date": "260901",
+      "word": "mustache",
+      "chinese": "鬍子",
+      "example_1": "My uncle grew a long mustache over the summer.",
+      "example_2": "The funny actor wore a fake black mustache during the play.",
+      "trans_1": "我叔叔整個夏天都留著長長的鬍子。",
+      "trans_2": "這位幽默的演員在演出時戴著一副假黑鬍子。"
+    },
+    {
+      "date": "260901",
+      "word": "blonde",
+      "chinese": "金髮",
+      "example_1": "The little girl has curly blonde hair.",
+      "example_2": "My friend has curly blonde hair that shines in the sun.",
+      "trans_1": "小女孩有一頭金色捲髮。",
+      "trans_2": "我的朋友有一頭金色捲髮，在陽光下閃閃發光。"
+    },
+    {
+      "date": "260901",
+      "word": "crane",
+      "chinese": "伸長",
+      "example_1": "Stand on your toes and crane up — you can see the fireworks from here!",
+      "example_2": "The children were craning their necks to see the parade.",
+      "trans_1": "踮起腳尖，抬頭仰望－從這裡就能看到煙火！",
+      "trans_2": "孩子們伸長脖子去看遊行隊伍。"
+    },
+    {
+      "date": "260901",
+      "word": "bear",
+      "chinese": "承受",
+      "example_1": "I can't bear to eat broccoli, but Mom says I have to.",
+      "example_2": "Please bear with me — I'm still learning to read English.",
+      "trans_1": "我實在吃不下西蘭花，但媽媽說我必須吃。",
+      "trans_2": "請多多包涵——我還在學習閱讀英文。"
+    },
+    {
+      "date": "260901",
+      "word": "dull",
+      "chinese": "乏味的",
+      "example_1": "The pencil was so dull that I had to sharpen it before taking notes.",
+      "example_2": "The old pencil was too dull to write my spelling words.",
+      "trans_1": "這支鉛筆太鈍了，我記筆記前還要削尖。",
+      "trans_2": "那支舊鉛筆太鈍了，寫不出我要拼的單字。"
+    },
+    {
+      "date": "260901",
+      "word": "tawny",
+      "chinese": "黃褐色",
+      "example_1": "The cat had soft, tawny fur that looked golden in the sun.",
+      "example_2": "The owl had soft tawny feathers that helped it hide in the tree.",
+      "trans_1": "這隻貓有著柔軟的黃褐色皮毛，在陽光下閃閃發光，呈現出金色的光澤。",
+      "trans_2": "貓頭鷹有著柔軟的黃褐色羽毛，這有助於它在樹上隱藏起來。"
+    },
+    {
+      "date": "260901",
+      "word": "peck",
+      "chinese": "輕輕親一下",
+      "example_1": "Dad pecked Mom on the cheek before he left for work.",
+      "example_2": "Grandma pecked my forehead and said, \"Be safe at school.\"",
+      "trans_1": "爸爸上班前親吻了媽媽的臉頰。",
+      "trans_2": "奶奶親了親我的額頭，說：“在學校注意安全。”"
+    },
+    {
+      "date": "260901",
+      "word": "cheek",
+      "chinese": "臉頰",
+      "example_1": "A tear rolled down her cheek during the sad movie.",
+      "example_2": "She felt a tear roll down her cheek during the sad movie.",
+      "trans_1": "看悲傷的電影時，一滴眼淚順著她的臉頰滑落。",
+      "trans_2": "看悲傷的電影時，她感覺到一滴眼淚順著臉頰滑落。"
+    },
+    {
+      "date": "260901",
+      "word": "tantrum",
+      "chinese": "發脾氣",
+      "example_1": "My little brother threw a tantrum when it was time for bed.",
+      "example_2": "The toddler threw a big tantrum when he had to leave the park.",
+      "trans_1": "到了睡覺時間，弟弟大哭大鬧。",
+      "trans_2": "小孩離開公園時大發脾氣。"
+    },
+    {
+      "date": "260901",
+      "word": "peculiar",
+      "chinese": "奇特",
+      "example_1": "The strange insect had a peculiar pattern on its back.",
+      "example_2": "The strange noise coming from the closet sounded very peculiar.",
+      "trans_1": "這種奇怪的昆蟲背部有一種奇特的圖案。",
+      "trans_2": "壁櫥裡傳出的奇怪聲音聽起來非常古怪。"
     }
   ],
   "current_label": "2026 Fall",
@@ -1873,7 +1999,7 @@
         "chinese": "跳",
         "example_1": "The frog jumps high.",
         "example_2": "The frog can jump high.",
-        "trans_1": "青蛙跳得很高。",
+        "trans_1": "這隻青蛙跳得很高。",
         "trans_2": "青蛙能跳得很高。"
       },
       {
@@ -6519,7 +6645,7 @@
         "chinese": "埋",
         "example_1": "The dog likes to bury his bone in the garden.",
         "example_2": "Dogs bury bones in the garden.",
-        "trans_1": "這隻狗喜歡把骨頭埋在花園裡。",
+        "trans_1": "狗狗喜歡把骨頭埋在花園裡。",
         "trans_2": "狗會在花園裡埋骨頭。"
       },
       {
@@ -9627,7 +9753,7 @@
         "example_1": "I felt a lot of tension before the big test.",
         "example_2": "The rope had a lot of tension because the two boys were pulling it very hard.",
         "trans_1": "大考前我感到非常緊張。",
-        "trans_2": "因為兩個男孩使勁拉，繩子繃得很緊。"
+        "trans_2": "因為兩個男孩用力拉扯，繩子繃得很緊。"
       },
       {
         "date": "260603",
@@ -11267,7 +11393,7 @@
         "example_1": "We waited at the airport for our departure to London.",
         "example_2": "The plane is ready for departure.",
         "trans_1": "我們在機場等待飛往倫敦的航班。",
-        "trans_2": "飛機已準備就緒，可以起飛了。"
+        "trans_2": "飛機已準備就緒，可以起飛。"
       },
       {
         "date": "260324",
@@ -11996,7 +12122,7 @@
         "example_1": "The ants work together to build a large colony in the garden.",
         "example_2": "An ant colony lives and works together in a large underground nest.",
         "trans_1": "螞蟻們齊心協力，在花園裡建立了一個龐大的蟻群。",
-        "trans_2": "一群螞蟻生活在一個大型地下巢穴中，共同生活和工作。"
+        "trans_2": "一群螞蟻生活在一個大型的地下巢穴中，共同生活和工作。"
       },
       {
         "date": "260602",
@@ -12085,8 +12211,8 @@
         "chinese": "知識",
         "example_1": "Reading books is a great way to gain new knowledge.",
         "example_2": "Reading books is a great way to gain new knowledge.",
-        "trans_1": "閱讀是獲取新知識的好方法。",
-        "trans_2": "閱讀是獲取新知識的好方法。"
+        "trans_1": "閱讀書籍是獲得新知識的好方法。",
+        "trans_2": "閱讀書籍是獲得新知識的好方法。"
       },
       {
         "date": "260602",
@@ -12168,7 +12294,7 @@
         "chinese": "誇大",
         "example_1": "Please do not exaggerate how good the movie was.",
         "example_2": "Sometimes people exaggerate by saying they caught a fish as big as a car!",
-        "trans_1": "請不要誇大這部電影有多好。",
+        "trans_1": "請不要誇大這部電影的好壞。",
         "trans_2": "有時人們會誇大其詞，說自己釣到了一條像汽車一樣大的魚！"
       },
       {
@@ -12258,8 +12384,8 @@
         "chinese": "羽毛球",
         "example_1": "I played badminton with my friend after school.",
         "example_2": "We played badminton in the backyard and tried to hit the birdie over the net.",
-        "trans_1": "放學後我和朋友一起打了羽球。",
-        "trans_2": "我們在後院打羽毛球，努力把球打過球網。"
+        "trans_1": "放學後我和朋友一起打了羽毛球。",
+        "trans_2": "我們在後院打羽毛球，努力把球打過網。"
       },
       {
         "date": "250904",
@@ -12268,7 +12394,7 @@
         "example_1": "Let's call it a day and finish the game tomorrow.",
         "example_2": "After finishing their homework, Sarah decided to call it a day and went outside to play.",
         "trans_1": "今天就到此為止吧，明天再繼續比賽。",
-        "trans_2": "做完功課後，莎拉決定結束今天的學習，出去玩了。"
+        "trans_2": "莎拉做完功課後，決定結束今天的學習，出去玩了。"
       },
       {
         "date": "250918",
@@ -12312,8 +12438,8 @@
         "chinese": "方案",
         "example_1": "The kids came up with a fun scheme to surprise their teacher on her birthday.",
         "example_2": "The kids came up with a fun scheme to surprise their teacher on her birthday.",
-        "trans_1": "孩子們想出了一個有趣的計劃，要在老師生日那天給她一個驚喜。",
-        "trans_2": "孩子們想出了一個有趣的計劃，要在老師生日那天給她一個驚喜。"
+        "trans_1": "孩子們想出了一個有趣的主意，要在老師生日那天給她一個驚喜。",
+        "trans_2": "孩子們想出了一個有趣的主意，要在老師生日那天給她一個驚喜。"
       },
       {
         "date": "250918",
@@ -12438,7 +12564,7 @@
         "chinese": "競技",
         "example_1": "I joined the school athletics club to practice running and jumping.",
         "example_2": "Athletics is fun because you get to run, jump, and play different sports with your friends.",
-        "trans_1": "我加入了學校田徑俱樂部，練習跑步和跳躍。",
+        "trans_1": "我加入了學校的田徑俱樂部，練習跑步和跳躍。",
         "trans_2": "運動很有趣，因為你可以和朋友一起跑步、跳躍，進行各種不同的運動。"
       },
       {
@@ -12501,7 +12627,7 @@
         "chinese": "資格",
         "example_1": "She needs to study hard to qualify for the advanced class.",
         "example_2": "If you practice hard, you might qualify for the school spelling bee.",
-        "trans_1": "她需要努力學習才能獲得參加高級班的資格。",
+        "trans_1": "她需要努力學習才能有資格參加高級班。",
         "trans_2": "如果你努力練習，也許能入選學校的拼字比賽。"
       },
       {
@@ -12708,7 +12834,7 @@
         "chinese": "中間的",
         "example_1": "The intermediate class is for students who are already good but not experts yet.",
         "example_2": "The intermediate level of the video game is harder than the beginner level but easier than the expert level.",
-        "trans_1": "中級班級是為已經具備良好基礎但尚未成為專家的學生而設。",
+        "trans_1": "中級班是針對已經具備一定基礎但尚未成為專家的學生。",
         "trans_2": "這款遊戲的進度難度比初級難度更難，但比專家級更困難。"
       },
       {
@@ -12843,7 +12969,7 @@
         "chinese": "身體不適",
         "example_1": "My sister felt under the weather, so she stayed home from school.",
         "example_2": "I couldn't play outside today because I was feeling under the weather.",
-        "trans_1": "我姐姐身體不舒服，所以沒去上學。",
+        "trans_1": "我妹妹身體不舒服，所以沒去上學。",
         "trans_2": "我今天身體不舒服，所以沒辦法出去玩。"
       },
       {
@@ -12960,7 +13086,7 @@
         "chinese": "蹂躪",
         "example_1": "The earthquake could devastate the old buildings in the city.",
         "example_2": "The big storm will devastate the sandcastle we built on the beach.",
-        "trans_1": "地震可能會摧毀這座城市的古老建築。",
+        "trans_1": "地震可能會摧毀這座城市的老建築。",
         "trans_2": "這場大風暴會摧毀我們在海灘上建造的沙堡。"
       },
       {
@@ -13033,7 +13159,7 @@
         "example_1": "I was conscious that I forgot my lunch box.",
         "example_2": "I was conscious of the time, so I hurried to finish my homework before dinner.",
         "trans_1": "我意識到我忘記帶午餐盒了。",
-        "trans_2": "我意識到時間緊迫，所以在晚餐前趕緊做完功課。"
+        "trans_2": "我意識到時間緊迫，所以在晚餐前趕緊做完作業。"
       },
       {
         "date": "251204",
@@ -13078,7 +13204,7 @@
         "example_1": "We should not spread gossip about our friends.",
         "example_2": "Gossip is when people talk about others behind their backs, sometimes saying things that aren't true.",
         "trans_1": "我們不應該散播關於朋友的流言蜚語。",
-        "trans_2": "閒言碎語就是人們在背後議論他人，有時還會說一些不實的話。"
+        "trans_2": "閒言碎語就是人們在背後議論他人，有時還會說一些不真實的話。"
       },
       {
         "date": "251204",
@@ -13177,7 +13303,7 @@
         "example_1": "Inflation makes the prices of toys and candy go up.",
         "example_2": "The central bank is trying to control the rate of inflation.",
         "trans_1": "通貨膨脹導致玩具和糖果的價格上漲。",
-        "trans_2": "央行正試圖控制通貨膨脹率。"
+        "trans_2": "中央銀行正試圖控制通貨膨脹率。"
       },
       {
         "date": "251230",
