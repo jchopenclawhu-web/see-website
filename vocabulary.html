@@ -577,7 +577,7 @@
         function populateWeekSelect(level) {
             const select = document.getElementById(level + 'Week');
             const words = getVocabFor(level);
-            const weeks = [...new Set(words.map(w => w.date))].sort();
+            const weeks = [...new Set(words.map(w => w.date))].sort().reverse();
             select.innerHTML = '';
             weeks.forEach(week => {
                 const option = document.createElement('option');
