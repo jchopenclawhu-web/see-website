@@ -29,11 +29,11 @@ import json
 # CURRENT semester — update these when a new semester starts.
 CURRENT_LABEL = "2026 Fall"
 CURRENT_IDS = {
-    'basic':  '11jiY2_Bwe4Mfj8p2fcmFvE5leCrX1wOBrSbvnviJkQQ',  # V Level Basic Y2026
-    'level1': '1chi308pH5GFMeC1Gmc7Vy3uue4vvIbccn-Ud7OUDEU0',  # V Level 1 Y2026
-    'level2': '1ywYeFv6npjW0fNL-LaQBbdGdWB59n37JuZWhRRFieMI',  # V Level 2 Y2026
-    'level3': '1E6GzSSIgpnxsot2yo5F9m5Tn82_BZrZP7LwSicY33dI',  # V Level 3 Y2026
-    'level4': '1JudYt46nHWyXmKOv-6nDtNq4lWo8jCuxhqsGNgR8kRw',  # V Level 4 Y2026
+    'basic':  '1Y8mu5i64CX_jW9a_XId0f5EHUMAdjH2yMe-cirkLb7I',  # V Level Basic Y2026 (new folder)
+    'level1': '1hVBUoG3G_kAqOd93ZflxeuBXj4UH-pq_XnA7igq21rA',  # V Level 1 Y2026 (new folder)
+    'level2': '1gI-oEZllGeVFmbcI3kH_vxHBygcb9A-mYmtCp0TRttE',  # V Level 2 Y2026 (new folder)
+    'level3': '1psNG94DfBjWGsctpalEA93K573SuJdyP01OSSq59jbk',  # V Level 3 Y2026 (new folder)
+    'level4': '1j6AyvZk0103_R7QDLv9MtjTxjk14IZKPvPmLbRMIpog',  # V Level 4 Y2026 (new folder)
 }
 
 # ARCHIVED semester — frozen history. When CURRENT rolls forward, move the old
