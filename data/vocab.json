@@ -377,6 +377,114 @@
       "example_2": "We are good friends.",
       "trans_1": "我們今天很高興。",
       "trans_2": "我們是好朋友。"
+    },
+    {
+      "date": "260930",
+      "word": "pit",
+      "chinese": "坑，核",
+      "example_1": "The peach has a pit.",
+      "example_2": "The dog dug a big pit.",
+      "trans_1": "桃子有核。",
+      "trans_2": "狗挖了一個大坑。"
+    },
+    {
+      "date": "260930",
+      "word": "hit",
+      "chinese": "打",
+      "example_1": "He hit the ball.",
+      "example_2": "She hit the ball with the bat.",
+      "trans_1": "他擊中了球。",
+      "trans_2": "她用球棒擊球。"
+    },
+    {
+      "date": "260930",
+      "word": "sit",
+      "chinese": "坐",
+      "example_1": "I sit on the chair.",
+      "example_2": "Please sit on the red rug.",
+      "trans_1": "我坐在椅子上。",
+      "trans_2": "請坐在紅地毯上。"
+    },
+    {
+      "date": "260930",
+      "word": "bit",
+      "chinese": "咬，一點",
+      "example_1": "A bug bit my arm.",
+      "example_2": "A little bug bit my arm.",
+      "trans_1": "我的手臂被蟲咬了。",
+      "trans_2": "一隻小蟲子咬了我的手臂。"
+    },
+    {
+      "date": "260930",
+      "word": "spit",
+      "chinese": "吐",
+      "example_1": "Do not spit here.",
+      "example_2": "Do not spit out your food.",
+      "trans_1": "請勿在此處吐痰。",
+      "trans_2": "不要把食物吐出來。"
+    },
+    {
+      "date": "260930",
+      "word": "backpack",
+      "chinese": "背包",
+      "example_1": "My backpack is red.",
+      "example_2": "Put your book in your backpack.",
+      "trans_1": "我的背包是紅色的。",
+      "trans_2": "把書放進背包裡。"
+    },
+    {
+      "date": "260930",
+      "word": "dig",
+      "chinese": "挖",
+      "example_1": "I dig in the sand.",
+      "example_2": "Dogs like to dig in the dirt.",
+      "trans_1": "我在沙子裡挖。",
+      "trans_2": "狗喜歡刨土。"
+    },
+    {
+      "date": "260930",
+      "word": "big",
+      "chinese": "大的",
+      "example_1": "The dog is big.",
+      "example_2": "Look at that big red truck.",
+      "trans_1": "這隻狗體型很大。",
+      "trans_2": "看那輛紅色大卡車。"
+    },
+    {
+      "date": "260930",
+      "word": "have",
+      "chinese": "有",
+      "example_1": "I have a red ball.",
+      "example_2": "I have a fun new game.",
+      "trans_1": "我有一個紅球。",
+      "trans_2": "我發現了一款很好玩的新遊戲。"
+    },
+    {
+      "date": "260930",
+      "word": "has",
+      "chinese": "有",
+      "example_1": "She has a cat.",
+      "example_2": "She has a cute little cat.",
+      "trans_1": "她養了一隻貓。",
+      "trans_2": "她養了一隻可愛的小貓。"
+    },
+    {
+      "date": "260930",
+      "word": "one",
+      "chinese": "一",
+      "example_1": "I see one bird.",
+      "example_2": "I see one yellow sun.",
+      "trans_1": "我看到一隻鳥。",
+      "trans_2": "我看到一輪黃色的太陽。"
+    },
+    {
+      "date": "260930",
+      "word": "two",
+      "chinese": "二",
+      "example_1": "I have two books.",
+      "example_2": "I have two blue shoes.",
+      "trans_1": "我有兩本書。",
+      "trans_2": "我有兩隻藍色的鞋子。"
     }
   ],
   "level1": [
@@ -721,6 +829,159 @@
       "example_2": "Never give up on your work.",
       "trans_1": "不要放棄比賽。",
       "trans_2": "永遠不要放棄你的工作。"
+    },
+    {
+      "date": "261002",
+      "word": "picture",
+      "chinese": "圖片",
+      "example_1": "We took a picture at my birthday party.",
+      "example_2": "I draw a picture of a dog.",
+      "trans_1": "我們在我的生日派對上拍了張照片。",
+      "trans_2": "我畫了一幅狗的畫。"
+    },
+    {
+      "date": "261002",
+      "word": "clean",
+      "chinese": "乾淨的",
+      "example_1": "I help clean my room.",
+      "example_2": "I help clean my room.",
+      "trans_1": "我幫忙打掃房間。",
+      "trans_2": "我幫忙打掃房間。"
+    },
+    {
+      "date": "261002",
+      "word": "better",
+      "chinese": "更好的",
+      "example_1": "I feel much better today.",
+      "example_2": "I want to draw a better picture.",
+      "trans_1": "我今天感覺好多了。",
+      "trans_2": "我想畫一幅更好的畫。"
+    },
+    {
+      "date": "261002",
+      "word": "bring",
+      "chinese": "帶來",
+      "example_1": "Please bring your book to class.",
+      "example_2": "I bring my lunch to school.",
+      "trans_1": "請把書帶到課堂上。",
+      "trans_2": "我自備午餐去學校。"
+    },
+    {
+      "date": "261002",
+      "word": "vegetable",
+      "chinese": "蔬菜",
+      "example_1": "A carrot is a healthy vegetable.",
+      "example_2": "Many kids don't like vegetables.",
+      "trans_1": "胡蘿蔔是一種健康的蔬菜。",
+      "trans_2": "很多孩子不喜歡吃蔬菜。"
+    },
+    {
+      "date": "261002",
+      "word": "learn",
+      "chinese": "學習",
+      "example_1": "We learn new things at school.",
+      "example_2": "We learn new words at school.",
+      "trans_1": "我們在學校學習新知識。",
+      "trans_2": "我們在學校學習新單字。"
+    },
+    {
+      "date": "261002",
+      "word": "answer",
+      "chinese": "回答",
+      "example_1": "I know the answer to the test.",
+      "example_2": "The teacher has the answer.",
+      "trans_1": "我知道考試的答案。",
+      "trans_2": "老師知道答案。"
+    },
+    {
+      "date": "261002",
+      "word": "question",
+      "chinese": "問題",
+      "example_1": "I ask a question in class.",
+      "example_2": "I raised my hand to ask a question.",
+      "trans_1": "我在課堂上提問。",
+      "trans_2": "我舉手提問。"
+    },
+    {
+      "date": "261002",
+      "word": "focus",
+      "chinese": "專注",
+      "example_1": "I focus when I read my book.",
+      "example_2": "We need to focus on our lesson.",
+      "trans_1": "我讀書時會集中註意力。",
+      "trans_2": "我們需要專心上課。"
+    },
+    {
+      "date": "261002",
+      "word": "bedroom",
+      "chinese": "臥室",
+      "example_1": "I sleep in my bedroom.",
+      "example_2": "My bedroom has a cozy bed.",
+      "trans_1": "我睡在我的臥室。",
+      "trans_2": "我的臥室裡有一張舒適的床。"
+    },
+    {
+      "date": "261002",
+      "word": "has to",
+      "chinese": "必須",
+      "example_1": "She has to tie her shoes.",
+      "example_2": "He has to wash his hands before eating.",
+      "trans_1": "她得繫鞋帶。",
+      "trans_2": "他吃飯前必須洗手。"
+    },
+    {
+      "date": "261002",
+      "word": "have to",
+      "chinese": "必須",
+      "example_1": "I have to eat my lunch.",
+      "example_2": "We have to put our toys away.",
+      "trans_1": "我得吃午餐了。",
+      "trans_2": "我們得把玩具收起來。"
+    },
+    {
+      "date": "261002",
+      "word": "every",
+      "chinese": "每一個",
+      "example_1": "I walk to school every day.",
+      "example_2": "I eat an apple every day.",
+      "trans_1": "我每天步行上學。",
+      "trans_2": "我每天都吃一個蘋果。"
+    },
+    {
+      "date": "261002",
+      "word": "street",
+      "chinese": "街道",
+      "example_1": "Cars drive on the street.",
+      "example_2": "The street in front of school is busy.",
+      "trans_1": "汽車在街上行駛。",
+      "trans_2": "學校門前的街道很忙。"
+    },
+    {
+      "date": "261002",
+      "word": "floor",
+      "chinese": "地面",
+      "example_1": "We sit on the floor for story time.",
+      "example_2": "The ball rolled across the floor.",
+      "trans_1": "我們坐在地板上講故事。",
+      "trans_2": "球在地板上滾動。"
+    },
+    {
+      "date": "261002",
+      "word": "friend",
+      "chinese": "朋友",
+      "example_1": "I play with my friend at recess.",
+      "example_2": "My friend and I like to play together.",
+      "trans_1": "課間休息時我和朋友一起玩。",
+      "trans_2": "我和朋友喜歡一起玩。"
+    },
+    {
+      "date": "261002",
+      "word": "lie",
+      "chinese": "說謊, 躺",
+      "example_1": "I tell the truth and do not lie.",
+      "example_2": "I lie down on the couch to rest.",
+      "trans_1": "我說真話，從不說謊。",
+      "trans_2": "我躺在沙發上休息。"
     }
   ],
   "level2": [
@@ -1128,6 +1389,105 @@
       "example_2": "The game will go on after the rain stops.",
       "trans_1": "我們今天將進行一次有趣的散步。",
       "trans_2": "雨停後比賽將繼續進行。"
+    },
+    {
+      "date": "260930",
+      "word": "explain",
+      "chinese": "解釋",
+      "example_1": "Can you explain the rules of the game?",
+      "example_2": "Can you explain how to play this game?",
+      "trans_1": "你能解釋一下遊戲規則嗎？",
+      "trans_2": "你能解釋一下這個遊戲怎麼玩嗎？"
+    },
+    {
+      "date": "260930",
+      "word": "suggest",
+      "chinese": "建議",
+      "example_1": "I suggest we read a book together.",
+      "example_2": "I suggest we go to the park today.",
+      "trans_1": "我建議我們一起讀一本書。",
+      "trans_2": "我建議我們今天去公園。"
+    },
+    {
+      "date": "260930",
+      "word": "sunburn",
+      "chinese": "曬斑",
+      "example_1": "Wear a hat so you do not get a sunburn.",
+      "example_2": "Put on sunscreen so you do not get a sunburn.",
+      "trans_1": "戴上帽子，以免曬傷。",
+      "trans_2": "塗抹防曬霜，以免曬傷。"
+    },
+    {
+      "date": "260930",
+      "word": "lotion",
+      "chinese": "洗劑",
+      "example_1": "Put lotion on your hands when they are dry.",
+      "example_2": "She put soft lotion on her dry hands.",
+      "trans_1": "手部乾燥時塗抹潤膚露。",
+      "trans_2": "她在乾燥的雙手上塗抹了潤膚露。"
+    },
+    {
+      "date": "260930",
+      "word": "organize",
+      "chinese": "組織",
+      "example_1": "I will organize my desk before school.",
+      "example_2": "I will organize my books on the shelf.",
+      "trans_1": "我會在上學前整理我的書桌。",
+      "trans_2": "我會整理書架上的書。"
+    },
+    {
+      "date": "260930",
+      "word": "jungle",
+      "chinese": "叢林",
+      "example_1": "Many wild animals live in the jungle.",
+      "example_2": "It is dangerous in the jungle.",
+      "trans_1": "叢林裡住著許多野生動物。",
+      "trans_2": "叢林裡很危險。"
+    },
+    {
+      "date": "260930",
+      "word": "greedy",
+      "chinese": "貪婪的",
+      "example_1": "The greedy dog ate all the treats.",
+      "example_2": "The greedy dog did not want to share his toys.",
+      "trans_1": "這隻貪婪的狗把所有的零食都吃光了。",
+      "trans_2": "這隻貪婪的狗不願意分享它的玩具。"
+    },
+    {
+      "date": "260930",
+      "word": "mysterious",
+      "chinese": "神秘",
+      "example_1": "The old box held a mysterious key.",
+      "example_2": "We found a mysterious box hidden under the bed.",
+      "trans_1": "舊盒子裡裝著一把神秘的鑰匙。",
+      "trans_2": "我們在床底下發現了一個神祕的盒子。"
+    },
+    {
+      "date": "260930",
+      "word": "July",
+      "chinese": "七月",
+      "example_1": "We like to go swimming in July.",
+      "example_2": "We start summer school in July.",
+      "trans_1": "我們喜歡在七月去游泳。",
+      "trans_2": "我們的暑期課程七月開始。"
+    },
+    {
+      "date": "260930",
+      "word": "August",
+      "chinese": "八月",
+      "example_1": "August is hot in Taiwan.",
+      "example_2": "School starts again at the end of August.",
+      "trans_1": "台灣八月很熱。",
+      "trans_2": "學校將於八月底重新開學。"
+    },
+    {
+      "date": "260930",
+      "word": "surf the internet",
+      "chinese": "上網",
+      "example_1": "I use the computer to surf the internet.",
+      "example_2": "I surf the internet to find pictures of funny animals.",
+      "trans_1": "我用電腦上網。",
+      "trans_2": "我上網搜尋有趣動物的圖片。"
     }
   ],
   "level3": [
@@ -1427,6 +1787,159 @@
       "example_2": "I love ice cream, but on the other hand, it melts very fast.",
       "trans_1": "我喜歡貓，但另一方面，和狗玩耍也很有趣。",
       "trans_2": "我喜歡冰淇淋，但另一方面，它融化得很快。"
+    },
+    {
+      "date": "261001",
+      "word": "memory",
+      "chinese": "記憶",
+      "example_1": "I have a happy memory of playing with my dog.",
+      "example_2": "I have a happy memory of going to the zoo with my family.",
+      "trans_1": "我有一段和狗狗玩耍的美好回憶。",
+      "trans_2": "我有一段和家人一起去動物園的美好回憶。"
+    },
+    {
+      "date": "261001",
+      "word": "evidence",
+      "chinese": "證據",
+      "example_1": "The muddy footprints were evidence that the dog went outside.",
+      "example_2": "The crumbs on the table were evidence that someone ate the cake.",
+      "trans_1": "泥濘的腳印證明這隻狗出去過。",
+      "trans_2": "桌上的麵包屑證明有人吃過蛋糕。"
+    },
+    {
+      "date": "261001",
+      "word": "adventure",
+      "chinese": "冒險",
+      "example_1": "We had an exciting adventure while hiking in the woods.",
+      "example_2": "We packed our backpacks and went on a fun adventure in the park.",
+      "trans_1": "我們在樹林裡健行時經歷了一次激動人心的冒險。",
+      "trans_2": "我們背上背包，在公園裡進行了一次有趣的探險。"
+    },
+    {
+      "date": "261001",
+      "word": "obviously",
+      "chinese": "明顯地",
+      "example_1": "She was obviously cold because she was wearing a heavy coat.",
+      "example_2": "She was obviously excited because she could not stop smiling.",
+      "trans_1": "她顯然很冷，因為她穿著一件厚外套。",
+      "trans_2": "她顯然很興奮，因為她一直笑個不停。"
+    },
+    {
+      "date": "261001",
+      "word": "supper",
+      "chinese": "晚餐",
+      "example_1": "My family sat down together to eat pizza for supper.",
+      "example_2": "We ate pizza for supper with our family last night.",
+      "trans_1": "我們全家坐下來一起吃披薩當晚餐。",
+      "trans_2": "昨晚我們一家人吃了披薩當晚餐。"
+    },
+    {
+      "date": "261001",
+      "word": "attack",
+      "chinese": "攻擊",
+      "example_1": "The cat ran across the room to attack the toy mouse.",
+      "example_2": "The cat jumped out from under the bed to attack the toy mouse.",
+      "trans_1": "貓跑過房間去攻擊玩具老鼠。",
+      "trans_2": "貓從床底下跳出來攻擊玩具老鼠。"
+    },
+    {
+      "date": "261001",
+      "word": "uniform",
+      "chinese": "制服",
+      "example_1": "He wore his school uniform to class every morning.",
+      "example_2": "I wear a blue uniform to school every day.",
+      "trans_1": "他每天早上都穿著校服去上課。",
+      "trans_2": "我每天都穿著藍色制服去上學。"
+    },
+    {
+      "date": "261001",
+      "word": "syllable",
+      "chinese": "音節",
+      "example_1": "The word cat has only one syllable.",
+      "example_2": "We clapped our hands to count each syllable in our names.",
+      "trans_1": "「貓」這個字只有一個音節。",
+      "trans_2": "我們拍手數著自己名字的每個音節。"
+    },
+    {
+      "date": "261001",
+      "word": "universe",
+      "chinese": "宇宙",
+      "example_1": "The stars and planets are far away in the universe.",
+      "example_2": "The universe is full of stars, planets, and galaxies.",
+      "trans_1": "恆星和行星位於宇宙中遙遠的地方。",
+      "trans_2": "宇宙中充滿了恆星、行星和星系。"
+    },
+    {
+      "date": "261001",
+      "word": "worship",
+      "chinese": "崇拜",
+      "example_1": "Many people go to church to worship on Sunday.",
+      "example_2": "People gather together at church to worship.",
+      "trans_1": "許多人星期天會去教會做禮拜。",
+      "trans_2": "人們聚集在教堂進行禮拜。"
+    },
+    {
+      "date": "261001",
+      "word": "vocabulary",
+      "chinese": "詞彙",
+      "example_1": "Reading new books helps expand your vocabulary.",
+      "example_2": "Reading every day helps build your vocabulary.",
+      "trans_1": "閱讀新書有助於擴大詞彙量。",
+      "trans_2": "每天閱讀有助於累積詞彙量。"
+    },
+    {
+      "date": "261001",
+      "word": "familiar",
+      "chinese": "熟悉的",
+      "example_1": "The neighborhood park looked very familiar to me.",
+      "example_2": "That dog looks familiar, so I think he belongs to my neighbor.",
+      "trans_1": "這個社區公園看起來很眼熟。",
+      "trans_2": "那隻狗看起來很眼熟，所以我認為它是鄰居的。"
+    },
+    {
+      "date": "261001",
+      "word": "Africa",
+      "chinese": "非洲",
+      "example_1": "Lions and giraffes live on the continent of Africa.",
+      "example_2": "Lions and giraffes live in the wild in Africa.",
+      "trans_1": "獅子和長頸鹿生活在非洲大陸。",
+      "trans_2": "獅子和長頸鹿生活在非洲的野外。"
+    },
+    {
+      "date": "261001",
+      "word": "Antarctica",
+      "chinese": "南極洲",
+      "example_1": "Antarctica is a cold place covered with snow and ice.",
+      "example_2": "Penguins live in Antarctica, where it is very cold.",
+      "trans_1": "南極洲是一個寒冷的地方，被冰雪覆蓋。",
+      "trans_2": "企鵝生活在南極洲，那裡非常寒冷。"
+    },
+    {
+      "date": "261001",
+      "word": "North America",
+      "chinese": "北美洲",
+      "example_1": "The United States is located on the continent of North America.",
+      "example_2": "The United States is located on the continent of North America.",
+      "trans_1": "美國位於北美洲。",
+      "trans_2": "美國位於北美洲。"
+    },
+    {
+      "date": "261001",
+      "word": "South America",
+      "chinese": "南美洲",
+      "example_1": "Rainforests and high mountains can be found in South America.",
+      "example_2": "The Amazon rainforest is located in South America.",
+      "trans_1": "南美洲有熱帶雨林和高山。",
+      "trans_2": "亞馬遜雨林位於南美洲。"
+    },
+    {
+      "date": "261001",
+      "word": "made my day",
+      "chinese": "讓我今天心情很好",
+      "example_1": "The surprise ice cream treat really made my day.",
+      "example_2": "Finding a nice note from my mom in my lunchbox made my day.",
+      "trans_1": "這份意想不到的冰淇淋禮物真的讓我心情好。",
+      "trans_2": "在午餐盒裡發現媽媽留下的溫馨小紙條，讓我開心了一整天。"
     }
   ],
   "level4": [
@@ -1715,7 +2228,7 @@
       "chinese": "廢墟",
       "example_1": "The heavy rain will ruin our plans for a picnic in the park.",
       "example_2": "An unexpected rainstorm can ruin our plan to play soccer outside today.",
-      "trans_1": "這場大雨會毀了我們在公園野餐的計畫。",
+      "trans_1": "這場暴雨將毀了我們在公園野餐的計畫。",
       "trans_2": "今天一場突如其來的暴雨可能會毀了我們戶外踢足球的計畫。"
     },
     {
@@ -1865,7 +2378,7 @@
         "example_1": "The cat eats fish.",
         "example_2": "The cat is big.",
         "trans_1": "這隻貓吃魚。",
-        "trans_2": "這隻貓很大。"
+        "trans_2": "這隻貓體型很大。"
       },
       {
         "date": "250905",
@@ -1910,7 +2423,7 @@
         "example_1": "The cat eats fish.",
         "example_2": "The cat is big.",
         "trans_1": "這隻貓吃魚。",
-        "trans_2": "這隻貓很大。"
+        "trans_2": "這隻貓體型很大。"
       },
       {
         "date": "250905",
@@ -1991,7 +2504,7 @@
         "example_1": "The sky is blue.",
         "example_2": "The cat is big.",
         "trans_1": "天空是藍色的。",
-        "trans_2": "這隻貓很大。"
+        "trans_2": "這隻貓體型很大。"
       },
       {
         "date": "250912",
@@ -4060,7 +4573,7 @@
         "chinese": "根",
         "example_1": "I see a root.",
         "example_2": "The tree has a long root.",
-        "trans_1": "我看到一根樹根。",
+        "trans_1": "我看到了一根樹根。",
         "trans_2": "這棵樹根系很長。"
       },
       {
@@ -10923,7 +11436,7 @@
         "example_1": "I felt a lot of tension before the big test.",
         "example_2": "The rope had a lot of tension because the two boys were pulling it very hard.",
         "trans_1": "大考前我感到非常緊張。",
-        "trans_2": "因為兩個男孩使勁拉，繩子繃得很緊。"
+        "trans_2": "因為兩個男孩用力拉扯，繩子繃得很緊。"
       },
       {
         "date": "260603",
@@ -10932,7 +11445,7 @@
         "example_1": "I live in a small apartment with my family.",
         "example_2": "My family lives in a cozy apartment in the city.",
         "trans_1": "我和家人住在一個小公寓裡。",
-        "trans_2": "我家住在城裡一間舒適的公寓。"
+        "trans_2": "我家住在城裡一間舒適的公寓裡。"
       },
       {
         "date": "260603",
@@ -12563,7 +13076,7 @@
         "example_1": "We waited at the airport for our departure to London.",
         "example_2": "The plane is ready for departure.",
         "trans_1": "我們在機場等待飛往倫敦的航班。",
-        "trans_2": "飛機已準備就緒，可以起飛了。"
+        "trans_2": "飛機已準備就緒，可以起飛。"
       },
       {
         "date": "260324",
@@ -12590,7 +13103,7 @@
         "example_1": "The soccer defender kicked the ball away from the goal.",
         "example_2": "The defender blocked the ball to save the goal.",
         "trans_1": "足球後衛將球踢離球門。",
-        "trans_2": "防守隊員擋住了球，阻止了對方進球。"
+        "trans_2": "防守隊員擋住了球，阻止了進球。"
       },
       {
         "date": "260324",
@@ -13464,7 +13977,7 @@
         "chinese": "誇大",
         "example_1": "Please do not exaggerate how good the movie was.",
         "example_2": "Sometimes people exaggerate by saying they caught a fish as big as a car!",
-        "trans_1": "請不要誇大這部電影有多好。",
+        "trans_1": "請不要誇大這部電影的好壞。",
         "trans_2": "有時人們會誇大其詞，說自己釣到了一條像汽車一樣大的魚！"
       },
       {
@@ -13554,8 +14067,8 @@
         "chinese": "羽毛球",
         "example_1": "I played badminton with my friend after school.",
         "example_2": "We played badminton in the backyard and tried to hit the birdie over the net.",
-        "trans_1": "放學後我和朋友一起打了羽毛球。",
-        "trans_2": "我們在後院打羽毛球，努力把球打過網。"
+        "trans_1": "放學後我和朋友一起打了羽球。",
+        "trans_2": "我們在後院打羽毛球，努力把球打過球網。"
       },
       {
         "date": "250904",
@@ -13564,7 +14077,7 @@
         "example_1": "Let's call it a day and finish the game tomorrow.",
         "example_2": "After finishing their homework, Sarah decided to call it a day and went outside to play.",
         "trans_1": "今天就到此為止吧，明天再繼續比賽。",
-        "trans_2": "莎拉做完功課後，決定結束今天的學習，出去玩了。"
+        "trans_2": "做完功課後，莎拉決定結束今天的學習，出去玩了。"
       },
       {
         "date": "250918",
@@ -13600,7 +14113,7 @@
         "example_1": "My brother is such a slob, he never cleans his room.",
         "example_2": "The dog made a mess in the living room and acted like a slob.",
         "trans_1": "我弟弟是個邋遢鬼，他從來不打掃房間。",
-        "trans_2": "狗把客廳弄得一團糟，而且邋遢得很。"
+        "trans_2": "狗把客廳弄得一團糟，而且行為邋遢。"
       },
       {
         "date": "250918",
@@ -13734,7 +14247,7 @@
         "chinese": "競技",
         "example_1": "I joined the school athletics club to practice running and jumping.",
         "example_2": "Athletics is fun because you get to run, jump, and play different sports with your friends.",
-        "trans_1": "我加入了學校田徑俱樂部，練習跑步和跳躍。",
+        "trans_1": "我加入了學校的田徑俱樂部，練習跑步和跳躍。",
         "trans_2": "運動很有趣，因為你可以和朋友一起跑步、跳躍，進行各種不同的運動。"
       },
       {
@@ -13986,7 +14499,7 @@
         "chinese": "次要",
         "example_1": "The secondary colors, like green and purple, are made by mixing primary colors.",
         "example_2": "In our school, the secondary playground is where the older kids play.",
-        "trans_1": "綠色和紫色等二次色是由原色混合而成的。",
+        "trans_1": "綠色和紫色等間色是由原色混合而成的。",
         "trans_2": "在我們學校，中學操場是高年級學生玩樂的地方。"
       },
       {
@@ -14293,7 +14806,7 @@
         "example_1": "She is capable of finishing the race.",
         "example_2": "You are capable of solving this math problem all by yourself!",
         "trans_1": "她有能力完成比賽。",
-        "trans_2": "你完全可以自己解決這道數學題！"
+        "trans_2": "你完全有能力自己解決這道數學題！"
       },
       {
         "date": "251204",
@@ -14329,7 +14842,7 @@
         "example_1": "I was conscious that I forgot my lunch box.",
         "example_2": "I was conscious of the time, so I hurried to finish my homework before dinner.",
         "trans_1": "我意識到我忘記帶午餐盒了。",
-        "trans_2": "我意識到時間緊迫，所以在晚餐前趕緊做完功課。"
+        "trans_2": "我意識到時間緊迫，所以在晚餐前趕緊做完作業。"
       },
       {
         "date": "251204",
@@ -14409,7 +14922,7 @@
         "chinese": "發脾氣",
         "example_1": "The baby threw a tantrum because she wanted the toy.",
         "example_2": "The little boy threw a tantrum when he couldn't have ice cream for dessert.",
-        "trans_1": "寶寶因為想要那個玩具而大哭大鬧。",
+        "trans_1": "寶寶因為想要玩具而大哭大鬧。",
         "trans_2": "小男孩因為沒能吃到冰淇淋甜點而大發脾氣。"
       },
       {
@@ -15598,7 +16111,7 @@
         "example_1": "I regret eating so much candy because now my stomach hurts.",
         "example_2": "I regret eating so much sugar because now my stomach hurts.",
         "trans_1": "我後悔吃了那麼多醣，現在肚子痛。",
-        "trans_2": "我後悔吃了那麼多醣，現在胃痛。"
+        "trans_2": "我後悔吃了那麼多醣，現在肚子痛。"
       },
       {
         "date": "260507",
