@@ -487,8 +487,10 @@
     </footer>
 
     <script>
-        let vocabData = null;          // full JSON: { basic, level1..level4, archived: {...}, current_label, archived_label }
+        let vocabData = null;          // full in-memory shape: { basic, level1..level4, archived: {...}, current_label, archived_label }
+                                        //   ^-- current bucket always loaded; archived bucket lazy-loaded on toggle.
         let currentSemester = 'current'; // 'current' or 'archived'
+        let archivedLoaded = false;      // track whether we've fetched vocab_archived.json yet
 
         function getVocabFor(level) {
             // Routes lookups through the active semester bucket.
@@ -545,8 +547,20 @@
 
         async function loadData() {
             try {
-                const response = await fetch(`data/vocab.json?v=${Date.now()}`);
-                vocabData = await response.json();
+                // Only fetch the current bucket on first paint. Archived is loaded
+                // lazily the first time someone clicks the "📦 Archived" toggle.
+                const response = await fetch(`data/vocab_current.json?v=${Date.now()}`);
+                const current = await response.json();
+                vocabData = {
+                    basic:    current.basic,
+                    level1:   current.level1,
+                    level2:   current.level2,
+                    level3:   current.level3,
+                    level4:   current.level4,
+                    current_label:  current.current_label,
+                    archived_label: current.archived_label, // comes paired; we'll refresh after archived loads
+                    archived: {} // filled by loadArchived()
+                };
                 init();
             } catch (error) {
                 console.error('Error loading vocabulary:', error);
@@ -556,13 +570,42 @@
             }
         }
 
+        async function loadArchived() {
+            if (archivedLoaded) return;
+            try {
+                const response = await fetch(`data/vocab_archived.json?v=${Date.now()}`);
+                const archived = await response.json();
+                if (vocabData) {
+                    vocabData.archived = {
+                        basic:    archived.basic,
+                        level1:   archived.level1,
+                        level2:   archived.level2,
+                        level3:   archived.level3,
+                        level4:   archived.level4
+                    };
+                    if (archived.archived_label) {
+                        vocabData.archived_label = archived.archived_label;
+                    }
+                }
+                archivedLoaded = true;
+            } catch (error) {
+                console.error('Error loading archived vocabulary:', error);
+            }
+        }
+
         function init() {
             // Wire semester toggle clicks
             document.querySelectorAll('#semesterToggle .sem-btn').forEach(btn => {
-                btn.addEventListener('click', () => {
+                btn.addEventListener('click', async () => {
                     const next = btn.dataset.sem;
                     if (next === currentSemester) return;
                     currentSemester = next;
+                    if (next === 'archived') {
+                        // Lazy-load the archived bucket on first toggle. refreshSemesterUI
+                        // will run after the fetch resolves; until then we leave the UI
+                        // showing the previous (current) state.
+                        await loadArchived();
+                    }
                     refreshSemesterUI();
                 });
             });

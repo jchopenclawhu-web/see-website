@@ -8,13 +8,15 @@ Usage: python3 scripts/update_vocab.py
 Requires: ~/.hermes/google_token.json with valid OAuth token
           (token['token'] key, not token['access_token'])
 
-Output (data/vocabulary.json):
-  {
-    "basic": [...], "level1": [...], "level2": [...], "level3": [...], "level4": [...],
-    "current_label":  "2026 Fall",
-    "archived_label": "2025 Fall",
-    "archived": { "basic": [...], "level1": [...], "level2": [...], "level3": [...], "level4": [...] }
-  }
+Output (split files — site only fetches what it needs):
+  data/vocab_current.json   — { basic, level1..level4, current_label }            (always loaded)
+  data/vocab_archived.json  — { basic, level1..level4, archived_label }           (lazy-loaded only when
+                                                                            someone clicks "📦 Archived")
+
+Why split (2026-09-27 perf fix): the combined file was 625 KB raw / 149 KB gzipped
+because the archived bucket (1,529 words from 2025 Fall) accounted for 84% of the
+bytes but is rarely accessed. GH Pages edge cache made the combined fetch variable
+1.6s-15.4s on the live apex domain. Splitting drops the always-loaded payload by ~6x.
 
 The 'archived' bucket lets the live site expose a "📦 View 2025 Fall archive" toggle
 without any history loss. When a new semester starts, just swap CURRENT_IDS — the
@@ -123,22 +125,29 @@ def main():
     print(f"\n[{ARCHIVE_LABEL}] (ARCHIVED)")
     archived = fetch_all_from(access_token, ARCHIVE_IDS, ARCHIVE_LABEL)
 
-    payload = dict(current)  # basic, level1..level4 are the current bucket
-    payload['current_label']  = CURRENT_LABEL
-    payload['archived_label'] = ARCHIVE_LABEL
-    payload['archived']       = archived
+    # Write two separate files. The site only fetches vocab_current.json on first
+    # paint; vocab_archived.json is lazy-loaded when the user clicks "📦 Archived".
+    # Old combined data/vocabulary.json is no longer written.
+    current_payload = dict(current)
+    current_payload['current_label'] = CURRENT_LABEL
 
-    output_file = 'data/vocabulary.json'
-    with open(output_file, 'w', encoding='utf-8') as f:
-        json.dump(payload, f, indent=2, ensure_ascii=False)
+    archived_payload = dict(archived)
+    archived_payload['archived_label'] = ARCHIVE_LABEL
 
-    print(f"\n✓ Saved to {output_file}")
+    current_path = 'data/vocab_current.json'
+    archived_path = 'data/vocab_archived.json'
+    with open(current_path, 'w', encoding='utf-8') as f:
+        json.dump(current_payload, f, indent=2, ensure_ascii=False)
+    with open(archived_path, 'w', encoding='utf-8') as f:
+        json.dump(archived_payload, f, indent=2, ensure_ascii=False)
+
+    print(f"\n✓ Saved to {current_path} + {archived_path}")
     print("\nSummary (current):")
     for level in LEVEL_KEYS:
-        print(f"  {level:8s}: {len(payload[level])} words")
+        print(f"  {level:8s}: {len(current_payload[level])} words")
     print("Summary (archived):")
     for level in LEVEL_KEYS:
-        print(f"  {level:8s}: {len(payload['archived'][level])} words")
+        print(f"  {level:8s}: {len(archived_payload[level])} words")
 
 
 if __name__ == '__main__':
