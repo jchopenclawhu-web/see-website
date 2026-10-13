@@ -131,17 +131,28 @@ def main():
     current_payload = dict(current)
     current_payload['current_label'] = CURRENT_LABEL
 
-    archived_payload = dict(archived)
-    archived_payload['archived_label'] = ARCHIVE_LABEL
+    # Guard: if the archive fetch returned nothing (Sheets moved/deleted/token issue),
+    # do NOT clobber the on-disk archive. Otherwise a transient 404 would erase the
+    # frozen history permanently. The archived vocabulary only changes when a new
+    # semester starts and the script is edited to point ARCHIVE_IDS at a different set.
+    archive_path = 'data/vocab_archived.json'
+    fetched_archive_total = sum(len(archived[k]) for k in LEVEL_KEYS)
+    if fetched_archive_total == 0:
+        print(f"\n⚠ Archive fetch returned 0 words — keeping existing {archive_path} on disk.")
+        with open(archive_path, encoding='utf-8') as f:
+            existing_archive = json.load(f)
+        archived_payload = existing_archive
+    else:
+        archived_payload = dict(archived)
+        archived_payload['archived_label'] = ARCHIVE_LABEL
 
     current_path = 'data/vocab_current.json'
-    archived_path = 'data/vocab_archived.json'
     with open(current_path, 'w', encoding='utf-8') as f:
         json.dump(current_payload, f, indent=2, ensure_ascii=False)
-    with open(archived_path, 'w', encoding='utf-8') as f:
+    with open(archive_path, 'w', encoding='utf-8') as f:
         json.dump(archived_payload, f, indent=2, ensure_ascii=False)
 
-    print(f"\n✓ Saved to {current_path} + {archived_path}")
+    print(f"\n✓ Saved to {current_path} + {archive_path}")
     print("\nSummary (current):")
     for level in LEVEL_KEYS:
         print(f"  {level:8s}: {len(current_payload[level])} words")
