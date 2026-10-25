@@ -1371,7 +1371,7 @@
       "trans_2": "聚會將在學校舉行。"
     },
     {
-      "date": "261023",
+      "date": "261030",
       "word": "problem",
       "chinese": "問題",
       "example_1": "I can fix this problem.",
@@ -1380,7 +1380,7 @@
       "trans_2": "我可以解出這道數學題。"
     },
     {
-      "date": "261023",
+      "date": "261030",
       "word": "middle",
       "chinese": "中間",
       "example_1": "I sit in the middle of the bus.",
@@ -1389,7 +1389,7 @@
       "trans_2": "我坐在中間的座位。"
     },
     {
-      "date": "261023",
+      "date": "261030",
       "word": "guide",
       "chinese": "指導",
       "example_1": "The map will guide us home.",
@@ -1398,7 +1398,7 @@
       "trans_2": "導遊幫我們找到了公園。"
     },
     {
-      "date": "261023",
+      "date": "261030",
       "word": "dolphin",
       "chinese": "海豚",
       "example_1": "The dolphin can jump out of the water.",
@@ -1407,7 +1407,7 @@
       "trans_2": "海豚是非常聰明的海洋動物。"
     },
     {
-      "date": "261023",
+      "date": "261030",
       "word": "solve",
       "chinese": "解決",
       "example_1": "I can solve this easy puzzle.",
@@ -1416,7 +1416,7 @@
       "trans_2": "我爸爸幫我解數學題。"
     },
     {
-      "date": "261023",
+      "date": "261030",
       "word": "still",
       "chinese": "仍然",
       "example_1": "Please stand still for the picture.",
@@ -1425,7 +1425,7 @@
       "trans_2": "請站住不動拍照。"
     },
     {
-      "date": "261023",
+      "date": "261106",
       "word": "picnic",
       "chinese": "野餐",
       "example_1": "We ate lunch at a fun picnic.",
@@ -1434,7 +1434,7 @@
       "trans_2": "我們在公園野餐，玩得很開心。"
     },
     {
-      "date": "261023",
+      "date": "261106",
       "word": "messy",
       "chinese": "凌亂的",
       "example_1": "My room is very messy.",
@@ -1443,7 +1443,7 @@
       "trans_2": "我的桌子很亂。"
     },
     {
-      "date": "261023",
+      "date": "261106",
       "word": "napkin",
       "chinese": "餐巾",
       "example_1": "I need a napkin for my lunch.",
@@ -1452,7 +1452,7 @@
       "trans_2": "用餐巾紙擦臉。"
     },
     {
-      "date": "261023",
+      "date": "261106",
       "word": "suppose",
       "chinese": "認為",
       "example_1": "I suppose we can play a game.",
@@ -1461,13 +1461,22 @@
       "trans_2": "假設我們今天去公園。"
     },
     {
-      "date": "261023",
+      "date": "261106",
       "word": "count on",
       "chinese": "指望",
       "example_1": "You can count on me to help you.",
       "example_2": "Can I count on you to help me on this?",
       "trans_1": "你可以指望我幫你。",
       "trans_2": "這件事你能幫幫我嗎？"
+    },
+    {
+      "date": "261106",
+      "word": "both",
+      "chinese": "兩個都",
+      "example_1": "I like both cats and dogs.",
+      "example_2": "We both like to play.",
+      "trans_1": "我既喜歡貓也喜歡狗。",
+      "trans_2": "我們倆都喜歡玩。"
     }
   ],
   "level2": [
@@ -2261,7 +2270,7 @@
       "example_1": "Mom set the fresh apples on the kitchen counter.",
       "example_2": "I like to sit at the counter at breakfast so I can talk to my mom.",
       "trans_1": "媽媽把新鮮蘋果放在廚房檯面上。",
-      "trans_2": "我喜歡在早餐時坐在吧台邊，這樣我就可以和媽媽聊天了。"
+      "trans_2": "我喜歡在早餐時坐在吧台邊，這樣我就可以和媽媽聊天。"
     },
     {
       "date": "261021",
@@ -2766,7 +2775,7 @@
       "chinese": "運動",
       "example_1": "The slow motion of the swing made the baby fall asleep.",
       "example_2": "The swing moved back and forth with a gentle motion.",
-      "trans_1": "鞦韆的緩慢搖晃讓寶寶睡著了。",
+      "trans_1": "搖椅的緩慢擺動讓寶寶睡著了。",
       "trans_2": "鞦韆輕輕地來回擺動。"
     },
     {
@@ -3507,7 +3516,7 @@
       "example_1": "The couple is happy about their engagement.",
       "example_2": "The students showed great engagement during the fun class discussion.",
       "trans_1": "這對情侶對訂婚感到非常高興。",
-      "trans_2": "學生們在輕鬆愉快的課堂討論中展現了極大的參與。"
+      "trans_2": "學生們在輕鬆愉快的課堂討論中表現出了極大的參與。"
     },
     {
       "date": "261015",
@@ -3552,7 +3561,7 @@
       "example_1": "Washing your hands with soap is an effective way to prevent the spread of germs.",
       "example_2": "Wearing a warm coat is an effective way to stay comfortable on a cold winter day.",
       "trans_1": "用肥皂洗手是預防細菌傳播的有效方法。",
-      "trans_2": "在寒冷的冬日裡，穿著保暖的外套是保持舒適的有效方法。"
+      "trans_2": "在寒冷的冬日裡，穿著保暖的外套是保持舒適有效的方法。"
     },
     {
       "date": "261015",
@@ -3624,7 +3633,7 @@
       "example_1": "The plastic ruler was so rigid that it snapped when he tried to bend it.",
       "example_2": "The cardboard box was so rigid that it did not bend under the weight of the heavy books.",
       "trans_1": "那把塑膠尺非常硬，他一彎就斷了。",
-      "trans_2": "紙箱非常堅固，即使裝上沉重的書籍也不會彎曲變形。"
+      "trans_2": "紙箱非常堅固，即使裝滿了厚重的書籍，也沒有變形。"
     },
     {
       "date": "261015",
@@ -3632,7 +3641,7 @@
       "chinese": "生病",
       "example_1": "I had to stay home from school when I began to come down with a cold.",
       "example_2": "I hope I do not come down with a cold right before the class field trip.",
-      "trans_1": "我開始感冒的時候，只好待在家裡沒去上學。",
+      "trans_1": "我開始感冒了，所以我不得不待在家裡沒去上學。",
       "trans_2": "我希望在班級郊遊前不要感冒。"
     },
     {
