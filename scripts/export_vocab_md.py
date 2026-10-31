@@ -3,17 +3,28 @@
 Export the website vocabulary JSON into one markdown file per level per semester.
 
 Why: DeepTutor's knowledge bases ingest files (upload / github-source / web-source),
-not Google Sheets. This script is the bridge: Sheets -> data/vocab_{current,archived}.json
--> data/kb/vocab_{current,archived}_{level}.md.
+not Google Sheets. This script is the bridge:
 
-One markdown file per level per semester because DeepTutor chunks on document
-boundaries and grants KBs per user account: a student at Level 2 should only
-ever retrieve Level 2 material. The archived semester lives in the same
-directory but under a distinct filename so it can be excluded from a KB by
-glob, or given its own KB.
+    Sheets -> data/vocab_{current,archived}.json -> data/kb/{current,archived}/*.md
+
+One markdown file per level per semester, in two directories:
+
+    data/kb/current/<level>.md     current semester (2026 Fall)
+    data/kb/archived/<level>.md    frozen prior semester (2025 Fall)
+
+The two directories are separate on purpose. DeepTutor keys a github-source by
+md5(repo:branch:path), so one KB can hold at most ONE source per path — a
+second source needs a second path. Splitting current/archived into their own
+directories lets a single KB take both, while keeping the archived semester out
+of the default path.
+
+Per-level files (rather than one big file) because DeepTutor grants knowledge
+bases per user account. One KB per level, and a student gets cumulative grants
+(BASIC + L1 + L2 for a Level 2 student), mirrors the level hierarchy the
+existing esl-rag-chatbot already implements.
 
 Usage:
-  python3 scripts/export_vocab_md.py            # write data/kb/*.md
+  python3 scripts/export_vocab_md.py            # write data/kb/**/*.md
   python3 scripts/export_vocab_md.py --check    # verify files match the JSON
 """
 
@@ -24,16 +35,15 @@ import sys
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 OUT = DATA / "kb"
+OUT_CURRENT = OUT / "current"
+OUT_ARCHIVED = OUT / "archived"
 
 LEVEL_KEYS = ["basic", "level1", "level2", "level3", "level4"]
 
-# DeepTutor KB filename convention.
-SLUG = {"basic": "basic", "level1": "level1", "level2": "level2",
-        "level3": "level3", "level4": "level4"}
-
 
 def render(words, level, label):
-    lines = [f"# Vocabulary \u2014 {level} ({label})", ""]
+    """One `## word` heading per entry so chunks break on the word boundary."""
+    lines = [f"# Vocabulary — {level} ({label})", ""]
     for w in words:
         word = (w.get("word") or "").strip()
         if not word:
@@ -50,16 +60,17 @@ def render(words, level, label):
 
 
 def build():
+    """Return {relative_path: content} for every markdown file we publish."""
     out = {}
-    for bucket, json_name, label_key in (
-        ("current", "vocab_current.json", "current_label"),
-        ("archived", "vocab_archived.json", "archived_label"),
+    for bucket, subdir, json_name, label_key in (
+        ("current", OUT_CURRENT, "vocab_current.json", "current_label"),
+        ("archived", OUT_ARCHIVED, "vocab_archived.json", "archived_label"),
     ):
         data = json.loads((DATA / json_name).read_text(encoding="utf-8"))
         label = data.get(label_key, "")
         for level in LEVEL_KEYS:
-            name = f"vocab_{bucket}_{SLUG[level]}.md"
-            out[name] = render(data.get(level, []), level, label)
+            name = f"vocab_{bucket}_{level}.md"
+            out[f"{subdir.relative_to(ROOT)}/{name}"] = render(data.get(level, []), level, label)
     return out
 
 
@@ -67,20 +78,18 @@ def main():
     check = "--check" in sys.argv
     files = build()
     if check:
-        bad = []
-        for name, body in files.items():
-            p = OUT / name
-            if not p.exists() or p.read_text(encoding="utf-8") != body:
-                bad.append(name)
+        bad = [rel for rel, body in files.items()
+               if not (ROOT / rel).exists() or (ROOT / rel).read_text(encoding="utf-8") != body]
         if bad:
             print("STALE: " + ", ".join(bad))
             return 1
         print(f"OK: {len(files)} files match the JSON")
         return 0
-    OUT.mkdir(parents=True, exist_ok=True)
-    for name, body in files.items():
-        (OUT / name).write_text(body, encoding="utf-8")
-        print(f"wrote {name} ({len(body)} bytes)")
+    for rel, body in files.items():
+        path = ROOT / rel
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(body, encoding="utf-8")
+        print(f"wrote {rel} ({len(body)} bytes)")
     return 0
 
 
