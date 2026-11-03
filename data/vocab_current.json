@@ -764,6 +764,114 @@
       "example_2": "There are two big dogs in the yard.",
       "trans_1": "院子裡有三隻貓。",
       "trans_2": "院子裡有兩隻大狗。"
+    },
+    {
+      "date": "261028",
+      "word": "fast",
+      "chinese": "快",
+      "example_1": "The car is fast.",
+      "example_2": "The dog can run fast.",
+      "trans_1": "這輛車速度很快。",
+      "trans_2": "這隻狗跑得很快。"
+    },
+    {
+      "date": "261028",
+      "word": "drop",
+      "chinese": "掉",
+      "example_1": "Do not drop the cup.",
+      "example_2": "Do not drop the toy.",
+      "trans_1": "不要把杯子摔了。",
+      "trans_2": "不要把玩具摔了。"
+    },
+    {
+      "date": "261028",
+      "word": "give",
+      "chinese": "給",
+      "example_1": "Please give me a book.",
+      "example_2": "Please give me a red apple.",
+      "trans_1": "請給我一本書。",
+      "trans_2": "請給我一個紅蘋果。"
+    },
+    {
+      "date": "261028",
+      "word": "want",
+      "chinese": "想",
+      "example_1": "I want a new toy.",
+      "example_2": "I want to play outside today.",
+      "trans_1": "我想要一個新玩具。",
+      "trans_2": "我今天想出去玩。"
+    },
+    {
+      "date": "261028",
+      "word": "count",
+      "chinese": "數",
+      "example_1": "I can count to ten.",
+      "example_2": "I can count to ten all by myself.",
+      "trans_1": "我會數到十。",
+      "trans_2": "我可以自己數到十。"
+    },
+    {
+      "date": "261028",
+      "word": "a lot",
+      "chinese": "很多",
+      "example_1": "I see a lot of dogs.",
+      "example_2": "I love my family a lot.",
+      "trans_1": "我看到很多狗。",
+      "trans_2": "我非常愛我的家人。"
+    },
+    {
+      "date": "261104",
+      "word": "mop",
+      "chinese": "拖把",
+      "example_1": "I can use the mop.",
+      "example_2": "I will mop the clean floor.",
+      "trans_1": "我可以用拖把。",
+      "trans_2": "我會拖乾淨的地板。"
+    },
+    {
+      "date": "261104",
+      "word": "top",
+      "chinese": "頂部",
+      "example_1": "I see a red top.",
+      "example_2": "The toy top can spin fast.",
+      "trans_1": "我看到一件紅色上衣。",
+      "trans_2": "這款玩具陀螺可以快速旋轉。"
+    },
+    {
+      "date": "261104",
+      "word": "stop",
+      "chinese": "停止",
+      "example_1": "Please stop here.",
+      "example_2": "We stop at the red light.",
+      "trans_1": "請到此為止。",
+      "trans_2": "我們在紅燈前停了下來。"
+    },
+    {
+      "date": "261104",
+      "word": "cop",
+      "chinese": "警察",
+      "example_1": "A cop helps people.",
+      "example_2": "A cop helps keep us safe.",
+      "trans_1": "警察幫助人民。",
+      "trans_2": "警察幫助我們保持安全。"
+    },
+    {
+      "date": "261104",
+      "word": "not",
+      "chinese": "不",
+      "example_1": "That is not my dog.",
+      "example_2": "I am not sleepy yet.",
+      "trans_1": "那不是我的狗。",
+      "trans_2": "我還沒睏。"
+    },
+    {
+      "date": "261104",
+      "word": "open",
+      "chinese": "開",
+      "example_1": "Please open the box.",
+      "example_2": "Please open the door for me.",
+      "trans_1": "請打開盒子。",
+      "trans_2": "請幫我開門。"
     }
   ],
   "level1": [
@@ -1423,60 +1531,6 @@
       "example_2": "Please stand still for the photo.",
       "trans_1": "請站住不動拍照。",
       "trans_2": "請站住不動拍照。"
-    },
-    {
-      "date": "261106",
-      "word": "picnic",
-      "chinese": "野餐",
-      "example_1": "We ate lunch at a fun picnic.",
-      "example_2": "We had a fun picnic at the park.",
-      "trans_1": "我們參加了一個有趣的野餐活動，並在那裡吃了午餐。",
-      "trans_2": "我們在公園野餐，玩得很開心。"
-    },
-    {
-      "date": "261106",
-      "word": "messy",
-      "chinese": "凌亂的",
-      "example_1": "My room is very messy.",
-      "example_2": "My desk is very messy.",
-      "trans_1": "我的房間很亂。",
-      "trans_2": "我的桌子很亂。"
-    },
-    {
-      "date": "261106",
-      "word": "napkin",
-      "chinese": "餐巾",
-      "example_1": "I need a napkin for my lunch.",
-      "example_2": "Use a napkin to wipe your face.",
-      "trans_1": "我需要一張餐巾紙。",
-      "trans_2": "用餐巾紙擦臉。"
-    },
-    {
-      "date": "261106",
-      "word": "suppose",
-      "chinese": "認為",
-      "example_1": "I suppose we can play a game.",
-      "example_2": "Suppose we go to the park today.",
-      "trans_1": "我想我們可以玩個遊戲。",
-      "trans_2": "假設我們今天去公園。"
-    },
-    {
-      "date": "261106",
-      "word": "count on",
-      "chinese": "指望",
-      "example_1": "You can count on me to help you.",
-      "example_2": "Can I count on you to help me on this?",
-      "trans_1": "你可以指望我幫你。",
-      "trans_2": "這件事你能幫幫我嗎？"
-    },
-    {
-      "date": "261106",
-      "word": "both",
-      "chinese": "兩個都",
-      "example_1": "I like both cats and dogs.",
-      "example_2": "We both like to play.",
-      "trans_1": "我既喜歡貓也喜歡狗。",
-      "trans_2": "我們倆都喜歡玩。"
     }
   ],
   "level2": [
@@ -3000,7 +3054,7 @@
       "chinese": "程度 度數",
       "example_1": "The weather reporter said the temperature would rise one degree today.",
       "example_2": "The thermometer showed that the temperature went up by one degree.",
-      "trans_1": "氣象預報員說今天氣溫將上升一度。",
+      "trans_1": "氣象預報員說，今天氣溫將上升一度。",
       "trans_2": "溫度計顯示溫度上升了一度。"
     },
     {
