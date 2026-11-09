@@ -19,8 +19,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Caveat:wght@400;700&display=swap" rel="stylesheet">
     <style>
         :root {
-            --primary-brown: #857251;
-            --accent-gold: #CEA964;
+            --primary-brown: #766448;
+            --accent-gold: #8C6A2C;
             --light-beige: #F7F4EE;
             --dark-text: #333;
             --white: #fff;
@@ -47,7 +47,7 @@
             align-items: center;
         }
         .logo {
-            color: var(--accent-gold);
+            color: #F5E9CC;
             font-family: 'Caveat', cursive;
             font-size: 1.8rem;
             font-weight: 700;
@@ -55,9 +55,9 @@
         }
         .nav-links { display: flex; list-style: none; gap: 2rem; }
         .nav-links a { color: var(--light-beige); text-decoration: none; font-weight: 600; transition: color 0.3s; }
-        .nav-links a:hover { color: var(--accent-gold); }
+        .nav-links a:hover { color: #F5E9CC; }
         .menu-toggle { display: none; background: none; border: none; cursor: pointer; flex-direction: column; gap: 5px; }
-        .menu-toggle span { width: 25px; height: 3px; background: var(--accent-gold); border-radius: 2px; }
+        .menu-toggle span { width: 25px; height: 3px; background: #F5E9CC; border-radius: 2px; }
         main {
             flex: 1;
             display: flex;
@@ -72,7 +72,7 @@
             max-width: 560px;
             width: 100%;
             text-align: center;
-            box-shadow: 0 4px 20px rgba(133, 114, 81, 0.12);
+            box-shadow: 0 4px 20px rgba(118, 100, 72, 0.12);
         }
         .error-code {
             font-family: 'Caveat', cursive;
@@ -136,9 +136,9 @@
             padding: 1.2rem;
             font-size: 0.9rem;
         }
-        footer a { color: var(--accent-gold); text-decoration: none; }
+        footer a { color: #F5E9CC; text-decoration: none; }
         @media (max-width: 768px) {
-            .nav-links { display: none; position: absolute; top: 100%; left: 0; width: 100%; background: rgba(133, 114, 81, 0.98); flex-direction: column; padding: 1rem; gap: 1rem; }
+            .nav-links { display: none; position: absolute; top: 100%; left: 0; width: 100%; background: rgba(118, 100, 72, 0.98); flex-direction: column; padding: 1rem; gap: 1rem; }
             .nav-links.active { display: flex; }
             .menu-toggle { display: flex; }
             nav { position: relative; }

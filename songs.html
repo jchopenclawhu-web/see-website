@@ -22,8 +22,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Caveat:wght@400;700&display=swap" rel="stylesheet">
     <style>
         :root {
-            --primary-brown: #857251;
-            --accent-gold: #CEA964;
+            --primary-brown: #766448;
+            --accent-gold: #8C6A2C;
             --light-beige: #F7F4EE;
             --dark-text: #333;
             --white: #fff;
@@ -114,7 +114,7 @@
         
         .hero p {
             font-size: 1.2rem;
-            opacity: 0.9;
+            color: #F7F4EE;
         }
         
         /* Main Content */
@@ -220,6 +220,19 @@
             margin-bottom: 0.5rem;
         }
         
+        /* Visually hidden but available to screen readers */
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+
         .song-title {
             font-size: 1.1rem;
             color: var(--primary-brown);
@@ -227,7 +240,7 @@
         }
         
         .song-artist {
-            color: #888;
+            color: #666;
             font-size: 0.9rem;
         }
         
@@ -321,6 +334,7 @@
 
         <!-- Pre-K Songs -->
         <div id="prek" class="songs-container active">
+            <h2 class="sr-only">Pre-K 歌曲 Songs</h2>
             <div class="songs-grid">
                                 <div class="song-card">
                     <div class="video-container">
@@ -407,6 +421,7 @@
 
         <!-- Basic Songs -->
         <div id="basic" class="songs-container">
+            <h2 class="sr-only">Basic 歌曲 Songs</h2>
             <div class="songs-grid">
                                 <div class="song-card">
                     <div class="video-container">
@@ -533,6 +548,7 @@
 
         <!-- Level 1 Songs -->
         <div id="l1" class="songs-container">
+            <h2 class="sr-only">Level 1 歌曲 Songs</h2>
             <div class="songs-grid">
                                 <div class="song-card">
                     <div class="video-container">
@@ -659,6 +675,7 @@
 
         <!-- Level 2 Songs -->
         <div id="l2" class="songs-container">
+            <h2 class="sr-only">Level 2 歌曲 Songs</h2>
             <div class="songs-grid">
                                 <div class="song-card">
                     <div class="video-container">
@@ -766,6 +783,7 @@
 
         <!-- Level 3 Songs -->
         <div id="l3" class="songs-container">
+            <h2 class="sr-only">Level 3 歌曲 Songs</h2>
             <div class="songs-grid">
                                 <div class="song-card">
                     <div class="video-container">
@@ -892,6 +910,7 @@
 
         <!-- Level 4 Songs -->
         <div id="l4" class="songs-container">
+            <h2 class="sr-only">Level 4 歌曲 Songs</h2>
             <div class="songs-grid">
                                 <div class="song-card">
                     <div class="video-container">
