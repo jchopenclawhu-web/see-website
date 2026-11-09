@@ -27,7 +27,9 @@
             --light-beige: #F7F4EE;
             --dark-text: #333;
             --white: #fff;
-        }
+                    --focus-halo: #F7F4EE;
+            --focus-edge: #2C2416;
+}
         
         * {
             margin: 0;
@@ -297,7 +299,38 @@
                 grid-template-columns: 1fr;
             }
         }
-    </style>
+    
+        /* --- Accessibility -------------------------------------------------
+           Focus ring is two-tone: a cream inner band and a near-black outer
+           band. One colour cannot work here - the same ring has to be
+           visible on the cream page (#F7F4EE), the white nav (#FFFFFF) and
+           the brown nav/footer (#766448), and no single hue clears 3:1
+           against all three. Two-tone always leaves one band legible.
+           The transparent outline is the forced-colors fallback: when the
+           browser strips box-shadow, the outline still paints.
+           overflow-x: clip (never hidden) so the sticky nav keeps working. */
+        html, body {
+            overflow-x: clip;
+        }
+        a:focus-visible,
+        button:focus-visible,
+        input:focus-visible,
+        select:focus-visible,
+        textarea:focus-visible,
+        [tabindex]:focus-visible {
+            outline: 2px solid transparent;
+            outline-offset: 2px;
+            box-shadow: 0 0 0 2px var(--focus-halo), 0 0 0 4px var(--focus-edge);
+        }
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+                scroll-behavior: auto !important;
+            }
+        }
+</style>
 </head>
 <body>
     <!-- Navigation -->
