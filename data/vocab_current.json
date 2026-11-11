@@ -872,6 +872,96 @@
       "example_2": "Please open the door for me.",
       "trans_1": "請打開盒子。",
       "trans_2": "請幫我開門。"
+    },
+    {
+      "date": "261111",
+      "word": "close",
+      "chinese": "關閉",
+      "example_1": "Please close the door.",
+      "example_2": "We close the windows because it is cold outside.",
+      "trans_1": "請關上門。",
+      "trans_2": "因為外面冷，我們把窗戶關上了。"
+    },
+    {
+      "date": "261111",
+      "word": "read",
+      "chinese": "讀",
+      "example_1": "I can read a book.",
+      "example_2": "I like to read books.",
+      "trans_1": "我會讀書。",
+      "trans_2": "我喜歡讀書。"
+    },
+    {
+      "date": "261111",
+      "word": "draw",
+      "chinese": "畫",
+      "example_1": "I like to draw a cat.",
+      "example_2": "I can draw a sun.",
+      "trans_1": "我喜歡畫貓。",
+      "trans_2": "我會畫太陽。"
+    },
+    {
+      "date": "261111",
+      "word": "here",
+      "chinese": "這裡",
+      "example_1": "Come here and play.",
+      "example_2": "Come sit right here.",
+      "trans_1": "過來一起玩吧。",
+      "trans_2": "來，坐這裡。"
+    },
+    {
+      "date": "261111",
+      "word": "yellow",
+      "chinese": "黃色的",
+      "example_1": "The sun is yellow.",
+      "example_2": "Bananas are yellow.",
+      "trans_1": "太陽是黃色的。",
+      "trans_2": "香蕉是黃色的。"
+    },
+    {
+      "date": "261111",
+      "word": "color",
+      "chinese": "顏色",
+      "example_1": "There are seven colors in a rainbow.",
+      "example_2": "My favorite color is red.",
+      "trans_1": "彩虹有七種顏色。",
+      "trans_2": "我最喜歡的顏色是紅色。"
+    },
+    {
+      "date": "261111",
+      "word": "blue",
+      "chinese": "藍色的",
+      "example_1": "The sky is blue.",
+      "example_2": "Blue is my favorite color.",
+      "trans_1": "天空是藍色的。",
+      "trans_2": "藍色是我最喜歡的顏色。"
+    },
+    {
+      "date": "261111",
+      "word": "green",
+      "chinese": "綠色的",
+      "example_1": "The grass is green.",
+      "example_2": "The frog is green.",
+      "trans_1": "草是綠色的。",
+      "trans_2": "這隻青蛙是綠色的。"
+    },
+    {
+      "date": "261111",
+      "word": "five",
+      "chinese": "五",
+      "example_1": "I see five dogs.",
+      "example_2": "I have five cats.",
+      "trans_1": "我看到五隻狗。",
+      "trans_2": "我養了五隻貓。"
+    },
+    {
+      "date": "261111",
+      "word": "six",
+      "chinese": "六",
+      "example_1": "She has six cats.",
+      "example_2": "I see six ducks.",
+      "trans_1": "她養了六隻貓。",
+      "trans_2": "我看到六隻鴨子。"
     }
   ],
   "level1": [
@@ -1585,6 +1675,105 @@
       "example_2": "We both like to play.",
       "trans_1": "我既喜歡貓也喜歡狗。",
       "trans_2": "我們倆都喜歡玩。"
+    },
+    {
+      "date": "261113",
+      "word": "pants",
+      "chinese": "褲子",
+      "example_1": "I wear my blue pants to school.",
+      "example_2": "We buy 2 pairs of pants for school uniform.",
+      "trans_1": "我穿著我的藍色褲子去上學。",
+      "trans_2": "我們買了2條褲子當校服。"
+    },
+    {
+      "date": "261113",
+      "word": "shorts",
+      "chinese": "短褲",
+      "example_1": "He wears shorts on warm days.",
+      "example_2": "I wear shorts in the summer.",
+      "trans_1": "天氣暖和的時候他會穿短褲。",
+      "trans_2": "夏天我也穿短褲。"
+    },
+    {
+      "date": "261113",
+      "word": "skirt",
+      "chinese": "裙子",
+      "example_1": "She has a pretty red skirt.",
+      "example_2": "She has a yellow skirt.",
+      "trans_1": "她有一條漂亮的紅色裙子。",
+      "trans_2": "她穿著一條黃色裙子。"
+    },
+    {
+      "date": "261113",
+      "word": "fold",
+      "chinese": "折疊",
+      "example_1": "I can fold my clothes.",
+      "example_2": "I fold my clean clothes.",
+      "trans_1": "我會疊衣服。",
+      "trans_2": "我疊好乾淨的衣服。"
+    },
+    {
+      "date": "261113",
+      "word": "careful",
+      "chinese": "小心",
+      "example_1": "Please be careful with the glass.",
+      "example_2": "Be careful when you walk, the floor is wet.",
+      "trans_1": "請小心玻璃製品。",
+      "trans_2": "走路時小心，地面濕滑。"
+    },
+    {
+      "date": "261113",
+      "word": "special",
+      "chinese": "特別的",
+      "example_1": "Today is a very special day.",
+      "example_2": "You are a special friend.",
+      "trans_1": "今天是個非常特別的日子。",
+      "trans_2": "你是一位特別的朋友。"
+    },
+    {
+      "date": "261113",
+      "word": "remind",
+      "chinese": "提醒",
+      "example_1": "Please remind me to get my bag.",
+      "example_2": "Please remind me to wear my coat.",
+      "trans_1": "請提醒我拿包包。",
+      "trans_2": "請提醒我穿外套。"
+    },
+    {
+      "date": "261113",
+      "word": "guitar",
+      "chinese": "吉他",
+      "example_1": "He can play the guitar.",
+      "example_2": "I want to learn to play the guitar.",
+      "trans_1": "他會彈吉他。",
+      "trans_2": "我想學彈吉他。"
+    },
+    {
+      "date": "261113",
+      "word": "keyboard",
+      "chinese": "鍵盤",
+      "example_1": "I type on the keyboard.",
+      "example_2": "There are many keys on the keyboard.",
+      "trans_1": "我在鍵盤上打字。",
+      "trans_2": "鍵盤上有很多鍵。"
+    },
+    {
+      "date": "261113",
+      "word": "band",
+      "chinese": "樂團",
+      "example_1": "We play music in a band.",
+      "example_2": "The band plays music.",
+      "trans_1": "我們組了一支樂隊，演奏音樂。",
+      "trans_2": "樂隊正在演奏音樂。"
+    },
+    {
+      "date": "261113",
+      "word": "take care of",
+      "chinese": "照顧好",
+      "example_1": "I take care of my dog.",
+      "example_2": "My mom takes care of me.",
+      "trans_1": "我照顧我的狗。",
+      "trans_2": "我媽媽照顧我。"
     }
   ],
   "level2": [
@@ -2496,6 +2685,105 @@
       "example_2": "When the storm stopped, we knew all is well.",
       "trans_1": "媽媽給了我一個大大的擁抱，說一切都好。",
       "trans_2": "暴風雨停歇後，我們就知道一切都好起來了。"
+    },
+    {
+      "date": "261111",
+      "word": "famous",
+      "chinese": "著名的",
+      "example_1": "The singer is very famous.",
+      "example_2": "The famous singer sang a fun song for the kids.",
+      "trans_1": "這位歌手非常有名。",
+      "trans_2": "這位著名歌手為孩子們演唱了一首歡快的歌曲。"
+    },
+    {
+      "date": "261111",
+      "word": "total",
+      "chinese": "全部的",
+      "example_1": "The total number of apples is five.",
+      "example_2": "The total cost of the toys was five dollars.",
+      "trans_1": "蘋果總數為五個。",
+      "trans_2": "這些玩具總共花了五美元。"
+    },
+    {
+      "date": "261111",
+      "word": "without",
+      "chinese": "沒有",
+      "example_1": "I cannot go outside without my coat.",
+      "example_2": "I cannot go outside without my shoes.",
+      "trans_1": "不穿外套我不能出門。",
+      "trans_2": "我沒鞋不能出門。"
+    },
+    {
+      "date": "261111",
+      "word": "since",
+      "chinese": "自從",
+      "example_1": "I have been awake since morning.",
+      "example_2": "I have lived in this house since I was little.",
+      "trans_1": "我從早上就沒睡過。",
+      "trans_2": "我從小就住在這房子裡。"
+    },
+    {
+      "date": "261111",
+      "word": "proceed",
+      "chinese": "繼續",
+      "example_1": "You may proceed to your desk.",
+      "example_2": "Please proceed to the next line in the hallway.",
+      "trans_1": "您可以前往您的辦公桌。",
+      "trans_2": "請移步走廊下一隊。"
+    },
+    {
+      "date": "261111",
+      "word": "object",
+      "chinese": "目的",
+      "example_1": "What is that shiny object on the floor?",
+      "example_2": "I see a shiny object on the ground.",
+      "trans_1": "地板上那個閃閃發光的東西是什麼？",
+      "trans_2": "我看到地上有一個閃閃發光的物體。"
+    },
+    {
+      "date": "261111",
+      "word": "wrinkle",
+      "chinese": "皺紋",
+      "example_1": "My shirt has a small wrinkle on it.",
+      "example_2": "My grandma has a small wrinkle on her cheek when she smiles.",
+      "trans_1": "我的襯衫上有一點褶皺。",
+      "trans_2": "我奶奶微笑時臉頰上有一道細小的皺紋。"
+    },
+    {
+      "date": "261111",
+      "word": "mental",
+      "chinese": "精神的",
+      "example_1": "Playing puzzle games is good mental exercise.",
+      "example_2": "Doing puzzles is good mental exercise for your brain.",
+      "trans_1": "玩益智遊戲是一種很好的腦力鍛鍊。",
+      "trans_2": "做拼圖遊戲對大腦來說是一種很好的腦力鍛鍊。"
+    },
+    {
+      "date": "261111",
+      "word": "examination",
+      "chinese": "考試",
+      "example_1": "We have to take a big examination after junior high school.",
+      "example_2": "The doctor gave me a health examination.",
+      "trans_1": "國中畢業後我們要參加一次大考。",
+      "trans_2": "醫生幫我做了健康檢查。"
+    },
+    {
+      "date": "261111",
+      "word": "persuade",
+      "chinese": "說服",
+      "example_1": "I tried to persuade my mom to buy ice cream.",
+      "example_2": "I tried to persuade my mom to buy a toy.",
+      "trans_1": "我試著說服媽媽買冰淇淋。",
+      "trans_2": "我試著說服媽媽買個玩具。"
+    },
+    {
+      "date": "261111",
+      "word": "stay up",
+      "chinese": "熬夜",
+      "example_1": "My parents let me stay up late on Friday.",
+      "example_2": "I like to stay up late on the weekend.",
+      "trans_1": "星期五那天，我父母讓我熬夜。",
+      "trans_2": "我喜歡週末熬夜。"
     }
   ],
   "level3": [
@@ -3108,7 +3396,7 @@
       "chinese": "程度 度數",
       "example_1": "The weather reporter said the temperature would rise one degree today.",
       "example_2": "The thermometer showed that the temperature went up by one degree.",
-      "trans_1": "氣象預報員說，今天氣溫將上升一度。",
+      "trans_1": "氣象預報員說今天氣溫將上升一度。",
       "trans_2": "溫度計顯示溫度上升了一度。"
     },
     {
@@ -4073,7 +4361,7 @@
       "chinese": "維持",
       "example_1": "You need to water the plants regularly to maintain a healthy garden.",
       "example_2": "It is important to maintain your bicycle by keeping the tires filled with air and cleaning the chain.",
-      "trans_1": "要保持花園健康，需要定期給植物澆水。",
+      "trans_1": "為了保持花園健康，你需要定期給植物澆水。",
       "trans_2": "保持自行車輪胎氣壓充足並清潔鏈條是保養自行車的重要措施。"
     },
     {
@@ -4163,7 +4451,7 @@
       "chinese": "慾望",
       "example_1": "She had a strong desire to win the school spelling bee.",
       "example_2": "She had a strong desire to learn how to play the piano.",
-      "trans_1": "她非常渴望贏得學校拼字比賽。",
+      "trans_1": "她非常渴望贏得學校的拼字比賽。",
       "trans_2": "她非常渴望學習彈鋼琴。"
     },
     {
