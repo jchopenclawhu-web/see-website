@@ -553,3 +553,80 @@
 - Example 2: We both like to play.
 - Translation 2: 我們倆都喜歡玩。
 
+## pants
+- Chinese: 褲子
+- Example 1: I wear my blue pants to school.
+- Translation 1: 我穿著我的藍色褲子去上學。
+- Example 2: We buy 2 pairs of pants for school uniform.
+- Translation 2: 我們買了2條褲子當校服。
+
+## shorts
+- Chinese: 短褲
+- Example 1: He wears shorts on warm days.
+- Translation 1: 天氣暖和的時候他會穿短褲。
+- Example 2: I wear shorts in the summer.
+- Translation 2: 夏天我也穿短褲。
+
+## skirt
+- Chinese: 裙子
+- Example 1: She has a pretty red skirt.
+- Translation 1: 她有一條漂亮的紅色裙子。
+- Example 2: She has a yellow skirt.
+- Translation 2: 她穿著一條黃色裙子。
+
+## fold
+- Chinese: 折疊
+- Example 1: I can fold my clothes.
+- Translation 1: 我會疊衣服。
+- Example 2: I fold my clean clothes.
+- Translation 2: 我疊好乾淨的衣服。
+
+## careful
+- Chinese: 小心
+- Example 1: Please be careful with the glass.
+- Translation 1: 請小心玻璃製品。
+- Example 2: Be careful when you walk, the floor is wet.
+- Translation 2: 走路時小心，地面濕滑。
+
+## special
+- Chinese: 特別的
+- Example 1: Today is a very special day.
+- Translation 1: 今天是個非常特別的日子。
+- Example 2: You are a special friend.
+- Translation 2: 你是一位特別的朋友。
+
+## remind
+- Chinese: 提醒
+- Example 1: Please remind me to get my bag.
+- Translation 1: 請提醒我拿包包。
+- Example 2: Please remind me to wear my coat.
+- Translation 2: 請提醒我穿外套。
+
+## guitar
+- Chinese: 吉他
+- Example 1: He can play the guitar.
+- Translation 1: 他會彈吉他。
+- Example 2: I want to learn to play the guitar.
+- Translation 2: 我想學彈吉他。
+
+## keyboard
+- Chinese: 鍵盤
+- Example 1: I type on the keyboard.
+- Translation 1: 我在鍵盤上打字。
+- Example 2: There are many keys on the keyboard.
+- Translation 2: 鍵盤上有很多鍵。
+
+## band
+- Chinese: 樂團
+- Example 1: We play music in a band.
+- Translation 1: 我們組了一支樂隊，演奏音樂。
+- Example 2: The band plays music.
+- Translation 2: 樂隊正在演奏音樂。
+
+## take care of
+- Chinese: 照顧好
+- Example 1: I take care of my dog.
+- Translation 1: 我照顧我的狗。
+- Example 2: My mom takes care of me.
+- Translation 2: 我媽媽照顧我。
+

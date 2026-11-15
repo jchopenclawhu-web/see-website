@@ -621,7 +621,7 @@
 - Example 1: An apostrophe shows where letters are missing in a contraction.
 - Translation 1: 撇號表示縮寫詞中省略的字母。
 - Example 2: Remember to put an apostrophe in the word "don't" so your teacher knows it is a contraction.
-- Translation 2: 記得要在單字「don't」前面加上撇號，這樣你的老師就知道它是縮寫。
+- Translation 2: 記得要在單字「don't」中加上撇號，這樣你的老師就知道它是縮寫。
 
 ## garage
 - Chinese: 車庫
@@ -670,7 +670,7 @@
 - Example 1: The merchant sold colorful fabrics at his store.
 - Translation 1: 這位商人在他的店裡販售色彩鮮豔的布料。
 - Example 2: The friendly merchant sold fresh fruit at his market stand.
-- Translation 2: 這位和藹可親的商人在他的市場攤位上出售新鮮水果。
+- Translation 2: 這位友善的商人在他的市場攤位上出售新鮮水果。
 
 ## material
 - Chinese: 材料

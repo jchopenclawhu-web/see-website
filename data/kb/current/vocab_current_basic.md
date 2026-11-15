@@ -595,3 +595,157 @@
 - Example 2: There are two big dogs in the yard.
 - Translation 2: 院子裡有兩隻大狗。
 
+## fast
+- Chinese: 快
+- Example 1: The car is fast.
+- Translation 1: 這輛車速度很快。
+- Example 2: The dog can run fast.
+- Translation 2: 這隻狗跑得很快。
+
+## drop
+- Chinese: 掉
+- Example 1: Do not drop the cup.
+- Translation 1: 不要把杯子摔了。
+- Example 2: Do not drop the toy.
+- Translation 2: 不要把玩具摔了。
+
+## give
+- Chinese: 給
+- Example 1: Please give me a book.
+- Translation 1: 請給我一本書。
+- Example 2: Please give me a red apple.
+- Translation 2: 請給我一個紅蘋果。
+
+## want
+- Chinese: 想
+- Example 1: I want a new toy.
+- Translation 1: 我想要一個新玩具。
+- Example 2: I want to play outside today.
+- Translation 2: 我今天想出去玩。
+
+## count
+- Chinese: 數
+- Example 1: I can count to ten.
+- Translation 1: 我會數到十。
+- Example 2: I can count to ten all by myself.
+- Translation 2: 我可以自己數到十。
+
+## a lot
+- Chinese: 很多
+- Example 1: I see a lot of dogs.
+- Translation 1: 我看到很多狗。
+- Example 2: I love my family a lot.
+- Translation 2: 我非常愛我的家人。
+
+## mop
+- Chinese: 拖把
+- Example 1: I can use the mop.
+- Translation 1: 我可以用拖把。
+- Example 2: I will mop the clean floor.
+- Translation 2: 我會拖乾淨的地板。
+
+## top
+- Chinese: 頂部
+- Example 1: I see a red top.
+- Translation 1: 我看到一件紅色上衣。
+- Example 2: The toy top can spin fast.
+- Translation 2: 這款玩具陀螺可以快速旋轉。
+
+## stop
+- Chinese: 停止
+- Example 1: Please stop here.
+- Translation 1: 請到此為止。
+- Example 2: We stop at the red light.
+- Translation 2: 我們在紅燈前停了下來。
+
+## cop
+- Chinese: 警察
+- Example 1: A cop helps people.
+- Translation 1: 警察幫助人民。
+- Example 2: A cop helps keep us safe.
+- Translation 2: 警察幫助我們保持安全。
+
+## not
+- Chinese: 不
+- Example 1: That is not my dog.
+- Translation 1: 那不是我的狗。
+- Example 2: I am not sleepy yet.
+- Translation 2: 我還沒睏。
+
+## open
+- Chinese: 開
+- Example 1: Please open the box.
+- Translation 1: 請打開盒子。
+- Example 2: Please open the door for me.
+- Translation 2: 請幫我開門。
+
+## close
+- Chinese: 關閉
+- Example 1: Please close the door.
+- Translation 1: 請關上門。
+- Example 2: We close the windows because it is cold outside.
+- Translation 2: 因為外面冷，我們把窗戶關上了。
+
+## read
+- Chinese: 讀
+- Example 1: I can read a book.
+- Translation 1: 我會讀書。
+- Example 2: I like to read books.
+- Translation 2: 我喜歡讀書。
+
+## draw
+- Chinese: 畫
+- Example 1: I like to draw a cat.
+- Translation 1: 我喜歡畫貓。
+- Example 2: I can draw a sun.
+- Translation 2: 我會畫太陽。
+
+## here
+- Chinese: 這裡
+- Example 1: Come here and play.
+- Translation 1: 過來一起玩吧。
+- Example 2: Come sit right here.
+- Translation 2: 來，坐這裡。
+
+## yellow
+- Chinese: 黃色的
+- Example 1: The sun is yellow.
+- Translation 1: 太陽是黃色的。
+- Example 2: Bananas are yellow.
+- Translation 2: 香蕉是黃色的。
+
+## color
+- Chinese: 顏色
+- Example 1: There are seven colors in a rainbow.
+- Translation 1: 彩虹有七種顏色。
+- Example 2: My favorite color is red.
+- Translation 2: 我最喜歡的顏色是紅色。
+
+## blue
+- Chinese: 藍色的
+- Example 1: The sky is blue.
+- Translation 1: 天空是藍色的。
+- Example 2: Blue is my favorite color.
+- Translation 2: 藍色是我最喜歡的顏色。
+
+## green
+- Chinese: 綠色的
+- Example 1: The grass is green.
+- Translation 1: 草是綠色的。
+- Example 2: The frog is green.
+- Translation 2: 這隻青蛙是綠色的。
+
+## five
+- Chinese: 五
+- Example 1: I see five dogs.
+- Translation 1: 我看到五隻狗。
+- Example 2: I have five cats.
+- Translation 2: 我養了五隻貓。
+
+## six
+- Chinese: 六
+- Example 1: She has six cats.
+- Translation 1: 她養了六隻貓。
+- Example 2: I see six ducks.
+- Translation 2: 我看到六隻鴨子。
+

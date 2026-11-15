@@ -707,3 +707,80 @@
 - Example 2: When the storm stopped, we knew all is well.
 - Translation 2: 暴風雨停歇後，我們就知道一切都好起來了。
 
+## famous
+- Chinese: 著名的
+- Example 1: The singer is very famous.
+- Translation 1: 這位歌手非常有名。
+- Example 2: The famous singer sang a fun song for the kids.
+- Translation 2: 這位著名歌手為孩子們演唱了一首歡快的歌曲。
+
+## total
+- Chinese: 全部的
+- Example 1: The total number of apples is five.
+- Translation 1: 蘋果總數為五個。
+- Example 2: The total cost of the toys was five dollars.
+- Translation 2: 這些玩具總共花了五美元。
+
+## without
+- Chinese: 沒有
+- Example 1: I cannot go outside without my coat.
+- Translation 1: 不穿外套我不能出門。
+- Example 2: I cannot go outside without my shoes.
+- Translation 2: 我沒鞋不能出門。
+
+## since
+- Chinese: 自從
+- Example 1: I have been awake since morning.
+- Translation 1: 我從早上就沒睡過。
+- Example 2: I have lived in this house since I was little.
+- Translation 2: 我從小就住在這房子裡。
+
+## proceed
+- Chinese: 繼續
+- Example 1: You may proceed to your desk.
+- Translation 1: 您可以前往您的辦公桌。
+- Example 2: Please proceed to the next line in the hallway.
+- Translation 2: 請移步走廊下一隊。
+
+## object
+- Chinese: 目的
+- Example 1: What is that shiny object on the floor?
+- Translation 1: 地板上那個閃閃發光的東西是什麼？
+- Example 2: I see a shiny object on the ground.
+- Translation 2: 我看到地上有一個閃閃發光的物體。
+
+## wrinkle
+- Chinese: 皺紋
+- Example 1: My shirt has a small wrinkle on it.
+- Translation 1: 我的襯衫上有一點褶皺。
+- Example 2: My grandma has a small wrinkle on her cheek when she smiles.
+- Translation 2: 我奶奶微笑時臉頰上有一道細小的皺紋。
+
+## mental
+- Chinese: 精神的
+- Example 1: Playing puzzle games is good mental exercise.
+- Translation 1: 玩益智遊戲是一種很好的腦力鍛鍊。
+- Example 2: Doing puzzles is good mental exercise for your brain.
+- Translation 2: 做拼圖遊戲對大腦來說是一種很好的腦力鍛鍊。
+
+## examination
+- Chinese: 考試
+- Example 1: We have to take a big examination after junior high school.
+- Translation 1: 國中畢業後我們要參加一次大考。
+- Example 2: The doctor gave me a health examination.
+- Translation 2: 醫生幫我做了健康檢查。
+
+## persuade
+- Chinese: 說服
+- Example 1: I tried to persuade my mom to buy ice cream.
+- Translation 1: 我試著說服媽媽買冰淇淋。
+- Example 2: I tried to persuade my mom to buy a toy.
+- Translation 2: 我試著說服媽媽買個玩具。
+
+## stay up
+- Chinese: 熬夜
+- Example 1: My parents let me stay up late on Friday.
+- Translation 1: 星期五那天，我父母讓我熬夜。
+- Example 2: I like to stay up late on the weekend.
+- Translation 2: 我喜歡週末熬夜。
+
