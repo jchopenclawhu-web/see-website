@@ -621,7 +621,7 @@
 - Example 1: An apostrophe shows where letters are missing in a contraction.
 - Translation 1: 撇號表示縮寫詞中省略的字母。
 - Example 2: Remember to put an apostrophe in the word "don't" so your teacher knows it is a contraction.
-- Translation 2: 記得要在單字「don't」中加上撇號，這樣你的老師就知道它是縮寫。
+- Translation 2: 記得要在單字「don't」前面加上撇號，這樣你的老師就知道它是縮寫。
 
 ## garage
 - Chinese: 車庫
@@ -633,7 +633,7 @@
 ## maintain
 - Chinese: 維持
 - Example 1: You need to water the plants regularly to maintain a healthy garden.
-- Translation 1: 為了保持花園健康，你需要定期給植物澆水。
+- Translation 1: 要保持花園健康，需要定期給植物澆水。
 - Example 2: It is important to maintain your bicycle by keeping the tires filled with air and cleaning the chain.
 - Translation 2: 保持自行車輪胎氣壓充足並清潔鏈條是保養自行車的重要措施。
 
@@ -670,7 +670,7 @@
 - Example 1: The merchant sold colorful fabrics at his store.
 - Translation 1: 這位商人在他的店裡販售色彩鮮豔的布料。
 - Example 2: The friendly merchant sold fresh fruit at his market stand.
-- Translation 2: 這位友善的商人在他的市場攤位上出售新鮮水果。
+- Translation 2: 這位和藹可親的商人在他的市場攤位上出售新鮮水果。
 
 ## material
 - Chinese: 材料

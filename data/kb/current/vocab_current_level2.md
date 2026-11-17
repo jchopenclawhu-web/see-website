@@ -724,7 +724,7 @@
 ## without
 - Chinese: 沒有
 - Example 1: I cannot go outside without my coat.
-- Translation 1: 不穿外套我不能出門。
+- Translation 1: 沒有外套我不能出門。
 - Example 2: I cannot go outside without my shoes.
 - Translation 2: 我沒鞋不能出門。
 
@@ -740,7 +740,7 @@
 - Example 1: You may proceed to your desk.
 - Translation 1: 您可以前往您的辦公桌。
 - Example 2: Please proceed to the next line in the hallway.
-- Translation 2: 請移步走廊下一隊。
+- Translation 2: 請移步走廊下一通道。
 
 ## object
 - Chinese: 目的
@@ -782,5 +782,82 @@
 - Example 1: My parents let me stay up late on Friday.
 - Translation 1: 星期五那天，我父母讓我熬夜。
 - Example 2: I like to stay up late on the weekend.
-- Translation 2: 我喜歡週末熬夜。
+- Translation 2: 我喜歡在週末晚睡。
+
+## inspect
+- Chinese: 檢查
+- Example 1: The teacher will inspect our clean desks.
+- Translation 1: 老師會檢查我們乾淨的課桌。
+- Example 2: I inspect my backpack before I go to sleep every night.
+- Translation 2: 我每天晚上睡覺前都會檢查我的背包。
+
+## however
+- Chinese: 然而
+- Example 1: I wanted to play outside, however it started to rain.
+- Translation 1: 我想出去玩，可是開始下雨了。
+- Example 2: It is too hot, however our AC is broken.
+- Translation 2: 天氣太熱了，可是我們的冷氣壞了。
+
+## concern
+- Chinese: 憂慮
+- Example 1: Her sick puppy was a big concern for the family.
+- Translation 1: 她生病的小狗讓全家都非常擔心。
+- Example 2: My mom is concerned about my grades.
+- Translation 2: 我媽媽很擔心我的成績。
+
+## moment
+- Chinese: 片刻
+- Example 1: Please wait a moment for the bus to stop.
+- Translation 1: 請稍等片刻，待公車停穩。
+- Example 2: Please wait for a moment while I tie my shoes.
+- Translation 2: 請稍等片刻，我正在繫鞋帶。
+
+## harvest
+- Chinese: 收成
+- Example 1: Farmers harvest apples in the fall.
+- Translation 1: 農民在秋季收穫蘋果。
+- Example 2: Farmers harvest pumpkins and apples in the fall.
+- Translation 2: 秋季，農民收穫南瓜和蘋果。
+
+## owe
+- Chinese: 欠
+- Example 1: I owe my brother one dollar for the toy.
+- Translation 1: 我欠我哥哥一美元，是買玩具的錢。
+- Example 2: I don't owe you anything.
+- Translation 2: 我不欠你任何東西。
+
+## medical
+- Chinese: 醫療的
+- Example 1: She went to the clinic for medical help.
+- Translation 1: 她去診所尋求醫療協助。
+- Example 2: He needed medical help after he fell off his bike.
+- Translation 2: 他從自行車上摔下來後需要就醫。
+
+## cure
+- Chinese: 治癒
+- Example 1: Rest can help cure a cold.
+- Translation 1: 休息有助於緩解感冒症狀。
+- Example 2: Rest and warm soup can help cure a cold.
+- Translation 2: 休息和喝熱湯有助於治癒感冒。
+
+## silent
+- Chinese: 沉默的
+- Example 1: The library was completely silent.
+- Translation 1: 圖書館裡一片寂靜。
+- Example 2: We must stay silent when the teacher is talking.
+- Translation 2: 老師講話時，我們必須保持安靜。
+
+## expensive
+- Chinese: 昂貴的
+- Example 1: That new toy is very expensive.
+- Translation 1: 那件新玩具很貴。
+- Example 2: That big toy car is very expensive.
+- Translation 2: 那輛大型玩具車很貴。
+
+## at once
+- Chinese: 立刻
+- Example 1: Please put your toys away at once.
+- Translation 1: 請立即把玩具收起來。
+- Example 2: When the bell rang, all the kids ran outside at once.
+- Translation 2: 鈴聲一響，所有孩子都同時跑了出去。
 

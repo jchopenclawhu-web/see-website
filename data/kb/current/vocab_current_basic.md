@@ -749,3 +749,73 @@
 - Example 2: I see six ducks.
 - Translation 2: 我看到六隻鴨子。
 
+## time
+- Chinese: 時間
+- Example 1: It is time to play.
+- Translation 1: 遊戲時間到了。
+- Example 2: It is time to go to bed.
+- Translation 2: 該睡覺了。
+
+## for
+- Chinese: 為了
+- Example 1: This is for you.
+- Translation 1: 這是給您的。
+- Example 2: This book is for you.
+- Translation 2: 這本書是為你準備的。
+
+## bake
+- Chinese: 烤
+- Example 1: We can bake a cake.
+- Translation 1: 我們可以烤蛋糕。
+- Example 2: My family likes to bake cookies.
+- Translation 2: 我家喜歡烤餅乾。
+
+## ride
+- Chinese: 騎
+- Example 1: I ride my bike.
+- Translation 1: 我騎自行車。
+- Example 2: I like to ride my bike.
+- Translation 2: 我喜歡騎自行車。
+
+## eat
+- Chinese: 吃
+- Example 1: I like to eat.
+- Translation 1: 我喜歡吃東西。
+- Example 2: I like to eat apples.
+- Translation 2: 我喜歡吃蘋果。
+
+## water
+- Chinese: 水
+- Example 1: I drink water.
+- Translation 1: 我喝水。
+- Example 2: I drink water every day.
+- Translation 2: 我每天都喝水。
+
+## purple
+- Chinese: 紫色的
+- Example 1: I see a purple hat.
+- Translation 1: 我看到一頂紫色的帽子。
+- Example 2: I see a purple fish.
+- Translation 2: 我看到一條紫色的魚。
+
+## red
+- Chinese: 紅色的
+- Example 1: I see a red apple.
+- Translation 1: 我看到一個紅蘋果。
+- Example 2: The apple is red.
+- Translation 2: 這個蘋果是紅色的。
+
+## seven
+- Chinese: 七
+- Example 1: I am seven years old.
+- Translation 1: 我七歲了。
+- Example 2: I see seven dogs.
+- Translation 2: 我看到了七隻狗。
+
+## eight
+- Chinese: 八
+- Example 1: I see eight cats.
+- Translation 1: 我看到了八隻貓。
+- Example 2: We have eight cats.
+- Translation 2: 我們家養了八隻貓。
+
