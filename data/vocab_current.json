@@ -962,6 +962,96 @@
       "example_2": "I see six ducks.",
       "trans_1": "她養了六隻貓。",
       "trans_2": "我看到六隻鴨子。"
+    },
+    {
+      "date": "261118",
+      "word": "time",
+      "chinese": "時間",
+      "example_1": "It is time to play.",
+      "example_2": "It is time to go to bed.",
+      "trans_1": "遊戲時間到了。",
+      "trans_2": "該睡覺了。"
+    },
+    {
+      "date": "261118",
+      "word": "for",
+      "chinese": "為了",
+      "example_1": "This is for you.",
+      "example_2": "This book is for you.",
+      "trans_1": "這是給您的。",
+      "trans_2": "這本書是為你準備的。"
+    },
+    {
+      "date": "261118",
+      "word": "bake",
+      "chinese": "烤",
+      "example_1": "We can bake a cake.",
+      "example_2": "My family likes to bake cookies.",
+      "trans_1": "我們可以烤蛋糕。",
+      "trans_2": "我家喜歡烤餅乾。"
+    },
+    {
+      "date": "261118",
+      "word": "ride",
+      "chinese": "騎",
+      "example_1": "I ride my bike.",
+      "example_2": "I like to ride my bike.",
+      "trans_1": "我騎自行車。",
+      "trans_2": "我喜歡騎自行車。"
+    },
+    {
+      "date": "261118",
+      "word": "eat",
+      "chinese": "吃",
+      "example_1": "I like to eat.",
+      "example_2": "I like to eat apples.",
+      "trans_1": "我喜歡吃東西。",
+      "trans_2": "我喜歡吃蘋果。"
+    },
+    {
+      "date": "261118",
+      "word": "water",
+      "chinese": "水",
+      "example_1": "I drink water.",
+      "example_2": "I drink water every day.",
+      "trans_1": "我喝水。",
+      "trans_2": "我每天都喝水。"
+    },
+    {
+      "date": "261118",
+      "word": "purple",
+      "chinese": "紫色的",
+      "example_1": "I see a purple hat.",
+      "example_2": "I see a purple fish.",
+      "trans_1": "我看到一頂紫色的帽子。",
+      "trans_2": "我看到一條紫色的魚。"
+    },
+    {
+      "date": "261118",
+      "word": "red",
+      "chinese": "紅色的",
+      "example_1": "I see a red apple.",
+      "example_2": "The apple is red.",
+      "trans_1": "我看到一個紅蘋果。",
+      "trans_2": "這個蘋果是紅色的。"
+    },
+    {
+      "date": "261118",
+      "word": "seven",
+      "chinese": "七",
+      "example_1": "I am seven years old.",
+      "example_2": "I see seven dogs.",
+      "trans_1": "我七歲了。",
+      "trans_2": "我看到了七隻狗。"
+    },
+    {
+      "date": "261118",
+      "word": "eight",
+      "chinese": "八",
+      "example_1": "I see eight cats.",
+      "example_2": "We have eight cats.",
+      "trans_1": "我看到了八隻貓。",
+      "trans_2": "我們家養了八隻貓。"
     }
   ],
   "level1": [
@@ -2710,7 +2800,7 @@
       "chinese": "沒有",
       "example_1": "I cannot go outside without my coat.",
       "example_2": "I cannot go outside without my shoes.",
-      "trans_1": "不穿外套我不能出門。",
+      "trans_1": "沒有外套我不能出門。",
       "trans_2": "我沒鞋不能出門。"
     },
     {
@@ -2729,7 +2819,7 @@
       "example_1": "You may proceed to your desk.",
       "example_2": "Please proceed to the next line in the hallway.",
       "trans_1": "您可以前往您的辦公桌。",
-      "trans_2": "請移步走廊下一隊。"
+      "trans_2": "請移步走廊下一通道。"
     },
     {
       "date": "261111",
@@ -2783,7 +2873,106 @@
       "example_1": "My parents let me stay up late on Friday.",
       "example_2": "I like to stay up late on the weekend.",
       "trans_1": "星期五那天，我父母讓我熬夜。",
-      "trans_2": "我喜歡週末熬夜。"
+      "trans_2": "我喜歡在週末晚睡。"
+    },
+    {
+      "date": "261118",
+      "word": "inspect",
+      "chinese": "檢查",
+      "example_1": "The teacher will inspect our clean desks.",
+      "example_2": "I inspect my backpack before I go to sleep every night.",
+      "trans_1": "老師會檢查我們乾淨的課桌。",
+      "trans_2": "我每天晚上睡覺前都會檢查我的背包。"
+    },
+    {
+      "date": "261118",
+      "word": "however",
+      "chinese": "然而",
+      "example_1": "I wanted to play outside, however it started to rain.",
+      "example_2": "It is too hot, however our AC is broken.",
+      "trans_1": "我想出去玩，可是開始下雨了。",
+      "trans_2": "天氣太熱了，可是我們的冷氣壞了。"
+    },
+    {
+      "date": "261118",
+      "word": "concern",
+      "chinese": "憂慮",
+      "example_1": "Her sick puppy was a big concern for the family.",
+      "example_2": "My mom is concerned about my grades.",
+      "trans_1": "她生病的小狗讓全家都非常擔心。",
+      "trans_2": "我媽媽很擔心我的成績。"
+    },
+    {
+      "date": "261118",
+      "word": "moment",
+      "chinese": "片刻",
+      "example_1": "Please wait a moment for the bus to stop.",
+      "example_2": "Please wait for a moment while I tie my shoes.",
+      "trans_1": "請稍等片刻，待公車停穩。",
+      "trans_2": "請稍等片刻，我正在繫鞋帶。"
+    },
+    {
+      "date": "261118",
+      "word": "harvest",
+      "chinese": "收成",
+      "example_1": "Farmers harvest apples in the fall.",
+      "example_2": "Farmers harvest pumpkins and apples in the fall.",
+      "trans_1": "農民在秋季收穫蘋果。",
+      "trans_2": "秋季，農民收穫南瓜和蘋果。"
+    },
+    {
+      "date": "261118",
+      "word": "owe",
+      "chinese": "欠",
+      "example_1": "I owe my brother one dollar for the toy.",
+      "example_2": "I don't owe you anything.",
+      "trans_1": "我欠我哥哥一美元，是買玩具的錢。",
+      "trans_2": "我不欠你任何東西。"
+    },
+    {
+      "date": "261118",
+      "word": "medical",
+      "chinese": "醫療的",
+      "example_1": "She went to the clinic for medical help.",
+      "example_2": "He needed medical help after he fell off his bike.",
+      "trans_1": "她去診所尋求醫療協助。",
+      "trans_2": "他從自行車上摔下來後需要就醫。"
+    },
+    {
+      "date": "261118",
+      "word": "cure",
+      "chinese": "治癒",
+      "example_1": "Rest can help cure a cold.",
+      "example_2": "Rest and warm soup can help cure a cold.",
+      "trans_1": "休息有助於緩解感冒症狀。",
+      "trans_2": "休息和喝熱湯有助於治癒感冒。"
+    },
+    {
+      "date": "261118",
+      "word": "silent",
+      "chinese": "沉默的",
+      "example_1": "The library was completely silent.",
+      "example_2": "We must stay silent when the teacher is talking.",
+      "trans_1": "圖書館裡一片寂靜。",
+      "trans_2": "老師講話時，我們必須保持安靜。"
+    },
+    {
+      "date": "261118",
+      "word": "expensive",
+      "chinese": "昂貴的",
+      "example_1": "That new toy is very expensive.",
+      "example_2": "That big toy car is very expensive.",
+      "trans_1": "那件新玩具很貴。",
+      "trans_2": "那輛大型玩具車很貴。"
+    },
+    {
+      "date": "261118",
+      "word": "at once",
+      "chinese": "立刻",
+      "example_1": "Please put your toys away at once.",
+      "example_2": "When the bell rang, all the kids ran outside at once.",
+      "trans_1": "請立即把玩具收起來。",
+      "trans_2": "鈴聲一響，所有孩子都同時跑了出去。"
     }
   ],
   "level3": [
@@ -4344,7 +4533,7 @@
       "example_1": "An apostrophe shows where letters are missing in a contraction.",
       "example_2": "Remember to put an apostrophe in the word \"don't\" so your teacher knows it is a contraction.",
       "trans_1": "撇號表示縮寫詞中省略的字母。",
-      "trans_2": "記得要在單字「don't」中加上撇號，這樣你的老師就知道它是縮寫。"
+      "trans_2": "記得要在單字「don't」前面加上撇號，這樣你的老師就知道它是縮寫。"
     },
     {
       "date": "261029",
@@ -4361,7 +4550,7 @@
       "chinese": "維持",
       "example_1": "You need to water the plants regularly to maintain a healthy garden.",
       "example_2": "It is important to maintain your bicycle by keeping the tires filled with air and cleaning the chain.",
-      "trans_1": "為了保持花園健康，你需要定期給植物澆水。",
+      "trans_1": "要保持花園健康，需要定期給植物澆水。",
       "trans_2": "保持自行車輪胎氣壓充足並清潔鏈條是保養自行車的重要措施。"
     },
     {
@@ -4407,7 +4596,7 @@
       "example_1": "The merchant sold colorful fabrics at his store.",
       "example_2": "The friendly merchant sold fresh fruit at his market stand.",
       "trans_1": "這位商人在他的店裡販售色彩鮮豔的布料。",
-      "trans_2": "這位友善的商人在他的市場攤位上出售新鮮水果。"
+      "trans_2": "這位和藹可親的商人在他的市場攤位上出售新鮮水果。"
     },
     {
       "date": "261029",
