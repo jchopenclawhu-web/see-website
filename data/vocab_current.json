@@ -2936,7 +2936,7 @@
       "example_1": "She went to the clinic for medical help.",
       "example_2": "He needed medical help after he fell off his bike.",
       "trans_1": "她去診所尋求醫療協助。",
-      "trans_2": "他從自行車上摔下來後需要就醫。"
+      "trans_2": "他從自行車上摔下來後需要接受治療。"
     },
     {
       "date": "261118",
@@ -3731,6 +3731,150 @@
       "example_2": "If you keep practicing your spelling words, sooner or later you will get an A.",
       "trans_1": "雨遲早會停，我們就可以出去玩了。",
       "trans_2": "如果你堅持練習拼字單字，遲早會得到A。"
+    },
+    {
+      "date": "261119",
+      "word": "popular",
+      "chinese": "受歡迎的",
+      "example_1": "Soccer is a popular game to play at recess.",
+      "example_2": "Pizza is a popular lunch choice for many kids.",
+      "trans_1": "足球是課間休息時很受歡迎的遊戲。",
+      "trans_2": "披薩是許多孩子喜愛的午餐選擇。"
+    },
+    {
+      "date": "261119",
+      "word": "molecule",
+      "chinese": "分子",
+      "example_1": "Water is made up of tiny things called molecules.",
+      "example_2": "A water molecule is so tiny that you need a special microscope to see it.",
+      "trans_1": "水是由稱為分子的微小物質組成的。",
+      "trans_2": "水分子非常小，需要用特殊的顯微鏡才能看到。"
+    },
+    {
+      "date": "261119",
+      "word": "atom",
+      "chinese": "原子",
+      "example_1": "Everything in the world is made of tiny atoms.",
+      "example_2": "An atom is a tiny piece of matter that makes up everything.",
+      "trans_1": "世界上的一切都是由微小的原子所構成的。",
+      "trans_2": "原子是構成萬物的微小物質單位。"
+    },
+    {
+      "date": "261119",
+      "word": "evaporate",
+      "chinese": "蒸發",
+      "example_1": "The hot sun made the puddle evaporate after the rain.",
+      "example_2": "The puddle will evaporate under the warm sun.",
+      "trans_1": "雨後，烈日使水坑的水迅速蒸發。",
+      "trans_2": "在溫暖的陽光下，水坑裡的水會蒸發掉。"
+    },
+    {
+      "date": "261119",
+      "word": "maximum",
+      "chinese": "最大限度",
+      "example_1": "Ten is the maximum number of people allowed on the bus.",
+      "example_2": "The maximum number of books you can check out from the library is five.",
+      "trans_1": "公車上最多允許搭乘十人。",
+      "trans_2": "你最多可以從圖書館借閱五本書。"
+    },
+    {
+      "date": "261119",
+      "word": "minimum",
+      "chinese": "最低限度",
+      "example_1": "You need a minimum of two players to play this game.",
+      "example_2": "You need a minimum of two players to start the game.",
+      "trans_1": "這個遊戲至少需要兩名玩家才能玩。",
+      "trans_2": "遊戲至少需要兩名玩家才能開始。"
+    },
+    {
+      "date": "261119",
+      "word": "property",
+      "chinese": "財產",
+      "example_1": "This book is my property, so I wrote my name inside.",
+      "example_2": "Hardness is one physical property of a rock.",
+      "trans_1": "這本書是我的，所以我在裡面寫了我的名字。",
+      "trans_2": "硬度是岩石的一種物理性質。"
+    },
+    {
+      "date": "261119",
+      "word": "liquid",
+      "chinese": "液體",
+      "example_1": "Water is a liquid that you can drink on a hot day.",
+      "example_2": "Water is a liquid that flows when you pour it.",
+      "trans_1": "水是炎熱天氣裡可以飲用的液體。",
+      "trans_2": "水是一種液體，傾倒時會流動。"
+    },
+    {
+      "date": "261119",
+      "word": "solid",
+      "chinese": "堅硬的",
+      "example_1": "Ice is a solid that melts when it gets warm outside.",
+      "example_2": "An ice cube is a solid that keeps its own shape.",
+      "trans_1": "冰是一種固體，當外界溫度升高時就會融化。",
+      "trans_2": "冰塊是能保持自身形狀的固體。"
+    },
+    {
+      "date": "261119",
+      "word": "definition",
+      "chinese": "定義",
+      "example_1": "We used a dictionary to find the definition of the word.",
+      "example_2": "I looked up the definition of the word in my dictionary.",
+      "trans_1": "我們用字典找了這個字的定義。",
+      "trans_2": "我在字典裡查了一下這個字的定義。"
+    },
+    {
+      "date": "261119",
+      "word": "bother",
+      "chinese": "打擾",
+      "example_1": "Please do not bother your brother while he is studying.",
+      "example_2": "Please do not bother your brother while he does his homework.",
+      "trans_1": "請不要在你弟弟學習的時候打擾他。",
+      "trans_2": "請不要打擾你弟弟做作業。"
+    },
+    {
+      "date": "261119",
+      "word": "paragraph",
+      "chinese": "段落",
+      "example_1": "We wrote a short paragraph about our favorite animal in class.",
+      "example_2": "We wrote a short paragraph about our favorite pets in class.",
+      "trans_1": "我們在課堂上寫了一篇關於我們最喜歡的動物的短文。",
+      "trans_2": "我們在課堂上寫了一篇關於我們最喜歡的寵物的短文。"
+    },
+    {
+      "date": "261119",
+      "word": "acquaint",
+      "chinese": "熟人",
+      "example_1": "I got to acquaint myself with the new student at lunch.",
+      "example_2": "The teacher helped acquaint the new student with our classroom rules.",
+      "trans_1": "午餐時我認識了這位新同學。",
+      "trans_2": "老師幫助新同學熟悉了課堂規則。"
+    },
+    {
+      "date": "261119",
+      "word": "procedure",
+      "chinese": "程式",
+      "example_1": "Follow each step of the procedure to complete the science experiment.",
+      "example_2": "Following the step-by-step procedure will help you complete the science experiment.",
+      "trans_1": "依照實驗步驟完成科學實驗。",
+      "trans_2": "依照步驟操作將有助於你完成科學實驗。"
+    },
+    {
+      "date": "261119",
+      "word": "review",
+      "chinese": "審查",
+      "example_1": "We need to review our spelling words before the quiz tomorrow.",
+      "example_2": "We should review our vocabulary words before tomorrow's test.",
+      "trans_1": "明天有小測驗，我們需要複習一下拼字單字。",
+      "trans_2": "我們應該在明天的考試前複習一下詞彙。"
+    },
+    {
+      "date": "261119",
+      "word": "department store",
+      "chinese": "百貨公司",
+      "example_1": "We bought new shoes and clothes at the department store.",
+      "example_2": "My family went to the department store to buy new shoes.",
+      "trans_1": "我們在百貨公司買了新鞋和衣服。",
+      "trans_2": "我家去百貨公司買新鞋。"
     }
   ],
   "level4": [
@@ -4596,7 +4740,7 @@
       "example_1": "The merchant sold colorful fabrics at his store.",
       "example_2": "The friendly merchant sold fresh fruit at his market stand.",
       "trans_1": "這位商人在他的店裡販售色彩鮮豔的布料。",
-      "trans_2": "這位和藹可親的商人在他的市場攤位上出售新鮮水果。"
+      "trans_2": "這位友善的商人在他的市場攤位上出售新鮮水果。"
     },
     {
       "date": "261029",
@@ -4632,7 +4776,7 @@
       "example_1": "Rain can affect our plans for a picnic in the park.",
       "example_2": "The rainy weather will affect our plans to play outside today.",
       "trans_1": "下雨可能會影響我們在公園野餐的計劃。",
-      "trans_2": "今天下雨會影響我們戶外活動的計畫。"
+      "trans_2": "今天的雨天會影響我們戶外活動的計畫。"
     },
     {
       "date": "261029",
@@ -4640,7 +4784,7 @@
       "chinese": "慾望",
       "example_1": "She had a strong desire to win the school spelling bee.",
       "example_2": "She had a strong desire to learn how to play the piano.",
-      "trans_1": "她非常渴望贏得學校的拼字比賽。",
+      "trans_1": "她非常渴望贏得學校拼字比賽。",
       "trans_2": "她非常渴望學習彈鋼琴。"
     },
     {
@@ -4705,6 +4849,195 @@
       "example_2": "After cleaning the entire house, we decided to call it a day and relax.",
       "trans_1": "整個下午都在忙著做科學項目，我們決定結束今天的工作。",
       "trans_2": "把整個房子打掃乾淨後，我們決定結束今天的工作，好好放鬆一下。"
+    },
+    {
+      "date": "261119",
+      "word": "issue",
+      "chinese": "問題",
+      "example_1": "We talked about how to solve the issue during our class meeting.",
+      "example_2": "We worked together to solve the issue with our science experiment.",
+      "trans_1": "我們在班會上討論瞭如何解決這個問題。",
+      "trans_2": "我們透過科學實驗共同解決了這個問題。"
+    },
+    {
+      "date": "261119",
+      "word": "algorithm",
+      "chinese": "演算法",
+      "example_1": "An algorithm is a set of step-by-step rules that a computer follows.",
+      "example_2": "Our teacher explained that an algorithm is like a recipe for a computer to follow.",
+      "trans_1": "演算法是一組計算機遵循的逐步規則。",
+      "trans_2": "我們的老師解釋說，演算法就像是給電腦遵循的食譜。"
+    },
+    {
+      "date": "261119",
+      "word": "rank",
+      "chinese": "秩",
+      "example_1": "The teacher asked us to rank our favorite playground games.",
+      "example_2": "Each player on the team worked hard to improve their rank before the season ended.",
+      "trans_1": "老師讓我們給最喜歡的操場遊戲排名。",
+      "trans_2": "賽季結束前，隊裡的每位隊員都努力提升自己的排名。"
+    },
+    {
+      "date": "261119",
+      "word": "civilization",
+      "chinese": "文明",
+      "example_1": "In history class, we learned about the ancient Egyptian civilization.",
+      "example_2": "We studied the ancient Maya civilization during our history lesson today.",
+      "trans_1": "歷史課上，我們學習了古埃及文明。",
+      "trans_2": "今天歷史課我們學習了古代瑪雅文明。"
+    },
+    {
+      "date": "261119",
+      "word": "doubt",
+      "chinese": "懷疑",
+      "example_1": "I have no doubt that our team will play well in the game today.",
+      "example_2": "I had no doubt that she would pass the spelling test because she practiced every night.",
+      "trans_1": "我毫不懷疑我們隊今天會在比賽中發揮出色。",
+      "trans_2": "我毫不懷疑她能通過拼字測試，因為她每天晚上都練習。"
+    },
+    {
+      "date": "261119",
+      "word": "catagory",
+      "chinese": "類別",
+      "example_1": "Please place each book into the correct catagory on the shelf.",
+      "example_2": "You should sort your library books into the right category on the bookshelf.",
+      "trans_1": "請將每本書放到書架上正確的類別。",
+      "trans_2": "你應該把從圖書館借來的書籍按類別擺放在書架上。"
+    },
+    {
+      "date": "261119",
+      "word": "insult",
+      "chinese": "侮辱",
+      "example_1": "It is unkind to insult someone when they make a mistake.",
+      "example_2": "It is not nice to insult others when they make a mistake.",
+      "trans_1": "當別人犯錯時，出言侮辱是不友善的。",
+      "trans_2": "別人犯錯時，不該出言侮辱。"
+    },
+    {
+      "date": "261119",
+      "word": "dwarf",
+      "chinese": "矮人",
+      "example_1": "Pluto is classified as a dwarf planet in space.",
+      "example_2": "In the fairy tale, the dwarf lived in a tiny cottage deep in the forest.",
+      "trans_1": "冥王星在太空中被歸類為矮行星。",
+      "trans_2": "在童話故事裡，矮人住在森林深處的一間小木屋裡。"
+    },
+    {
+      "date": "261119",
+      "word": "reptile",
+      "chinese": "爬蟲",
+      "example_1": "An alligator is a large reptile with sharp teeth.",
+      "example_2": "A turtle is a slow reptile that carries its shell on its back.",
+      "trans_1": "鱷魚是一種體型較大的爬行動物，長著尖銳的牙齒。",
+      "trans_2": "烏龜是一種行動緩慢的爬行動物，它的龜殼背在背上。"
+    },
+    {
+      "date": "261119",
+      "word": "revolting",
+      "chinese": "令人作嘔的",
+      "example_1": "The spoiled milk had a revolting smell.",
+      "example_2": "The trash can smelled revolting after sitting in the hot sun all day.",
+      "trans_1": "變質的牛奶散發著令人作嘔的氣味。",
+      "trans_2": "垃圾桶在烈日下曝曬了一整天，散發出令人作嘔的惡臭。"
+    },
+    {
+      "date": "261119",
+      "word": "shear",
+      "chinese": "剪切",
+      "example_1": "The farmer will shear the sheep to collect their soft wool.",
+      "example_2": "The farmer used sharp clippers to shear the soft wool from the sheep.",
+      "trans_1": "農夫會為羊剪毛，收集柔軟的羊毛。",
+      "trans_2": "農夫用鋒利的剪刀剪下綿羊身上柔軟的羊毛。"
+    },
+    {
+      "date": "261119",
+      "word": "gang",
+      "chinese": "幫派",
+      "example_1": "A whole gang of neighborhood kids came over to play basketball.",
+      "example_2": "The whole gang of friends went to the park to play kickball after school.",
+      "trans_1": "附近一大群小孩過來打籃球。",
+      "trans_2": "放學後，這群朋友一起去公園踢球。"
+    },
+    {
+      "date": "261119",
+      "word": "maniac",
+      "chinese": "瘋子",
+      "example_1": "The dog ran around the yard like a maniac when it saw the squirrel.",
+      "example_2": "The puppy ran around the backyard like a happy little maniac.",
+      "trans_1": "狗看到松鼠後，像瘋了一樣在院子裡亂跑。",
+      "trans_2": "小狗像個快樂的小瘋子一樣在後院跑來跑去。"
+    },
+    {
+      "date": "261119",
+      "word": "snigger",
+      "chinese": "暗笑",
+      "example_1": "I tried not to snigger at the funny joke during quiet reading time.",
+      "example_2": "Try not to snigger when your classmate accidentally makes a funny sound.",
+      "trans_1": "在安靜閱讀時間，我努力克制自己不去對那個有趣的笑話竊笑。",
+      "trans_2": "當你的同學不小心發出滑稽的聲音時，盡量不要偷笑。"
+    },
+    {
+      "date": "261119",
+      "word": "cobra",
+      "chinese": "眼鏡蛇",
+      "example_1": "The cobra is a poisonous snake known for its wide hood.",
+      "example_2": "A cobra is a dangerous type of snake that can widen its neck when threatened.",
+      "trans_1": "眼鏡蛇是一種毒蛇，以其寬大的頸部皮褶而聞名。",
+      "trans_2": "眼鏡蛇是一種危險的蛇類，受到威脅時會張開脖子。"
+    },
+    {
+      "date": "261119",
+      "word": "vigor",
+      "chinese": "活力",
+      "example_1": "The soccer team played with great vigor and won the game.",
+      "example_2": "The young puppy ran across the yard with great vigor.",
+      "trans_1": "足球隊發揮出色，贏得了比賽。",
+      "trans_2": "小狗活力十足地跑過院子。"
+    },
+    {
+      "date": "261119",
+      "word": "rapid",
+      "chinese": "迅速的",
+      "example_1": "The rapid waters of the river flowed quickly after the storm.",
+      "example_2": "The river had a rapid current after the heavy rainstorm.",
+      "trans_1": "暴雨過後，河水湍急奔流。",
+      "trans_2": "暴雨過後，河水水流湍急。"
+    },
+    {
+      "date": "261119",
+      "word": "slither",
+      "chinese": "滑行",
+      "example_1": "We saw the small snake slither into the garden bushes.",
+      "example_2": "We watched the garden snake slither quietly through the green grass.",
+      "trans_1": "我們看到那條小蛇溜進了花園的灌木叢裡。",
+      "trans_2": "我們看著花園裡的蛇悄無聲息地在綠草叢中滑行。"
+    },
+    {
+      "date": "261119",
+      "word": "gibber",
+      "chinese": "胡言亂語",
+      "example_1": "The frightened character began to gibber in fear during the movie.",
+      "example_2": "The frightened boy began to gibber in confusion after hearing the loud noise.",
+      "trans_1": "電影播放過程中，受驚的角色開始驚恐地胡言亂語。",
+      "trans_2": "聽到巨響後，受驚的男孩開始語無倫次，不知所措。"
+    },
+    {
+      "date": "261119",
+      "word": "strain",
+      "chinese": "拉緊",
+      "example_1": "You might strain your muscles if you do not stretch before running.",
+      "example_2": "Be careful not to strain your back when lifting a heavy box off the floor.",
+      "trans_1": "跑步前不做伸展運動可能會拉傷肌肉。",
+      "trans_2": "從地板上搬起重物時，請注意不要拉傷背部。"
+    },
+    {
+      "date": "261119",
+      "word": "Solar System",
+      "chinese": "太陽系",
+      "example_1": "The planets in our Solar System orbit around the Sun.",
+      "example_2": "Earth is the third planet from the sun in our Solar System.",
+      "trans_1": "我們太陽系中的行星都繞著太陽運行。",
+      "trans_2": "地球是太陽系中距離太陽第三近的行星。"
     }
   ],
   "current_label": "2026 Fall"
