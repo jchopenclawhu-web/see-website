@@ -179,6 +179,20 @@
             transition-property: transform;
         }
         
+        /* Winter Camp Banner */
+        .winter-banner {
+            padding: 2.5rem 2rem;
+            background: linear-gradient(135deg, #4A7FA5 0%, #5E9BC4 100%);
+        }
+        .winter-banner-inner {
+            max-width: 1200px; margin: 0 auto;
+            display: flex; align-items: center; gap: 1.5rem; flex-wrap: wrap;
+        }
+        .winter-banner .snowflake { color: #E8F3FA; font-size: 2.6rem; line-height: 1; }
+        .winter-banner-text { flex: 1 1 320px; }
+        .winter-banner-text h2 { color: #fff; font-size: 1.6rem; margin-bottom: 0.4rem; }
+        .winter-banner-text p { color: #F2F8FC; font-size: 1rem; }
+
         /* Meet the Teacher Section */
         .teacher-section {
             padding: 5rem 2rem;
@@ -459,6 +473,12 @@
         }
         
         /* Mobile Responsive */
+        @media (max-width: 1024px) and (min-width: 769px) {
+            /* Tablet: 8 nav items no longer fit on one row at full size. Tighten
+               the gap and the label size instead of letting the last link clip. */
+            .nav-links { gap: 1.25rem; }
+            .nav-links a { font-size: 0.95rem; }
+        }
         @media (max-width: 768px) {
             .menu-toggle {
                 display: block;
@@ -555,6 +575,7 @@
                 <li><a href="#philosophy">教學理念</a></li>
                 <li><a href="#classes">班別介紹</a></li>
                 <li><a href="#resources">學習資源</a></li>
+                <li><a href="winter-camp.html">寒假桌遊營</a></li>
                 <li><a href="#contact">聯絡我們</a></li>
             </ul>
         </div>
@@ -567,6 +588,20 @@
             <p class="subtitle">Sandy's Enlighten English Learning Center</p>
             <p class="tagline">快樂中學習，學習中得到快樂 | Happy Learning, Joy from Learning</p>
             <a href="https://lin.ee/7XaGaW2" class="cta-button" target="_blank">預約免費程度檢測 / 試聽課程</a>
+        </div>
+    </section>
+
+    <!-- Winter Camp Banner -->
+    <section class="winter-banner">
+        <div class="container">
+            <div class="winter-banner-inner">
+                <span class="snowflake" aria-hidden="true">❄</span>
+                <div class="winter-banner-text">
+                    <h2>寒假桌遊營 Winter Board Game Camp</h2>
+                    <p>2027/1/21(四) ～ 2/3(三) 共 10 天 · 週一至週五下午 2:00–3:30 · 10 天 5000 元（含教材費）</p>
+                </div>
+                <a href="winter-camp.html" class="cta-button">查看詳情與報名</a>
+            </div>
         </div>
     </section>
 

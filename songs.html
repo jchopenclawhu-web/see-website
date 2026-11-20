@@ -260,6 +260,12 @@
         }
         
         /* Mobile Responsive */
+        @media (max-width: 1024px) and (min-width: 769px) {
+            /* Tablet: 8 nav items no longer fit on one row at full size. Tighten
+               the gap and the label size instead of letting the last link clip. */
+            .nav-links { gap: 1.25rem; }
+            .nav-links a { font-size: 0.92rem; }
+        }
         @media (max-width: 768px) {
             .nav-links {
                 display: none;
@@ -343,6 +349,7 @@
                 <li><a href="vocabulary.html">單字表</a></li>
                 <li><a href="audiobooks.html">有聲書</a></li>
                 <li><a href="songs.html">每月歌曲</a></li>
+                <li><a href="winter-camp.html">寒假桌遊營</a></li>
             </ul>
         </div>
     </nav>

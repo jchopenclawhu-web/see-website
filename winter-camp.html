@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="珊蒂美語寒假桌遊營 2027/1/21～2/3，共 10 天，週一至週五下午 2:00–3:30，10 天 5000 元含教材費。線上報名與下載報名通知單。">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" href="/favicon-64.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="珊蒂美語教室 S.E.E">
+    <meta property="og:title" content="寒假桌遊營 Winter Board Game Camp | 珊蒂美語教室 S.E.E">
+    <meta property="og:description" content="2027/1/21～2/3，共 10 天。英文桌遊讓孩子在遊戲中自然開口，系統性複習上學期內容，開學銜接更順暢。">
+    <meta property="og:image" content="https://xn--jdyy4wx1d1rh.com/images/sandy.png">
+    <meta property="og:url" content="https://xn--jdyy4wx1d1rh.com/winter-camp.html">
+    <meta property="og:locale" content="zh_TW">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="寒假桌遊營 Winter Board Game Camp | 珊蒂美語教室">
+    <meta name="twitter:description" content="2027/1/21～2/3，共 10 天，週一至週五下午 2:00–3:30。">
+    <meta name="twitter:image" content="https://xn--jdyy4wx1d1rh.com/images/sandy.png">
+    <title>寒假桌遊營 Winter Camp | 珊蒂美語教室 S.E.E</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-brown: #766448;
+            --accent-gold: #8C6A2C;
+            --light-beige: #F7F4EE;
+            --dark-text: #333;
+            --white: #fff;
+            --focus-halo: #F7F4EE;
+            --focus-edge: #2C2416;
+            --winter-blue: #4A7FA5;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html, body { overflow-x: clip; }
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            color: var(--dark-text);
+            background: var(--light-beige);
+            line-height: 1.7;
+        }
+        .background-layer {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: url('images/background.png') center top / 90% no-repeat;
+            z-index: -1;
+        }
+        nav {
+            background: rgba(118, 100, 72, 0.95);
+            position: sticky; top: 0; z-index: 100;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .nav-container {
+            max-width: 1200px; margin: 0 auto; padding: 1rem 2rem;
+            display: flex; justify-content: space-between; align-items: center;
+        }
+        .logo { font-family: 'Playfair Display', serif; font-size: 1.5rem; color: var(--light-beige); text-decoration: none; font-weight: 700; }
+        .nav-links { display: flex; list-style: none; gap: 2rem; }
+        .nav-links a { color: var(--light-beige); text-decoration: none; font-weight: 600; transition: color 0.3s; }
+        .nav-links a:hover { color: var(--accent-gold); }
+        .nav-links a.active { color: var(--accent-gold); border-bottom: 2px solid var(--accent-gold); }
+        .hamburger { display: none; flex-direction: column; cursor: pointer; }
+        .hamburger span { width: 25px; height: 3px; background: var(--light-beige); margin: 3px 0; transition: 0.3s; }
+
+        .page-header {
+            background: linear-gradient(135deg, #766448 0%, #8C6A2C 100%);
+            color: var(--light-beige);
+            padding: 3.5rem 2rem;
+            text-align: center;
+        }
+        .page-header h1 { font-family: 'Playfair Display', serif; font-size: 2.6rem; margin-bottom: 0.5rem; }
+        .page-header .en-title { font-family: 'Playfair Display', serif; font-size: 1.25rem; color: var(--light-beige); opacity: 0.95; }
+        .snow-row { display: flex; align-items: center; justify-content: center; gap: 1.25rem; margin-bottom: 0.75rem; }
+        .snowflake { color: #CFE4F2; font-size: 1.9rem; line-height: 1; }
+        .container { max-width: 1000px; margin: 0 auto; padding: 3rem 2rem; }
+        .section-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.9rem; color: var(--primary-brown);
+            text-align: center; margin-bottom: 2rem;
+        }
+        .section-title .en { display: block; font-size: 0.95rem; font-family: 'Noto Sans TC', sans-serif; color: #666; letter-spacing: 0.08em; margin-top: 0.35rem; }
+
+        .facts {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+            gap: 1.25rem; margin-bottom: 3rem;
+        }
+        .fact {
+            background: var(--white); border-radius: 14px;
+            border-top: 4px solid var(--accent-gold);
+            padding: 1.5rem 1.25rem; text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+        }
+        .fact .icon { font-size: 2rem; line-height: 1; margin-bottom: 0.5rem; }
+        .fact .label { font-size: 0.9rem; color: #666; margin-bottom: 0.35rem; }
+        .fact .value { font-size: 1.2rem; font-weight: 700; color: var(--primary-brown); }
+        .fact .value .en { display: block; font-size: 0.85rem; font-weight: 400; color: #666; margin-top: 0.2rem; }
+
+        .intro { text-align: center; max-width: 760px; margin: 0 auto 3rem; font-size: 1.05rem; color: #444; }
+        .intro .en { display: block; color: #666; font-size: 0.95rem; margin-top: 0.75rem; }
+
+        .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem; }
+        .card {
+            background: var(--white); border-radius: 14px; padding: 1.75rem 1.5rem;
+            border-left: 5px solid var(--winter-blue);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+        }
+        .card h3 { font-size: 1.2rem; color: var(--primary-brown); margin-bottom: 0.6rem; }
+        .card p { color: #555; }
+
+        .notice {
+            background: rgba(74, 127, 165, 0.08);
+            border: 2px dashed var(--winter-blue);
+            border-radius: 14px; padding: 1.75rem 1.5rem; margin-bottom: 3rem;
+        }
+        .notice h3 { color: var(--winter-blue); font-size: 1.15rem; margin-bottom: 0.5rem; }
+        .notice p { color: #444; }
+
+        .signup {
+            background: var(--white); border-radius: 16px; padding: 2.5rem 2rem;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.08); max-width: 720px; margin: 0 auto;
+        }
+        .signup h3 { font-size: 1.4rem; color: var(--primary-brown); margin-bottom: 0.75rem; text-align: center; }
+        .signup .deadline { text-align: center; color: var(--accent-gold); font-weight: 700; margin-bottom: 1.75rem; }
+        .field-row { margin-bottom: 1.25rem; }
+        .field-row label { display: block; font-weight: 500; margin-bottom: 0.4rem; color: #444; }
+        .field-row .en { font-weight: 400; color: #777; font-size: 0.9rem; }
+        .field-row input[type="text"] {
+            width: 100%; padding: 0.7rem 0.9rem; font-size: 1rem;
+            font-family: inherit; color: var(--dark-text);
+            border: 2px solid #d8d0c2; border-radius: 8px; background: #fff;
+        }
+        .checks { margin-bottom: 1.5rem; }
+        .check-row { display: flex; align-items: flex-start; gap: 0.6rem; margin-bottom: 0.6rem; }
+        .check-row input[type="checkbox"] { width: 1.15rem; height: 1.15rem; margin-top: 0.3rem; accent-color: var(--primary-brown); flex-shrink: 0; }
+        .check-row label { font-weight: 400; color: #444; cursor: pointer; }
+        .actions { display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; }
+        .btn {
+            display: inline-block; padding: 0.85rem 1.6rem; border-radius: 30px;
+            text-decoration: none; font-weight: 700; font-size: 1rem;
+            border: 2px solid var(--primary-brown); cursor: pointer;
+            font-family: inherit; text-align: center;
+        }
+        .btn-primary { background: var(--primary-brown); color: var(--light-beige); }
+        .btn-primary:hover { background: var(--accent-gold); border-color: var(--accent-gold); }
+        .btn-secondary { background: transparent; color: var(--primary-brown); }
+        .btn-secondary:hover { background: rgba(118,100,72,0.08); }
+        .form-note { text-align: center; color: #777; font-size: 0.9rem; margin-top: 1.25rem; }
+
+        .contact-line {
+            text-align: center; margin-top: 2.5rem; color: #555;
+        }
+        .contact-line a { color: var(--primary-brown); font-weight: 700; }
+
+        footer {
+            background: var(--primary-brown); color: var(--light-beige);
+            text-align: center; padding: 2rem; margin-top: 3rem;
+        }
+        footer a { color: var(--light-beige); }
+
+        /* --- Accessibility -------------------------------------------------
+           Two-tone focus ring: cream inner band + near-black outer band, so the
+           ring stays legible on the cream page, the brown nav and the white cards.
+           overflow-x: clip (never hidden) so the sticky nav keeps working. */
+        a:focus-visible,
+        button:focus-visible,
+        input:focus-visible,
+        select:focus-visible,
+        textarea:focus-visible,
+        [tabindex]:focus-visible {
+            outline: 2px solid transparent;
+            outline-offset: 2px;
+            box-shadow: 0 0 0 2px var(--focus-halo), 0 0 0 4px var(--focus-edge);
+        }
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+                scroll-behavior: auto !important;
+            }
+        }
+        @media (max-width: 1024px) and (min-width: 769px) {
+            /* Tablet: 8 nav items no longer fit on one row at full size. Tighten
+               the gap and the label size instead of letting the last link clip. */
+            .nav-links { gap: 1rem; }
+            .nav-links a { font-size: 0.9rem; }
+        }
+        @media (max-width: 768px) {
+            .nav-links { display: none; position: absolute; top: 100%; left: 0; width: 100%; background: rgba(118, 100, 72, 0.98); flex-direction: column; padding: 1rem; gap: 1rem; }
+            .nav-links.active { display: flex; }
+            .hamburger { display: flex; }
+            .page-header h1 { font-size: 1.9rem; }
+            .section-title { font-size: 1.5rem; }
+            .container { padding: 2rem 1.25rem; }
+            .signup { padding: 1.75rem 1.25rem; }
+        }
+        @media print {
+            nav, footer, .actions, .contact-line, .background-layer { display: none !important; }
+            body { background: #fff; }
+            .signup { box-shadow: none; border: 1px solid #999; }
+            .page-header { background: none; color: #000; padding: 1rem 0; }
+        }
+    </style>
+</head>
+<body>
+    <div class="background-layer"></div>
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo">珊蒂美語</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#classes">Classes</a></li>
+                <li><a href="songs.html">Monthly Songs</a></li>
+                <li><a href="vocabulary.html">Vocabulary</a></li>
+                <li><a href="audiobooks.html">Audiobooks</a></li>
+                <li><a href="winter-camp.html" class="active">Winter Camp</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" onclick="toggleNav()"><span></span><span></span><span></span></div>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="snow-row">
+            <span class="snowflake" aria-hidden="true">❄</span>
+            <h1>珊蒂美語寒假桌遊營</h1>
+            <span class="snowflake" aria-hidden="true">❄</span>
+        </div>
+        <p class="en-title">Sandy's Enlighten English Board Game Winter Camp</p>
+    </header>
+
+    <main class="container">
+        <section aria-labelledby="facts-title">
+            <h2 class="section-title" id="facts-title">營隊資訊<span class="en">Camp Details</span></h2>
+            <div class="facts">
+                <div class="fact">
+                    <div class="icon" aria-hidden="true">📅</div>
+                    <div class="label">課程日期</div>
+                    <div class="value">2027/1/21 (四) ～ 2/3 (三)<span class="en">Jan 21 – Feb 3, 2027</span></div>
+                </div>
+                <div class="fact">
+                    <div class="icon" aria-hidden="true">🗓️</div>
+                    <div class="label">上課日</div>
+                    <div class="value">週一至週五<span class="en">Monday – Friday</span></div>
+                </div>
+                <div class="fact">
+                    <div class="icon" aria-hidden="true">⏰</div>
+                    <div class="label">上課時間</div>
+                    <div class="value">下午 2:00 – 3:30<span class="en">2:00 – 3:30 PM</span></div>
+                </div>
+                <div class="fact">
+                    <div class="icon" aria-hidden="true">💰</div>
+                    <div class="label">上課費用</div>
+                    <div class="value">10 天 / 5000 元<span class="en">NT$5,000 for 10 days</span></div>
+                </div>
+            </div>
+        </section>
+
+        <section aria-labelledby="about-title">
+            <h2 class="section-title" id="about-title">課程介紹<span class="en">What the Camp Is</span></h2>
+            <p class="intro">
+                這次老師將帶著孩子們透過英文桌遊快樂學習，讓孩子在遊戲互動中自然開口、愛上英文！
+                同時，課程中也會系統性地複習上學期所教的英文內容，幫孩子溫故知新，讓開學後的新學期課程銜接得更順暢、更嫻熟！
+                <span class="en">This camp teaches English through board games — kids speak naturally while playing, and systematically review last term's vocabulary so the new semester starts smoothly.</span>
+            </p>
+            <div class="cards">
+                <div class="card">
+                    <h3>🎲 英文桌遊，自然開口</h3>
+                    <p>透過桌遊的互動與回合，孩子在遊戲中自然練習口說，不需要怕開口。</p>
+                </div>
+                <div class="card">
+                    <h3>📚 系統複習上學期內容</h3>
+                    <p>有系統地複習上學期所教的英文內容，溫故知新，把學過的變成會用的。</p>
+                </div>
+                <div class="card">
+                    <h3>🚀 開學銜接更順暢</h3>
+                    <p>為下學期做好銜接，讓新學期的課程進行得更順暢、更嫻熟，減少開學落差。</p>
+                </div>
+            </div>
+        </section>
+
+        <section aria-labelledby="note-title">
+            <h2 class="section-title" id="note-title">報名須知<span class="en">How to Register</span></h2>
+            <div class="notice">
+                <h3>📌 適合對象</h3>
+                <p>目前就讀珊蒂美語班級的孩子（Basic 到 Level 4 皆可）。填寫報名表時請填上「學生目前美語班年級」，老師會依程度分組。</p>
+            </div>
+
+            <div class="signup">
+                <h3>寒假桌遊營報名表</h3>
+                <p class="deadline">請於 12 月 26 日前完成報名</p>
+
+                <div class="field-row">
+                    <label for="studentName">學生姓名 <span class="en">Student's name</span></label>
+                    <input type="text" id="studentName" name="studentName" autocomplete="off">
+                </div>
+
+                <div class="field-row">
+                    <label for="studentLevel">學生目前美語班年級 <span class="en">Current level</span></label>
+                    <input type="text" id="studentLevel" name="studentLevel" list="levelOptions" placeholder="Basic / Level 1 / Level 2 / Level 3 / Level 4" autocomplete="off">
+                    <datalist id="levelOptions">
+                        <option value="Basic"></option>
+                        <option value="Level 1"></option>
+                        <option value="Level 2"></option>
+                        <option value="Level 3"></option>
+                        <option value="Level 4"></option>
+                    </datalist>
+                </div>
+
+                <div class="checks">
+                    <div class="check-row">
+                        <input type="checkbox" id="joinYes" name="joinYes">
+                        <label for="joinYes">參加寒假班（1/21(四) ～ 2/3(三) 星期一至五下午 2:00 – 3:30）</label>
+                    </div>
+                    <div class="check-row">
+                        <input type="checkbox" id="joinNo" name="joinNo">
+                        <label for="joinNo">不參加寒假班</label>
+                    </div>
+                </div>
+
+                <div class="actions">
+                    <a class="btn btn-primary" href="forms/winter-camp-2027-registration.pdf" download>⬇️ 下載報名通知單 (PDF)</a>
+                    <a class="btn btn-secondary" href="https://lin.ee/7XaGaW2" target="_blank" rel="noopener">LINE 詢問報名</a>
+                </div>
+                <p class="form-note">填好後請列印或直接交回教室，或於 LINE 上告知老師。<br>Print the slip, fill it in, and hand it back at the classroom — or just message us on LINE.</p>
+            </div>
+
+            <p class="contact-line">
+                若有任何問題歡迎詢問 LINE：<a href="https://lin.ee/7XaGaW2" target="_blank" rel="noopener">LINE 官方帳號</a><br>
+                預祝大家都有個美好充實的假期！🎄
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2020-2026 Enlighten Learning Center (珊蒂美語教室 S.E.E). All rights reserved.</p>
+        <p><a href="index.html">回到首頁 Back to Home</a></p>
+    </footer>
+
+    <script>
+        function toggleNav() {
+            document.getElementById('navLinks').classList.toggle('active');
+        }
+        // Keep the two choices mutually exclusive — one child, one answer.
+        const joinYes = document.getElementById('joinYes');
+        const joinNo = document.getElementById('joinNo');
+        joinYes.addEventListener('change', () => { if (joinYes.checked) joinNo.checked = false; });
+        joinNo.addEventListener('change', () => { if (joinNo.checked) joinYes.checked = false; });
+    </script>
+</body>
+</html>
