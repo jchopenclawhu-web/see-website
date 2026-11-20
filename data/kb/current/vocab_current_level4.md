@@ -670,7 +670,7 @@
 - Example 1: The merchant sold colorful fabrics at his store.
 - Translation 1: 這位商人在他的店裡販售色彩鮮豔的布料。
 - Example 2: The friendly merchant sold fresh fruit at his market stand.
-- Translation 2: 這位和藹可親的商人在他的市場攤位上出售新鮮水果。
+- Translation 2: 這位友善的商人在他的市場攤位上出售新鮮水果。
 
 ## material
 - Chinese: 材料
@@ -698,12 +698,12 @@
 - Example 1: Rain can affect our plans for a picnic in the park.
 - Translation 1: 下雨可能會影響我們在公園野餐的計劃。
 - Example 2: The rainy weather will affect our plans to play outside today.
-- Translation 2: 今天下雨會影響我們戶外活動的計畫。
+- Translation 2: 今天的雨天會影響我們戶外活動的計畫。
 
 ## desire
 - Chinese: 慾望
 - Example 1: She had a strong desire to win the school spelling bee.
-- Translation 1: 她非常渴望贏得學校的拼字比賽。
+- Translation 1: 她非常渴望贏得學校拼字比賽。
 - Example 2: She had a strong desire to learn how to play the piano.
 - Translation 2: 她非常渴望學習彈鋼琴。
 
@@ -755,4 +755,151 @@
 - Translation 1: 整個下午都在忙著做科學項目，我們決定結束今天的工作。
 - Example 2: After cleaning the entire house, we decided to call it a day and relax.
 - Translation 2: 把整個房子打掃乾淨後，我們決定結束今天的工作，好好放鬆一下。
+
+## issue
+- Chinese: 問題
+- Example 1: We talked about how to solve the issue during our class meeting.
+- Translation 1: 我們在班會上討論瞭如何解決這個問題。
+- Example 2: We worked together to solve the issue with our science experiment.
+- Translation 2: 我們透過科學實驗共同解決了這個問題。
+
+## algorithm
+- Chinese: 演算法
+- Example 1: An algorithm is a set of step-by-step rules that a computer follows.
+- Translation 1: 演算法是一組計算機遵循的逐步規則。
+- Example 2: Our teacher explained that an algorithm is like a recipe for a computer to follow.
+- Translation 2: 我們的老師解釋說，演算法就像是給電腦遵循的食譜。
+
+## rank
+- Chinese: 秩
+- Example 1: The teacher asked us to rank our favorite playground games.
+- Translation 1: 老師讓我們給最喜歡的操場遊戲排名。
+- Example 2: Each player on the team worked hard to improve their rank before the season ended.
+- Translation 2: 賽季結束前，隊裡的每位隊員都努力提升自己的排名。
+
+## civilization
+- Chinese: 文明
+- Example 1: In history class, we learned about the ancient Egyptian civilization.
+- Translation 1: 歷史課上，我們學習了古埃及文明。
+- Example 2: We studied the ancient Maya civilization during our history lesson today.
+- Translation 2: 今天歷史課我們學習了古代瑪雅文明。
+
+## doubt
+- Chinese: 懷疑
+- Example 1: I have no doubt that our team will play well in the game today.
+- Translation 1: 我毫不懷疑我們隊今天會在比賽中發揮出色。
+- Example 2: I had no doubt that she would pass the spelling test because she practiced every night.
+- Translation 2: 我毫不懷疑她能通過拼字測試，因為她每天晚上都練習。
+
+## catagory
+- Chinese: 類別
+- Example 1: Please place each book into the correct catagory on the shelf.
+- Translation 1: 請將每本書放到書架上正確的類別。
+- Example 2: You should sort your library books into the right category on the bookshelf.
+- Translation 2: 你應該把從圖書館借來的書籍按類別擺放在書架上。
+
+## insult
+- Chinese: 侮辱
+- Example 1: It is unkind to insult someone when they make a mistake.
+- Translation 1: 當別人犯錯時，出言侮辱是不友善的。
+- Example 2: It is not nice to insult others when they make a mistake.
+- Translation 2: 別人犯錯時，不該出言侮辱。
+
+## dwarf
+- Chinese: 矮人
+- Example 1: Pluto is classified as a dwarf planet in space.
+- Translation 1: 冥王星在太空中被歸類為矮行星。
+- Example 2: In the fairy tale, the dwarf lived in a tiny cottage deep in the forest.
+- Translation 2: 在童話故事裡，矮人住在森林深處的一間小木屋裡。
+
+## reptile
+- Chinese: 爬蟲
+- Example 1: An alligator is a large reptile with sharp teeth.
+- Translation 1: 鱷魚是一種體型較大的爬行動物，長著尖銳的牙齒。
+- Example 2: A turtle is a slow reptile that carries its shell on its back.
+- Translation 2: 烏龜是一種行動緩慢的爬行動物，它的龜殼背在背上。
+
+## revolting
+- Chinese: 令人作嘔的
+- Example 1: The spoiled milk had a revolting smell.
+- Translation 1: 變質的牛奶散發著令人作嘔的氣味。
+- Example 2: The trash can smelled revolting after sitting in the hot sun all day.
+- Translation 2: 垃圾桶在烈日下曝曬了一整天，散發出令人作嘔的惡臭。
+
+## shear
+- Chinese: 剪切
+- Example 1: The farmer will shear the sheep to collect their soft wool.
+- Translation 1: 農夫會為羊剪毛，收集柔軟的羊毛。
+- Example 2: The farmer used sharp clippers to shear the soft wool from the sheep.
+- Translation 2: 農夫用鋒利的剪刀剪下綿羊身上柔軟的羊毛。
+
+## gang
+- Chinese: 幫派
+- Example 1: A whole gang of neighborhood kids came over to play basketball.
+- Translation 1: 附近一大群小孩過來打籃球。
+- Example 2: The whole gang of friends went to the park to play kickball after school.
+- Translation 2: 放學後，這群朋友一起去公園踢球。
+
+## maniac
+- Chinese: 瘋子
+- Example 1: The dog ran around the yard like a maniac when it saw the squirrel.
+- Translation 1: 狗看到松鼠後，像瘋了一樣在院子裡亂跑。
+- Example 2: The puppy ran around the backyard like a happy little maniac.
+- Translation 2: 小狗像個快樂的小瘋子一樣在後院跑來跑去。
+
+## snigger
+- Chinese: 暗笑
+- Example 1: I tried not to snigger at the funny joke during quiet reading time.
+- Translation 1: 在安靜閱讀時間，我努力克制自己不去對那個有趣的笑話竊笑。
+- Example 2: Try not to snigger when your classmate accidentally makes a funny sound.
+- Translation 2: 當你的同學不小心發出滑稽的聲音時，盡量不要偷笑。
+
+## cobra
+- Chinese: 眼鏡蛇
+- Example 1: The cobra is a poisonous snake known for its wide hood.
+- Translation 1: 眼鏡蛇是一種毒蛇，以其寬大的頸部皮褶而聞名。
+- Example 2: A cobra is a dangerous type of snake that can widen its neck when threatened.
+- Translation 2: 眼鏡蛇是一種危險的蛇類，受到威脅時會張開脖子。
+
+## vigor
+- Chinese: 活力
+- Example 1: The soccer team played with great vigor and won the game.
+- Translation 1: 足球隊發揮出色，贏得了比賽。
+- Example 2: The young puppy ran across the yard with great vigor.
+- Translation 2: 小狗活力十足地跑過院子。
+
+## rapid
+- Chinese: 迅速的
+- Example 1: The rapid waters of the river flowed quickly after the storm.
+- Translation 1: 暴雨過後，河水湍急奔流。
+- Example 2: The river had a rapid current after the heavy rainstorm.
+- Translation 2: 暴雨過後，河水水流湍急。
+
+## slither
+- Chinese: 滑行
+- Example 1: We saw the small snake slither into the garden bushes.
+- Translation 1: 我們看到那條小蛇溜進了花園的灌木叢裡。
+- Example 2: We watched the garden snake slither quietly through the green grass.
+- Translation 2: 我們看著花園裡的蛇悄無聲息地在綠草叢中滑行。
+
+## gibber
+- Chinese: 胡言亂語
+- Example 1: The frightened character began to gibber in fear during the movie.
+- Translation 1: 電影播放過程中，受驚的角色開始驚恐地胡言亂語。
+- Example 2: The frightened boy began to gibber in confusion after hearing the loud noise.
+- Translation 2: 聽到巨響後，受驚的男孩開始語無倫次，不知所措。
+
+## strain
+- Chinese: 拉緊
+- Example 1: You might strain your muscles if you do not stretch before running.
+- Translation 1: 跑步前不做伸展運動可能會拉傷肌肉。
+- Example 2: Be careful not to strain your back when lifting a heavy box off the floor.
+- Translation 2: 從地板上搬起重物時，請注意不要拉傷背部。
+
+## Solar System
+- Chinese: 太陽系
+- Example 1: The planets in our Solar System orbit around the Sun.
+- Translation 1: 我們太陽系中的行星都繞著太陽運行。
+- Example 2: Earth is the third planet from the sun in our Solar System.
+- Translation 2: 地球是太陽系中距離太陽第三近的行星。
 

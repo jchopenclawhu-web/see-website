@@ -831,7 +831,7 @@
 - Example 1: She went to the clinic for medical help.
 - Translation 1: 她去診所尋求醫療協助。
 - Example 2: He needed medical help after he fell off his bike.
-- Translation 2: 他從自行車上摔下來後需要就醫。
+- Translation 2: 他從自行車上摔下來後需要接受治療。
 
 ## cure
 - Chinese: 治癒

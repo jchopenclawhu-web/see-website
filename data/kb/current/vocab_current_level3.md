@@ -588,3 +588,115 @@
 - Example 2: If you keep practicing your spelling words, sooner or later you will get an A.
 - Translation 2: 如果你堅持練習拼字單字，遲早會得到A。
 
+## popular
+- Chinese: 受歡迎的
+- Example 1: Soccer is a popular game to play at recess.
+- Translation 1: 足球是課間休息時很受歡迎的遊戲。
+- Example 2: Pizza is a popular lunch choice for many kids.
+- Translation 2: 披薩是許多孩子喜愛的午餐選擇。
+
+## molecule
+- Chinese: 分子
+- Example 1: Water is made up of tiny things called molecules.
+- Translation 1: 水是由稱為分子的微小物質組成的。
+- Example 2: A water molecule is so tiny that you need a special microscope to see it.
+- Translation 2: 水分子非常小，需要用特殊的顯微鏡才能看到。
+
+## atom
+- Chinese: 原子
+- Example 1: Everything in the world is made of tiny atoms.
+- Translation 1: 世界上的一切都是由微小的原子所構成的。
+- Example 2: An atom is a tiny piece of matter that makes up everything.
+- Translation 2: 原子是構成萬物的微小物質單位。
+
+## evaporate
+- Chinese: 蒸發
+- Example 1: The hot sun made the puddle evaporate after the rain.
+- Translation 1: 雨後，烈日使水坑的水迅速蒸發。
+- Example 2: The puddle will evaporate under the warm sun.
+- Translation 2: 在溫暖的陽光下，水坑裡的水會蒸發掉。
+
+## maximum
+- Chinese: 最大限度
+- Example 1: Ten is the maximum number of people allowed on the bus.
+- Translation 1: 公車上最多允許搭乘十人。
+- Example 2: The maximum number of books you can check out from the library is five.
+- Translation 2: 你最多可以從圖書館借閱五本書。
+
+## minimum
+- Chinese: 最低限度
+- Example 1: You need a minimum of two players to play this game.
+- Translation 1: 這個遊戲至少需要兩名玩家才能玩。
+- Example 2: You need a minimum of two players to start the game.
+- Translation 2: 遊戲至少需要兩名玩家才能開始。
+
+## property
+- Chinese: 財產
+- Example 1: This book is my property, so I wrote my name inside.
+- Translation 1: 這本書是我的，所以我在裡面寫了我的名字。
+- Example 2: Hardness is one physical property of a rock.
+- Translation 2: 硬度是岩石的一種物理性質。
+
+## liquid
+- Chinese: 液體
+- Example 1: Water is a liquid that you can drink on a hot day.
+- Translation 1: 水是炎熱天氣裡可以飲用的液體。
+- Example 2: Water is a liquid that flows when you pour it.
+- Translation 2: 水是一種液體，傾倒時會流動。
+
+## solid
+- Chinese: 堅硬的
+- Example 1: Ice is a solid that melts when it gets warm outside.
+- Translation 1: 冰是一種固體，當外界溫度升高時就會融化。
+- Example 2: An ice cube is a solid that keeps its own shape.
+- Translation 2: 冰塊是能保持自身形狀的固體。
+
+## definition
+- Chinese: 定義
+- Example 1: We used a dictionary to find the definition of the word.
+- Translation 1: 我們用字典找了這個字的定義。
+- Example 2: I looked up the definition of the word in my dictionary.
+- Translation 2: 我在字典裡查了一下這個字的定義。
+
+## bother
+- Chinese: 打擾
+- Example 1: Please do not bother your brother while he is studying.
+- Translation 1: 請不要在你弟弟學習的時候打擾他。
+- Example 2: Please do not bother your brother while he does his homework.
+- Translation 2: 請不要打擾你弟弟做作業。
+
+## paragraph
+- Chinese: 段落
+- Example 1: We wrote a short paragraph about our favorite animal in class.
+- Translation 1: 我們在課堂上寫了一篇關於我們最喜歡的動物的短文。
+- Example 2: We wrote a short paragraph about our favorite pets in class.
+- Translation 2: 我們在課堂上寫了一篇關於我們最喜歡的寵物的短文。
+
+## acquaint
+- Chinese: 熟人
+- Example 1: I got to acquaint myself with the new student at lunch.
+- Translation 1: 午餐時我認識了這位新同學。
+- Example 2: The teacher helped acquaint the new student with our classroom rules.
+- Translation 2: 老師幫助新同學熟悉了課堂規則。
+
+## procedure
+- Chinese: 程式
+- Example 1: Follow each step of the procedure to complete the science experiment.
+- Translation 1: 依照實驗步驟完成科學實驗。
+- Example 2: Following the step-by-step procedure will help you complete the science experiment.
+- Translation 2: 依照步驟操作將有助於你完成科學實驗。
+
+## review
+- Chinese: 審查
+- Example 1: We need to review our spelling words before the quiz tomorrow.
+- Translation 1: 明天有小測驗，我們需要複習一下拼字單字。
+- Example 2: We should review our vocabulary words before tomorrow's test.
+- Translation 2: 我們應該在明天的考試前複習一下詞彙。
+
+## department store
+- Chinese: 百貨公司
+- Example 1: We bought new shoes and clothes at the department store.
+- Translation 1: 我們在百貨公司買了新鞋和衣服。
+- Example 2: My family went to the department store to buy new shoes.
+- Translation 2: 我家去百貨公司買新鞋。
+
