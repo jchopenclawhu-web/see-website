@@ -791,9 +791,9 @@
 - Example 2: I had no doubt that she would pass the spelling test because she practiced every night.
 - Translation 2: 我毫不懷疑她能通過拼字測試，因為她每天晚上都練習。
 
-## catagory
+## category
 - Chinese: 類別
-- Example 1: Please place each book into the correct catagory on the shelf.
+- Example 1: Please place each book into the correct category on the shelf.
 - Translation 1: 請將每本書放到書架上正確的類別。
 - Example 2: You should sort your library books into the right category on the bookshelf.
 - Translation 2: 你應該把從圖書館借來的書籍按類別擺放在書架上。
