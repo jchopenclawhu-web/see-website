@@ -87,15 +87,17 @@ def fetch_sheet(access_token, sheet_id):
     words = []
     for row in values[1:]:  # skip header
         # Each row's first column is the date (YYMMDD like '260831'). Filter out blanks.
+        # Strip every cell: a stray trailing space in the word column (e.g. 'category ')
+        # would otherwise ship as a distinct word and break lookup/matching on the site.
         if len(row) >= 3 and row[0] and row[1]:
             words.append({
-                'date':      row[0],
-                'word':      row[1],
-                'chinese':   row[2] if len(row) > 2 else '',
-                'example_1': row[3] if len(row) > 3 else '',
-                'example_2': row[4] if len(row) > 4 else '',
-                'trans_1':   row[5] if len(row) > 5 else '',
-                'trans_2':   row[6] if len(row) > 6 else '',
+                'date':      row[0].strip(),
+                'word':      row[1].strip(),
+                'chinese':   row[2].strip() if len(row) > 2 else '',
+                'example_1': row[3].strip() if len(row) > 3 else '',
+                'example_2': row[4].strip() if len(row) > 4 else '',
+                'trans_1':   row[5].strip() if len(row) > 5 else '',
+                'trans_2':   row[6].strip() if len(row) > 6 else '',
             })
     return words
 
