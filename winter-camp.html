@@ -430,6 +430,7 @@
                 if (res.ok && data.ok) {
                     form.reset();
                     setStatus('✅ 報名成功！我們會盡快與您聯絡。Registration received!', 'ok');
+                    submitBtn.disabled = false;
                 } else {
                     setStatus(data.error || '送出失敗，請稍後再試或用 LINE 聯絡我們。', 'err');
                     submitBtn.disabled = false;
