@@ -123,11 +123,26 @@
         .field-row { margin-bottom: 1.25rem; }
         .field-row label { display: block; font-weight: 500; margin-bottom: 0.4rem; color: #444; }
         .field-row .en { font-weight: 400; color: #777; font-size: 0.9rem; }
-        .field-row input[type="text"] {
+        .field-row input[type="text"],
+        .field-row input[type="tel"],
+        .field-row input[type="email"],
+        .field-row select,
+        .field-row textarea {
             width: 100%; padding: 0.7rem 0.9rem; font-size: 1rem;
             font-family: inherit; color: var(--dark-text);
             border: 2px solid #d8d0c2; border-radius: 8px; background: #fff;
         }
+        .field-row textarea { resize: vertical; }
+        .field-row select { appearance: none; -webkit-appearance: none; cursor: pointer; }
+        /* Honeypot — off-screen but not display:none (bots skip hidden fields). */
+        .hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+        .status {
+            text-align: center; font-weight: 700; margin-top: 1rem; min-height: 1.5rem;
+        }
+        .status.ok { color: #2a7a4b; }
+        .status.err { color: #b3402a; }
+        .status.busy { color: #666; font-weight: 400; }
+        .btn[disabled] { opacity: 0.6; cursor: not-allowed; }
         .checks { margin-bottom: 1.5rem; }
         .check-row { display: flex; align-items: flex-start; gap: 0.6rem; margin-bottom: 0.6rem; }
         .check-row input[type="checkbox"] { width: 1.15rem; height: 1.15rem; margin-top: 0.3rem; accent-color: var(--primary-brown); flex-shrink: 0; }
@@ -290,39 +305,64 @@
                 <h3>寒假桌遊營報名表</h3>
                 <p class="deadline">請於 12 月 26 日前完成報名</p>
 
+                <form id="regForm" novalidate>
                 <div class="field-row">
                     <label for="studentName">學生姓名 <span class="en">Student's name</span></label>
-                    <input type="text" id="studentName" name="studentName" autocomplete="off">
+                    <input type="text" id="studentName" name="student" autocomplete="off" required>
                 </div>
 
                 <div class="field-row">
                     <label for="studentLevel">學生目前美語班年級 <span class="en">Current level</span></label>
-                    <input type="text" id="studentLevel" name="studentLevel" list="levelOptions" placeholder="Basic / Level 1 / Level 2 / Level 3 / Level 4" autocomplete="off">
-                    <datalist id="levelOptions">
-                        <option value="Basic"></option>
-                        <option value="Level 1"></option>
-                        <option value="Level 2"></option>
-                        <option value="Level 3"></option>
-                        <option value="Level 4"></option>
-                    </datalist>
+                    <select id="studentLevel" name="level" required>
+                        <option value="">請選擇 — Please choose</option>
+                        <option value="Basic">Basic</option>
+                        <option value="Level 1">Level 1</option>
+                        <option value="Level 2">Level 2</option>
+                        <option value="Level 3">Level 3</option>
+                        <option value="Level 4">Level 4</option>
+                    </select>
                 </div>
 
-                <div class="checks">
-                    <div class="check-row">
-                        <input type="checkbox" id="joinYes" name="joinYes">
-                        <label for="joinYes">參加寒假班（1/21(四) ～ 2/3(三) 星期一至五下午 2:00 – 3:30）</label>
-                    </div>
-                    <div class="check-row">
-                        <input type="checkbox" id="joinNo" name="joinNo">
-                        <label for="joinNo">不參加寒假班</label>
-                    </div>
+                <div class="field-row">
+                    <label for="parentName">家長姓名 <span class="en">Parent's name</span></label>
+                    <input type="text" id="parentName" name="parent" autocomplete="off">
+                </div>
+
+                <div class="field-row">
+                    <label for="phone">家長電話 <span class="en">Contact phone</span></label>
+                    <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="0912345678" required>
+                </div>
+
+                <div class="field-row">
+                    <label for="email">Email <span class="en">(選填 optional)</span></label>
+                    <input type="email" id="email" name="email" autocomplete="email">
+                </div>
+
+                <div class="field-row">
+                    <label for="notes">備註 <span class="en">Notes (optional)</span></label>
+                    <textarea id="notes" name="notes" rows="3" placeholder="想讓老師知道的事，例如接送時間"></textarea>
+                </div>
+
+                <!-- Honeypot: hidden from humans, catches bots. -->
+                <div class="hp" aria-hidden="true">
+                    <label for="website">Website</label>
+                    <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
                 </div>
 
                 <div class="actions">
-                    <a class="btn btn-primary" href="forms/winter-camp-2027-registration.pdf" download>⬇️ 下載報名通知單 (PDF)</a>
+                    <button type="submit" class="btn btn-primary" id="submitBtn">送出報名 <span class="en">Submit</span></button>
                     <a class="btn btn-secondary" href="https://lin.ee/7XaGaW2" target="_blank" rel="noopener">LINE 詢問報名</a>
                 </div>
-                <p class="form-note">填好後請列印或直接交回教室，或於 LINE 上告知老師。<br>Print the slip, fill it in, and hand it back at the classroom — or just message us on LINE.</p>
+
+                <p class="status" id="status" role="status" aria-live="polite"></p>
+                <p class="form-note">
+                    送出後老師會收到通知，再與您確認名單與繳費方式。<br>
+                    After you submit, we'll contact you to confirm the roster and payment.
+                </p>
+                <p class="form-note">
+                    偏好紙本報名？<a href="forms/winter-camp-2027-registration.pdf" download>⬇️ 下載報名通知單 (PDF)</a>
+                </p>
+                </form>
             </div>
 
             <p class="contact-line">
@@ -341,11 +381,64 @@
         function toggleNav() {
             document.getElementById('navLinks').classList.toggle('active');
         }
-        // Keep the two choices mutually exclusive — one child, one answer.
-        const joinYes = document.getElementById('joinYes');
-        const joinNo = document.getElementById('joinNo');
-        joinYes.addEventListener('change', () => { if (joinYes.checked) joinNo.checked = false; });
-        joinNo.addEventListener('change', () => { if (joinNo.checked) joinYes.checked = false; });
+
+        // --- Winter camp online registration --------------------------------
+        // Posts JSON to the registration API on Athena; the API appends one row
+        // to the Google Sheet inside Chun's "2026 Winter" Drive folder.
+        const REG_API = 'https://reg.enlighten-group.com/register';
+        const form = document.getElementById('regForm');
+        const statusEl = document.getElementById('status');
+        const submitBtn = document.getElementById('submitBtn');
+
+        function setStatus(msg, cls) {
+            statusEl.textContent = msg;
+            statusEl.className = 'status' + (cls ? ' ' + cls : '');
+        }
+
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            const student = document.getElementById('studentName').value.trim();
+            const level = document.getElementById('studentLevel').value;
+            const phone = document.getElementById('phone').value.trim();
+
+            if (!student) { setStatus('請填寫學生姓名', 'err'); document.getElementById('studentName').focus(); return; }
+            if (!level) { setStatus('請選擇學生目前的班級', 'err'); document.getElementById('studentLevel').focus(); return; }
+            if (!/^[0-9+\-() ]{6,20}$/.test(phone)) { setStatus('請填寫有效的聯絡電話', 'err'); document.getElementById('phone').focus(); return; }
+
+            const payload = {
+                student: student,
+                level: level,
+                parent: document.getElementById('parentName').value.trim(),
+                phone: phone,
+                email: document.getElementById('email').value.trim(),
+                notes: document.getElementById('notes').value.trim(),
+                website: document.getElementById('website').value
+            };
+
+            submitBtn.disabled = true;
+            setStatus('送出中… Sending…', 'busy');
+
+            try {
+                const res = await fetch(REG_API, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                });
+                const data = await res.json().catch(() => ({}));
+
+                if (res.ok && data.ok) {
+                    form.reset();
+                    setStatus('✅ 報名成功！我們會盡快與您聯絡。Registration received!', 'ok');
+                } else {
+                    setStatus(data.error || '送出失敗，請稍後再試或用 LINE 聯絡我們。', 'err');
+                    submitBtn.disabled = false;
+                }
+            } catch (err) {
+                setStatus('網路連線失敗，請稍後再試或用 LINE 聯絡我們。Could not reach the server — please try again or message us on LINE.', 'err');
+                submitBtn.disabled = false;
+            }
+        });
     </script>
 </body>
 </html>
