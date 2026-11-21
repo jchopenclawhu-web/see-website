@@ -1864,6 +1864,114 @@
       "example_2": "My mom takes care of me.",
       "trans_1": "我照顧我的狗。",
       "trans_2": "我媽媽照顧我。"
+    },
+    {
+      "date": "261120",
+      "word": "beautiful",
+      "chinese": "美麗的",
+      "example_1": "The sunset was very beautiful.",
+      "example_2": "Look at the beautiful flower.",
+      "trans_1": "日落非常美麗。",
+      "trans_2": "看這朵美麗的花。"
+    },
+    {
+      "date": "261120",
+      "word": "tissue",
+      "chinese": "組織/面紙",
+      "example_1": "I need a tissue for my nose.",
+      "example_2": "Pass me a tissue, please.",
+      "trans_1": "我需要紙巾擦鼻子。",
+      "trans_2": "請遞給我一張紙巾。"
+    },
+    {
+      "date": "261120",
+      "word": "travel",
+      "chinese": "旅行",
+      "example_1": "We like to travel on a big bus.",
+      "example_2": "We travel to the beach.",
+      "trans_1": "我們喜歡乘坐大型巴士旅行。",
+      "trans_2": "我們去海灘。"
+    },
+    {
+      "date": "261120",
+      "word": "secret",
+      "chinese": "秘密",
+      "example_1": "I can keep a secret.",
+      "example_2": "I have a secret to tell you.",
+      "trans_1": "我可以保守秘密。",
+      "trans_2": "我有個秘密要告訴你。"
+    },
+    {
+      "date": "261120",
+      "word": "wrong",
+      "chinese": "錯誤的",
+      "example_1": "That is the wrong shoe.",
+      "example_2": "That is the wrong box.",
+      "trans_1": "那是錯誤的鞋子。",
+      "trans_2": "那是錯誤的盒子。"
+    },
+    {
+      "date": "261120",
+      "word": "full",
+      "chinese": "滿的",
+      "example_1": "My cup is full of milk.",
+      "example_2": "I am really full after a big lunch.",
+      "trans_1": "我的杯子裡裝滿了牛奶。",
+      "trans_2": "午餐吃得飽飽的，我已經很飽了。"
+    },
+    {
+      "date": "261120",
+      "word": "sentence",
+      "chinese": "句子",
+      "example_1": "Can you write a simple sentence?",
+      "example_2": "I can read this sentence.",
+      "trans_1": "你能寫出一個簡單的句子嗎？",
+      "trans_2": "我能讀懂這句話。"
+    },
+    {
+      "date": "261120",
+      "word": "bubble",
+      "chinese": "氣泡",
+      "example_1": "I like to blow a big bubble.",
+      "example_2": "I pop the big bubble.",
+      "trans_1": "我喜歡吹大泡泡。",
+      "trans_2": "我戳破了那個大泡泡。"
+    },
+    {
+      "date": "261120",
+      "word": "person",
+      "chinese": "人",
+      "example_1": "That person is my teacher.",
+      "example_2": "He is a nice person.",
+      "trans_1": "那個人是我的老師。",
+      "trans_2": "他是個好人。"
+    },
+    {
+      "date": "261120",
+      "word": "bottle",
+      "chinese": "瓶子",
+      "example_1": "My water bottle is full.",
+      "example_2": "My water bottle is red.",
+      "trans_1": "我的水瓶滿了。",
+      "trans_2": "我的水瓶是紅色的。"
+    },
+    {
+      "date": "261120",
+      "word": "how many",
+      "chinese": "多少",
+      "example_1": "How many toys do you have?",
+      "example_2": "How many books do you have?",
+      "trans_1": "你有多少玩具？",
+      "trans_2": "你有多少本書？"
+    },
+    {
+      "date": "261120",
+      "word": "how much",
+      "chinese": "多少",
+      "example_1": "How much milk do you want?",
+      "example_2": "How much is that toy?",
+      "trans_1": "你想要多少牛奶？",
+      "trans_2": "那個玩具多少錢？"
     }
   ],
   "level2": [
@@ -3865,7 +3973,7 @@
       "example_1": "We need to review our spelling words before the quiz tomorrow.",
       "example_2": "We should review our vocabulary words before tomorrow's test.",
       "trans_1": "明天有小測驗，我們需要複習一下拼字單字。",
-      "trans_2": "我們應該在明天的考試前複習一下詞彙。"
+      "trans_2": "我們應該在明天考試前複習一下詞彙。"
     },
     {
       "date": "261119",
@@ -5010,7 +5118,7 @@
       "example_1": "We saw the small snake slither into the garden bushes.",
       "example_2": "We watched the garden snake slither quietly through the green grass.",
       "trans_1": "我們看到那條小蛇溜進了花園的灌木叢裡。",
-      "trans_2": "我們看著花園裡的蛇悄無聲息地在綠草叢中滑行。"
+      "trans_2": "我們看著花園蛇悄無聲息地在綠草叢中滑行。"
     },
     {
       "date": "261119",
