@@ -630,3 +630,87 @@
 - Example 2: My mom takes care of me.
 - Translation 2: 我媽媽照顧我。
 
+## beautiful
+- Chinese: 美麗的
+- Example 1: The sunset was very beautiful.
+- Translation 1: 日落非常美麗。
+- Example 2: Look at the beautiful flower.
+- Translation 2: 看這朵美麗的花。
+
+## tissue
+- Chinese: 組織/面紙
+- Example 1: I need a tissue for my nose.
+- Translation 1: 我需要紙巾擦鼻子。
+- Example 2: Pass me a tissue, please.
+- Translation 2: 請遞給我一張紙巾。
+
+## travel
+- Chinese: 旅行
+- Example 1: We like to travel on a big bus.
+- Translation 1: 我們喜歡乘坐大型巴士旅行。
+- Example 2: We travel to the beach.
+- Translation 2: 我們去海灘。
+
+## secret
+- Chinese: 秘密
+- Example 1: I can keep a secret.
+- Translation 1: 我可以保守秘密。
+- Example 2: I have a secret to tell you.
+- Translation 2: 我有個秘密要告訴你。
+
+## wrong
+- Chinese: 錯誤的
+- Example 1: That is the wrong shoe.
+- Translation 1: 那是錯誤的鞋子。
+- Example 2: That is the wrong box.
+- Translation 2: 那是錯誤的盒子。
+
+## full
+- Chinese: 滿的
+- Example 1: My cup is full of milk.
+- Translation 1: 我的杯子裡裝滿了牛奶。
+- Example 2: I am really full after a big lunch.
+- Translation 2: 午餐吃得飽飽的，我已經很飽了。
+
+## sentence
+- Chinese: 句子
+- Example 1: Can you write a simple sentence?
+- Translation 1: 你能寫出一個簡單的句子嗎？
+- Example 2: I can read this sentence.
+- Translation 2: 我能讀懂這句話。
+
+## bubble
+- Chinese: 氣泡
+- Example 1: I like to blow a big bubble.
+- Translation 1: 我喜歡吹大泡泡。
+- Example 2: I pop the big bubble.
+- Translation 2: 我戳破了那個大泡泡。
+
+## person
+- Chinese: 人
+- Example 1: That person is my teacher.
+- Translation 1: 那個人是我的老師。
+- Example 2: He is a nice person.
+- Translation 2: 他是個好人。
+
+## bottle
+- Chinese: 瓶子
+- Example 1: My water bottle is full.
+- Translation 1: 我的水瓶滿了。
+- Example 2: My water bottle is red.
+- Translation 2: 我的水瓶是紅色的。
+
+## how many
+- Chinese: 多少
+- Example 1: How many toys do you have?
+- Translation 1: 你有多少玩具？
+- Example 2: How many books do you have?
+- Translation 2: 你有多少本書？
+
+## how much
+- Chinese: 多少
+- Example 1: How much milk do you want?
+- Translation 1: 你想要多少牛奶？
+- Example 2: How much is that toy?
+- Translation 2: 那個玩具多少錢？
+

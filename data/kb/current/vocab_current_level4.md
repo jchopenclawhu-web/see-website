@@ -880,7 +880,7 @@
 - Example 1: We saw the small snake slither into the garden bushes.
 - Translation 1: 我們看到那條小蛇溜進了花園的灌木叢裡。
 - Example 2: We watched the garden snake slither quietly through the green grass.
-- Translation 2: 我們看著花園裡的蛇悄無聲息地在綠草叢中滑行。
+- Translation 2: 我們看著花園蛇悄無聲息地在綠草叢中滑行。
 
 ## gibber
 - Chinese: 胡言亂語

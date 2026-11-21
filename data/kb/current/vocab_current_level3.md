@@ -691,7 +691,7 @@
 - Example 1: We need to review our spelling words before the quiz tomorrow.
 - Translation 1: 明天有小測驗，我們需要複習一下拼字單字。
 - Example 2: We should review our vocabulary words before tomorrow's test.
-- Translation 2: 我們應該在明天的考試前複習一下詞彙。
+- Translation 2: 我們應該在明天考試前複習一下詞彙。
 
 ## department store
 - Chinese: 百貨公司
